@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://www.w3.org/ns/prov-o/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/samian/loc_ds_1001351> a ns1:DiscoverySite,
+        ns1:Location,
+        <http://pelagios.github.io/vocab/terms#AnnotatedThing>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Voorburg"@en ;
+    ns1:ancientName "Forum Hadriani / Municipium Aelium Cananefatium" ;
+    ns1:exactMatch <http://www.wikidata.org/entity/Q103199376> ;
+    ns1:hasType ns1:DiscoverySite ;
+    ns1:pleiadesID <http://pleiades.stoa.org/places/98918.0>,
+        98918.0 ;
+    dc:identifier 1001351 ;
+    dcterms:subject "samian ware discovery site" ;
+    dcterms:title "Voorburg" ;
+    geo:hasGeometry <http://data.archaeology.link/data/samian/loc_ds_1001351_geom> ;
+    ns2:wasAttributedTo <http://data.archaeology.link/data/samian/ImportPythonScript_Samian> ;
+    ns2:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> ;
+    ns2:wasGeneratedBy <http://data.archaeology.link/data/samian/activity_loc_ds_1001351> ;
+    foaf:homepage "<http://lod.archaeology.link/samian/>" .
+

@@ -1,0 +1,7 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+
+<http://data.archaeology.link/data/samian/loc_ds_1002556_geom> a <http://www.opengis.net/ont/sf#Point>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(8.585832 49.07722)"^^geo:wktLiteral .
+

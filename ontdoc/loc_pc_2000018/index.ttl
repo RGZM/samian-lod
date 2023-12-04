@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns3: <http://www.w3.org/ns/prov-o/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/samian/loc_pc_2000018> a ns1:Location,
+        ns1:ProductionCentre,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Martres-de-Veyre"@en ;
+    ns2:instanceOf ns1:Location ;
+    ns1:exactMatch <http://www.wikidata.org/entity/Q103135552> ;
+    ns1:hasType ns1:ProductionCentre ;
+    dc:identifier 2000018 ;
+    geo:hasGeometry <http://data.archaeology.link/data/samian/loc_pc_2000018_geom> ;
+    ns3:wasAttributedTo <http://data.archaeology.link/data/samian/ImportPythonScript_Samian> ;
+    ns3:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> ;
+    ns3:wasGeneratedBy <http://data.archaeology.link/data/samian/activity_loc_pc_2000018> .
+

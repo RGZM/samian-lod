@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://www.w3.org/ns/prov-o/> .
+@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/samian/loc_ds_1000352> a ns2:DiscoverySite,
+        ns2:Location,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Budaőrs"@en ;
+    ns2:exactMatch <http://www.wikidata.org/entity/Q103157739> ;
+    ns2:hasType ns2:DiscoverySite ;
+    dc:identifier 1000352 ;
+    geo:hasGeometry <http://data.archaeology.link/data/samian/loc_ds_1000352_geom> ;
+    ns1:wasAttributedTo <http://data.archaeology.link/data/samian/ImportPythonScript_Samian> ;
+    ns1:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> ;
+    ns1:wasGeneratedBy <http://data.archaeology.link/data/samian/activity_loc_ds_1000352> .
+

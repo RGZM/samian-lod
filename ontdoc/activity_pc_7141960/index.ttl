@@ -1,0 +1,11 @@
+@prefix ns1: <http://www.w3.org/ns/prov-o/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/samian/activity_pc_7141960> a <http://www.w3.org/ns/ldp#Resource>,
+        prov:Activity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:endedAtTime "2020-12-09T20:53:33.781452+00:00"^^xsd:dateTime ;
+    ns1:startedAtTime "2020-12-09T20:53:33.171657+00:00"^^xsd:dateTime ;
+    ns1:wasAssociatedWith <http://data.archaeology.link/data/samian/ImportPythonScript_Samian> .
+

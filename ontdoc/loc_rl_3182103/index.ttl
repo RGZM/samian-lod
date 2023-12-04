@@ -1,0 +1,17 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://www.w3.org/ns/prov-o/> .
+@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/samian/loc_rl_3182103> a ns2:Location,
+        ns2:RepositoryLocation,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Malton"@en ;
+    ns2:hasType ns2:RepositoryLocation ;
+    dc:identifier 3182103 ;
+    ns1:wasAttributedTo <http://data.archaeology.link/data/samian/ImportPythonScript_Samian> ;
+    ns1:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> ;
+    ns1:wasGeneratedBy <http://data.archaeology.link/data/samian/activity_loc_rl_3182103> .
+

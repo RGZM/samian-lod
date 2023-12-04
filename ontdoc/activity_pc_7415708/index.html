@@ -1,0 +1,174 @@
+<html about="http://data.archaeology.link/data/samian/activity_pc_7415708">
+  <head>
+    <script>
+      if (window.location.href.includes("index.html")) {
+        document.write("<title>activity_pc_7415708 | Linked Open Samian Ware</title>");
+      } else {
+        document.write(
+          "<title>Index Page for Linked Open Samian Ware on archaeology.link</title>"
+        );
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/css/vowl.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.1.1/themes/default/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.8.1/proj4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/js/webVOWLGraphh.js"></script>
+    <script src="{{epsgdefspath}}"></script>
+    <script src="../vowl_result.js"></script>
+    <script src="../ars_search.js"></script>
+    <script src="../ars_classtree.js"></script>
+    <script src="../proprelations.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.14/jstree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rdflib@2.2.19/dist/rdflib.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../startscripts.js"></script>
+  </head>
+
+  <div id="mySidenav" class="sidenav" style="overflow: auto">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      >&times;</a
+    >
+    GeoClasses: <input type="checkbox" id="geoclasses" /><br />
+    Search:<input type="text" id="classsearch" /><br />
+    <div id="jstree"></div>
+  </div>
+  <script>
+    var indexpage=false;
+    var relativedepth=1;
+    var baseurl="http://data.archaeology.link/data/samian/";
+    var iconprefixx="";
+  </script>
+
+  <body>
+    <div id="headertop">
+      <span class="header_pt1">
+        <b>archaeology.link</b>&nbsp;&nbsp;<img
+          src="https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png"
+          style="height: 40px !important; margin-right: 10px" />Linked Open Samian Ware&nbsp;|&nbsp;
+        <i
+          >powered by Leibniz-Zentrum für Archäologie (LEIZA), Department of
+          Scientific IT</i
+        >
+      </span>
+    </div>
+    <div id="header">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<h1 id="title">activity_pc_7415708<span style="font-size: 16px;font-weight: 300;font-style: italic;">EN</span></h1>'
+          );
+        } else {
+          document.write(
+            '<h1 id="title">Index Page for Linked Open Samian Ware on archaeology&#9677;link</h1>'
+          );
+        }
+        if (window.location.href.includes("index.html")) {
+          document.write('<br><span id="titletwo">http://data.archaeology.link/data/samian/activity_pc_7415708</span>');
+        } else {
+          console.log(window.location.href);
+        }
+      </script>
+    </div>
+    <div class="page-resource-uri">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<b>The activity_pc_7415708</b> resource is powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        } else {
+          document.write(
+            'Powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        }
+      </script>
+    </div>
+    <div id="rdficon">
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;</span
+      >
+    </div>
+    <div class="search">
+      <div class="ui-widget">
+        Search: <input id="search" size="50" />
+        <button id="gotosearch" onclick="followLink()">Go</button>
+        <b>Download Options:</b>&nbsp;Format:<select
+          id="format"
+          onchange="changeDefLink()">
+          <option value="csv">Comma Separated Values (CSV)</option>
+<option value="geojson">(Geo)JSON</option>
+<option value="gdf">Graph Definition Format (GDF)</option>
+<option value="graphml">Graph Markup Language (GraphML)</option>
+<option value="json">JSON-LD</option>
+<option value="tgf">Trivial Graph Format (TGF)</option>
+<option value="tsv">Tab Separated Values (TSV)</option>
+<option value="ttl" selected>Turtle (TTL)</option>
+
+        </select>
+        <a id="formatlink" href="#" target="_blank">
+          <svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 16 16"
+            class="bi bi-info-circle-fill"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+          </svg> </a
+        >&nbsp;
+        <button id="downloadButton" onclick="download()">Download</button>
+        <br />
+      </div>
+    </div>
+    <dialog
+      id="classrelationdialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <dialog
+      id="dataschemadialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <div class="container-fluid">
+      <div class="row-fluid" id="main-wrapper"></div>
+    </div>
+  </body>
+</html>
+<div style="overflow-x:auto;"><table border=1 width=100% class=description><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">type <span style="color: #666;">(rdf:type)</span></a> </span></td><td class="wrapword"><span><a property="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" resource="http://www.w3.org/ns/prov#Activity" target="_blank" href="http://www.w3.org/ns/prov#Activity">Activity <span style="color: #666;">(prov:Activity)</span></a></span></td></tr><tr class="even"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/ns/prov-o/endedAtTime">endedAtTime <span style="color: #666;">(prov1:endedAtTime)</span></a> </span></td><td class="wrapword"><span property="http://www.w3.org/ns/prov-o/endedAtTime" content="2020-12-09T20:53:33.893243+00:00" datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-09T20:53:33.893243+00:00 <small>(<a style="color: #666;" target="_blank" href="http://www.w3.org/2001/XMLSchema#dateTime">xmls:dateTime</a>)</small></span></td></tr><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/ns/prov-o/startedAtTime">startedAtTime <span style="color: #666;">(prov1:startedAtTime)</span></a> </span></td><td class="wrapword"><span property="http://www.w3.org/ns/prov-o/startedAtTime" content="2020-12-09T20:53:33.171657+00:00" datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-09T20:53:33.171657+00:00 <small>(<a style="color: #666;" target="_blank" href="http://www.w3.org/2001/XMLSchema#dateTime">xmls:dateTime</a>)</small></span></td></tr><tr class="even"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/ns/prov-o/wasAssociatedWith">wasAssociatedWith <span style="color: #666;">(prov1:wasAssociatedWith)</span></a> </span></td><td class="wrapword"><span><a property="http://www.w3.org/ns/prov-o/wasAssociatedWith" resource="http://data.archaeology.link/data/samian/ImportPythonScript_Samian" href="../ImportPythonScript_Samian/index.html">ImportPythonScript_Samian <span style="color: #666;">(ars:ImportPythonScript_Samian)</span></a></span></td></tr><tr class="odd"><td class="property">Is <span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/2000/01/rdf-schema#member">member <span style="color: #666;">(rdfs:member)</span></a> </span> of</td><td class="wrapword"><span><a property="http://www.w3.org/2000/01/rdf-schema#member"  about="http://data.archaeology.link/data/samian/Activity_collection" resource="http://data.archaeology.link/data/samian/activity_pc_7415708" href="../Activity_collection/index.html">Activity Instances Collection <span style="color: #666;">(ars:Activity_collection)</span></a></span></td></tr><tr class="even"><td class="property">Is <span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/ns/prov-o/wasGeneratedBy">wasGeneratedBy <span style="color: #666;">(prov1:wasGeneratedBy)</span></a> </span> of</td><td class="wrapword"><span><a property="http://www.w3.org/ns/prov-o/wasGeneratedBy"  about="http://data.archaeology.link/data/samian/pc_7415708" resource="http://data.archaeology.link/data/samian/activity_pc_7415708" href="../pc_7415708/index.html">Berlin <span style="color: #666;">(ars:pc_7415708)</span></a></span></td></tr></tbody></table></div><div id="footer">
+    <center style="padding-top:30px;font-size:11px;"><b>published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a> by Leibniz-Zentrum für Archäologie (2022-2023)
+            | Florian Thiery M.Sc., Dr. Allard W. Mees FSA</b><br><a href="https://www.leiza.de/impressum">Impressum</a>
+        | <a href="https://www.leiza.de/datenschutz">Datenschutz</a></center>
+</div>
+
+<script>$(document).ready(function(){setSVGDimensions()})</script>
+
+</body></html>

@@ -1,0 +1,19 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/samian/KilnRegion_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "KilnRegion Instances Collection" ;
+    rdfs:member <http://data.archaeology.link/data/samian/loc_kr_119713>,
+        <http://data.archaeology.link/data/samian/loc_kr_120865>,
+        <http://data.archaeology.link/data/samian/loc_kr_131462>,
+        <http://data.archaeology.link/data/samian/loc_kr_154914>,
+        <http://data.archaeology.link/data/samian/loc_kr_156975>,
+        <http://data.archaeology.link/data/samian/loc_kr_162142>,
+        <http://data.archaeology.link/data/samian/loc_kr_187237>,
+        <http://data.archaeology.link/data/samian/loc_kr_325804>,
+        <http://data.archaeology.link/data/samian/loc_kr_401298>,
+        <http://data.archaeology.link/data/samian/loc_kr_515804>,
+        <http://data.archaeology.link/data/samian/loc_kr_799448> .
+

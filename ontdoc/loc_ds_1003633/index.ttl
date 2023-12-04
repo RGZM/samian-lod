@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://www.w3.org/ns/prov-o/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/samian/loc_ds_1003633> a ns1:DiscoverySite,
+        ns1:Location,
+        <http://pelagios.github.io/vocab/terms#AnnotatedThing>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Bulla Regia"@en ;
+    ns1:ancientName "Bulla Regia" ;
+    ns1:exactMatch <http://www.wikidata.org/entity/Q103157813> ;
+    ns1:hasType ns1:DiscoverySite ;
+    ns1:pleiadesID <http://pleiades.stoa.org/places/314912.0>,
+        314912.0 ;
+    dc:identifier 1003633 ;
+    dcterms:subject "samian ware discovery site" ;
+    dcterms:title "Bulla Regia" ;
+    geo:hasGeometry <http://data.archaeology.link/data/samian/loc_ds_1003633_geom> ;
+    ns2:wasAttributedTo <http://data.archaeology.link/data/samian/ImportPythonScript_Samian> ;
+    ns2:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> ;
+    ns2:wasGeneratedBy <http://data.archaeology.link/data/samian/activity_loc_ds_1003633> ;
+    foaf:homepage "<http://lod.archaeology.link/samian/>" .
+
