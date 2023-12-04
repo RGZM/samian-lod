@@ -1,0 +1,2653 @@
+# create triples from https://www1.rgzm.de/ips/lod/actorsasaconcept.csv 
+# on 2020-12-09 20:53
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX sf: <http://www.opengis.net/ont/sf#> 
+PREFIX lado: <http://archaeology.link/ontology#> 
+PREFIX samian: <http://data.archaeology.link/data/samian/> 
+PREFIX wd: <http://www.wikidata.org/entity/> 
+PREFIX prov: <http://www.w3.org/ns/prov-o/>
+ PREFIX pelagios: <http://pelagios.github.io/vocab/terms#> 
+PREFIX oa: <http://www.w3.org/ns/oa#> 
+PREFIX dcterms: <http://purl.org/dc/terms/> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX relations: <http://pelagios.github.io/vocab/relations#> 
+PREFIX cnt: <http://www.w3.org/2011/content#> 
+PREFIX pleiades: <http://pleiades.stoa.org/places/> 
+PREFIX amt: <http://academic-meta-tool.xyz/vocab#> 
+
+samian:activity_ac_7199517 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7199746 rdf:type lado:Actor .
+samian:ac_7199746 rdfs:label 'HERM(EROS)'@en.
+samian:ac_7199746 lado:name 'HERM(EROS)'.
+samian:ac_7199746 dc:identifier 7199746.
+samian:ac_7199746 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7199746 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7199746 prov:wasGeneratedBy samian:activity_ac_7199746 .
+samian:activity_ac_7199746 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7199746 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7199746 prov:endedAtTime '2020-12-09T20:53:14.477864Z'^^xsd:dateTime .
+samian:activity_ac_7199746 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7199792 rdf:type lado:Actor .
+samian:ac_7199792 rdfs:label 'PHILADE(LPHVS?)'@en.
+samian:ac_7199792 lado:name 'PHILADE(LPHVS?)'.
+samian:ac_7199792 dc:identifier 7199792.
+samian:ac_7199792 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7199792 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7199792 prov:wasGeneratedBy samian:activity_ac_7199792 .
+samian:activity_ac_7199792 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7199792 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7199792 prov:endedAtTime '2020-12-09T20:53:14.478858Z'^^xsd:dateTime .
+samian:activity_ac_7199792 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7199955 rdf:type lado:Actor .
+samian:ac_7199955 rdfs:label 'ANT( )'@en.
+samian:ac_7199955 lado:name 'ANT( )'.
+samian:ac_7199955 dc:identifier 7199955.
+samian:ac_7199955 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7199955 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7199955 prov:wasGeneratedBy samian:activity_ac_7199955 .
+samian:activity_ac_7199955 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7199955 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7199955 prov:endedAtTime '2020-12-09T20:53:14.478858Z'^^xsd:dateTime .
+samian:activity_ac_7199955 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7199958 rdf:type lado:Actor .
+samian:ac_7199958 rdfs:label 'TERTIVS'@en.
+samian:ac_7199958 lado:name 'TERTIVS'.
+samian:ac_7199958 dc:identifier 7199958.
+samian:ac_7199958 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7199958 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7199958 prov:wasGeneratedBy samian:activity_ac_7199958 .
+samian:activity_ac_7199958 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7199958 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7199958 prov:endedAtTime '2020-12-09T20:53:14.478858Z'^^xsd:dateTime .
+samian:activity_ac_7199958 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7200412 rdf:type lado:Actor .
+samian:ac_7200412 rdfs:label 'FASTIDIENVS'@en.
+samian:ac_7200412 lado:name 'FASTIDIENVS'.
+samian:ac_7200412 dc:identifier 7200412.
+samian:ac_7200412 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7200412 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7200412 prov:wasGeneratedBy samian:activity_ac_7200412 .
+samian:activity_ac_7200412 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7200412 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7200412 prov:endedAtTime '2020-12-09T20:53:14.478858Z'^^xsd:dateTime .
+samian:activity_ac_7200412 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7200703 rdf:type lado:Actor .
+samian:ac_7200703 rdfs:label 'BVCCIO'@en.
+samian:ac_7200703 lado:name 'BVCCIO'.
+samian:ac_7200703 dc:identifier 7200703.
+samian:ac_7200703 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7200703 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7200703 prov:wasGeneratedBy samian:activity_ac_7200703 .
+samian:activity_ac_7200703 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7200703 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7200703 prov:endedAtTime '2020-12-09T20:53:14.479856Z'^^xsd:dateTime .
+samian:activity_ac_7200703 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7201997 rdf:type lado:Actor .
+samian:ac_7201997 rdfs:label 'ANTEROS'@en.
+samian:ac_7201997 lado:name 'ANTEROS'.
+samian:ac_7201997 dc:identifier 7201997.
+samian:ac_7201997 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7201997 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7201997 prov:wasGeneratedBy samian:activity_ac_7201997 .
+samian:activity_ac_7201997 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7201997 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7201997 prov:endedAtTime '2020-12-09T20:53:14.479856Z'^^xsd:dateTime .
+samian:activity_ac_7201997 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7202045 rdf:type lado:Actor .
+samian:ac_7202045 rdfs:label 'SEX. VIBIVS'@en.
+samian:ac_7202045 lado:name 'SEX. VIBIVS'.
+samian:ac_7202045 dc:identifier 7202045.
+samian:ac_7202045 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7202045 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7202045 prov:wasGeneratedBy samian:activity_ac_7202045 .
+samian:activity_ac_7202045 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7202045 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7202045 prov:endedAtTime '2020-12-09T20:53:14.479856Z'^^xsd:dateTime .
+samian:activity_ac_7202045 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7202109 rdf:type lado:Actor .
+samian:ac_7202109 rdfs:label '[ ]FIG( )'@en.
+samian:ac_7202109 lado:name '[ ]FIG( )'.
+samian:ac_7202109 dc:identifier 7202109.
+samian:ac_7202109 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7202109 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7202109 prov:wasGeneratedBy samian:activity_ac_7202109 .
+samian:activity_ac_7202109 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7202109 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7202109 prov:endedAtTime '2020-12-09T20:53:14.479856Z'^^xsd:dateTime .
+samian:activity_ac_7202109 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7202276 rdf:type lado:Actor .
+samian:ac_7202276 rdfs:label 'AGATHEMERVS'@en.
+samian:ac_7202276 lado:name 'AGATHEMERVS'.
+samian:ac_7202276 dc:identifier 7202276.
+samian:ac_7202276 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7202276 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7202276 prov:wasGeneratedBy samian:activity_ac_7202276 .
+samian:activity_ac_7202276 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7202276 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7202276 prov:endedAtTime '2020-12-09T20:53:14.480853Z'^^xsd:dateTime .
+samian:activity_ac_7202276 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7202813 rdf:type lado:Actor .
+samian:ac_7202813 rdfs:label 'CLEMENS'@en.
+samian:ac_7202813 lado:name 'CLEMENS'.
+samian:ac_7202813 dc:identifier 7202813.
+samian:ac_7202813 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7202813 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7202813 prov:wasGeneratedBy samian:activity_ac_7202813 .
+samian:activity_ac_7202813 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7202813 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7202813 prov:endedAtTime '2020-12-09T20:53:14.480853Z'^^xsd:dateTime .
+samian:activity_ac_7202813 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7202849 rdf:type lado:Actor .
+samian:ac_7202849 rdfs:label 'HERA( )'@en.
+samian:ac_7202849 lado:name 'HERA( )'.
+samian:ac_7202849 dc:identifier 7202849.
+samian:ac_7202849 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7202849 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7202849 prov:wasGeneratedBy samian:activity_ac_7202849 .
+samian:activity_ac_7202849 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7202849 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7202849 prov:endedAtTime '2020-12-09T20:53:14.481850Z'^^xsd:dateTime .
+samian:activity_ac_7202849 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7203115 rdf:type lado:Actor .
+samian:ac_7203115 rdfs:label 'PRIMVS'@en.
+samian:ac_7203115 lado:name 'PRIMVS'.
+samian:ac_7203115 dc:identifier 7203115.
+samian:ac_7203115 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7203115 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7203115 prov:wasGeneratedBy samian:activity_ac_7203115 .
+samian:activity_ac_7203115 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7203115 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7203115 prov:endedAtTime '2020-12-09T20:53:14.481850Z'^^xsd:dateTime .
+samian:activity_ac_7203115 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7205050 rdf:type lado:Actor .
+samian:ac_7205050 rdfs:label 'BHITVS'@en.
+samian:ac_7205050 lado:name 'BHITVS'.
+samian:ac_7205050 dc:identifier 7205050.
+samian:ac_7205050 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7205050 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7205050 prov:wasGeneratedBy samian:activity_ac_7205050 .
+samian:activity_ac_7205050 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7205050 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7205050 prov:endedAtTime '2020-12-09T20:53:14.481850Z'^^xsd:dateTime .
+samian:activity_ac_7205050 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7205122 rdf:type lado:Actor .
+samian:ac_7205122 rdfs:label 'PRIN(CEPS)'@en.
+samian:ac_7205122 lado:name 'PRIN(CEPS)'.
+samian:ac_7205122 dc:identifier 7205122.
+samian:ac_7205122 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7205122 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7205122 prov:wasGeneratedBy samian:activity_ac_7205122 .
+samian:activity_ac_7205122 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7205122 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7205122 prov:endedAtTime '2020-12-09T20:53:14.482847Z'^^xsd:dateTime .
+samian:activity_ac_7205122 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7205426 rdf:type lado:Actor .
+samian:ac_7205426 rdfs:label 'C(H)RESIMVS'@en.
+samian:ac_7205426 lado:name 'C(H)RESIMVS'.
+samian:ac_7205426 dc:identifier 7205426.
+samian:ac_7205426 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7205426 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7205426 prov:wasGeneratedBy samian:activity_ac_7205426 .
+samian:activity_ac_7205426 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7205426 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7205426 prov:endedAtTime '2020-12-09T20:53:14.483844Z'^^xsd:dateTime .
+samian:activity_ac_7205426 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7205906 rdf:type lado:Actor .
+samian:ac_7205906 rdfs:label 'GRATVS'@en.
+samian:ac_7205906 lado:name 'GRATVS'.
+samian:ac_7205906 dc:identifier 7205906.
+samian:ac_7205906 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7205906 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7205906 prov:wasGeneratedBy samian:activity_ac_7205906 .
+samian:activity_ac_7205906 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7205906 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7205906 prov:endedAtTime '2020-12-09T20:53:14.484841Z'^^xsd:dateTime .
+samian:activity_ac_7205906 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7206077 rdf:type lado:Actor .
+samian:ac_7206077 rdfs:label 'IANVARIVS'@en.
+samian:ac_7206077 lado:name 'IANVARIVS'.
+samian:ac_7206077 dc:identifier 7206077.
+samian:ac_7206077 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7206077 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7206077 prov:wasGeneratedBy samian:activity_ac_7206077 .
+samian:activity_ac_7206077 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7206077 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7206077 prov:endedAtTime '2020-12-09T20:53:14.484841Z'^^xsd:dateTime .
+samian:activity_ac_7206077 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7206110 rdf:type lado:Actor .
+samian:ac_7206110 rdfs:label 'MEMOR'@en.
+samian:ac_7206110 lado:name 'MEMOR'.
+samian:ac_7206110 dc:identifier 7206110.
+samian:ac_7206110 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7206110 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7206110 prov:wasGeneratedBy samian:activity_ac_7206110 .
+samian:activity_ac_7206110 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7206110 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7206110 prov:endedAtTime '2020-12-09T20:53:14.485840Z'^^xsd:dateTime .
+samian:activity_ac_7206110 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7206373 rdf:type lado:Actor .
+samian:ac_7206373 rdfs:label 'FIRMVS'@en.
+samian:ac_7206373 lado:name 'FIRMVS'.
+samian:ac_7206373 dc:identifier 7206373.
+samian:ac_7206373 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7206373 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7206373 prov:wasGeneratedBy samian:activity_ac_7206373 .
+samian:activity_ac_7206373 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7206373 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7206373 prov:endedAtTime '2020-12-09T20:53:14.485840Z'^^xsd:dateTime .
+samian:activity_ac_7206373 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7206544 rdf:type lado:Actor .
+samian:ac_7206544 rdfs:label 'DIOM(EDES)'@en.
+samian:ac_7206544 lado:name 'DIOM(EDES)'.
+samian:ac_7206544 dc:identifier 7206544.
+samian:ac_7206544 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7206544 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7206544 prov:wasGeneratedBy samian:activity_ac_7206544 .
+samian:activity_ac_7206544 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7206544 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7206544 prov:endedAtTime '2020-12-09T20:53:14.485840Z'^^xsd:dateTime .
+samian:activity_ac_7206544 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7206994 rdf:type lado:Actor .
+samian:ac_7206994 rdfs:label 'ZET(VS)'@en.
+samian:ac_7206994 lado:name 'ZET(VS)'.
+samian:ac_7206994 dc:identifier 7206994.
+samian:ac_7206994 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7206994 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7206994 prov:wasGeneratedBy samian:activity_ac_7206994 .
+samian:activity_ac_7206994 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7206994 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7206994 prov:endedAtTime '2020-12-09T20:53:14.485840Z'^^xsd:dateTime .
+samian:activity_ac_7206994 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7207510 rdf:type lado:Actor .
+samian:ac_7207510 rdfs:label 'L. CAESIVS'@en.
+samian:ac_7207510 lado:name 'L. CAESIVS'.
+samian:ac_7207510 dc:identifier 7207510.
+samian:ac_7207510 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7207510 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7207510 prov:wasGeneratedBy samian:activity_ac_7207510 .
+samian:activity_ac_7207510 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7207510 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7207510 prov:endedAtTime '2020-12-09T20:53:14.485840Z'^^xsd:dateTime .
+samian:activity_ac_7207510 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7208057 rdf:type lado:Actor .
+samian:ac_7208057 rdfs:label 'PRIMIG(ENIVS)'@en.
+samian:ac_7208057 lado:name 'PRIMIG(ENIVS)'.
+samian:ac_7208057 dc:identifier 7208057.
+samian:ac_7208057 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7208057 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7208057 prov:wasGeneratedBy samian:activity_ac_7208057 .
+samian:activity_ac_7208057 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7208057 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7208057 prov:endedAtTime '2020-12-09T20:53:14.486836Z'^^xsd:dateTime .
+samian:activity_ac_7208057 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7208617 rdf:type lado:Actor .
+samian:ac_7208617 rdfs:label 'SALVIVS'@en.
+samian:ac_7208617 lado:name 'SALVIVS'.
+samian:ac_7208617 dc:identifier 7208617.
+samian:ac_7208617 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7208617 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7208617 prov:wasGeneratedBy samian:activity_ac_7208617 .
+samian:activity_ac_7208617 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7208617 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7208617 prov:endedAtTime '2020-12-09T20:53:14.486836Z'^^xsd:dateTime .
+samian:activity_ac_7208617 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7208642 rdf:type lado:Actor .
+samian:ac_7208642 rdfs:label 'STRATO'@en.
+samian:ac_7208642 lado:name 'STRATO'.
+samian:ac_7208642 dc:identifier 7208642.
+samian:ac_7208642 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7208642 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7208642 prov:wasGeneratedBy samian:activity_ac_7208642 .
+samian:activity_ac_7208642 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7208642 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7208642 prov:endedAtTime '2020-12-09T20:53:14.486836Z'^^xsd:dateTime .
+samian:activity_ac_7208642 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7208990 rdf:type lado:Actor .
+samian:ac_7208990 rdfs:label 'COMMVNIS'@en.
+samian:ac_7208990 lado:name 'COMMVNIS'.
+samian:ac_7208990 dc:identifier 7208990.
+samian:ac_7208990 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7208990 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7208990 prov:wasGeneratedBy samian:activity_ac_7208990 .
+samian:activity_ac_7208990 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7208990 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7208990 prov:endedAtTime '2020-12-09T20:53:14.487836Z'^^xsd:dateTime .
+samian:activity_ac_7208990 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7210162 rdf:type lado:Actor .
+samian:ac_7210162 rdfs:label 'HILA(RVS)'@en.
+samian:ac_7210162 lado:name 'HILA(RVS)'.
+samian:ac_7210162 dc:identifier 7210162.
+samian:ac_7210162 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7210162 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7210162 prov:wasGeneratedBy samian:activity_ac_7210162 .
+samian:activity_ac_7210162 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7210162 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7210162 prov:endedAtTime '2020-12-09T20:53:14.487836Z'^^xsd:dateTime .
+samian:activity_ac_7210162 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7210388 rdf:type lado:Actor .
+samian:ac_7210388 rdfs:label 'SVAVIS'@en.
+samian:ac_7210388 lado:name 'SVAVIS'.
+samian:ac_7210388 dc:identifier 7210388.
+samian:ac_7210388 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7210388 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7210388 prov:wasGeneratedBy samian:activity_ac_7210388 .
+samian:activity_ac_7210388 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7210388 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7210388 prov:endedAtTime '2020-12-09T20:53:14.488831Z'^^xsd:dateTime .
+samian:activity_ac_7210388 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7210681 rdf:type lado:Actor .
+samian:ac_7210681 rdfs:label 'PHILOTI(MVS)'@en.
+samian:ac_7210681 lado:name 'PHILOTI(MVS)'.
+samian:ac_7210681 dc:identifier 7210681.
+samian:ac_7210681 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7210681 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7210681 prov:wasGeneratedBy samian:activity_ac_7210681 .
+samian:activity_ac_7210681 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7210681 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7210681 prov:endedAtTime '2020-12-09T20:53:14.488831Z'^^xsd:dateTime .
+samian:activity_ac_7210681 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7210859 rdf:type lado:Actor .
+samian:ac_7210859 rdfs:label 'T(H)YRSVS'@en.
+samian:ac_7210859 lado:name 'T(H)YRSVS'.
+samian:ac_7210859 dc:identifier 7210859.
+samian:ac_7210859 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7210859 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7210859 prov:wasGeneratedBy samian:activity_ac_7210859 .
+samian:activity_ac_7210859 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7210859 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7210859 prov:endedAtTime '2020-12-09T20:53:14.488831Z'^^xsd:dateTime .
+samian:activity_ac_7210859 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7210868 rdf:type lado:Actor .
+samian:ac_7210868 rdfs:label 'DARDANVS'@en.
+samian:ac_7210868 lado:name 'DARDANVS'.
+samian:ac_7210868 dc:identifier 7210868.
+samian:ac_7210868 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7210868 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7210868 prov:wasGeneratedBy samian:activity_ac_7210868 .
+samian:activity_ac_7210868 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7210868 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7210868 prov:endedAtTime '2020-12-09T20:53:14.489829Z'^^xsd:dateTime .
+samian:activity_ac_7210868 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7211165 rdf:type lado:Actor .
+samian:ac_7211165 rdfs:label 'EVTICVS'@en.
+samian:ac_7211165 lado:name 'EVTICVS'.
+samian:ac_7211165 dc:identifier 7211165.
+samian:ac_7211165 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7211165 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7211165 prov:wasGeneratedBy samian:activity_ac_7211165 .
+samian:activity_ac_7211165 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7211165 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7211165 prov:endedAtTime '2020-12-09T20:53:14.489829Z'^^xsd:dateTime .
+samian:activity_ac_7211165 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7211343 rdf:type lado:Actor .
+samian:ac_7211343 rdfs:label 'PHARNACES'@en.
+samian:ac_7211343 lado:name 'PHARNACES'.
+samian:ac_7211343 dc:identifier 7211343.
+samian:ac_7211343 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7211343 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7211343 prov:wasGeneratedBy samian:activity_ac_7211343 .
+samian:activity_ac_7211343 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7211343 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7211343 prov:endedAtTime '2020-12-09T20:53:14.489829Z'^^xsd:dateTime .
+samian:activity_ac_7211343 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7212024 rdf:type lado:Actor .
+samian:ac_7212024 rdfs:label 'APELLIO'@en.
+samian:ac_7212024 lado:name 'APELLIO'.
+samian:ac_7212024 dc:identifier 7212024.
+samian:ac_7212024 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7212024 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7212024 prov:wasGeneratedBy samian:activity_ac_7212024 .
+samian:activity_ac_7212024 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7212024 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7212024 prov:endedAtTime '2020-12-09T20:53:14.490826Z'^^xsd:dateTime .
+samian:activity_ac_7212024 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7212124 rdf:type lado:Actor .
+samian:ac_7212124 rdfs:label 'RVFIO'@en.
+samian:ac_7212124 lado:name 'RVFIO'.
+samian:ac_7212124 dc:identifier 7212124.
+samian:ac_7212124 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7212124 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7212124 prov:wasGeneratedBy samian:activity_ac_7212124 .
+samian:activity_ac_7212124 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7212124 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7212124 prov:endedAtTime '2020-12-09T20:53:14.490826Z'^^xsd:dateTime .
+samian:activity_ac_7212124 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7212291 rdf:type lado:Actor .
+samian:ac_7212291 rdfs:label 'PVDENS'@en.
+samian:ac_7212291 lado:name 'PVDENS'.
+samian:ac_7212291 dc:identifier 7212291.
+samian:ac_7212291 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7212291 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7212291 prov:wasGeneratedBy samian:activity_ac_7212291 .
+samian:activity_ac_7212291 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7212291 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7212291 prov:endedAtTime '2020-12-09T20:53:14.491825Z'^^xsd:dateTime .
+samian:activity_ac_7212291 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7212639 rdf:type lado:Actor .
+samian:ac_7212639 rdfs:label 'EPAPRA'@en.
+samian:ac_7212639 lado:name 'EPAPRA'.
+samian:ac_7212639 dc:identifier 7212639.
+samian:ac_7212639 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7212639 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7212639 prov:wasGeneratedBy samian:activity_ac_7212639 .
+samian:activity_ac_7212639 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7212639 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7212639 prov:endedAtTime '2020-12-09T20:53:14.491825Z'^^xsd:dateTime .
+samian:activity_ac_7212639 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7213630 rdf:type lado:Actor .
+samian:ac_7213630 rdfs:label 'PAVLVS'@en.
+samian:ac_7213630 lado:name 'PAVLVS'.
+samian:ac_7213630 dc:identifier 7213630.
+samian:ac_7213630 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7213630 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7213630 prov:wasGeneratedBy samian:activity_ac_7213630 .
+samian:activity_ac_7213630 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7213630 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7213630 prov:endedAtTime '2020-12-09T20:53:14.493819Z'^^xsd:dateTime .
+samian:activity_ac_7213630 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7213741 rdf:type lado:Actor .
+samian:ac_7213741 rdfs:label 'CHRESIMVS?'@en.
+samian:ac_7213741 lado:name 'CHRESIMVS?'.
+samian:ac_7213741 dc:identifier 7213741.
+samian:ac_7213741 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7213741 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7213741 prov:wasGeneratedBy samian:activity_ac_7213741 .
+samian:activity_ac_7213741 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7213741 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7213741 prov:endedAtTime '2020-12-09T20:53:14.493819Z'^^xsd:dateTime .
+samian:activity_ac_7213741 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7213804 rdf:type lado:Actor .
+samian:ac_7213804 rdfs:label 'HERACL(IDA)'@en.
+samian:ac_7213804 lado:name 'HERACL(IDA)'.
+samian:ac_7213804 dc:identifier 7213804.
+samian:ac_7213804 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7213804 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7213804 prov:wasGeneratedBy samian:activity_ac_7213804 .
+samian:activity_ac_7213804 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7213804 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7213804 prov:endedAtTime '2020-12-09T20:53:14.494815Z'^^xsd:dateTime .
+samian:activity_ac_7213804 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7213898 rdf:type lado:Actor .
+samian:ac_7213898 rdfs:label 'DRACO'@en.
+samian:ac_7213898 lado:name 'DRACO'.
+samian:ac_7213898 dc:identifier 7213898.
+samian:ac_7213898 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7213898 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7213898 prov:wasGeneratedBy samian:activity_ac_7213898 .
+samian:activity_ac_7213898 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7213898 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7213898 prov:endedAtTime '2020-12-09T20:53:14.495813Z'^^xsd:dateTime .
+samian:activity_ac_7213898 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7213933 rdf:type lado:Actor .
+samian:ac_7213933 rdfs:label 'MA( )'@en.
+samian:ac_7213933 lado:name 'MA( )'.
+samian:ac_7213933 dc:identifier 7213933.
+samian:ac_7213933 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7213933 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7213933 prov:wasGeneratedBy samian:activity_ac_7213933 .
+samian:activity_ac_7213933 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7213933 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7213933 prov:endedAtTime '2020-12-09T20:53:14.495813Z'^^xsd:dateTime .
+samian:activity_ac_7213933 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7214084 rdf:type lado:Actor .
+samian:ac_7214084 rdfs:label 'THYRSVS'@en.
+samian:ac_7214084 lado:name 'THYRSVS'.
+samian:ac_7214084 dc:identifier 7214084.
+samian:ac_7214084 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7214084 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7214084 prov:wasGeneratedBy samian:activity_ac_7214084 .
+samian:activity_ac_7214084 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7214084 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7214084 prov:endedAtTime '2020-12-09T20:53:14.496811Z'^^xsd:dateTime .
+samian:activity_ac_7214084 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7214448 rdf:type lado:Actor .
+samian:ac_7214448 rdfs:label 'PHILOG(ENES)'@en.
+samian:ac_7214448 lado:name 'PHILOG(ENES)'.
+samian:ac_7214448 dc:identifier 7214448.
+samian:ac_7214448 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7214448 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7214448 prov:wasGeneratedBy samian:activity_ac_7214448 .
+samian:activity_ac_7214448 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7214448 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7214448 prov:endedAtTime '2020-12-09T20:53:14.496811Z'^^xsd:dateTime .
+samian:activity_ac_7214448 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7216053 rdf:type lado:Actor .
+samian:ac_7216053 rdfs:label 'REMVS'@en.
+samian:ac_7216053 lado:name 'REMVS'.
+samian:ac_7216053 dc:identifier 7216053.
+samian:ac_7216053 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7216053 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7216053 prov:wasGeneratedBy samian:activity_ac_7216053 .
+samian:activity_ac_7216053 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7216053 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7216053 prov:endedAtTime '2020-12-09T20:53:14.497807Z'^^xsd:dateTime .
+samian:activity_ac_7216053 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7216383 rdf:type lado:Actor .
+samian:ac_7216383 rdfs:label 'OR( )'@en.
+samian:ac_7216383 lado:name 'OR( )'.
+samian:ac_7216383 dc:identifier 7216383.
+samian:ac_7216383 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7216383 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7216383 prov:wasGeneratedBy samian:activity_ac_7216383 .
+samian:activity_ac_7216383 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7216383 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7216383 prov:endedAtTime '2020-12-09T20:53:14.497807Z'^^xsd:dateTime .
+samian:activity_ac_7216383 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7217620 rdf:type lado:Actor .
+samian:ac_7217620 rdfs:label 'BARGATHES'@en.
+samian:ac_7217620 lado:name 'BARGATHES'.
+samian:ac_7217620 dc:identifier 7217620.
+samian:ac_7217620 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7217620 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7217620 prov:wasGeneratedBy samian:activity_ac_7217620 .
+samian:activity_ac_7217620 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7217620 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7217620 prov:endedAtTime '2020-12-09T20:53:14.497807Z'^^xsd:dateTime .
+samian:activity_ac_7217620 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7222850 rdf:type lado:Actor .
+samian:ac_7222850 rdfs:label 'ERASTVS'@en.
+samian:ac_7222850 lado:name 'ERASTVS'.
+samian:ac_7222850 dc:identifier 7222850.
+samian:ac_7222850 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7222850 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7222850 prov:wasGeneratedBy samian:activity_ac_7222850 .
+samian:activity_ac_7222850 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7222850 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7222850 prov:endedAtTime '2020-12-09T20:53:14.498806Z'^^xsd:dateTime .
+samian:activity_ac_7222850 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7223633 rdf:type lado:Actor .
+samian:ac_7223633 rdfs:label 'MAHES'@en.
+samian:ac_7223633 lado:name 'MAHES'.
+samian:ac_7223633 dc:identifier 7223633.
+samian:ac_7223633 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7223633 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7223633 prov:wasGeneratedBy samian:activity_ac_7223633 .
+samian:activity_ac_7223633 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7223633 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7223633 prov:endedAtTime '2020-12-09T20:53:14.498806Z'^^xsd:dateTime .
+samian:activity_ac_7223633 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7223956 rdf:type lado:Actor .
+samian:ac_7223956 rdfs:label 'EVM( )?'@en.
+samian:ac_7223956 lado:name 'EVM( )?'.
+samian:ac_7223956 dc:identifier 7223956.
+samian:ac_7223956 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7223956 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7223956 prov:wasGeneratedBy samian:activity_ac_7223956 .
+samian:activity_ac_7223956 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7223956 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7223956 prov:endedAtTime '2020-12-09T20:53:14.498806Z'^^xsd:dateTime .
+samian:activity_ac_7223956 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7229643 rdf:type lado:Actor .
+samian:ac_7229643 rdfs:label 'PHILOSITVS'@en.
+samian:ac_7229643 lado:name 'PHILOSITVS'.
+samian:ac_7229643 dc:identifier 7229643.
+samian:ac_7229643 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7229643 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7229643 prov:wasGeneratedBy samian:activity_ac_7229643 .
+samian:activity_ac_7229643 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7229643 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7229643 prov:endedAtTime '2020-12-09T20:53:14.499804Z'^^xsd:dateTime .
+samian:activity_ac_7229643 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7233624 rdf:type lado:Actor .
+samian:ac_7233624 rdfs:label 'ANDRONICVS'@en.
+samian:ac_7233624 lado:name 'ANDRONICVS'.
+samian:ac_7233624 dc:identifier 7233624.
+samian:ac_7233624 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7233624 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7233624 prov:wasGeneratedBy samian:activity_ac_7233624 .
+samian:activity_ac_7233624 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7233624 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7233624 prov:endedAtTime '2020-12-09T20:53:14.499804Z'^^xsd:dateTime .
+samian:activity_ac_7233624 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7243783 rdf:type lado:Actor .
+samian:ac_7243783 rdfs:label 'ANTIO(CHVS)'@en.
+samian:ac_7243783 lado:name 'ANTIO(CHVS)'.
+samian:ac_7243783 dc:identifier 7243783.
+samian:ac_7243783 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7243783 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7243783 prov:wasGeneratedBy samian:activity_ac_7243783 .
+samian:activity_ac_7243783 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7243783 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7243783 prov:endedAtTime '2020-12-09T20:53:14.499804Z'^^xsd:dateTime .
+samian:activity_ac_7243783 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7250817 rdf:type lado:Actor .
+samian:ac_7250817 rdfs:label 'VERVS'@en.
+samian:ac_7250817 lado:name 'VERVS'.
+samian:ac_7250817 dc:identifier 7250817.
+samian:ac_7250817 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7250817 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7250817 prov:wasGeneratedBy samian:activity_ac_7250817 .
+samian:activity_ac_7250817 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7250817 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7250817 prov:endedAtTime '2020-12-09T20:53:14.499804Z'^^xsd:dateTime .
+samian:activity_ac_7250817 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7267675 rdf:type lado:Actor .
+samian:ac_7267675 rdfs:label 'SERIVS'@en.
+samian:ac_7267675 lado:name 'SERIVS'.
+samian:ac_7267675 dc:identifier 7267675.
+samian:ac_7267675 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7267675 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7267675 prov:wasGeneratedBy samian:activity_ac_7267675 .
+samian:activity_ac_7267675 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7267675 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7267675 prov:endedAtTime '2020-12-09T20:53:14.499804Z'^^xsd:dateTime .
+samian:activity_ac_7267675 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7271739 rdf:type lado:Actor .
+samian:ac_7271739 rdfs:label 'SECVNDVS'@en.
+samian:ac_7271739 lado:name 'SECVNDVS'.
+samian:ac_7271739 dc:identifier 7271739.
+samian:ac_7271739 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7271739 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7271739 prov:wasGeneratedBy samian:activity_ac_7271739 .
+samian:activity_ac_7271739 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7271739 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7271739 prov:endedAtTime '2020-12-09T20:53:14.500801Z'^^xsd:dateTime .
+samian:activity_ac_7271739 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7272198 rdf:type lado:Actor .
+samian:ac_7272198 rdfs:label 'MAM( )'@en.
+samian:ac_7272198 lado:name 'MAM( )'.
+samian:ac_7272198 dc:identifier 7272198.
+samian:ac_7272198 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7272198 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7272198 prov:wasGeneratedBy samian:activity_ac_7272198 .
+samian:activity_ac_7272198 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7272198 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7272198 prov:endedAtTime '2020-12-09T20:53:14.504789Z'^^xsd:dateTime .
+samian:activity_ac_7272198 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7277229 rdf:type lado:Actor .
+samian:ac_7277229 rdfs:label 'SARIVA'@en.
+samian:ac_7277229 lado:name 'SARIVA'.
+samian:ac_7277229 dc:identifier 7277229.
+samian:ac_7277229 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7277229 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7277229 prov:wasGeneratedBy samian:activity_ac_7277229 .
+samian:activity_ac_7277229 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7277229 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7277229 prov:endedAtTime '2020-12-09T20:53:14.505308Z'^^xsd:dateTime .
+samian:activity_ac_7277229 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7283303 rdf:type lado:Actor .
+samian:ac_7283303 rdfs:label 'LVCRIO'@en.
+samian:ac_7283303 lado:name 'LVCRIO'.
+samian:ac_7283303 dc:identifier 7283303.
+samian:ac_7283303 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7283303 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7283303 prov:wasGeneratedBy samian:activity_ac_7283303 .
+samian:activity_ac_7283303 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7283303 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7283303 prov:endedAtTime '2020-12-09T20:53:14.506302Z'^^xsd:dateTime .
+samian:activity_ac_7283303 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7295744 rdf:type lado:Actor .
+samian:ac_7295744 rdfs:label 'EROS'@en.
+samian:ac_7295744 lado:name 'EROS'.
+samian:ac_7295744 dc:identifier 7295744.
+samian:ac_7295744 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7295744 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7295744 prov:wasGeneratedBy samian:activity_ac_7295744 .
+samian:activity_ac_7295744 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7295744 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7295744 prov:endedAtTime '2020-12-09T20:53:14.507299Z'^^xsd:dateTime .
+samian:activity_ac_7295744 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7300996 rdf:type lado:Actor .
+samian:ac_7300996 rdfs:label 'VERNA'@en.
+samian:ac_7300996 lado:name 'VERNA'.
+samian:ac_7300996 dc:identifier 7300996.
+samian:ac_7300996 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7300996 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7300996 prov:wasGeneratedBy samian:activity_ac_7300996 .
+samian:activity_ac_7300996 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7300996 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7300996 prov:endedAtTime '2020-12-09T20:53:14.507299Z'^^xsd:dateTime .
+samian:activity_ac_7300996 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7301288 rdf:type lado:Actor .
+samian:ac_7301288 rdfs:label 'HELENVS'@en.
+samian:ac_7301288 lado:name 'HELENVS'.
+samian:ac_7301288 dc:identifier 7301288.
+samian:ac_7301288 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7301288 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7301288 prov:wasGeneratedBy samian:activity_ac_7301288 .
+samian:activity_ac_7301288 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7301288 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7301288 prov:endedAtTime '2020-12-09T20:53:14.510296Z'^^xsd:dateTime .
+samian:activity_ac_7301288 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7302752 rdf:type lado:Actor .
+samian:ac_7302752 rdfs:label 'L. PLO(TIVS) Z(OS..)'@en.
+samian:ac_7302752 lado:name 'L. PLO(TIVS) Z(OS..)'.
+samian:ac_7302752 dc:identifier 7302752.
+samian:ac_7302752 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7302752 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7302752 prov:wasGeneratedBy samian:activity_ac_7302752 .
+samian:activity_ac_7302752 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7302752 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7302752 prov:endedAtTime '2020-12-09T20:53:14.511288Z'^^xsd:dateTime .
+samian:activity_ac_7302752 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7308061 rdf:type lado:Actor .
+samian:ac_7308061 rdfs:label 'ARISTO( )'@en.
+samian:ac_7308061 lado:name 'ARISTO( )'.
+samian:ac_7308061 dc:identifier 7308061.
+samian:ac_7308061 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7308061 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7308061 prov:wasGeneratedBy samian:activity_ac_7308061 .
+samian:activity_ac_7308061 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7308061 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7308061 prov:endedAtTime '2020-12-09T20:53:14.511288Z'^^xsd:dateTime .
+samian:activity_ac_7308061 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7314423 rdf:type lado:Actor .
+samian:ac_7314423 rdfs:label 'HILARVS'@en.
+samian:ac_7314423 lado:name 'HILARVS'.
+samian:ac_7314423 dc:identifier 7314423.
+samian:ac_7314423 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7314423 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7314423 prov:wasGeneratedBy samian:activity_ac_7314423 .
+samian:activity_ac_7314423 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7314423 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7314423 prov:endedAtTime '2020-12-09T20:53:14.513284Z'^^xsd:dateTime .
+samian:activity_ac_7314423 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7317571 rdf:type lado:Actor .
+samian:ac_7317571 rdfs:label 'C. PETR(ONIVS) CORIA'@en.
+samian:ac_7317571 lado:name 'C. PETR(ONIVS) CORIA'.
+samian:ac_7317571 dc:identifier 7317571.
+samian:ac_7317571 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7317571 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7317571 prov:wasGeneratedBy samian:activity_ac_7317571 .
+samian:activity_ac_7317571 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7317571 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7317571 prov:endedAtTime '2020-12-09T20:53:14.514280Z'^^xsd:dateTime .
+samian:activity_ac_7317571 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7318724 rdf:type lado:Actor .
+samian:ac_7318724 rdfs:label 'RVFVS'@en.
+samian:ac_7318724 lado:name 'RVFVS'.
+samian:ac_7318724 dc:identifier 7318724.
+samian:ac_7318724 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7318724 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7318724 prov:wasGeneratedBy samian:activity_ac_7318724 .
+samian:activity_ac_7318724 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7318724 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7318724 prov:endedAtTime '2020-12-09T20:53:14.515277Z'^^xsd:dateTime .
+samian:activity_ac_7318724 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7319582 rdf:type lado:Actor .
+samian:ac_7319582 rdfs:label 'AESCIN(ES?)'@en.
+samian:ac_7319582 lado:name 'AESCIN(ES?)'.
+samian:ac_7319582 dc:identifier 7319582.
+samian:ac_7319582 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7319582 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7319582 prov:wasGeneratedBy samian:activity_ac_7319582 .
+samian:activity_ac_7319582 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7319582 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7319582 prov:endedAtTime '2020-12-09T20:53:14.515277Z'^^xsd:dateTime .
+samian:activity_ac_7319582 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7321951 rdf:type lado:Actor .
+samian:ac_7321951 rdfs:label 'FAVSTIO'@en.
+samian:ac_7321951 lado:name 'FAVSTIO'.
+samian:ac_7321951 dc:identifier 7321951.
+samian:ac_7321951 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7321951 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7321951 prov:wasGeneratedBy samian:activity_ac_7321951 .
+samian:activity_ac_7321951 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7321951 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7321951 prov:endedAtTime '2020-12-09T20:53:14.516276Z'^^xsd:dateTime .
+samian:activity_ac_7321951 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7323679 rdf:type lado:Actor .
+samian:ac_7323679 rdfs:label 'CARPVS'@en.
+samian:ac_7323679 lado:name 'CARPVS'.
+samian:ac_7323679 dc:identifier 7323679.
+samian:ac_7323679 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7323679 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7323679 prov:wasGeneratedBy samian:activity_ac_7323679 .
+samian:activity_ac_7323679 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7323679 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7323679 prov:endedAtTime '2020-12-09T20:53:14.516276Z'^^xsd:dateTime .
+samian:activity_ac_7323679 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7332245 rdf:type lado:Actor .
+samian:ac_7332245 rdfs:label 'BLANDVS'@en.
+samian:ac_7332245 lado:name 'BLANDVS'.
+samian:ac_7332245 dc:identifier 7332245.
+samian:ac_7332245 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7332245 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7332245 prov:wasGeneratedBy samian:activity_ac_7332245 .
+samian:activity_ac_7332245 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7332245 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7332245 prov:endedAtTime '2020-12-09T20:53:14.517272Z'^^xsd:dateTime .
+samian:activity_ac_7332245 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7335453 rdf:type lado:Actor .
+samian:ac_7335453 rdfs:label 'APOLLO( )'@en.
+samian:ac_7335453 lado:name 'APOLLO( )'.
+samian:ac_7335453 dc:identifier 7335453.
+samian:ac_7335453 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7335453 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7335453 prov:wasGeneratedBy samian:activity_ac_7335453 .
+samian:activity_ac_7335453 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7335453 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7335453 prov:endedAtTime '2020-12-09T20:53:14.518271Z'^^xsd:dateTime .
+samian:activity_ac_7335453 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7339824 rdf:type lado:Actor .
+samian:ac_7339824 rdfs:label 'VRBANVS'@en.
+samian:ac_7339824 lado:name 'VRBANVS'.
+samian:ac_7339824 dc:identifier 7339824.
+samian:ac_7339824 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7339824 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7339824 prov:wasGeneratedBy samian:activity_ac_7339824 .
+samian:activity_ac_7339824 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7339824 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7339824 prov:endedAtTime '2020-12-09T20:53:14.519279Z'^^xsd:dateTime .
+samian:activity_ac_7339824 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7344517 rdf:type lado:Actor .
+samian:ac_7344517 rdfs:label 'CIMBE(R)'@en.
+samian:ac_7344517 lado:name 'CIMBE(R)'.
+samian:ac_7344517 dc:identifier 7344517.
+samian:ac_7344517 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7344517 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7344517 prov:wasGeneratedBy samian:activity_ac_7344517 .
+samian:activity_ac_7344517 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7344517 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7344517 prov:endedAtTime '2020-12-09T20:53:14.520265Z'^^xsd:dateTime .
+samian:activity_ac_7344517 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7346737 rdf:type lado:Actor .
+samian:ac_7346737 rdfs:label 'TENA(X)'@en.
+samian:ac_7346737 lado:name 'TENA(X)'.
+samian:ac_7346737 dc:identifier 7346737.
+samian:ac_7346737 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7346737 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7346737 prov:wasGeneratedBy samian:activity_ac_7346737 .
+samian:activity_ac_7346737 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7346737 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7346737 prov:endedAtTime '2020-12-09T20:53:14.520265Z'^^xsd:dateTime .
+samian:activity_ac_7346737 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7350591 rdf:type lado:Actor .
+samian:ac_7350591 rdfs:label 'LAR( )?'@en.
+samian:ac_7350591 lado:name 'LAR( )?'.
+samian:ac_7350591 dc:identifier 7350591.
+samian:ac_7350591 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7350591 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7350591 prov:wasGeneratedBy samian:activity_ac_7350591 .
+samian:activity_ac_7350591 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7350591 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7350591 prov:endedAtTime '2020-12-09T20:53:14.520265Z'^^xsd:dateTime .
+samian:activity_ac_7350591 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7351598 rdf:type lado:Actor .
+samian:ac_7351598 rdfs:label 'FVSCVS'@en.
+samian:ac_7351598 lado:name 'FVSCVS'.
+samian:ac_7351598 dc:identifier 7351598.
+samian:ac_7351598 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7351598 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7351598 prov:wasGeneratedBy samian:activity_ac_7351598 .
+samian:activity_ac_7351598 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7351598 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7351598 prov:endedAtTime '2020-12-09T20:53:14.520265Z'^^xsd:dateTime .
+samian:activity_ac_7351598 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7354982 rdf:type lado:Actor .
+samian:ac_7354982 rdfs:label 'HOSPES'@en.
+samian:ac_7354982 lado:name 'HOSPES'.
+samian:ac_7354982 dc:identifier 7354982.
+samian:ac_7354982 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7354982 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7354982 prov:wasGeneratedBy samian:activity_ac_7354982 .
+samian:activity_ac_7354982 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7354982 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7354982 prov:endedAtTime '2020-12-09T20:53:14.521261Z'^^xsd:dateTime .
+samian:activity_ac_7354982 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7355245 rdf:type lado:Actor .
+samian:ac_7355245 rdfs:label 'DOMESTICVS'@en.
+samian:ac_7355245 lado:name 'DOMESTICVS'.
+samian:ac_7355245 dc:identifier 7355245.
+samian:ac_7355245 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7355245 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7355245 prov:wasGeneratedBy samian:activity_ac_7355245 .
+samian:activity_ac_7355245 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7355245 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7355245 prov:endedAtTime '2020-12-09T20:53:14.521261Z'^^xsd:dateTime .
+samian:activity_ac_7355245 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7361803 rdf:type lado:Actor .
+samian:ac_7361803 rdfs:label 'HABIN(AS)'@en.
+samian:ac_7361803 lado:name 'HABIN(AS)'.
+samian:ac_7361803 dc:identifier 7361803.
+samian:ac_7361803 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7361803 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7361803 prov:wasGeneratedBy samian:activity_ac_7361803 .
+samian:activity_ac_7361803 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7361803 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7361803 prov:endedAtTime '2020-12-09T20:53:14.521261Z'^^xsd:dateTime .
+samian:activity_ac_7361803 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7366720 rdf:type lado:Actor .
+samian:ac_7366720 rdfs:label 'TELAMO'@en.
+samian:ac_7366720 lado:name 'TELAMO'.
+samian:ac_7366720 dc:identifier 7366720.
+samian:ac_7366720 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7366720 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7366720 prov:wasGeneratedBy samian:activity_ac_7366720 .
+samian:activity_ac_7366720 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7366720 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7366720 prov:endedAtTime '2020-12-09T20:53:14.521261Z'^^xsd:dateTime .
+samian:activity_ac_7366720 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7372220 rdf:type lado:Actor .
+samian:ac_7372220 rdfs:label 'DIONYSIVS'@en.
+samian:ac_7372220 lado:name 'DIONYSIVS'.
+samian:ac_7372220 dc:identifier 7372220.
+samian:ac_7372220 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7372220 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7372220 prov:wasGeneratedBy samian:activity_ac_7372220 .
+samian:activity_ac_7372220 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7372220 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7372220 prov:endedAtTime '2020-12-09T20:53:14.522260Z'^^xsd:dateTime .
+samian:activity_ac_7372220 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7374209 rdf:type lado:Actor .
+samian:ac_7374209 rdfs:label 'DON[ ]'@en.
+samian:ac_7374209 lado:name 'DON[ ]'.
+samian:ac_7374209 dc:identifier 7374209.
+samian:ac_7374209 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7374209 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7374209 prov:wasGeneratedBy samian:activity_ac_7374209 .
+samian:activity_ac_7374209 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7374209 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7374209 prov:endedAtTime '2020-12-09T20:53:14.523255Z'^^xsd:dateTime .
+samian:activity_ac_7374209 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7386615 rdf:type lado:Actor .
+samian:ac_7386615 rdfs:label 'COTTA'@en.
+samian:ac_7386615 lado:name 'COTTA'.
+samian:ac_7386615 dc:identifier 7386615.
+samian:ac_7386615 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7386615 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7386615 prov:wasGeneratedBy samian:activity_ac_7386615 .
+samian:activity_ac_7386615 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7386615 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7386615 prov:endedAtTime '2020-12-09T20:53:14.523255Z'^^xsd:dateTime .
+samian:activity_ac_7386615 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7388102 rdf:type lado:Actor .
+samian:ac_7388102 rdfs:label 'ASTRAGALVS'@en.
+samian:ac_7388102 lado:name 'ASTRAGALVS'.
+samian:ac_7388102 dc:identifier 7388102.
+samian:ac_7388102 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7388102 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7388102 prov:wasGeneratedBy samian:activity_ac_7388102 .
+samian:activity_ac_7388102 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7388102 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7388102 prov:endedAtTime '2020-12-09T20:53:14.524253Z'^^xsd:dateTime .
+samian:activity_ac_7388102 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7390806 rdf:type lado:Actor .
+samian:ac_7390806 rdfs:label 'HERACL( )'@en.
+samian:ac_7390806 lado:name 'HERACL( )'.
+samian:ac_7390806 dc:identifier 7390806.
+samian:ac_7390806 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7390806 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7390806 prov:wasGeneratedBy samian:activity_ac_7390806 .
+samian:activity_ac_7390806 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7390806 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7390806 prov:endedAtTime '2020-12-09T20:53:14.524253Z'^^xsd:dateTime .
+samian:activity_ac_7390806 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7408034 rdf:type lado:Actor .
+samian:ac_7408034 rdfs:label 'QVADRATVS'@en.
+samian:ac_7408034 lado:name 'QVADRATVS'.
+samian:ac_7408034 dc:identifier 7408034.
+samian:ac_7408034 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7408034 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7408034 prov:wasGeneratedBy samian:activity_ac_7408034 .
+samian:activity_ac_7408034 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7408034 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7408034 prov:endedAtTime '2020-12-09T20:53:14.524253Z'^^xsd:dateTime .
+samian:activity_ac_7408034 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7411435 rdf:type lado:Actor .
+samian:ac_7411435 rdfs:label 'FIRMVS'@en.
+samian:ac_7411435 lado:name 'FIRMVS'.
+samian:ac_7411435 dc:identifier 7411435.
+samian:ac_7411435 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7411435 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7411435 prov:wasGeneratedBy samian:activity_ac_7411435 .
+samian:activity_ac_7411435 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7411435 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7411435 prov:endedAtTime '2020-12-09T20:53:14.525251Z'^^xsd:dateTime .
+samian:activity_ac_7411435 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7422451 rdf:type lado:Actor .
+samian:ac_7422451 rdfs:label 'RECTVS'@en.
+samian:ac_7422451 lado:name 'RECTVS'.
+samian:ac_7422451 dc:identifier 7422451.
+samian:ac_7422451 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7422451 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7422451 prov:wasGeneratedBy samian:activity_ac_7422451 .
+samian:activity_ac_7422451 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7422451 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7422451 prov:endedAtTime '2020-12-09T20:53:14.525251Z'^^xsd:dateTime .
+samian:activity_ac_7422451 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7423016 rdf:type lado:Actor .
+samian:ac_7423016 rdfs:label 'MEREN( )'@en.
+samian:ac_7423016 lado:name 'MEREN( )'.
+samian:ac_7423016 dc:identifier 7423016.
+samian:ac_7423016 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7423016 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7423016 prov:wasGeneratedBy samian:activity_ac_7423016 .
+samian:activity_ac_7423016 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7423016 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7423016 prov:endedAtTime '2020-12-09T20:53:14.525251Z'^^xsd:dateTime .
+samian:activity_ac_7423016 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7427435 rdf:type lado:Actor .
+samian:ac_7427435 rdfs:label 'APOL(LO)'@en.
+samian:ac_7427435 lado:name 'APOL(LO)'.
+samian:ac_7427435 dc:identifier 7427435.
+samian:ac_7427435 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7427435 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7427435 prov:wasGeneratedBy samian:activity_ac_7427435 .
+samian:activity_ac_7427435 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7427435 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7427435 prov:endedAtTime '2020-12-09T20:53:14.526248Z'^^xsd:dateTime .
+samian:activity_ac_7427435 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7428488 rdf:type lado:Actor .
+samian:ac_7428488 rdfs:label 'VERNAS'@en.
+samian:ac_7428488 lado:name 'VERNAS'.
+samian:ac_7428488 dc:identifier 7428488.
+samian:ac_7428488 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7428488 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7428488 prov:wasGeneratedBy samian:activity_ac_7428488 .
+samian:activity_ac_7428488 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7428488 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7428488 prov:endedAtTime '2020-12-09T20:53:14.526248Z'^^xsd:dateTime .
+samian:activity_ac_7428488 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7434065 rdf:type lado:Actor .
+samian:ac_7434065 rdfs:label 'PHILEMA'@en.
+samian:ac_7434065 lado:name 'PHILEMA'.
+samian:ac_7434065 dc:identifier 7434065.
+samian:ac_7434065 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7434065 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7434065 prov:wasGeneratedBy samian:activity_ac_7434065 .
+samian:activity_ac_7434065 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7434065 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7434065 prov:endedAtTime '2020-12-09T20:53:14.526248Z'^^xsd:dateTime .
+samian:activity_ac_7434065 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7437768 rdf:type lado:Actor .
+samian:ac_7437768 rdfs:label 'STAPHILVS'@en.
+samian:ac_7437768 lado:name 'STAPHILVS'.
+samian:ac_7437768 dc:identifier 7437768.
+samian:ac_7437768 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7437768 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7437768 prov:wasGeneratedBy samian:activity_ac_7437768 .
+samian:activity_ac_7437768 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7437768 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7437768 prov:endedAtTime '2020-12-09T20:53:14.526248Z'^^xsd:dateTime .
+samian:activity_ac_7437768 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7437857 rdf:type lado:Actor .
+samian:ac_7437857 rdfs:label 'NICO( )'@en.
+samian:ac_7437857 lado:name 'NICO( )'.
+samian:ac_7437857 dc:identifier 7437857.
+samian:ac_7437857 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7437857 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7437857 prov:wasGeneratedBy samian:activity_ac_7437857 .
+samian:activity_ac_7437857 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7437857 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7437857 prov:endedAtTime '2020-12-09T20:53:14.527246Z'^^xsd:dateTime .
+samian:activity_ac_7437857 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7441591 rdf:type lado:Actor .
+samian:ac_7441591 rdfs:label 'ROMANVS'@en.
+samian:ac_7441591 lado:name 'ROMANVS'.
+samian:ac_7441591 dc:identifier 7441591.
+samian:ac_7441591 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7441591 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7441591 prov:wasGeneratedBy samian:activity_ac_7441591 .
+samian:activity_ac_7441591 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7441591 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7441591 prov:endedAtTime '2020-12-09T20:53:14.527246Z'^^xsd:dateTime .
+samian:activity_ac_7441591 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7443195 rdf:type lado:Actor .
+samian:ac_7443195 rdfs:label 'DIOCLES'@en.
+samian:ac_7443195 lado:name 'DIOCLES'.
+samian:ac_7443195 dc:identifier 7443195.
+samian:ac_7443195 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7443195 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7443195 prov:wasGeneratedBy samian:activity_ac_7443195 .
+samian:activity_ac_7443195 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7443195 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7443195 prov:endedAtTime '2020-12-09T20:53:14.527246Z'^^xsd:dateTime .
+samian:activity_ac_7443195 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7456398 rdf:type lado:Actor .
+samian:ac_7456398 rdfs:label 'LVCIFER'@en.
+samian:ac_7456398 lado:name 'LVCIFER'.
+samian:ac_7456398 dc:identifier 7456398.
+samian:ac_7456398 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7456398 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7456398 prov:wasGeneratedBy samian:activity_ac_7456398 .
+samian:activity_ac_7456398 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7456398 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7456398 prov:endedAtTime '2020-12-09T20:53:14.528245Z'^^xsd:dateTime .
+samian:activity_ac_7456398 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7458953 rdf:type lado:Actor .
+samian:ac_7458953 rdfs:label 'SOTER'@en.
+samian:ac_7458953 lado:name 'SOTER'.
+samian:ac_7458953 dc:identifier 7458953.
+samian:ac_7458953 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7458953 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7458953 prov:wasGeneratedBy samian:activity_ac_7458953 .
+samian:activity_ac_7458953 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7458953 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7458953 prov:endedAtTime '2020-12-09T20:53:14.528245Z'^^xsd:dateTime .
+samian:activity_ac_7458953 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7461047 rdf:type lado:Actor .
+samian:ac_7461047 rdfs:label 'STRABO'@en.
+samian:ac_7461047 lado:name 'STRABO'.
+samian:ac_7461047 dc:identifier 7461047.
+samian:ac_7461047 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7461047 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7461047 prov:wasGeneratedBy samian:activity_ac_7461047 .
+samian:activity_ac_7461047 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7461047 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7461047 prov:endedAtTime '2020-12-09T20:53:14.528245Z'^^xsd:dateTime .
+samian:activity_ac_7461047 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7462177 rdf:type lado:Actor .
+samian:ac_7462177 rdfs:label 'CASTOR'@en.
+samian:ac_7462177 lado:name 'CASTOR'.
+samian:ac_7462177 dc:identifier 7462177.
+samian:ac_7462177 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7462177 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7462177 prov:wasGeneratedBy samian:activity_ac_7462177 .
+samian:activity_ac_7462177 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7462177 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7462177 prov:endedAtTime '2020-12-09T20:53:14.528245Z'^^xsd:dateTime .
+samian:activity_ac_7462177 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7464938 rdf:type lado:Actor .
+samian:ac_7464938 rdfs:label 'DOCTVS'@en.
+samian:ac_7464938 lado:name 'DOCTVS'.
+samian:ac_7464938 dc:identifier 7464938.
+samian:ac_7464938 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7464938 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7464938 prov:wasGeneratedBy samian:activity_ac_7464938 .
+samian:activity_ac_7464938 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7464938 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7464938 prov:endedAtTime '2020-12-09T20:53:14.529240Z'^^xsd:dateTime .
+samian:activity_ac_7464938 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7465012 rdf:type lado:Actor .
+samian:ac_7465012 rdfs:label 'EPAPHRA'@en.
+samian:ac_7465012 lado:name 'EPAPHRA'.
+samian:ac_7465012 dc:identifier 7465012.
+samian:ac_7465012 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7465012 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7465012 prov:wasGeneratedBy samian:activity_ac_7465012 .
+samian:activity_ac_7465012 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7465012 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7465012 prov:endedAtTime '2020-12-09T20:53:14.529240Z'^^xsd:dateTime .
+samian:activity_ac_7465012 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7470979 rdf:type lado:Actor .
+samian:ac_7470979 rdfs:label 'MVRTILVS'@en.
+samian:ac_7470979 lado:name 'MVRTILVS'.
+samian:ac_7470979 dc:identifier 7470979.
+samian:ac_7470979 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7470979 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7470979 prov:wasGeneratedBy samian:activity_ac_7470979 .
+samian:activity_ac_7470979 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7470979 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7470979 prov:endedAtTime '2020-12-09T20:53:14.529240Z'^^xsd:dateTime .
+samian:activity_ac_7470979 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7472068 rdf:type lado:Actor .
+samian:ac_7472068 rdfs:label 'HIMEROS'@en.
+samian:ac_7472068 lado:name 'HIMEROS'.
+samian:ac_7472068 dc:identifier 7472068.
+samian:ac_7472068 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7472068 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7472068 prov:wasGeneratedBy samian:activity_ac_7472068 .
+samian:activity_ac_7472068 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7472068 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7472068 prov:endedAtTime '2020-12-09T20:53:14.530239Z'^^xsd:dateTime .
+samian:activity_ac_7472068 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7482347 rdf:type lado:Actor .
+samian:ac_7482347 rdfs:label 'TERTIVS?'@en.
+samian:ac_7482347 lado:name 'TERTIVS?'.
+samian:ac_7482347 dc:identifier 7482347.
+samian:ac_7482347 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7482347 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7482347 prov:wasGeneratedBy samian:activity_ac_7482347 .
+samian:activity_ac_7482347 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7482347 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7482347 prov:endedAtTime '2020-12-09T20:53:14.530239Z'^^xsd:dateTime .
+samian:activity_ac_7482347 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7482588 rdf:type lado:Actor .
+samian:ac_7482588 rdfs:label 'CARP(VS?)'@en.
+samian:ac_7482588 lado:name 'CARP(VS?)'.
+samian:ac_7482588 dc:identifier 7482588.
+samian:ac_7482588 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7482588 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7482588 prov:wasGeneratedBy samian:activity_ac_7482588 .
+samian:activity_ac_7482588 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7482588 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7482588 prov:endedAtTime '2020-12-09T20:53:14.530239Z'^^xsd:dateTime .
+samian:activity_ac_7482588 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7485710 rdf:type lado:Actor .
+samian:ac_7485710 rdfs:label 'ROMVLVS'@en.
+samian:ac_7485710 lado:name 'ROMVLVS'.
+samian:ac_7485710 dc:identifier 7485710.
+samian:ac_7485710 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7485710 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7485710 prov:wasGeneratedBy samian:activity_ac_7485710 .
+samian:activity_ac_7485710 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7485710 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7485710 prov:endedAtTime '2020-12-09T20:53:14.531234Z'^^xsd:dateTime .
+samian:activity_ac_7485710 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7487650 rdf:type lado:Actor .
+samian:ac_7487650 rdfs:label 'MYRTILVS'@en.
+samian:ac_7487650 lado:name 'MYRTILVS'.
+samian:ac_7487650 dc:identifier 7487650.
+samian:ac_7487650 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7487650 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7487650 prov:wasGeneratedBy samian:activity_ac_7487650 .
+samian:activity_ac_7487650 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7487650 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7487650 prov:endedAtTime '2020-12-09T20:53:14.531234Z'^^xsd:dateTime .
+samian:activity_ac_7487650 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7489065 rdf:type lado:Actor .
+samian:ac_7489065 rdfs:label 'SALVILVS'@en.
+samian:ac_7489065 lado:name 'SALVILVS'.
+samian:ac_7489065 dc:identifier 7489065.
+samian:ac_7489065 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7489065 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7489065 prov:wasGeneratedBy samian:activity_ac_7489065 .
+samian:activity_ac_7489065 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7489065 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7489065 prov:endedAtTime '2020-12-09T20:53:14.532231Z'^^xsd:dateTime .
+samian:activity_ac_7489065 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7498591 rdf:type lado:Actor .
+samian:ac_7498591 rdfs:label 'SVNEROS'@en.
+samian:ac_7498591 lado:name 'SVNEROS'.
+samian:ac_7498591 dc:identifier 7498591.
+samian:ac_7498591 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7498591 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7498591 prov:wasGeneratedBy samian:activity_ac_7498591 .
+samian:activity_ac_7498591 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7498591 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7498591 prov:endedAtTime '2020-12-09T20:53:14.533229Z'^^xsd:dateTime .
+samian:activity_ac_7498591 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7499365 rdf:type lado:Actor .
+samian:ac_7499365 rdfs:label 'CORVM( )'@en.
+samian:ac_7499365 lado:name 'CORVM( )'.
+samian:ac_7499365 dc:identifier 7499365.
+samian:ac_7499365 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7499365 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7499365 prov:wasGeneratedBy samian:activity_ac_7499365 .
+samian:activity_ac_7499365 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7499365 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7499365 prov:endedAtTime '2020-12-09T20:53:14.533229Z'^^xsd:dateTime .
+samian:activity_ac_7499365 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7501074 rdf:type lado:Actor .
+samian:ac_7501074 rdfs:label 'SVRVS'@en.
+samian:ac_7501074 lado:name 'SVRVS'.
+samian:ac_7501074 dc:identifier 7501074.
+samian:ac_7501074 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7501074 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7501074 prov:wasGeneratedBy samian:activity_ac_7501074 .
+samian:activity_ac_7501074 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7501074 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7501074 prov:endedAtTime '2020-12-09T20:53:14.540212Z'^^xsd:dateTime .
+samian:activity_ac_7501074 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7504888 rdf:type lado:Actor .
+samian:ac_7504888 rdfs:label 'SASA'@en.
+samian:ac_7504888 lado:name 'SASA'.
+samian:ac_7504888 dc:identifier 7504888.
+samian:ac_7504888 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7504888 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7504888 prov:wasGeneratedBy samian:activity_ac_7504888 .
+samian:activity_ac_7504888 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7504888 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7504888 prov:endedAtTime '2020-12-09T20:53:14.540212Z'^^xsd:dateTime .
+samian:activity_ac_7504888 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7508035 rdf:type lado:Actor .
+samian:ac_7508035 rdfs:label 'ARCH( )'@en.
+samian:ac_7508035 lado:name 'ARCH( )'.
+samian:ac_7508035 dc:identifier 7508035.
+samian:ac_7508035 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7508035 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7508035 prov:wasGeneratedBy samian:activity_ac_7508035 .
+samian:activity_ac_7508035 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7508035 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7508035 prov:endedAtTime '2020-12-09T20:53:14.541213Z'^^xsd:dateTime .
+samian:activity_ac_7508035 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7509084 rdf:type lado:Actor .
+samian:ac_7509084 rdfs:label 'EICARVS'@en.
+samian:ac_7509084 lado:name 'EICARVS'.
+samian:ac_7509084 dc:identifier 7509084.
+samian:ac_7509084 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7509084 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7509084 prov:wasGeneratedBy samian:activity_ac_7509084 .
+samian:activity_ac_7509084 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7509084 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7509084 prov:endedAtTime '2020-12-09T20:53:14.541213Z'^^xsd:dateTime .
+samian:activity_ac_7509084 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7511931 rdf:type lado:Actor .
+samian:ac_7511931 rdfs:label 'C. + C. METILIVS ?'@en.
+samian:ac_7511931 lado:name 'C. + C. METILIVS ?'.
+samian:ac_7511931 dc:identifier 7511931.
+samian:ac_7511931 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7511931 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7511931 prov:wasGeneratedBy samian:activity_ac_7511931 .
+samian:activity_ac_7511931 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7511931 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7511931 prov:endedAtTime '2020-12-09T20:53:14.541213Z'^^xsd:dateTime .
+samian:activity_ac_7511931 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7520363 rdf:type lado:Actor .
+samian:ac_7520363 rdfs:label 'NICEPH(ORVS)'@en.
+samian:ac_7520363 lado:name 'NICEPH(ORVS)'.
+samian:ac_7520363 dc:identifier 7520363.
+samian:ac_7520363 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7520363 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7520363 prov:wasGeneratedBy samian:activity_ac_7520363 .
+samian:activity_ac_7520363 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7520363 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7520363 prov:endedAtTime '2020-12-09T20:53:14.542206Z'^^xsd:dateTime .
+samian:activity_ac_7520363 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7524928 rdf:type lado:Actor .
+samian:ac_7524928 rdfs:label 'PRINCEPS'@en.
+samian:ac_7524928 lado:name 'PRINCEPS'.
+samian:ac_7524928 dc:identifier 7524928.
+samian:ac_7524928 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7524928 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7524928 prov:wasGeneratedBy samian:activity_ac_7524928 .
+samian:activity_ac_7524928 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7524928 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7524928 prov:endedAtTime '2020-12-09T20:53:14.543202Z'^^xsd:dateTime .
+samian:activity_ac_7524928 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7527643 rdf:type lado:Actor .
+samian:ac_7527643 rdfs:label 'HIL( )'@en.
+samian:ac_7527643 lado:name 'HIL( )'.
+samian:ac_7527643 dc:identifier 7527643.
+samian:ac_7527643 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7527643 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7527643 prov:wasGeneratedBy samian:activity_ac_7527643 .
+samian:activity_ac_7527643 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7527643 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7527643 prov:endedAtTime '2020-12-09T20:53:14.544199Z'^^xsd:dateTime .
+samian:activity_ac_7527643 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7535854 rdf:type lado:Actor .
+samian:ac_7535854 rdfs:label 'PHILO'@en.
+samian:ac_7535854 lado:name 'PHILO'.
+samian:ac_7535854 dc:identifier 7535854.
+samian:ac_7535854 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7535854 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7535854 prov:wasGeneratedBy samian:activity_ac_7535854 .
+samian:activity_ac_7535854 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7535854 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7535854 prov:endedAtTime '2020-12-09T20:53:14.544199Z'^^xsd:dateTime .
+samian:activity_ac_7535854 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7536067 rdf:type lado:Actor .
+samian:ac_7536067 rdfs:label 'ZETVS'@en.
+samian:ac_7536067 lado:name 'ZETVS'.
+samian:ac_7536067 dc:identifier 7536067.
+samian:ac_7536067 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7536067 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7536067 prov:wasGeneratedBy samian:activity_ac_7536067 .
+samian:activity_ac_7536067 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7536067 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7536067 prov:endedAtTime '2020-12-09T20:53:14.545197Z'^^xsd:dateTime .
+samian:activity_ac_7536067 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7545543 rdf:type lado:Actor .
+samian:ac_7545543 rdfs:label 'IVRATVS?'@en.
+samian:ac_7545543 lado:name 'IVRATVS?'.
+samian:ac_7545543 dc:identifier 7545543.
+samian:ac_7545543 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7545543 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7545543 prov:wasGeneratedBy samian:activity_ac_7545543 .
+samian:activity_ac_7545543 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7545543 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7545543 prov:endedAtTime '2020-12-09T20:53:14.545197Z'^^xsd:dateTime .
+samian:activity_ac_7545543 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7553312 rdf:type lado:Actor .
+samian:ac_7553312 rdfs:label 'PHORMIO?'@en.
+samian:ac_7553312 lado:name 'PHORMIO?'.
+samian:ac_7553312 dc:identifier 7553312.
+samian:ac_7553312 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7553312 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7553312 prov:wasGeneratedBy samian:activity_ac_7553312 .
+samian:activity_ac_7553312 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7553312 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7553312 prov:endedAtTime '2020-12-09T20:53:14.548189Z'^^xsd:dateTime .
+samian:activity_ac_7553312 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7563453 rdf:type lado:Actor .
+samian:ac_7563453 rdfs:label 'TROPHI(MVS)'@en.
+samian:ac_7563453 lado:name 'TROPHI(MVS)'.
+samian:ac_7563453 dc:identifier 7563453.
+samian:ac_7563453 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7563453 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7563453 prov:wasGeneratedBy samian:activity_ac_7563453 .
+samian:activity_ac_7563453 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7563453 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7563453 prov:endedAtTime '2020-12-09T20:53:14.550184Z'^^xsd:dateTime .
+samian:activity_ac_7563453 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7566140 rdf:type lado:Actor .
+samian:ac_7566140 rdfs:label 'ILIADORVS'@en.
+samian:ac_7566140 lado:name 'ILIADORVS'.
+samian:ac_7566140 dc:identifier 7566140.
+samian:ac_7566140 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7566140 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7566140 prov:wasGeneratedBy samian:activity_ac_7566140 .
+samian:activity_ac_7566140 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7566140 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7566140 prov:endedAtTime '2020-12-09T20:53:14.553179Z'^^xsd:dateTime .
+samian:activity_ac_7566140 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7568985 rdf:type lado:Actor .
+samian:ac_7568985 rdfs:label 'ALEX(ANDER)'@en.
+samian:ac_7568985 lado:name 'ALEX(ANDER)'.
+samian:ac_7568985 dc:identifier 7568985.
+samian:ac_7568985 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7568985 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7568985 prov:wasGeneratedBy samian:activity_ac_7568985 .
+samian:activity_ac_7568985 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7568985 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7568985 prov:endedAtTime '2020-12-09T20:53:14.554174Z'^^xsd:dateTime .
+samian:activity_ac_7568985 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7571157 rdf:type lado:Actor .
+samian:ac_7571157 rdfs:label 'FE(LIX)'@en.
+samian:ac_7571157 lado:name 'FE(LIX)'.
+samian:ac_7571157 dc:identifier 7571157.
+samian:ac_7571157 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7571157 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7571157 prov:wasGeneratedBy samian:activity_ac_7571157 .
+samian:activity_ac_7571157 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7571157 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7571157 prov:endedAtTime '2020-12-09T20:53:14.554174Z'^^xsd:dateTime .
+samian:activity_ac_7571157 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7575774 rdf:type lado:Actor .
+samian:ac_7575774 rdfs:label 'DEMOST(HENES)'@en.
+samian:ac_7575774 lado:name 'DEMOST(HENES)'.
+samian:ac_7575774 dc:identifier 7575774.
+samian:ac_7575774 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7575774 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7575774 prov:wasGeneratedBy samian:activity_ac_7575774 .
+samian:activity_ac_7575774 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7575774 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7575774 prov:endedAtTime '2020-12-09T20:53:14.555170Z'^^xsd:dateTime .
+samian:activity_ac_7575774 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7586575 rdf:type lado:Actor .
+samian:ac_7586575 rdfs:label 'NO( )'@en.
+samian:ac_7586575 lado:name 'NO( )'.
+samian:ac_7586575 dc:identifier 7586575.
+samian:ac_7586575 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7586575 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7586575 prov:wasGeneratedBy samian:activity_ac_7586575 .
+samian:activity_ac_7586575 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7586575 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7586575 prov:endedAtTime '2020-12-09T20:53:14.556167Z'^^xsd:dateTime .
+samian:activity_ac_7586575 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7587177 rdf:type lado:Actor .
+samian:ac_7587177 rdfs:label 'TETTIANVS'@en.
+samian:ac_7587177 lado:name 'TETTIANVS'.
+samian:ac_7587177 dc:identifier 7587177.
+samian:ac_7587177 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7587177 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7587177 prov:wasGeneratedBy samian:activity_ac_7587177 .
+samian:activity_ac_7587177 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7587177 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7587177 prov:endedAtTime '2020-12-09T20:53:14.556167Z'^^xsd:dateTime .
+samian:activity_ac_7587177 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7589207 rdf:type lado:Actor .
+samian:ac_7589207 rdfs:label 'CRESTVS'@en.
+samian:ac_7589207 lado:name 'CRESTVS'.
+samian:ac_7589207 dc:identifier 7589207.
+samian:ac_7589207 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7589207 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7589207 prov:wasGeneratedBy samian:activity_ac_7589207 .
+samian:activity_ac_7589207 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7589207 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7589207 prov:endedAtTime '2020-12-09T20:53:14.557165Z'^^xsd:dateTime .
+samian:activity_ac_7589207 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7589345 rdf:type lado:Actor .
+samian:ac_7589345 rdfs:label 'ANTIGONVS?'@en.
+samian:ac_7589345 lado:name 'ANTIGONVS?'.
+samian:ac_7589345 dc:identifier 7589345.
+samian:ac_7589345 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7589345 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7589345 prov:wasGeneratedBy samian:activity_ac_7589345 .
+samian:activity_ac_7589345 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7589345 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7589345 prov:endedAtTime '2020-12-09T20:53:14.557165Z'^^xsd:dateTime .
+samian:activity_ac_7589345 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7590184 rdf:type lado:Actor .
+samian:ac_7590184 rdfs:label 'QVARTIO'@en.
+samian:ac_7590184 lado:name 'QVARTIO'.
+samian:ac_7590184 dc:identifier 7590184.
+samian:ac_7590184 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7590184 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7590184 prov:wasGeneratedBy samian:activity_ac_7590184 .
+samian:activity_ac_7590184 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7590184 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7590184 prov:endedAtTime '2020-12-09T20:53:14.558164Z'^^xsd:dateTime .
+samian:activity_ac_7590184 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7596258 rdf:type lado:Actor .
+samian:ac_7596258 rdfs:label '[ ]GILL( )'@en.
+samian:ac_7596258 lado:name '[ ]GILL( )'.
+samian:ac_7596258 dc:identifier 7596258.
+samian:ac_7596258 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7596258 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7596258 prov:wasGeneratedBy samian:activity_ac_7596258 .
+samian:activity_ac_7596258 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7596258 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7596258 prov:endedAtTime '2020-12-09T20:53:14.559159Z'^^xsd:dateTime .
+samian:activity_ac_7596258 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7598811 rdf:type lado:Actor .
+samian:ac_7598811 rdfs:label 'FRATER'@en.
+samian:ac_7598811 lado:name 'FRATER'.
+samian:ac_7598811 dc:identifier 7598811.
+samian:ac_7598811 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7598811 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7598811 prov:wasGeneratedBy samian:activity_ac_7598811 .
+samian:activity_ac_7598811 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7598811 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7598811 prov:endedAtTime '2020-12-09T20:53:14.559159Z'^^xsd:dateTime .
+samian:activity_ac_7598811 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7600305 rdf:type lado:Actor .
+samian:ac_7600305 rdfs:label 'BREVCVS'@en.
+samian:ac_7600305 lado:name 'BREVCVS'.
+samian:ac_7600305 dc:identifier 7600305.
+samian:ac_7600305 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7600305 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7600305 prov:wasGeneratedBy samian:activity_ac_7600305 .
+samian:activity_ac_7600305 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7600305 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7600305 prov:endedAtTime '2020-12-09T20:53:14.560157Z'^^xsd:dateTime .
+samian:activity_ac_7600305 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7600408 rdf:type lado:Actor .
+samian:ac_7600408 rdfs:label 'CLARVS'@en.
+samian:ac_7600408 lado:name 'CLARVS'.
+samian:ac_7600408 dc:identifier 7600408.
+samian:ac_7600408 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7600408 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7600408 prov:wasGeneratedBy samian:activity_ac_7600408 .
+samian:activity_ac_7600408 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7600408 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7600408 prov:endedAtTime '2020-12-09T20:53:14.560157Z'^^xsd:dateTime .
+samian:activity_ac_7600408 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7609098 rdf:type lado:Actor .
+samian:ac_7609098 rdfs:label 'MASA( )'@en.
+samian:ac_7609098 lado:name 'MASA( )'.
+samian:ac_7609098 dc:identifier 7609098.
+samian:ac_7609098 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7609098 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7609098 prov:wasGeneratedBy samian:activity_ac_7609098 .
+samian:activity_ac_7609098 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7609098 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7609098 prov:endedAtTime '2020-12-09T20:53:14.561156Z'^^xsd:dateTime .
+samian:activity_ac_7609098 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7613565 rdf:type lado:Actor .
+samian:ac_7613565 rdfs:label 'ING(ENVVS)'@en.
+samian:ac_7613565 lado:name 'ING(ENVVS)'.
+samian:ac_7613565 dc:identifier 7613565.
+samian:ac_7613565 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7613565 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7613565 prov:wasGeneratedBy samian:activity_ac_7613565 .
+samian:activity_ac_7613565 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7613565 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7613565 prov:endedAtTime '2020-12-09T20:53:14.566141Z'^^xsd:dateTime .
+samian:activity_ac_7613565 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7621344 rdf:type lado:Actor .
+samian:ac_7621344 rdfs:label 'PHILADE(LPHVS)'@en.
+samian:ac_7621344 lado:name 'PHILADE(LPHVS)'.
+samian:ac_7621344 dc:identifier 7621344.
+samian:ac_7621344 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7621344 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7621344 prov:wasGeneratedBy samian:activity_ac_7621344 .
+samian:activity_ac_7621344 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7621344 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7621344 prov:endedAtTime '2020-12-09T20:53:14.567140Z'^^xsd:dateTime .
+samian:activity_ac_7621344 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7621367 rdf:type lado:Actor .
+samian:ac_7621367 rdfs:label 'ALOCVS'@en.
+samian:ac_7621367 lado:name 'ALOCVS'.
+samian:ac_7621367 dc:identifier 7621367.
+samian:ac_7621367 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7621367 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7621367 prov:wasGeneratedBy samian:activity_ac_7621367 .
+samian:activity_ac_7621367 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7621367 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7621367 prov:endedAtTime '2020-12-09T20:53:14.569135Z'^^xsd:dateTime .
+samian:activity_ac_7621367 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7627276 rdf:type lado:Actor .
+samian:ac_7627276 rdfs:label 'P. AV( ) G( )'@en.
+samian:ac_7627276 lado:name 'P. AV( ) G( )'.
+samian:ac_7627276 dc:identifier 7627276.
+samian:ac_7627276 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7627276 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7627276 prov:wasGeneratedBy samian:activity_ac_7627276 .
+samian:activity_ac_7627276 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7627276 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7627276 prov:endedAtTime '2020-12-09T20:53:14.570132Z'^^xsd:dateTime .
+samian:activity_ac_7627276 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7629933 rdf:type lado:Actor .
+samian:ac_7629933 rdfs:label 'MONTANVS'@en.
+samian:ac_7629933 lado:name 'MONTANVS'.
+samian:ac_7629933 dc:identifier 7629933.
+samian:ac_7629933 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7629933 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7629933 prov:wasGeneratedBy samian:activity_ac_7629933 .
+samian:activity_ac_7629933 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7629933 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7629933 prov:endedAtTime '2020-12-09T20:53:14.571144Z'^^xsd:dateTime .
+samian:activity_ac_7629933 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7636807 rdf:type lado:Actor .
+samian:ac_7636807 rdfs:label 'EPAP(H)R( )'@en.
+samian:ac_7636807 lado:name 'EPAP(H)R( )'.
+samian:ac_7636807 dc:identifier 7636807.
+samian:ac_7636807 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7636807 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7636807 prov:wasGeneratedBy samian:activity_ac_7636807 .
+samian:activity_ac_7636807 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7636807 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7636807 prov:endedAtTime '2020-12-09T20:53:14.571144Z'^^xsd:dateTime .
+samian:activity_ac_7636807 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7638846 rdf:type lado:Actor .
+samian:ac_7638846 rdfs:label 'CINNAMVS'@en.
+samian:ac_7638846 lado:name 'CINNAMVS'.
+samian:ac_7638846 dc:identifier 7638846.
+samian:ac_7638846 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7638846 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7638846 prov:wasGeneratedBy samian:activity_ac_7638846 .
+samian:activity_ac_7638846 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7638846 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7638846 prov:endedAtTime '2020-12-09T20:53:14.573124Z'^^xsd:dateTime .
+samian:activity_ac_7638846 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7648515 rdf:type lado:Actor .
+samian:ac_7648515 rdfs:label 'GEMELLVS'@en.
+samian:ac_7648515 lado:name 'GEMELLVS'.
+samian:ac_7648515 dc:identifier 7648515.
+samian:ac_7648515 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7648515 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7648515 prov:wasGeneratedBy samian:activity_ac_7648515 .
+samian:activity_ac_7648515 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7648515 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7648515 prov:endedAtTime '2020-12-09T20:53:14.574120Z'^^xsd:dateTime .
+samian:activity_ac_7648515 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7650328 rdf:type lado:Actor .
+samian:ac_7650328 rdfs:label 'ANTIOCHVS'@en.
+samian:ac_7650328 lado:name 'ANTIOCHVS'.
+samian:ac_7650328 dc:identifier 7650328.
+samian:ac_7650328 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7650328 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7650328 prov:wasGeneratedBy samian:activity_ac_7650328 .
+samian:activity_ac_7650328 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7650328 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7650328 prov:endedAtTime '2020-12-09T20:53:14.574120Z'^^xsd:dateTime .
+samian:activity_ac_7650328 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7663244 rdf:type lado:Actor .
+samian:ac_7663244 rdfs:label 'MANIVS'@en.
+samian:ac_7663244 lado:name 'MANIVS'.
+samian:ac_7663244 dc:identifier 7663244.
+samian:ac_7663244 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7663244 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7663244 prov:wasGeneratedBy samian:activity_ac_7663244 .
+samian:activity_ac_7663244 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7663244 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7663244 prov:endedAtTime '2020-12-09T20:53:14.574120Z'^^xsd:dateTime .
+samian:activity_ac_7663244 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7665921 rdf:type lado:Actor .
+samian:ac_7665921 rdfs:label 'FA( )'@en.
+samian:ac_7665921 lado:name 'FA( )'.
+samian:ac_7665921 dc:identifier 7665921.
+samian:ac_7665921 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7665921 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7665921 prov:wasGeneratedBy samian:activity_ac_7665921 .
+samian:activity_ac_7665921 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7665921 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7665921 prov:endedAtTime '2020-12-09T20:53:14.575116Z'^^xsd:dateTime .
+samian:activity_ac_7665921 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7667494 rdf:type lado:Actor .
+samian:ac_7667494 rdfs:label 'PAETVS'@en.
+samian:ac_7667494 lado:name 'PAETVS'.
+samian:ac_7667494 dc:identifier 7667494.
+samian:ac_7667494 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7667494 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7667494 prov:wasGeneratedBy samian:activity_ac_7667494 .
+samian:activity_ac_7667494 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7667494 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7667494 prov:endedAtTime '2020-12-09T20:53:14.575116Z'^^xsd:dateTime .
+samian:activity_ac_7667494 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7671861 rdf:type lado:Actor .
+samian:ac_7671861 rdfs:label 'ILIADES'@en.
+samian:ac_7671861 lado:name 'ILIADES'.
+samian:ac_7671861 dc:identifier 7671861.
+samian:ac_7671861 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7671861 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7671861 prov:wasGeneratedBy samian:activity_ac_7671861 .
+samian:activity_ac_7671861 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7671861 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7671861 prov:endedAtTime '2020-12-09T20:53:14.576114Z'^^xsd:dateTime .
+samian:activity_ac_7671861 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7673484 rdf:type lado:Actor .
+samian:ac_7673484 rdfs:label 'SERANVS?'@en.
+samian:ac_7673484 lado:name 'SERANVS?'.
+samian:ac_7673484 dc:identifier 7673484.
+samian:ac_7673484 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7673484 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7673484 prov:wasGeneratedBy samian:activity_ac_7673484 .
+samian:activity_ac_7673484 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7673484 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7673484 prov:endedAtTime '2020-12-09T20:53:14.576114Z'^^xsd:dateTime .
+samian:activity_ac_7673484 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7677444 rdf:type lado:Actor .
+samian:ac_7677444 rdfs:label 'ACRATVS'@en.
+samian:ac_7677444 lado:name 'ACRATVS'.
+samian:ac_7677444 dc:identifier 7677444.
+samian:ac_7677444 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7677444 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7677444 prov:wasGeneratedBy samian:activity_ac_7677444 .
+samian:activity_ac_7677444 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7677444 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7677444 prov:endedAtTime '2020-12-09T20:53:14.576114Z'^^xsd:dateTime .
+samian:activity_ac_7677444 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7680435 rdf:type lado:Actor .
+samian:ac_7680435 rdfs:label 'VIBIVS'@en.
+samian:ac_7680435 lado:name 'VIBIVS'.
+samian:ac_7680435 dc:identifier 7680435.
+samian:ac_7680435 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7680435 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7680435 prov:wasGeneratedBy samian:activity_ac_7680435 .
+samian:activity_ac_7680435 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7680435 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7680435 prov:endedAtTime '2020-12-09T20:53:14.577114Z'^^xsd:dateTime .
+samian:activity_ac_7680435 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7688370 rdf:type lado:Actor .
+samian:ac_7688370 rdfs:label 'PLANCVS'@en.
+samian:ac_7688370 lado:name 'PLANCVS'.
+samian:ac_7688370 dc:identifier 7688370.
+samian:ac_7688370 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7688370 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7688370 prov:wasGeneratedBy samian:activity_ac_7688370 .
+samian:activity_ac_7688370 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7688370 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7688370 prov:endedAtTime '2020-12-09T20:53:14.577114Z'^^xsd:dateTime .
+samian:activity_ac_7688370 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7692815 rdf:type lado:Actor .
+samian:ac_7692815 rdfs:label 'PHILE( )'@en.
+samian:ac_7692815 lado:name 'PHILE( )'.
+samian:ac_7692815 dc:identifier 7692815.
+samian:ac_7692815 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7692815 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7692815 prov:wasGeneratedBy samian:activity_ac_7692815 .
+samian:activity_ac_7692815 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7692815 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7692815 prov:endedAtTime '2020-12-09T20:53:14.578109Z'^^xsd:dateTime .
+samian:activity_ac_7692815 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7692947 rdf:type lado:Actor .
+samian:ac_7692947 rdfs:label 'OPILIO'@en.
+samian:ac_7692947 lado:name 'OPILIO'.
+samian:ac_7692947 dc:identifier 7692947.
+samian:ac_7692947 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7692947 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7692947 prov:wasGeneratedBy samian:activity_ac_7692947 .
+samian:activity_ac_7692947 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7692947 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7692947 prov:endedAtTime '2020-12-09T20:53:14.578109Z'^^xsd:dateTime .
+samian:activity_ac_7692947 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7694446 rdf:type lado:Actor .
+samian:ac_7694446 rdfs:label 'STEPHANVS'@en.
+samian:ac_7694446 lado:name 'STEPHANVS'.
+samian:ac_7694446 dc:identifier 7694446.
+samian:ac_7694446 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7694446 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7694446 prov:wasGeneratedBy samian:activity_ac_7694446 .
+samian:activity_ac_7694446 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7694446 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7694446 prov:endedAtTime '2020-12-09T20:53:14.578109Z'^^xsd:dateTime .
+samian:activity_ac_7694446 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7696117 rdf:type lado:Actor .
+samian:ac_7696117 rdfs:label 'VIBIENVS'@en.
+samian:ac_7696117 lado:name 'VIBIENVS'.
+samian:ac_7696117 dc:identifier 7696117.
+samian:ac_7696117 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7696117 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7696117 prov:wasGeneratedBy samian:activity_ac_7696117 .
+samian:activity_ac_7696117 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7696117 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7696117 prov:endedAtTime '2020-12-09T20:53:14.579107Z'^^xsd:dateTime .
+samian:activity_ac_7696117 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7699955 rdf:type lado:Actor .
+samian:ac_7699955 rdfs:label 'AMPHIO'@en.
+samian:ac_7699955 lado:name 'AMPHIO'.
+samian:ac_7699955 dc:identifier 7699955.
+samian:ac_7699955 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7699955 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7699955 prov:wasGeneratedBy samian:activity_ac_7699955 .
+samian:activity_ac_7699955 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7699955 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7699955 prov:endedAtTime '2020-12-09T20:53:14.579107Z'^^xsd:dateTime .
+samian:activity_ac_7699955 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7702888 rdf:type lado:Actor .
+samian:ac_7702888 rdfs:label 'PHILONI(CVS)'@en.
+samian:ac_7702888 lado:name 'PHILONI(CVS)'.
+samian:ac_7702888 dc:identifier 7702888.
+samian:ac_7702888 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7702888 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7702888 prov:wasGeneratedBy samian:activity_ac_7702888 .
+samian:activity_ac_7702888 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7702888 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7702888 prov:endedAtTime '2020-12-09T20:53:14.579107Z'^^xsd:dateTime .
+samian:activity_ac_7702888 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7713955 rdf:type lado:Actor .
+samian:ac_7713955 rdfs:label 'NICOLAVS'@en.
+samian:ac_7713955 lado:name 'NICOLAVS'.
+samian:ac_7713955 dc:identifier 7713955.
+samian:ac_7713955 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7713955 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7713955 prov:wasGeneratedBy samian:activity_ac_7713955 .
+samian:activity_ac_7713955 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7713955 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7713955 prov:endedAtTime '2020-12-09T20:53:14.582097Z'^^xsd:dateTime .
+samian:activity_ac_7713955 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7720630 rdf:type lado:Actor .
+samian:ac_7720630 rdfs:label 'ATHENIO'@en.
+samian:ac_7720630 lado:name 'ATHENIO'.
+samian:ac_7720630 dc:identifier 7720630.
+samian:ac_7720630 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7720630 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7720630 prov:wasGeneratedBy samian:activity_ac_7720630 .
+samian:activity_ac_7720630 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7720630 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7720630 prov:endedAtTime '2020-12-09T20:53:14.584094Z'^^xsd:dateTime .
+samian:activity_ac_7720630 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7736584 rdf:type lado:Actor .
+samian:ac_7736584 rdfs:label 'EPHITYNC(HANVS)'@en.
+samian:ac_7736584 lado:name 'EPHITYNC(HANVS)'.
+samian:ac_7736584 dc:identifier 7736584.
+samian:ac_7736584 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7736584 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7736584 prov:wasGeneratedBy samian:activity_ac_7736584 .
+samian:activity_ac_7736584 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7736584 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7736584 prov:endedAtTime '2020-12-09T20:53:14.585090Z'^^xsd:dateTime .
+samian:activity_ac_7736584 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7743496 rdf:type lado:Actor .
+samian:ac_7743496 rdfs:label 'CELER'@en.
+samian:ac_7743496 lado:name 'CELER'.
+samian:ac_7743496 dc:identifier 7743496.
+samian:ac_7743496 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7743496 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7743496 prov:wasGeneratedBy samian:activity_ac_7743496 .
+samian:activity_ac_7743496 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7743496 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7743496 prov:endedAtTime '2020-12-09T20:53:14.585090Z'^^xsd:dateTime .
+samian:activity_ac_7743496 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7753136 rdf:type lado:Actor .
+samian:ac_7753136 rdfs:label 'CHRYSES'@en.
+samian:ac_7753136 lado:name 'CHRYSES'.
+samian:ac_7753136 dc:identifier 7753136.
+samian:ac_7753136 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7753136 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7753136 prov:wasGeneratedBy samian:activity_ac_7753136 .
+samian:activity_ac_7753136 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7753136 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7753136 prov:endedAtTime '2020-12-09T20:53:14.586088Z'^^xsd:dateTime .
+samian:activity_ac_7753136 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7755981 rdf:type lado:Actor .
+samian:ac_7755981 rdfs:label 'LYSIMACHVS'@en.
+samian:ac_7755981 lado:name 'LYSIMACHVS'.
+samian:ac_7755981 dc:identifier 7755981.
+samian:ac_7755981 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7755981 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7755981 prov:wasGeneratedBy samian:activity_ac_7755981 .
+samian:activity_ac_7755981 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7755981 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7755981 prov:endedAtTime '2020-12-09T20:53:14.586088Z'^^xsd:dateTime .
+samian:activity_ac_7755981 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7756259 rdf:type lado:Actor .
+samian:ac_7756259 rdfs:label 'MENVDORVS'@en.
+samian:ac_7756259 lado:name 'MENVDORVS'.
+samian:ac_7756259 dc:identifier 7756259.
+samian:ac_7756259 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7756259 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7756259 prov:wasGeneratedBy samian:activity_ac_7756259 .
+samian:activity_ac_7756259 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7756259 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7756259 prov:endedAtTime '2020-12-09T20:53:14.586088Z'^^xsd:dateTime .
+samian:activity_ac_7756259 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7762003 rdf:type lado:Actor .
+samian:ac_7762003 rdfs:label 'PHRAST( )'@en.
+samian:ac_7762003 lado:name 'PHRAST( )'.
+samian:ac_7762003 dc:identifier 7762003.
+samian:ac_7762003 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7762003 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7762003 prov:wasGeneratedBy samian:activity_ac_7762003 .
+samian:activity_ac_7762003 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7762003 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7762003 prov:endedAtTime '2020-12-09T20:53:14.587084Z'^^xsd:dateTime .
+samian:activity_ac_7762003 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7763332 rdf:type lado:Actor .
+samian:ac_7763332 rdfs:label 'SCEVNIVS'@en.
+samian:ac_7763332 lado:name 'SCEVNIVS'.
+samian:ac_7763332 dc:identifier 7763332.
+samian:ac_7763332 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7763332 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7763332 prov:wasGeneratedBy samian:activity_ac_7763332 .
+samian:activity_ac_7763332 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7763332 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7763332 prov:endedAtTime '2020-12-09T20:53:14.587084Z'^^xsd:dateTime .
+samian:activity_ac_7763332 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7784954 rdf:type lado:Actor .
+samian:ac_7784954 rdfs:label 'DASIVS'@en.
+samian:ac_7784954 lado:name 'DASIVS'.
+samian:ac_7784954 dc:identifier 7784954.
+samian:ac_7784954 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7784954 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7784954 prov:wasGeneratedBy samian:activity_ac_7784954 .
+samian:activity_ac_7784954 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7784954 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7784954 prov:endedAtTime '2020-12-09T20:53:14.588082Z'^^xsd:dateTime .
+samian:activity_ac_7784954 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7785788 rdf:type lado:Actor .
+samian:ac_7785788 rdfs:label 'GADIA'@en.
+samian:ac_7785788 lado:name 'GADIA'.
+samian:ac_7785788 dc:identifier 7785788.
+samian:ac_7785788 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7785788 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7785788 prov:wasGeneratedBy samian:activity_ac_7785788 .
+samian:activity_ac_7785788 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7785788 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7785788 prov:endedAtTime '2020-12-09T20:53:14.588082Z'^^xsd:dateTime .
+samian:activity_ac_7785788 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7787391 rdf:type lado:Actor .
+samian:ac_7787391 rdfs:label 'A( )'@en.
+samian:ac_7787391 lado:name 'A( )'.
+samian:ac_7787391 dc:identifier 7787391.
+samian:ac_7787391 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7787391 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7787391 prov:wasGeneratedBy samian:activity_ac_7787391 .
+samian:activity_ac_7787391 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7787391 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7787391 prov:endedAtTime '2020-12-09T20:53:14.589080Z'^^xsd:dateTime .
+samian:activity_ac_7787391 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7790600 rdf:type lado:Actor .
+samian:ac_7790600 rdfs:label 'CE'@en.
+samian:ac_7790600 lado:name 'CE'.
+samian:ac_7790600 dc:identifier 7790600.
+samian:ac_7790600 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7790600 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7790600 prov:wasGeneratedBy samian:activity_ac_7790600 .
+samian:activity_ac_7790600 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7790600 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7790600 prov:endedAtTime '2020-12-09T20:53:14.589080Z'^^xsd:dateTime .
+samian:activity_ac_7790600 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7791035 rdf:type lado:Actor .
+samian:ac_7791035 rdfs:label 'DAMA'@en.
+samian:ac_7791035 lado:name 'DAMA'.
+samian:ac_7791035 dc:identifier 7791035.
+samian:ac_7791035 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7791035 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7791035 prov:wasGeneratedBy samian:activity_ac_7791035 .
+samian:activity_ac_7791035 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7791035 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7791035 prov:endedAtTime '2020-12-09T20:53:14.589080Z'^^xsd:dateTime .
+samian:activity_ac_7791035 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7792731 rdf:type lado:Actor .
+samian:ac_7792731 rdfs:label 'OCE(LLA)'@en.
+samian:ac_7792731 lado:name 'OCE(LLA)'.
+samian:ac_7792731 dc:identifier 7792731.
+samian:ac_7792731 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7792731 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7792731 prov:wasGeneratedBy samian:activity_ac_7792731 .
+samian:activity_ac_7792731 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7792731 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7792731 prov:endedAtTime '2020-12-09T20:53:14.589080Z'^^xsd:dateTime .
+samian:activity_ac_7792731 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7797502 rdf:type lado:Actor .
+samian:ac_7797502 rdfs:label 'BELLO'@en.
+samian:ac_7797502 lado:name 'BELLO'.
+samian:ac_7797502 dc:identifier 7797502.
+samian:ac_7797502 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7797502 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7797502 prov:wasGeneratedBy samian:activity_ac_7797502 .
+samian:activity_ac_7797502 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7797502 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7797502 prov:endedAtTime '2020-12-09T20:53:14.589080Z'^^xsd:dateTime .
+samian:activity_ac_7797502 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7797842 rdf:type lado:Actor .
+samian:ac_7797842 rdfs:label 'MELITO'@en.
+samian:ac_7797842 lado:name 'MELITO'.
+samian:ac_7797842 dc:identifier 7797842.
+samian:ac_7797842 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7797842 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7797842 prov:wasGeneratedBy samian:activity_ac_7797842 .
+samian:activity_ac_7797842 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7797842 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7797842 prov:endedAtTime '2020-12-09T20:53:14.590077Z'^^xsd:dateTime .
+samian:activity_ac_7797842 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7798298 rdf:type lado:Actor .
+samian:ac_7798298 rdfs:label 'EPIGO(NVS)'@en.
+samian:ac_7798298 lado:name 'EPIGO(NVS)'.
+samian:ac_7798298 dc:identifier 7798298.
+samian:ac_7798298 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7798298 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7798298 prov:wasGeneratedBy samian:activity_ac_7798298 .
+samian:activity_ac_7798298 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7798298 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7798298 prov:endedAtTime '2020-12-09T20:53:14.590077Z'^^xsd:dateTime .
+samian:activity_ac_7798298 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7798453 rdf:type lado:Actor .
+samian:ac_7798453 rdfs:label 'APTVS'@en.
+samian:ac_7798453 lado:name 'APTVS'.
+samian:ac_7798453 dc:identifier 7798453.
+samian:ac_7798453 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7798453 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7798453 prov:wasGeneratedBy samian:activity_ac_7798453 .
+samian:activity_ac_7798453 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7798453 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7798453 prov:endedAtTime '2020-12-09T20:53:14.590077Z'^^xsd:dateTime .
+samian:activity_ac_7798453 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7808317 rdf:type lado:Actor .
+samian:ac_7808317 rdfs:label 'LYSIMA(CHVS)'@en.
+samian:ac_7808317 lado:name 'LYSIMA(CHVS)'.
+samian:ac_7808317 dc:identifier 7808317.
+samian:ac_7808317 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7808317 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7808317 prov:wasGeneratedBy samian:activity_ac_7808317 .
+samian:activity_ac_7808317 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7808317 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7808317 prov:endedAtTime '2020-12-09T20:53:14.591074Z'^^xsd:dateTime .
+samian:activity_ac_7808317 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7813544 rdf:type lado:Actor .
+samian:ac_7813544 rdfs:label 'CACA( )'@en.
+samian:ac_7813544 lado:name 'CACA( )'.
+samian:ac_7813544 dc:identifier 7813544.
+samian:ac_7813544 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7813544 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7813544 prov:wasGeneratedBy samian:activity_ac_7813544 .
+samian:activity_ac_7813544 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7813544 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7813544 prov:endedAtTime '2020-12-09T20:53:14.591074Z'^^xsd:dateTime .
+samian:activity_ac_7813544 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7819307 rdf:type lado:Actor .
+samian:ac_7819307 rdfs:label 'LYSIM(ACHVS)'@en.
+samian:ac_7819307 lado:name 'LYSIM(ACHVS)'.
+samian:ac_7819307 dc:identifier 7819307.
+samian:ac_7819307 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7819307 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7819307 prov:wasGeneratedBy samian:activity_ac_7819307 .
+samian:activity_ac_7819307 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7819307 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7819307 prov:endedAtTime '2020-12-09T20:53:14.591074Z'^^xsd:dateTime .
+samian:activity_ac_7819307 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7819353 rdf:type lado:Actor .
+samian:ac_7819353 rdfs:label 'PHILEM(O)'@en.
+samian:ac_7819353 lado:name 'PHILEM(O)'.
+samian:ac_7819353 dc:identifier 7819353.
+samian:ac_7819353 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7819353 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7819353 prov:wasGeneratedBy samian:activity_ac_7819353 .
+samian:activity_ac_7819353 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7819353 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7819353 prov:endedAtTime '2020-12-09T20:53:14.592072Z'^^xsd:dateTime .
+samian:activity_ac_7819353 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7821813 rdf:type lado:Actor .
+samian:ac_7821813 rdfs:label 'ALBANVS'@en.
+samian:ac_7821813 lado:name 'ALBANVS'.
+samian:ac_7821813 dc:identifier 7821813.
+samian:ac_7821813 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7821813 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7821813 prov:wasGeneratedBy samian:activity_ac_7821813 .
+samian:activity_ac_7821813 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7821813 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7821813 prov:endedAtTime '2020-12-09T20:53:14.592072Z'^^xsd:dateTime .
+samian:activity_ac_7821813 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7823103 rdf:type lado:Actor .
+samian:ac_7823103 rdfs:label 'DIODORVS STA'@en.
+samian:ac_7823103 lado:name 'DIODORVS STA'.
+samian:ac_7823103 dc:identifier 7823103.
+samian:ac_7823103 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7823103 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7823103 prov:wasGeneratedBy samian:activity_ac_7823103 .
+samian:activity_ac_7823103 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7823103 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7823103 prov:endedAtTime '2020-12-09T20:53:14.593069Z'^^xsd:dateTime .
+samian:activity_ac_7823103 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7827776 rdf:type lado:Actor .
+samian:ac_7827776 rdfs:label 'PHILO( )'@en.
+samian:ac_7827776 lado:name 'PHILO( )'.
+samian:ac_7827776 dc:identifier 7827776.
+samian:ac_7827776 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7827776 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7827776 prov:wasGeneratedBy samian:activity_ac_7827776 .
+samian:activity_ac_7827776 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7827776 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7827776 prov:endedAtTime '2020-12-09T20:53:14.593069Z'^^xsd:dateTime .
+samian:activity_ac_7827776 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7828207 rdf:type lado:Actor .
+samian:ac_7828207 rdfs:label 'ARCI( )'@en.
+samian:ac_7828207 lado:name 'ARCI( )'.
+samian:ac_7828207 dc:identifier 7828207.
+samian:ac_7828207 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7828207 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7828207 prov:wasGeneratedBy samian:activity_ac_7828207 .
+samian:activity_ac_7828207 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7828207 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7828207 prov:endedAtTime '2020-12-09T20:53:14.593069Z'^^xsd:dateTime .
+samian:activity_ac_7828207 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7829805 rdf:type lado:Actor .
+samian:ac_7829805 rdfs:label 'PHILOMVSVS'@en.
+samian:ac_7829805 lado:name 'PHILOMVSVS'.
+samian:ac_7829805 dc:identifier 7829805.
+samian:ac_7829805 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7829805 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7829805 prov:wasGeneratedBy samian:activity_ac_7829805 .
+samian:activity_ac_7829805 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7829805 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7829805 prov:endedAtTime '2020-12-09T20:53:14.594067Z'^^xsd:dateTime .
+samian:activity_ac_7829805 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7832618 rdf:type lado:Actor .
+samian:ac_7832618 rdfs:label 'MARIVS'@en.
+samian:ac_7832618 lado:name 'MARIVS'.
+samian:ac_7832618 dc:identifier 7832618.
+samian:ac_7832618 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7832618 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7832618 prov:wasGeneratedBy samian:activity_ac_7832618 .
+samian:activity_ac_7832618 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7832618 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7832618 prov:endedAtTime '2020-12-09T20:53:14.594067Z'^^xsd:dateTime .
+samian:activity_ac_7832618 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7837122 rdf:type lado:Actor .
+samian:ac_7837122 rdfs:label 'APHRODISIVS'@en.
+samian:ac_7837122 lado:name 'APHRODISIVS'.
+samian:ac_7837122 dc:identifier 7837122.
+samian:ac_7837122 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7837122 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7837122 prov:wasGeneratedBy samian:activity_ac_7837122 .
+samian:activity_ac_7837122 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7837122 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7837122 prov:endedAtTime '2020-12-09T20:53:14.594067Z'^^xsd:dateTime .
+samian:activity_ac_7837122 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7838441 rdf:type lado:Actor .
+samian:ac_7838441 rdfs:label 'SEVERVS'@en.
+samian:ac_7838441 lado:name 'SEVERVS'.
+samian:ac_7838441 dc:identifier 7838441.
+samian:ac_7838441 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7838441 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7838441 prov:wasGeneratedBy samian:activity_ac_7838441 .
+samian:activity_ac_7838441 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7838441 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7838441 prov:endedAtTime '2020-12-09T20:53:14.594067Z'^^xsd:dateTime .
+samian:activity_ac_7838441 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7842141 rdf:type lado:Actor .
+samian:ac_7842141 rdfs:label 'NICO( )?'@en.
+samian:ac_7842141 lado:name 'NICO( )?'.
+samian:ac_7842141 dc:identifier 7842141.
+samian:ac_7842141 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7842141 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7842141 prov:wasGeneratedBy samian:activity_ac_7842141 .
+samian:activity_ac_7842141 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7842141 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7842141 prov:endedAtTime '2020-12-09T20:53:14.595063Z'^^xsd:dateTime .
+samian:activity_ac_7842141 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7848135 rdf:type lado:Actor .
+samian:ac_7848135 rdfs:label 'APOLONIVS'@en.
+samian:ac_7848135 lado:name 'APOLONIVS'.
+samian:ac_7848135 dc:identifier 7848135.
+samian:ac_7848135 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7848135 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7848135 prov:wasGeneratedBy samian:activity_ac_7848135 .
+samian:activity_ac_7848135 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7848135 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7848135 prov:endedAtTime '2020-12-09T20:53:14.595063Z'^^xsd:dateTime .
+samian:activity_ac_7848135 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7851004 rdf:type lado:Actor .
+samian:ac_7851004 rdfs:label 'FRONTO'@en.
+samian:ac_7851004 lado:name 'FRONTO'.
+samian:ac_7851004 dc:identifier 7851004.
+samian:ac_7851004 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7851004 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7851004 prov:wasGeneratedBy samian:activity_ac_7851004 .
+samian:activity_ac_7851004 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7851004 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7851004 prov:endedAtTime '2020-12-09T20:53:14.595063Z'^^xsd:dateTime .
+samian:activity_ac_7851004 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7851445 rdf:type lado:Actor .
+samian:ac_7851445 rdfs:label 'AG( )'@en.
+samian:ac_7851445 lado:name 'AG( )'.
+samian:ac_7851445 dc:identifier 7851445.
+samian:ac_7851445 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7851445 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7851445 prov:wasGeneratedBy samian:activity_ac_7851445 .
+samian:activity_ac_7851445 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7851445 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7851445 prov:endedAtTime '2020-12-09T20:53:14.596062Z'^^xsd:dateTime .
+samian:activity_ac_7851445 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7852688 rdf:type lado:Actor .
+samian:ac_7852688 rdfs:label 'NYMPHOD(OTVS)'@en.
+samian:ac_7852688 lado:name 'NYMPHOD(OTVS)'.
+samian:ac_7852688 dc:identifier 7852688.
+samian:ac_7852688 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7852688 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7852688 prov:wasGeneratedBy samian:activity_ac_7852688 .
+samian:activity_ac_7852688 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7852688 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7852688 prov:endedAtTime '2020-12-09T20:53:14.596062Z'^^xsd:dateTime .
+samian:activity_ac_7852688 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7859591 rdf:type lado:Actor .
+samian:ac_7859591 rdfs:label 'EPA(PHRA)'@en.
+samian:ac_7859591 lado:name 'EPA(PHRA)'.
+samian:ac_7859591 dc:identifier 7859591.
+samian:ac_7859591 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7859591 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7859591 prov:wasGeneratedBy samian:activity_ac_7859591 .
+samian:activity_ac_7859591 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7859591 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7859591 prov:endedAtTime '2020-12-09T20:53:14.596062Z'^^xsd:dateTime .
+samian:activity_ac_7859591 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7863138 rdf:type lado:Actor .
+samian:ac_7863138 rdfs:label 'EPAP(HR)A'@en.
+samian:ac_7863138 lado:name 'EPAP(HR)A'.
+samian:ac_7863138 dc:identifier 7863138.
+samian:ac_7863138 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7863138 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7863138 prov:wasGeneratedBy samian:activity_ac_7863138 .
+samian:activity_ac_7863138 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7863138 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7863138 prov:endedAtTime '2020-12-09T20:53:14.597062Z'^^xsd:dateTime .
+samian:activity_ac_7863138 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7869139 rdf:type lado:Actor .
+samian:ac_7869139 rdfs:label 'CHRES( )'@en.
+samian:ac_7869139 lado:name 'CHRES( )'.
+samian:ac_7869139 dc:identifier 7869139.
+samian:ac_7869139 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7869139 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7869139 prov:wasGeneratedBy samian:activity_ac_7869139 .
+samian:activity_ac_7869139 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7869139 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7869139 prov:endedAtTime '2020-12-09T20:53:14.597062Z'^^xsd:dateTime .
+samian:activity_ac_7869139 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7870838 rdf:type lado:Actor .
+samian:ac_7870838 rdfs:label 'GORGIAS'@en.
+samian:ac_7870838 lado:name 'GORGIAS'.
+samian:ac_7870838 dc:identifier 7870838.
+samian:ac_7870838 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7870838 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7870838 prov:wasGeneratedBy samian:activity_ac_7870838 .
+samian:activity_ac_7870838 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7870838 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7870838 prov:endedAtTime '2020-12-09T20:53:14.597062Z'^^xsd:dateTime .
+samian:activity_ac_7870838 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7871488 rdf:type lado:Actor .
+samian:ac_7871488 rdfs:label 'ASPASTVS'@en.
+samian:ac_7871488 lado:name 'ASPASTVS'.
+samian:ac_7871488 dc:identifier 7871488.
+samian:ac_7871488 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7871488 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7871488 prov:wasGeneratedBy samian:activity_ac_7871488 .
+samian:activity_ac_7871488 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7871488 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7871488 prov:endedAtTime '2020-12-09T20:53:14.597062Z'^^xsd:dateTime .
+samian:activity_ac_7871488 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7871777 rdf:type lado:Actor .
+samian:ac_7871777 rdfs:label 'PHILOTA'@en.
+samian:ac_7871777 lado:name 'PHILOTA'.
+samian:ac_7871777 dc:identifier 7871777.
+samian:ac_7871777 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7871777 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7871777 prov:wasGeneratedBy samian:activity_ac_7871777 .
+samian:activity_ac_7871777 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7871777 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7871777 prov:endedAtTime '2020-12-09T20:53:14.597062Z'^^xsd:dateTime .
+samian:activity_ac_7871777 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7873295 rdf:type lado:Actor .
+samian:ac_7873295 rdfs:label 'PHILARG(VRVS)?'@en.
+samian:ac_7873295 lado:name 'PHILARG(VRVS)?'.
+samian:ac_7873295 dc:identifier 7873295.
+samian:ac_7873295 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7873295 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7873295 prov:wasGeneratedBy samian:activity_ac_7873295 .
+samian:activity_ac_7873295 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7873295 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7873295 prov:endedAtTime '2020-12-09T20:53:14.597062Z'^^xsd:dateTime .
+samian:activity_ac_7873295 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7881137 rdf:type lado:Actor .
+samian:ac_7881137 rdfs:label 'TROPHIMVS'@en.
+samian:ac_7881137 lado:name 'TROPHIMVS'.
+samian:ac_7881137 dc:identifier 7881137.
+samian:ac_7881137 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7881137 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7881137 prov:wasGeneratedBy samian:activity_ac_7881137 .
+samian:activity_ac_7881137 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7881137 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7881137 prov:endedAtTime '2020-12-09T20:53:14.598057Z'^^xsd:dateTime .
+samian:activity_ac_7881137 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7892698 rdf:type lado:Actor .
+samian:ac_7892698 rdfs:label 'PHILA( )'@en.
+samian:ac_7892698 lado:name 'PHILA( )'.
+samian:ac_7892698 dc:identifier 7892698.
+samian:ac_7892698 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7892698 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7892698 prov:wasGeneratedBy samian:activity_ac_7892698 .
+samian:activity_ac_7892698 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7892698 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7892698 prov:endedAtTime '2020-12-09T20:53:14.598057Z'^^xsd:dateTime .
+samian:activity_ac_7892698 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7897210 rdf:type lado:Actor .
+samian:ac_7897210 rdfs:label 'ACASTVS'@en.
+samian:ac_7897210 lado:name 'ACASTVS'.
+samian:ac_7897210 dc:identifier 7897210.
+samian:ac_7897210 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7897210 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7897210 prov:wasGeneratedBy samian:activity_ac_7897210 .
+samian:activity_ac_7897210 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7897210 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7897210 prov:endedAtTime '2020-12-09T20:53:14.598057Z'^^xsd:dateTime .
+samian:activity_ac_7897210 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7897252 rdf:type lado:Actor .
+samian:ac_7897252 rdfs:label 'PRIM( )'@en.
+samian:ac_7897252 lado:name 'PRIM( )'.
+samian:ac_7897252 dc:identifier 7897252.
+samian:ac_7897252 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7897252 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7897252 prov:wasGeneratedBy samian:activity_ac_7897252 .
+samian:activity_ac_7897252 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7897252 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7897252 prov:endedAtTime '2020-12-09T20:53:14.598057Z'^^xsd:dateTime .
+samian:activity_ac_7897252 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7897726 rdf:type lado:Actor .
+samian:ac_7897726 rdfs:label 'EPIGONVS'@en.
+samian:ac_7897726 lado:name 'EPIGONVS'.
+samian:ac_7897726 dc:identifier 7897726.
+samian:ac_7897726 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7897726 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7897726 prov:wasGeneratedBy samian:activity_ac_7897726 .
+samian:activity_ac_7897726 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7897726 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7897726 prov:endedAtTime '2020-12-09T20:53:14.599052Z'^^xsd:dateTime .
+samian:activity_ac_7897726 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7900124 rdf:type lado:Actor .
+samian:ac_7900124 rdfs:label 'OCELLA'@en.
+samian:ac_7900124 lado:name 'OCELLA'.
+samian:ac_7900124 dc:identifier 7900124.
+samian:ac_7900124 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7900124 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7900124 prov:wasGeneratedBy samian:activity_ac_7900124 .
+samian:activity_ac_7900124 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7900124 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7900124 prov:endedAtTime '2020-12-09T20:53:14.599052Z'^^xsd:dateTime .
+samian:activity_ac_7900124 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7903112 rdf:type lado:Actor .
+samian:ac_7903112 rdfs:label 'PHILEROS'@en.
+samian:ac_7903112 lado:name 'PHILEROS'.
+samian:ac_7903112 dc:identifier 7903112.
+samian:ac_7903112 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7903112 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7903112 prov:wasGeneratedBy samian:activity_ac_7903112 .
+samian:activity_ac_7903112 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7903112 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7903112 prov:endedAtTime '2020-12-09T20:53:14.599052Z'^^xsd:dateTime .
+samian:activity_ac_7903112 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7905343 rdf:type lado:Actor .
+samian:ac_7905343 rdfs:label 'STABILIO'@en.
+samian:ac_7905343 lado:name 'STABILIO'.
+samian:ac_7905343 dc:identifier 7905343.
+samian:ac_7905343 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7905343 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7905343 prov:wasGeneratedBy samian:activity_ac_7905343 .
+samian:activity_ac_7905343 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7905343 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7905343 prov:endedAtTime '2020-12-09T20:53:14.600049Z'^^xsd:dateTime .
+samian:activity_ac_7905343 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7913357 rdf:type lado:Actor .
+samian:ac_7913357 rdfs:label 'CHRESIMVS'@en.
+samian:ac_7913357 lado:name 'CHRESIMVS'.
+samian:ac_7913357 dc:identifier 7913357.
+samian:ac_7913357 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7913357 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7913357 prov:wasGeneratedBy samian:activity_ac_7913357 .
+samian:activity_ac_7913357 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7913357 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7913357 prov:endedAtTime '2020-12-09T20:53:14.600049Z'^^xsd:dateTime .
+samian:activity_ac_7913357 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7915141 rdf:type lado:Actor .
+samian:ac_7915141 rdfs:label 'CHRYSANTHVS'@en.
+samian:ac_7915141 lado:name 'CHRYSANTHVS'.
+samian:ac_7915141 dc:identifier 7915141.
+samian:ac_7915141 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7915141 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7915141 prov:wasGeneratedBy samian:activity_ac_7915141 .
+samian:activity_ac_7915141 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7915141 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7915141 prov:endedAtTime '2020-12-09T20:53:14.600049Z'^^xsd:dateTime .
+samian:activity_ac_7915141 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7916475 rdf:type lado:Actor .
+samian:ac_7916475 rdfs:label 'CORNELIVS'@en.
+samian:ac_7916475 lado:name 'CORNELIVS'.
+samian:ac_7916475 dc:identifier 7916475.
+samian:ac_7916475 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7916475 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7916475 prov:wasGeneratedBy samian:activity_ac_7916475 .
+samian:activity_ac_7916475 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7916475 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7916475 prov:endedAtTime '2020-12-09T20:53:14.601047Z'^^xsd:dateTime .
+samian:activity_ac_7916475 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7921211 rdf:type lado:Actor .
+samian:ac_7921211 rdfs:label 'ARCHEBVS'@en.
+samian:ac_7921211 lado:name 'ARCHEBVS'.
+samian:ac_7921211 dc:identifier 7921211.
+samian:ac_7921211 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7921211 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7921211 prov:wasGeneratedBy samian:activity_ac_7921211 .
+samian:activity_ac_7921211 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7921211 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7921211 prov:endedAtTime '2020-12-09T20:53:14.604040Z'^^xsd:dateTime .
+samian:activity_ac_7921211 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7927118 rdf:type lado:Actor .
+samian:ac_7927118 rdfs:label 'TRITVS'@en.
+samian:ac_7927118 lado:name 'TRITVS'.
+samian:ac_7927118 dc:identifier 7927118.
+samian:ac_7927118 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7927118 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7927118 prov:wasGeneratedBy samian:activity_ac_7927118 .
+samian:activity_ac_7927118 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7927118 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7927118 prov:endedAtTime '2020-12-09T20:53:14.605037Z'^^xsd:dateTime .
+samian:activity_ac_7927118 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7927581 rdf:type lado:Actor .
+samian:ac_7927581 rdfs:label 'CHRYS( )'@en.
+samian:ac_7927581 lado:name 'CHRYS( )'.
+samian:ac_7927581 dc:identifier 7927581.
+samian:ac_7927581 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7927581 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7927581 prov:wasGeneratedBy samian:activity_ac_7927581 .
+samian:activity_ac_7927581 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7927581 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7927581 prov:endedAtTime '2020-12-09T20:53:14.605037Z'^^xsd:dateTime .
+samian:activity_ac_7927581 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7928942 rdf:type lado:Actor .
+samian:ac_7928942 rdfs:label 'LAETVS'@en.
+samian:ac_7928942 lado:name 'LAETVS'.
+samian:ac_7928942 dc:identifier 7928942.
+samian:ac_7928942 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7928942 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7928942 prov:wasGeneratedBy samian:activity_ac_7928942 .
+samian:activity_ac_7928942 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7928942 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7928942 prov:endedAtTime '2020-12-09T20:53:14.605037Z'^^xsd:dateTime .
+samian:activity_ac_7928942 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7935383 rdf:type lado:Actor .
+samian:ac_7935383 rdfs:label 'SATVR(NINVS)'@en.
+samian:ac_7935383 lado:name 'SATVR(NINVS)'.
+samian:ac_7935383 dc:identifier 7935383.
+samian:ac_7935383 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7935383 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7935383 prov:wasGeneratedBy samian:activity_ac_7935383 .
+samian:activity_ac_7935383 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7935383 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7935383 prov:endedAtTime '2020-12-09T20:53:14.606033Z'^^xsd:dateTime .
+samian:activity_ac_7935383 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7935538 rdf:type lado:Actor .
+samian:ac_7935538 rdfs:label 'POTVS'@en.
+samian:ac_7935538 lado:name 'POTVS'.
+samian:ac_7935538 dc:identifier 7935538.
+samian:ac_7935538 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7935538 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7935538 prov:wasGeneratedBy samian:activity_ac_7935538 .
+samian:activity_ac_7935538 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7935538 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7935538 prov:endedAtTime '2020-12-09T20:53:14.607031Z'^^xsd:dateTime .
+samian:activity_ac_7935538 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7949428 rdf:type lado:Actor .
+samian:ac_7949428 rdfs:label 'BLANDVS?'@en.
+samian:ac_7949428 lado:name 'BLANDVS?'.
+samian:ac_7949428 dc:identifier 7949428.
+samian:ac_7949428 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7949428 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7949428 prov:wasGeneratedBy samian:activity_ac_7949428 .
+samian:activity_ac_7949428 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7949428 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7949428 prov:endedAtTime '2020-12-09T20:53:14.607031Z'^^xsd:dateTime .
+samian:activity_ac_7949428 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7956456 rdf:type lado:Actor .
+samian:ac_7956456 rdfs:label 'CISSVS'@en.
+samian:ac_7956456 lado:name 'CISSVS'.
+samian:ac_7956456 dc:identifier 7956456.
+samian:ac_7956456 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7956456 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7956456 prov:wasGeneratedBy samian:activity_ac_7956456 .
+samian:activity_ac_7956456 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7956456 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7956456 prov:endedAtTime '2020-12-09T20:53:14.607031Z'^^xsd:dateTime .
+samian:activity_ac_7956456 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7961010 rdf:type lado:Actor .
+samian:ac_7961010 rdfs:label 'ATTIS'@en.
+samian:ac_7961010 lado:name 'ATTIS'.
+samian:ac_7961010 dc:identifier 7961010.
+samian:ac_7961010 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7961010 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7961010 prov:wasGeneratedBy samian:activity_ac_7961010 .
+samian:activity_ac_7961010 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7961010 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7961010 prov:endedAtTime '2020-12-09T20:53:14.608030Z'^^xsd:dateTime .
+samian:activity_ac_7961010 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7966701 rdf:type lado:Actor .
+samian:ac_7966701 rdfs:label 'CHRY( )'@en.
+samian:ac_7966701 lado:name 'CHRY( )'.
+samian:ac_7966701 dc:identifier 7966701.
+samian:ac_7966701 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7966701 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7966701 prov:wasGeneratedBy samian:activity_ac_7966701 .
+samian:activity_ac_7966701 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7966701 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7966701 prov:endedAtTime '2020-12-09T20:53:14.608030Z'^^xsd:dateTime .
+samian:activity_ac_7966701 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7967154 rdf:type lado:Actor .
+samian:ac_7967154 rdfs:label 'OPT(ATVS?)'@en.
+samian:ac_7967154 lado:name 'OPT(ATVS?)'.
+samian:ac_7967154 dc:identifier 7967154.
+samian:ac_7967154 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7967154 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7967154 prov:wasGeneratedBy samian:activity_ac_7967154 .
+samian:activity_ac_7967154 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7967154 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7967154 prov:endedAtTime '2020-12-09T20:53:14.609026Z'^^xsd:dateTime .
+samian:activity_ac_7967154 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7967308 rdf:type lado:Actor .
+samian:ac_7967308 rdfs:label 'PHILARG(VRVS)'@en.
+samian:ac_7967308 lado:name 'PHILARG(VRVS)'.
+samian:ac_7967308 dc:identifier 7967308.
+samian:ac_7967308 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7967308 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7967308 prov:wasGeneratedBy samian:activity_ac_7967308 .
+samian:activity_ac_7967308 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7967308 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7967308 prov:endedAtTime '2020-12-09T20:53:14.609026Z'^^xsd:dateTime .
+samian:activity_ac_7967308 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7968183 rdf:type lado:Actor .
+samian:ac_7968183 rdfs:label 'FIDVS'@en.
+samian:ac_7968183 lado:name 'FIDVS'.
+samian:ac_7968183 dc:identifier 7968183.
+samian:ac_7968183 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7968183 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7968183 prov:wasGeneratedBy samian:activity_ac_7968183 .
+samian:activity_ac_7968183 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7968183 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7968183 prov:endedAtTime '2020-12-09T20:53:14.609026Z'^^xsd:dateTime .
+samian:activity_ac_7968183 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7968405 rdf:type lado:Actor .
+samian:ac_7968405 rdfs:label 'L. PLO(TIVS) (ZOS..)'@en.
+samian:ac_7968405 lado:name 'L. PLO(TIVS) (ZOS..)'.
+samian:ac_7968405 dc:identifier 7968405.
+samian:ac_7968405 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7968405 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7968405 prov:wasGeneratedBy samian:activity_ac_7968405 .
+samian:activity_ac_7968405 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7968405 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7968405 prov:endedAtTime '2020-12-09T20:53:14.610024Z'^^xsd:dateTime .
+samian:activity_ac_7968405 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7971215 rdf:type lado:Actor .
+samian:ac_7971215 rdfs:label 'THARSVS'@en.
+samian:ac_7971215 lado:name 'THARSVS'.
+samian:ac_7971215 dc:identifier 7971215.
+samian:ac_7971215 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7971215 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7971215 prov:wasGeneratedBy samian:activity_ac_7971215 .
+samian:activity_ac_7971215 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7971215 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7971215 prov:endedAtTime '2020-12-09T20:53:14.610024Z'^^xsd:dateTime .
+samian:activity_ac_7971215 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7972754 rdf:type lado:Actor .
+samian:ac_7972754 rdfs:label 'SEC( )'@en.
+samian:ac_7972754 lado:name 'SEC( )'.
+samian:ac_7972754 dc:identifier 7972754.
+samian:ac_7972754 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7972754 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7972754 prov:wasGeneratedBy samian:activity_ac_7972754 .
+samian:activity_ac_7972754 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7972754 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7972754 prov:endedAtTime '2020-12-09T20:53:14.611021Z'^^xsd:dateTime .
+samian:activity_ac_7972754 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7976028 rdf:type lado:Actor .
+samian:ac_7976028 rdfs:label 'SPECVLATOR'@en.
+samian:ac_7976028 lado:name 'SPECVLATOR'.
+samian:ac_7976028 dc:identifier 7976028.
+samian:ac_7976028 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7976028 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7976028 prov:wasGeneratedBy samian:activity_ac_7976028 .
+samian:activity_ac_7976028 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7976028 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7976028 prov:endedAtTime '2020-12-09T20:53:14.612019Z'^^xsd:dateTime .
+samian:activity_ac_7976028 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7978012 rdf:type lado:Actor .
+samian:ac_7978012 rdfs:label 'PHASIS'@en.
+samian:ac_7978012 lado:name 'PHASIS'.
+samian:ac_7978012 dc:identifier 7978012.
+samian:ac_7978012 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7978012 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7978012 prov:wasGeneratedBy samian:activity_ac_7978012 .
+samian:activity_ac_7978012 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7978012 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7978012 prov:endedAtTime '2020-12-09T20:53:14.613341Z'^^xsd:dateTime .
+samian:activity_ac_7978012 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7983549 rdf:type lado:Actor .
+samian:ac_7983549 rdfs:label 'RIVVS'@en.
+samian:ac_7983549 lado:name 'RIVVS'.
+samian:ac_7983549 dc:identifier 7983549.
+samian:ac_7983549 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7983549 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7983549 prov:wasGeneratedBy samian:activity_ac_7983549 .
+samian:activity_ac_7983549 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7983549 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7983549 prov:endedAtTime '2020-12-09T20:53:14.614013Z'^^xsd:dateTime .
+samian:activity_ac_7983549 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7993990 rdf:type lado:Actor .
+samian:ac_7993990 rdfs:label 'CREVSIS'@en.
+samian:ac_7993990 lado:name 'CREVSIS'.
+samian:ac_7993990 dc:identifier 7993990.
+samian:ac_7993990 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7993990 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7993990 prov:wasGeneratedBy samian:activity_ac_7993990 .
+samian:activity_ac_7993990 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7993990 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7993990 prov:endedAtTime '2020-12-09T20:53:14.615009Z'^^xsd:dateTime .
+samian:activity_ac_7993990 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7994107 rdf:type lado:Actor .
+samian:ac_7994107 rdfs:label 'PHILOM(VSVS)'@en.
+samian:ac_7994107 lado:name 'PHILOM(VSVS)'.
+samian:ac_7994107 dc:identifier 7994107.
+samian:ac_7994107 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7994107 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7994107 prov:wasGeneratedBy samian:activity_ac_7994107 .
+samian:activity_ac_7994107 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7994107 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7994107 prov:endedAtTime '2020-12-09T20:53:14.616008Z'^^xsd:dateTime .
+samian:activity_ac_7994107 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ac_7998442 rdf:type lado:Actor .
+samian:ac_7998442 rdfs:label 'PROTVS'@en.
+samian:ac_7998442 lado:name 'PROTVS'.
+samian:ac_7998442 dc:identifier 7998442.
+samian:ac_7998442 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ac_7998442 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ac_7998442 prov:wasGeneratedBy samian:activity_ac_7998442 .
+samian:activity_ac_7998442 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ac_7998442 prov:startedAtTime '2020-12-09T20:53:07.276410Z'^^xsd:dateTime .
+samian:activity_ac_7998442 prov:endedAtTime '2020-12-09T20:53:14.616008Z'^^xsd:dateTime .
+samian:activity_ac_7998442 prov:wasAssociatedWith samian:ImportPythonScript_Samian .

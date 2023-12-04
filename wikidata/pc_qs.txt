@@ -1,0 +1,927 @@
+CREATE
+LAST	Len	"La Graufesenque (Samian Ware Productioncentre)"
+LAST	Den	"La Graufesenque as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@44.100000/3.083333	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000001"	S248	Q90412636
+CREATE
+LAST	Len	"Banassac (Samian Ware Productioncentre)"
+LAST	Den	"Banassac as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@44.433333/3.200000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000002"	S248	Q90412636
+CREATE
+LAST	Len	"Le Rozier (Samian Ware Productioncentre)"
+LAST	Den	"Le Rozier as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@44.183330/3.216667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000003"	S248	Q90412636
+CREATE
+LAST	Len	"Carrade (Samian Ware Productioncentre)"
+LAST	Den	"Carrade as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@44.466670/1.666667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000004"	S248	Q90412636
+CREATE
+LAST	Len	"Crambade (Samian Ware Productioncentre)"
+LAST	Den	"Crambade as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@43.865000/1.900000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000005"	S248	Q90412636
+CREATE
+LAST	Len	"Espalion (Samian Ware Productioncentre)"
+LAST	Den	"Espalion as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@44.516667/2.766667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000006"	S248	Q90412636
+CREATE
+LAST	Len	"Jonquières, Saint Saturnin (Samian Ware Productioncentre)"
+LAST	Den	"Jonquières, Saint Saturnin as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@43.683333/3.466667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000007"	S248	Q90412636
+CREATE
+LAST	Len	"Aspiran (Samian Ware Productioncentre)"
+LAST	Den	"Aspiran as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@43.566667/3.433333	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000008"	S248	Q90412636
+CREATE
+LAST	Len	"Narbonne (Samian Ware Productioncentre)"
+LAST	Den	"Narbonne as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@43.183333/3.000000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000009"	S248	Q90412636
+CREATE
+LAST	Len	"Bram (Samian Ware Productioncentre)"
+LAST	Den	"Bram as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@43.250000/2.116667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000010"	S248	Q90412636
+CREATE
+LAST	Len	"Montans (Samian Ware Productioncentre)"
+LAST	Den	"Montans as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@43.866667/1.900000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000011"	S248	Q90412636
+CREATE
+LAST	Len	"Saint-Sauveur (Samian Ware Productioncentre)"
+LAST	Den	"Saint-Sauveur as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@43.900000/1.916667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000012"	S248	Q90412636
+CREATE
+LAST	Len	"Valéry (Samian Ware Productioncentre)"
+LAST	Den	"Valéry as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@43.783333/1.966667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000013"	S248	Q90412636
+CREATE
+LAST	Len	"Cournon (Samian Ware Productioncentre)"
+LAST	Den	"Cournon as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@45.750000/3.216667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000014"	S248	Q90412636
+CREATE
+LAST	Len	"Gueugnon (Samian Ware Productioncentre)"
+LAST	Den	"Gueugnon as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@46.600000/4.066667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000015"	S248	Q90412636
+CREATE
+LAST	Len	"Lezoux (Samian Ware Productioncentre)"
+LAST	Den	"Lezoux as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@45.833333/3.383333	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000016"	S248	Q90412636
+CREATE
+LAST	Len	"Lubié (Samian Ware Productioncentre)"
+LAST	Den	"Lubié as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@46.250000/3.633333	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000017"	S248	Q90412636
+CREATE
+LAST	Len	"Martres-de-Veyre (Samian Ware Productioncentre)"
+LAST	Den	"Martres-de-Veyre as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@45.683333/3.200000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000018"	S248	Q90412636
+CREATE
+LAST	Len	"Mougon (Samian Ware Productioncentre)"
+LAST	Den	"Mougon as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@47.100000/0.466667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000019"	S248	Q90412636
+CREATE
+LAST	Len	"Nouâtre (Samian Ware Productioncentre)"
+LAST	Den	"Nouâtre as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@47.050000/0.550000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000020"	S248	Q90412636
+CREATE
+LAST	Len	"Toulon-sur-Allier (Samian Ware Productioncentre)"
+LAST	Den	"Toulon-sur-Allier as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@46.516667/3.366667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000021"	S248	Q90412636
+CREATE
+LAST	Len	"Vichy, Terre Franche (Samian Ware Productioncentre)"
+LAST	Den	"Vichy, Terre Franche as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@46.116667/3.400000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000022"	S248	Q90412636
+CREATE
+LAST	Len	"Aachen (Samian Ware Productioncentre)"
+LAST	Den	"Aachen as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@50.770833/6.105278	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000023"	S248	Q90412636
+CREATE
+LAST	Len	"Avocourt (Samian Ware Productioncentre)"
+LAST	Den	"Avocourt as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@49.200000/5.150000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000024"	S248	Q90412636
+CREATE
+LAST	Len	"Baden (Samian Ware Productioncentre)"
+LAST	Den	"Baden as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@47.466667/8.300000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000025"	S248	Q90412636
+CREATE
+LAST	Len	"Bern (Samian Ware Productioncentre)"
+LAST	Den	"Bern as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@46.916667/7.466667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000026"	S248	Q90412636
+CREATE
+LAST	Len	"Blickweiler (Samian Ware Productioncentre)"
+LAST	Den	"Blickweiler as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@49.216667/7.250000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000027"	S248	Q90412636
+CREATE
+LAST	Len	"Bliesbruck (Samian Ware Productioncentre)"
+LAST	Den	"Bliesbruck as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@49.116667/7.183333	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000028"	S248	Q90412636
+CREATE
+LAST	Len	"Boucheporn (Samian Ware Productioncentre)"
+LAST	Den	"Boucheporn as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@49.150000/6.600000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000029"	S248	Q90412636
+CREATE
+LAST	Len	"Chémery-Faulquemont (Samian Ware Productioncentre)"
+LAST	Den	"Chémery-Faulquemont as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@49.150000/6.508330	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000030"	S248	Q90412636
+CREATE
+LAST	Len	"Eincheville (Samian Ware Productioncentre)"
+LAST	Den	"Eincheville as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@48.983333/6.600000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000031"	S248	Q90412636
+CREATE
+LAST	Len	"Eschweilerhof (Samian Ware Productioncentre)"
+LAST	Den	"Eschweilerhof as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@49.300000/7.200000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000032"	S248	Q90412636
+CREATE
+LAST	Len	"Haute-Yutz (Samian Ware Productioncentre)"
+LAST	Den	"Haute-Yutz as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@49.350000/6.200000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000033"	S248	Q90412636
+CREATE
+LAST	Len	"Heiligenberg (Samian Ware Productioncentre)"
+LAST	Den	"Heiligenberg as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@48.533333/7.400000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000034"	S248	Q90412636
+CREATE
+LAST	Len	"Horbourg (Samian Ware Productioncentre)"
+LAST	Den	"Horbourg as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@48.083333/7.383333	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000035"	S248	Q90412636
+CREATE
+LAST	Len	"Ittenwiller (Samian Ware Productioncentre)"
+LAST	Den	"Ittenwiller as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@48.383333/7.466667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000036"	S248	Q90412636
+CREATE
+LAST	Len	"Jaulges-Villiers-Vineux (Samian Ware Productioncentre)"
+LAST	Den	"Jaulges-Villiers-Vineux as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@47.966667/3.783333	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000037"	S248	Q90412636
+CREATE
+LAST	Len	"La Madeleine (Samian Ware Productioncentre)"
+LAST	Den	"La Madeleine as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@48.650000/6.250000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000038"	S248	Q90412636
+CREATE
+LAST	Len	"Lavoye (Samian Ware Productioncentre)"
+LAST	Den	"Lavoye as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@49.033300/5.133330	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000039"	S248	Q90412636
+CREATE
+LAST	Len	"Lehen (Samian Ware Productioncentre)"
+LAST	Den	"Lehen as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@48.016667/7.800000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000040"	S248	Q90412636
+CREATE
+LAST	Len	"Le Pont des Rèmes (Samian Ware Productioncentre)"
+LAST	Den	"Le Pont des Rèmes as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@49.133300/4.950000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000041"	S248	Q90412636
+CREATE
+LAST	Len	"Les Allieux (Samian Ware Productioncentre)"
+LAST	Den	"Les Allieux as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@49.200000/5.066670	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000042"	S248	Q90412636
+CREATE
+LAST	Len	"Luxeuil-les-Bains (Samian Ware Productioncentre)"
+LAST	Den	"Luxeuil-les-Bains as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@47.816667/6.383333	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000043"	S248	Q90412636
+CREATE
+LAST	Len	"Mittelbronn (Samian Ware Productioncentre)"
+LAST	Den	"Mittelbronn as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@48.766667/7.216667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000044"	S248	Q90412636
+CREATE
+LAST	Len	"Nürtingen (Samian Ware Productioncentre)"
+LAST	Den	"Nürtingen as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@48.633333/9.350000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000045"	S248	Q90412636
+CREATE
+LAST	Len	"Offemont (Samian Ware Productioncentre)"
+LAST	Den	"Offemont as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@47.666667/6.883333	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000046"	S248	Q90412636
+CREATE
+LAST	Len	"Rheinzabern (Samian Ware Productioncentre)"
+LAST	Den	"Rheinzabern as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@49.118056/8.278056	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000047"	S248	Q90412636
+CREATE
+LAST	Len	"Sinzig (Samian Ware Productioncentre)"
+LAST	Den	"Sinzig as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@50.550000/7.250000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000048"	S248	Q90412636
+CREATE
+LAST	Len	"Trier (Samian Ware Productioncentre)"
+LAST	Den	"Trier as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@49.750000/6.633333	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000049"	S248	Q90412636
+CREATE
+LAST	Len	"Schwabegg (Samian Ware Productioncentre)"
+LAST	Den	"Schwabegg as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@48.183333/10.683333	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000050"	S248	Q90412636
+CREATE
+LAST	Len	"Kräherwald (Samian Ware Productioncentre)"
+LAST	Den	"Kräherwald as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@48.766667/9.183333	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000051"	S248	Q90412636
+CREATE
+LAST	Len	"Waiblingen (Samian Ware Productioncentre)"
+LAST	Den	"Waiblingen as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@48.833333/9.300000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000052"	S248	Q90412636
+CREATE
+LAST	Len	"Pfaffenhofen (Samian Ware Productioncentre)"
+LAST	Den	"Pfaffenhofen as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@47.900000/12.133333	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000053"	S248	Q90412636
+CREATE
+LAST	Len	"Westerndorf (Samian Ware Productioncentre)"
+LAST	Den	"Westerndorf as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@47.883333/12.116667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000054"	S248	Q90412636
+CREATE
+LAST	Len	"Colchester (Samian Ware Productioncentre)"
+LAST	Den	"Colchester as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@51.883333/0.900000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000055"	S248	Q90412636
+CREATE
+LAST	Len	"Pulborough (Samian Ware Productioncentre)"
+LAST	Den	"Pulborough as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@50.950000/-0.516667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000056"	S248	Q90412636
+CREATE
+LAST	Len	"Abella (Samian Ware Productioncentre)"
+LAST	Den	"Abella as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.316700/2.316670	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000057"	S248	Q90412636
+CREATE
+LAST	Len	"Andújar (Samian Ware Productioncentre)"
+LAST	Den	"Andújar as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@38.049999/-4.066670	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000058"	S248	Q90412636
+CREATE
+LAST	Len	"Arenzana de Abajo (Samian Ware Productioncentre)"
+LAST	Den	"Arenzana de Abajo as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.383301/-2.716670	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000059"	S248	Q90412636
+CREATE
+LAST	Len	"Arenzana de Arriba (Samian Ware Productioncentre)"
+LAST	Den	"Arenzana de Arriba as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.383301/-2.683330	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000060"	S248	Q90412636
+CREATE
+LAST	Len	"Baños de Río Tobía (Samian Ware Productioncentre)"
+LAST	Den	"Baños de Río Tobía as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.333302/-2.750000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000061"	S248	Q90412636
+CREATE
+LAST	Len	"Bezares (Samian Ware Productioncentre)"
+LAST	Den	"Bezares as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.366699/-2.666670	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000062"	S248	Q90412636
+CREATE
+LAST	Len	"Bobadilla (Samian Ware Productioncentre)"
+LAST	Den	"Bobadilla as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.316700/-2.750000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000063"	S248	Q90412636
+CREATE
+LAST	Len	"Bronchales (Samian Ware Productioncentre)"
+LAST	Den	"Bronchales as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@40.516701/-1.583330	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000064"	S248	Q90412636
+CREATE
+LAST	Len	"Camproviín (Samian Ware Productioncentre)"
+LAST	Den	"Camproviín as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.349999/-2.716670	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000065"	S248	Q90412636
+CREATE
+LAST	Len	"Corella (Samian Ware Productioncentre)"
+LAST	Den	"Corella as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.116699/-1.783330	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000066"	S248	Q90412636
+CREATE
+LAST	Len	"Cornella de Terri (Samian Ware Productioncentre)"
+LAST	Den	"Cornella de Terri as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.083302/2.816670	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000067"	S248	Q90412636
+CREATE
+LAST	Len	"Covarrubias (Samian Ware Productioncentre)"
+LAST	Den	"Covarrubias as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.066700/-3.516670	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000068"	S248	Q90412636
+CREATE
+LAST	Len	"Estollo (Samian Ware Productioncentre)"
+LAST	Den	"Estollo as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.333302/-2.850000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000069"	S248	Q90412636
+CREATE
+LAST	Len	"Granada (Samian Ware Productioncentre)"
+LAST	Den	"Granada as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@37.216702/-3.425000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000070"	S248	Q90412636
+CREATE
+LAST	Len	"La Rioja (Samian Ware Productioncentre)"
+LAST	Den	"La Rioja as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.333302/-2.500000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000071"	S248	Q90412636
+CREATE
+LAST	Len	"Liédena (Samian Ware Productioncentre)"
+LAST	Den	"Liédena as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.616699/-1.266670	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000072"	S248	Q90412636
+CREATE
+LAST	Len	"Manjarrés (Samian Ware Productioncentre)"
+LAST	Den	"Manjarrés as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.383301/-2.666670	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000073"	S248	Q90412636
+CREATE
+LAST	Len	"Málaga (Samian Ware Productioncentre)"
+LAST	Den	"Málaga as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@36.716702/-4.416670	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000074"	S248	Q90412636
+CREATE
+LAST	Len	"Montroig (Samian Ware Productioncentre)"
+LAST	Den	"Montroig as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@41.083302/0.966667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000075"	S248	Q90412636
+CREATE
+LAST	Len	"Pamplona (Samian Ware Productioncentre)"
+LAST	Den	"Pamplona as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.816700/-1.633330	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000076"	S248	Q90412636
+CREATE
+LAST	Len	"Pantoja (Samian Ware Productioncentre)"
+LAST	Den	"Pantoja as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@40.049999/-3.833330	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000077"	S248	Q90412636
+CREATE
+LAST	Len	"Pradejón (Samian Ware Productioncentre)"
+LAST	Den	"Pradejón as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.333301/-2.066670	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000078"	S248	Q90412636
+CREATE
+LAST	Len	"Ruidoms (Samian Ware Productioncentre)"
+LAST	Den	"Ruidoms as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@41.133301/1.050000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000079"	S248	Q90412636
+CREATE
+LAST	Len	"Sabadell (Samian Ware Productioncentre)"
+LAST	Den	"Sabadell as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@41.549999/2.099999	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000080"	S248	Q90412636
+CREATE
+LAST	Len	"Solsona (Samian Ware Productioncentre)"
+LAST	Den	"Solsona as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@41.983299/1.516670	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000081"	S248	Q90412636
+CREATE
+LAST	Len	"Sotés (Samian Ware Productioncentre)"
+LAST	Den	"Sotés as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.390759/-2.605400	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000082"	S248	Q90412636
+CREATE
+LAST	Len	"Talavera de la Reina (Samian Ware Productioncentre)"
+LAST	Den	"Talavera de la Reina as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@39.950001/-4.833330	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000083"	S248	Q90412636
+CREATE
+LAST	Len	"Tiermes (Samian Ware Productioncentre)"
+LAST	Den	"Tiermes as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@41.366669/-3.200000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000084"	S248	Q90412636
+CREATE
+LAST	Len	"Tricio (Samian Ware Productioncentre)"
+LAST	Den	"Tricio as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.400002/-2.716670	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000085"	S248	Q90412636
+CREATE
+LAST	Len	"Ampurias (Samian Ware Productioncentre)"
+LAST	Den	"Ampurias as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.133301/3.116670	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000086"	S248	Q90412636
+CREATE
+LAST	Len	"Arezzo (Samian Ware Productioncentre)"
+LAST	Den	"Arezzo as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@43.464001/11.880000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000087"	S248	Q90412636
+CREATE
+LAST	Len	"Cales (Samian Ware Productioncentre)"
+LAST	Den	"Cales as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@41.071621/14.865240	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000088"	S248	Q90412636
+CREATE
+LAST	Len	"Cincelli (Samian Ware Productioncentre)"
+LAST	Den	"Cincelli as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@43.511700/11.798500	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000089"	S248	Q90412636
+CREATE
+LAST	Len	"Herrera de Pisuerga (Samian Ware Productioncentre)"
+LAST	Den	"Herrera de Pisuerga as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.599999/-4.333330	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000090"	S248	Q90412636
+CREATE
+LAST	Len	"Pisa (Samian Ware Productioncentre)"
+LAST	Den	"Pisa as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@43.716702/10.383300	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000091"	S248	Q90412636
+CREATE
+LAST	Len	"Po Valley (Samian Ware Productioncentre)"
+LAST	Den	"Po Valley as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@45.000000/10.500000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000092"	S248	Q90412636
+CREATE
+LAST	Len	"Ponte a Buriano (Samian Ware Productioncentre)"
+LAST	Den	"Ponte a Buriano as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@43.507000/11.800000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000093"	S248	Q90412636
+CREATE
+LAST	Len	"Pozzuoli (Samian Ware Productioncentre)"
+LAST	Den	"Pozzuoli as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@40.816700/14.116700	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000094"	S248	Q90412636
+CREATE
+LAST	Len	"Scoppieto (Samian Ware Productioncentre)"
+LAST	Den	"Scoppieto as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.716667/12.283333	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000095"	S248	Q90412636
+CREATE
+LAST	Len	"Torrita di Siena (Samian Ware Productioncentre)"
+LAST	Den	"Torrita di Siena as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@43.166668/11.766666	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000096"	S248	Q90412636
+CREATE
+LAST	Len	"Vasanello (Samian Ware Productioncentre)"
+LAST	Den	"Vasanello as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.416699/12.350000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000097"	S248	Q90412636
+CREATE
+LAST	Len	"Venosa (Samian Ware Productioncentre)"
+LAST	Den	"Venosa as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@40.966667/15.816667	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000098"	S248	Q90412636
+CREATE
+LAST	Len	"Micasasa (Samian Ware Productioncentre)"
+LAST	Den	"Micasasa as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@46.086660/24.108056	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000099"	S248	Q90412636
+CREATE
+LAST	Len	"Lyon (Samian Ware Productioncentre)"
+LAST	Den	"Lyon as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@45.760000/4.840000	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000100"	S248	Q90412636
+CREATE
+LAST	Len	"Sagone (Samian Ware Productioncentre)"
+LAST	Den	"Sagone as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@42.112142/8.702547	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000101"	S248	Q90412636
+CREATE
+LAST	Len	"Albi (Samian Ware Productioncentre)"
+LAST	Den	"Albi as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@43.927186/2.149255	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000102"	S248	Q90412636
+CREATE
+LAST	Len	"Rodez (Samian Ware Productioncentre)"
+LAST	Den	"Rodez as Samian Ware production centre"
+LAST	P31	Q102202026	S248	Q90412636
+LAST	P31	Q839954	S248	Q90412636
+LAST	P31	Q380342	S248	Q90412636
+LAST	P361	Q90412636	S854	"https://osf.io/t3dfk/"
+LAST	P625	@44.352370/2.572616	S248	Q90412636
+LAST	P2888	"http://data.archaeology.link/data/samian/loc_pc_2000103"	S248	Q90412636

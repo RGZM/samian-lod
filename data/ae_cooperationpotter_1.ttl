@@ -1,0 +1,830 @@
+# create triples from https://www1.rgzm.de/ips/lod/cooperationpotter.csv 
+# on 2020-12-09 20:53
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX sf: <http://www.opengis.net/ont/sf#> 
+PREFIX prov: <http://www.w3.org/ns/prov-o/>
+PREFIX lado: <http://archaeology.link/ontology#> 
+PREFIX samian: <http://data.archaeology.link/data/samian/> 
+PREFIX wd: <http://www.wikidata.org/entity/> 
+ PREFIX pelagios: <http://pelagios.github.io/vocab/terms#> 
+PREFIX oa: <http://www.w3.org/ns/oa#> 
+PREFIX dcterms: <http://purl.org/dc/terms/> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX relations: <http://pelagios.github.io/vocab/relations#> 
+PREFIX cnt: <http://www.w3.org/2011/content#> 
+PREFIX pleiades: <http://pleiades.stoa.org/places/> 
+PREFIX amt: <http://academic-meta-tool.xyz/vocab#> 
+
+samian:ae_7814 rdf:type lado:ActorEntity .
+samian:ae_7814 amt:instanceOf lado:ActorEntity .
+samian:ae_7814 rdfs:label 'Epha(pra) Tena(x)'@en.
+samian:ae_7814 lado:name 'Epha(pra) Tena(x)'.
+samian:ae_7814 lado:timeinterval 'Unknown'.
+samian:ae_7814 dc:identifier '7814'.
+samian:ae_7814 lado:hasStatus lado:CooperationPotter .
+samian:ae_7814 lado:hasType lado:Potmaker .
+samian:ae_7814 lado:hasType lado:MouldMaker .
+samian:ae_7814 lado:hasType lado:KilnFiringPerson .
+samian:ae_7814 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_7814 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_7814 prov:wasGeneratedBy samian:activity_ae_7814 .
+samian:activity_ae_7814 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_7814 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_7814 prov:endedAtTime '2020-12-09T20:53:17.790822Z'^^xsd:dateTime .
+samian:activity_ae_7814 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_7932 rdf:type lado:ActorEntity .
+samian:ae_7932 amt:instanceOf lado:ActorEntity .
+samian:ae_7932 rdfs:label 'Fastidienus Fastidienus'@en.
+samian:ae_7932 lado:name 'Fastidienus Fastidienus'.
+samian:ae_7932 lado:timeinterval 'AD 1+'.
+samian:ae_7932 dc:identifier '7932'.
+samian:ae_7932 lado:hasStatus lado:CooperationPotter .
+samian:ae_7932 lado:hasType lado:Potmaker .
+samian:ae_7932 lado:hasType lado:MouldMaker .
+samian:ae_7932 lado:hasType lado:KilnFiringPerson .
+samian:ae_7932 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_7932 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_7932 prov:wasGeneratedBy samian:activity_ae_7932 .
+samian:activity_ae_7932 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_7932 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_7932 prov:endedAtTime '2020-12-09T20:53:17.791820Z'^^xsd:dateTime .
+samian:activity_ae_7932 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_7951 rdf:type lado:ActorEntity .
+samian:ae_7951 amt:instanceOf lado:ActorEntity .
+samian:ae_7951 rdfs:label 'Lucrio Annius'@en.
+samian:ae_7951 lado:name 'Lucrio Annius'.
+samian:ae_7951 lado:timeinterval '30 - 10 BC?'.
+samian:ae_7951 dc:identifier '7951'.
+samian:ae_7951 lado:hasStatus lado:CooperationPotter .
+samian:ae_7951 lado:hasType lado:Potmaker .
+samian:ae_7951 lado:hasType lado:MouldMaker .
+samian:ae_7951 lado:hasType lado:KilnFiringPerson .
+samian:ae_7951 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_7951 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_7951 prov:wasGeneratedBy samian:activity_ae_7951 .
+samian:activity_ae_7951 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_7951 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_7951 prov:endedAtTime '2020-12-09T20:53:17.791820Z'^^xsd:dateTime .
+samian:activity_ae_7951 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_7970 rdf:type lado:ActorEntity .
+samian:ae_7970 amt:instanceOf lado:ActorEntity .
+samian:ae_7970 rdfs:label 'Vibienus Vibienus'@en.
+samian:ae_7970 lado:name 'Vibienus Vibienus'.
+samian:ae_7970 lado:timeinterval '10 BC+'.
+samian:ae_7970 dc:identifier '7970'.
+samian:ae_7970 lado:hasStatus lado:CooperationPotter .
+samian:ae_7970 lado:hasType lado:Potmaker .
+samian:ae_7970 lado:hasType lado:MouldMaker .
+samian:ae_7970 lado:hasType lado:KilnFiringPerson .
+samian:ae_7970 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_7970 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_7970 prov:wasGeneratedBy samian:activity_ae_7970 .
+samian:activity_ae_7970 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_7970 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_7970 prov:endedAtTime '2020-12-09T20:53:17.792816Z'^^xsd:dateTime .
+samian:activity_ae_7970 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_7976 rdf:type lado:ActorEntity .
+samian:ae_7976 amt:instanceOf lado:ActorEntity .
+samian:ae_7976 rdfs:label 'L. Plo(tius) Por( ) L. Plo(tius) Z(os..) (2)'@en.
+samian:ae_7976 lado:name 'L. Plo(tius) Por( ) L. Plo(tius) Z(os..) (2)'.
+samian:ae_7976 lado:praenomen 'L.'.
+samian:ae_7976 lado:cognomen 'POR( )'.
+samian:ae_7976 lado:gentilicium 'PLO(TIVS)'.
+samian:ae_7976 lado:worksAtPlaceString 'Scoppieto'.
+samian:ae_7976 lado:timeinterval 'AD 40+'.
+samian:ae_7976 dc:identifier '7976'.
+samian:ae_7976 lado:hasStatus lado:CooperationPotter .
+samian:ae_7976 lado:hasType lado:Potmaker .
+samian:ae_7976 lado:hasType lado:MouldMaker .
+samian:ae_7976 lado:hasType lado:KilnFiringPerson .
+samian:ae_7976 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_7976 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_7976 prov:wasGeneratedBy samian:activity_ae_7976 .
+samian:activity_ae_7976 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_7976 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_7976 prov:endedAtTime '2020-12-09T20:53:17.793813Z'^^xsd:dateTime .
+samian:activity_ae_7976 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8277 rdf:type lado:ActorEntity .
+samian:ae_8277 amt:instanceOf lado:ActorEntity .
+samian:ae_8277 rdfs:label 'Epha(pra) Firmus'@en.
+samian:ae_8277 lado:name 'Epha(pra) Firmus'.
+samian:ae_8277 lado:timeinterval 'Unknown'.
+samian:ae_8277 dc:identifier '8277'.
+samian:ae_8277 lado:hasStatus lado:CooperationPotter .
+samian:ae_8277 lado:hasType lado:Potmaker .
+samian:ae_8277 lado:hasType lado:MouldMaker .
+samian:ae_8277 lado:hasType lado:KilnFiringPerson .
+samian:ae_8277 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8277 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8277 prov:wasGeneratedBy samian:activity_ae_8277 .
+samian:activity_ae_8277 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8277 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8277 prov:endedAtTime '2020-12-09T20:53:17.794810Z'^^xsd:dateTime .
+samian:activity_ae_8277 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8304 rdf:type lado:ActorEntity .
+samian:ae_8304 amt:instanceOf lado:ActorEntity .
+samian:ae_8304 rdfs:label 'Achr( ) Epap(hr)a'@en.
+samian:ae_8304 lado:name 'Achr( ) Epap(hr)a'.
+samian:ae_8304 lado:timeinterval '10 BC+'.
+samian:ae_8304 dc:identifier '8304'.
+samian:ae_8304 lado:hasStatus lado:CooperationPotter .
+samian:ae_8304 lado:hasType lado:Potmaker .
+samian:ae_8304 lado:hasType lado:MouldMaker .
+samian:ae_8304 lado:hasType lado:KilnFiringPerson .
+samian:ae_8304 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8304 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8304 prov:wasGeneratedBy samian:activity_ae_8304 .
+samian:activity_ae_8304 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8304 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8304 prov:endedAtTime '2020-12-09T20:53:17.794810Z'^^xsd:dateTime .
+samian:activity_ae_8304 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8351 rdf:type lado:ActorEntity .
+samian:ae_8351 amt:instanceOf lado:ActorEntity .
+samian:ae_8351 rdfs:label '(C.) (Umbricius) Philologus (L. Avillius) Sura'@en.
+samian:ae_8351 lado:name '(C.) (Umbricius) Philologus (L. Avillius) Sura'.
+samian:ae_8351 lado:praenomen '(C.)'.
+samian:ae_8351 lado:cognomen 'PHILOLOGVS'.
+samian:ae_8351 lado:gentilicium '(VMBRICIVS)'.
+samian:ae_8351 lado:worksAtPlaceString 'Arezzo'.
+samian:ae_8351 lado:timeinterval '15 BC+'.
+samian:ae_8351 dc:identifier '8351'.
+samian:ae_8351 lado:hasStatus lado:CooperationPotter .
+samian:ae_8351 lado:hasType lado:Potmaker .
+samian:ae_8351 lado:hasType lado:MouldMaker .
+samian:ae_8351 lado:hasType lado:KilnFiringPerson .
+samian:ae_8351 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8351 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8351 prov:wasGeneratedBy samian:activity_ae_8351 .
+samian:activity_ae_8351 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8351 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8351 prov:endedAtTime '2020-12-09T20:53:17.795813Z'^^xsd:dateTime .
+samian:activity_ae_8351 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8365 rdf:type lado:ActorEntity .
+samian:ae_8365 amt:instanceOf lado:ActorEntity .
+samian:ae_8365 rdfs:label 'Arretinus Avillius'@en.
+samian:ae_8365 lado:name 'Arretinus Avillius'.
+samian:ae_8365 lado:timeinterval 'Augustan?'.
+samian:ae_8365 dc:identifier '8365'.
+samian:ae_8365 lado:hasStatus lado:CooperationPotter .
+samian:ae_8365 lado:hasType lado:Potmaker .
+samian:ae_8365 lado:hasType lado:MouldMaker .
+samian:ae_8365 lado:hasType lado:KilnFiringPerson .
+samian:ae_8365 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8365 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8365 prov:wasGeneratedBy samian:activity_ae_8365 .
+samian:activity_ae_8365 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8365 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8365 prov:endedAtTime '2020-12-09T20:53:17.796805Z'^^xsd:dateTime .
+samian:activity_ae_8365 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8496 rdf:type lado:ActorEntity .
+samian:ae_8496 amt:instanceOf lado:ActorEntity .
+samian:ae_8496 rdfs:label 'M. Cornelius L. Cornelius'@en.
+samian:ae_8496 lado:name 'M. Cornelius L. Cornelius'.
+samian:ae_8496 lado:praenomen 'M.'.
+samian:ae_8496 lado:cognomen 'nan'.
+samian:ae_8496 lado:gentilicium 'CORNELIVS'.
+samian:ae_8496 lado:worksAtPlaceString 'Unknown'.
+samian:ae_8496 lado:timeinterval 'Unknown'.
+samian:ae_8496 dc:identifier '8496'.
+samian:ae_8496 lado:hasStatus lado:CooperationPotter .
+samian:ae_8496 lado:hasType lado:Potmaker .
+samian:ae_8496 lado:hasType lado:MouldMaker .
+samian:ae_8496 lado:hasType lado:KilnFiringPerson .
+samian:ae_8496 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8496 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8496 prov:wasGeneratedBy samian:activity_ae_8496 .
+samian:activity_ae_8496 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8496 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8496 prov:endedAtTime '2020-12-09T20:53:17.797801Z'^^xsd:dateTime .
+samian:activity_ae_8496 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8527 rdf:type lado:ActorEntity .
+samian:ae_8527 amt:instanceOf lado:ActorEntity .
+samian:ae_8527 rdfs:label 'M. Pumidius P. Sabidius Eros +'@en.
+samian:ae_8527 lado:name 'M. Pumidius P. Sabidius Eros +'.
+samian:ae_8527 lado:praenomen 'M.'.
+samian:ae_8527 lado:cognomen 'nan'.
+samian:ae_8527 lado:gentilicium 'PVMIDIVS'.
+samian:ae_8527 lado:worksAtPlaceString 'Unknown'.
+samian:ae_8527 lado:timeinterval '20 - 10 BC'.
+samian:ae_8527 dc:identifier '8527'.
+samian:ae_8527 lado:hasStatus lado:CooperationPotter .
+samian:ae_8527 lado:hasType lado:Potmaker .
+samian:ae_8527 lado:hasType lado:MouldMaker .
+samian:ae_8527 lado:hasType lado:KilnFiringPerson .
+samian:ae_8527 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8527 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8527 prov:wasGeneratedBy samian:activity_ae_8527 .
+samian:activity_ae_8527 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8527 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8527 prov:endedAtTime '2020-12-09T20:53:17.797801Z'^^xsd:dateTime .
+samian:activity_ae_8527 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8540 rdf:type lado:ActorEntity .
+samian:ae_8540 amt:instanceOf lado:ActorEntity .
+samian:ae_8540 rdfs:label 'L. Petr(onius) Coria C. Petr(onius) Coria'@en.
+samian:ae_8540 lado:name 'L. Petr(onius) Coria C. Petr(onius) Coria'.
+samian:ae_8540 lado:praenomen 'L.'.
+samian:ae_8540 lado:cognomen 'CORIA'.
+samian:ae_8540 lado:gentilicium 'PETR(ONIVS)'.
+samian:ae_8540 lado:worksAtPlaceString 'Arezzo'.
+samian:ae_8540 lado:timeinterval '40 - 10 BC'.
+samian:ae_8540 dc:identifier '8540'.
+samian:ae_8540 lado:hasStatus lado:CooperationPotter .
+samian:ae_8540 lado:hasType lado:Potmaker .
+samian:ae_8540 lado:hasType lado:MouldMaker .
+samian:ae_8540 lado:hasType lado:KilnFiringPerson .
+samian:ae_8540 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8540 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8540 prov:wasGeneratedBy samian:activity_ae_8540 .
+samian:activity_ae_8540 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8540 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8540 prov:endedAtTime '2020-12-09T20:53:17.798798Z'^^xsd:dateTime .
+samian:activity_ae_8540 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8576 rdf:type lado:ActorEntity .
+samian:ae_8576 amt:instanceOf lado:ActorEntity .
+samian:ae_8576 rdfs:label 'Eros Gadia'@en.
+samian:ae_8576 lado:name 'Eros Gadia'.
+samian:ae_8576 lado:timeinterval '20 BC+'.
+samian:ae_8576 dc:identifier '8576'.
+samian:ae_8576 lado:hasStatus lado:CooperationPotter .
+samian:ae_8576 lado:hasType lado:Potmaker .
+samian:ae_8576 lado:hasType lado:MouldMaker .
+samian:ae_8576 lado:hasType lado:KilnFiringPerson .
+samian:ae_8576 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8576 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8576 prov:wasGeneratedBy samian:activity_ae_8576 .
+samian:activity_ae_8576 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8576 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8576 prov:endedAtTime '2020-12-09T20:53:17.798798Z'^^xsd:dateTime .
+samian:activity_ae_8576 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8661 rdf:type lado:ActorEntity .
+samian:ae_8661 amt:instanceOf lado:ActorEntity .
+samian:ae_8661 rdfs:label 'Vibius Vibius'@en.
+samian:ae_8661 lado:name 'Vibius Vibius'.
+samian:ae_8661 lado:timeinterval 'Augustan?'.
+samian:ae_8661 dc:identifier '8661'.
+samian:ae_8661 lado:hasStatus lado:CooperationPotter .
+samian:ae_8661 lado:hasType lado:Potmaker .
+samian:ae_8661 lado:hasType lado:MouldMaker .
+samian:ae_8661 lado:hasType lado:KilnFiringPerson .
+samian:ae_8661 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8661 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8661 prov:wasGeneratedBy samian:activity_ae_8661 .
+samian:activity_ae_8661 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8661 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8661 prov:endedAtTime '2020-12-09T20:53:17.799796Z'^^xsd:dateTime .
+samian:activity_ae_8661 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8670 rdf:type lado:ActorEntity .
+samian:ae_8670 amt:instanceOf lado:ActorEntity .
+samian:ae_8670 rdfs:label 'C. C(h)restius Sex. Vibius'@en.
+samian:ae_8670 lado:name 'C. C(h)restius Sex. Vibius'.
+samian:ae_8670 lado:praenomen 'C.'.
+samian:ae_8670 lado:cognomen 'nan'.
+samian:ae_8670 lado:gentilicium 'C(H)RESTIVS'.
+samian:ae_8670 lado:worksAtPlaceString 'Unknown'.
+samian:ae_8670 lado:timeinterval 'Augustan?'.
+samian:ae_8670 dc:identifier '8670'.
+samian:ae_8670 lado:hasStatus lado:CooperationPotter .
+samian:ae_8670 lado:hasType lado:Potmaker .
+samian:ae_8670 lado:hasType lado:MouldMaker .
+samian:ae_8670 lado:hasType lado:KilnFiringPerson .
+samian:ae_8670 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8670 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8670 prov:wasGeneratedBy samian:activity_ae_8670 .
+samian:activity_ae_8670 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8670 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8670 prov:endedAtTime '2020-12-09T20:53:17.799796Z'^^xsd:dateTime .
+samian:activity_ae_8670 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8765 rdf:type lado:ActorEntity .
+samian:ae_8765 amt:instanceOf lado:ActorEntity .
+samian:ae_8765 rdfs:label 'Alexander Diomedes'@en.
+samian:ae_8765 lado:name 'Alexander Diomedes'.
+samian:ae_8765 lado:timeinterval 'Augustan'.
+samian:ae_8765 dc:identifier '8765'.
+samian:ae_8765 lado:hasStatus lado:CooperationPotter .
+samian:ae_8765 lado:hasType lado:Potmaker .
+samian:ae_8765 lado:hasType lado:MouldMaker .
+samian:ae_8765 lado:hasType lado:KilnFiringPerson .
+samian:ae_8765 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8765 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8765 prov:wasGeneratedBy samian:activity_ae_8765 .
+samian:activity_ae_8765 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8765 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8765 prov:endedAtTime '2020-12-09T20:53:17.800794Z'^^xsd:dateTime .
+samian:activity_ae_8765 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8893 rdf:type lado:ActorEntity .
+samian:ae_8893 amt:instanceOf lado:ActorEntity .
+samian:ae_8893 rdfs:label 'L. Plo(tius) Zos(imus) Frater'@en.
+samian:ae_8893 lado:name 'L. Plo(tius) Zos(imus) Frater'.
+samian:ae_8893 lado:praenomen 'L.'.
+samian:ae_8893 lado:cognomen 'ZOS(IMVS)'.
+samian:ae_8893 lado:gentilicium 'PLO(TIVS)'.
+samian:ae_8893 lado:worksAtPlaceString 'Scoppieto'.
+samian:ae_8893 lado:timeinterval '2nd/3rd quarter of C1 AD'.
+samian:ae_8893 dc:identifier '8893'.
+samian:ae_8893 lado:hasStatus lado:CooperationPotter .
+samian:ae_8893 lado:hasType lado:Potmaker .
+samian:ae_8893 lado:hasType lado:MouldMaker .
+samian:ae_8893 lado:hasType lado:KilnFiringPerson .
+samian:ae_8893 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8893 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8893 prov:wasGeneratedBy samian:activity_ae_8893 .
+samian:activity_ae_8893 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8893 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8893 prov:endedAtTime '2020-12-09T20:53:17.801792Z'^^xsd:dateTime .
+samian:activity_ae_8893 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8900 rdf:type lado:ActorEntity .
+samian:ae_8900 amt:instanceOf lado:ActorEntity .
+samian:ae_8900 rdfs:label 'L. O(ctavius) C. O(ctavius)'@en.
+samian:ae_8900 lado:name 'L. O(ctavius) C. O(ctavius)'.
+samian:ae_8900 lado:praenomen 'L.'.
+samian:ae_8900 lado:cognomen 'nan'.
+samian:ae_8900 lado:gentilicium 'O(CTAVIVS)'.
+samian:ae_8900 lado:worksAtPlaceString 'Central Italy?'.
+samian:ae_8900 lado:timeinterval 'Late C1/1st half of C2 AD'.
+samian:ae_8900 dc:identifier '8900'.
+samian:ae_8900 lado:hasStatus lado:CooperationPotter .
+samian:ae_8900 lado:hasType lado:Potmaker .
+samian:ae_8900 lado:hasType lado:MouldMaker .
+samian:ae_8900 lado:hasType lado:KilnFiringPerson .
+samian:ae_8900 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8900 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8900 prov:wasGeneratedBy samian:activity_ae_8900 .
+samian:activity_ae_8900 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8900 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8900 prov:endedAtTime '2020-12-09T20:53:17.801792Z'^^xsd:dateTime .
+samian:activity_ae_8900 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8907 rdf:type lado:ActorEntity .
+samian:ae_8907 amt:instanceOf lado:ActorEntity .
+samian:ae_8907 rdfs:label 'L. Gellius L. Sempronius'@en.
+samian:ae_8907 lado:name 'L. Gellius L. Sempronius'.
+samian:ae_8907 lado:praenomen 'L.'.
+samian:ae_8907 lado:cognomen 'nan'.
+samian:ae_8907 lado:gentilicium 'GELLIVS'.
+samian:ae_8907 lado:worksAtPlaceString 'Lyon'.
+samian:ae_8907 lado:timeinterval '15 - 1 BC'.
+samian:ae_8907 dc:identifier '8907'.
+samian:ae_8907 lado:hasStatus lado:CooperationPotter .
+samian:ae_8907 lado:hasType lado:Potmaker .
+samian:ae_8907 lado:hasType lado:MouldMaker .
+samian:ae_8907 lado:hasType lado:KilnFiringPerson .
+samian:ae_8907 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8907 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8907 prov:wasGeneratedBy samian:activity_ae_8907 .
+samian:activity_ae_8907 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8907 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8907 prov:endedAtTime '2020-12-09T20:53:17.802789Z'^^xsd:dateTime .
+samian:activity_ae_8907 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8918 rdf:type lado:ActorEntity .
+samian:ae_8918 amt:instanceOf lado:ActorEntity .
+samian:ae_8918 rdfs:label 'Euhodus Primigenius'@en.
+samian:ae_8918 lado:name 'Euhodus Primigenius'.
+samian:ae_8918 lado:timeinterval 'Augustan'.
+samian:ae_8918 dc:identifier '8918'.
+samian:ae_8918 lado:hasStatus lado:CooperationPotter .
+samian:ae_8918 lado:hasType lado:Potmaker .
+samian:ae_8918 lado:hasType lado:MouldMaker .
+samian:ae_8918 lado:hasType lado:KilnFiringPerson .
+samian:ae_8918 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8918 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8918 prov:wasGeneratedBy samian:activity_ae_8918 .
+samian:activity_ae_8918 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8918 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8918 prov:endedAtTime '2020-12-09T20:53:17.803787Z'^^xsd:dateTime .
+samian:activity_ae_8918 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8922 rdf:type lado:ActorEntity .
+samian:ae_8922 amt:instanceOf lado:ActorEntity .
+samian:ae_8922 rdfs:label 'C. Annius Cornelius'@en.
+samian:ae_8922 lado:name 'C. Annius Cornelius'.
+samian:ae_8922 lado:praenomen 'C.'.
+samian:ae_8922 lado:cognomen 'nan'.
+samian:ae_8922 lado:gentilicium 'ANNIVS'.
+samian:ae_8922 lado:worksAtPlaceString 'Unknown'.
+samian:ae_8922 lado:timeinterval 'Augustan?'.
+samian:ae_8922 dc:identifier '8922'.
+samian:ae_8922 lado:hasStatus lado:CooperationPotter .
+samian:ae_8922 lado:hasType lado:Potmaker .
+samian:ae_8922 lado:hasType lado:MouldMaker .
+samian:ae_8922 lado:hasType lado:KilnFiringPerson .
+samian:ae_8922 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8922 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8922 prov:wasGeneratedBy samian:activity_ae_8922 .
+samian:activity_ae_8922 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8922 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_8922 prov:endedAtTime '2020-12-09T20:53:17.804783Z'^^xsd:dateTime .
+samian:activity_ae_8922 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9052 rdf:type lado:ActorEntity .
+samian:ae_9052 amt:instanceOf lado:ActorEntity .
+samian:ae_9052 rdfs:label 'C. Cispius L. Caesius'@en.
+samian:ae_9052 lado:name 'C. Cispius L. Caesius'.
+samian:ae_9052 lado:praenomen 'C.'.
+samian:ae_9052 lado:cognomen 'nan'.
+samian:ae_9052 lado:gentilicium 'CISPIVS'.
+samian:ae_9052 lado:worksAtPlaceString 'Arezzo'.
+samian:ae_9052 lado:timeinterval 'Augustan?'.
+samian:ae_9052 dc:identifier '9052'.
+samian:ae_9052 lado:hasStatus lado:CooperationPotter .
+samian:ae_9052 lado:hasType lado:Potmaker .
+samian:ae_9052 lado:hasType lado:MouldMaker .
+samian:ae_9052 lado:hasType lado:KilnFiringPerson .
+samian:ae_9052 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9052 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9052 prov:wasGeneratedBy samian:activity_ae_9052 .
+samian:activity_ae_9052 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9052 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9052 prov:endedAtTime '2020-12-09T20:53:17.805779Z'^^xsd:dateTime .
+samian:activity_ae_9052 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9062 rdf:type lado:ActorEntity .
+samian:ae_9062 amt:instanceOf lado:ActorEntity .
+samian:ae_9062 rdfs:label 'Tityrus Tityrus'@en.
+samian:ae_9062 lado:name 'Tityrus Tityrus'.
+samian:ae_9062 lado:timeinterval '15 - 5 BC'.
+samian:ae_9062 dc:identifier '9062'.
+samian:ae_9062 lado:hasStatus lado:CooperationPotter .
+samian:ae_9062 lado:hasType lado:Potmaker .
+samian:ae_9062 lado:hasType lado:MouldMaker .
+samian:ae_9062 lado:hasType lado:KilnFiringPerson .
+samian:ae_9062 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9062 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9062 prov:wasGeneratedBy samian:activity_ae_9062 .
+samian:activity_ae_9062 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9062 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9062 prov:endedAtTime '2020-12-09T20:53:17.806777Z'^^xsd:dateTime .
+samian:activity_ae_9062 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9079 rdf:type lado:ActorEntity .
+samian:ae_9079 amt:instanceOf lado:ActorEntity .
+samian:ae_9079 rdfs:label 'Mario Primus'@en.
+samian:ae_9079 lado:name 'Mario Primus'.
+samian:ae_9079 lado:timeinterval 'Unknown'.
+samian:ae_9079 dc:identifier '9079'.
+samian:ae_9079 lado:hasStatus lado:CooperationPotter .
+samian:ae_9079 lado:hasType lado:Potmaker .
+samian:ae_9079 lado:hasType lado:MouldMaker .
+samian:ae_9079 lado:hasType lado:KilnFiringPerson .
+samian:ae_9079 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9079 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9079 prov:wasGeneratedBy samian:activity_ae_9079 .
+samian:activity_ae_9079 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9079 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9079 prov:endedAtTime '2020-12-09T20:53:17.806777Z'^^xsd:dateTime .
+samian:activity_ae_9079 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9140 rdf:type lado:ActorEntity .
+samian:ae_9140 amt:instanceOf lado:ActorEntity .
+samian:ae_9140 rdfs:label 'L. Plo(tius) (Por ) L. Plo(tius) (Zos..) (1)'@en.
+samian:ae_9140 lado:name 'L. Plo(tius) (Por ) L. Plo(tius) (Zos..) (1)'.
+samian:ae_9140 lado:praenomen 'L.'.
+samian:ae_9140 lado:cognomen '(POR )'.
+samian:ae_9140 lado:gentilicium 'PLO(TIVS)'.
+samian:ae_9140 lado:worksAtPlaceString 'Scoppieto'.
+samian:ae_9140 lado:timeinterval 'Mid C1 AD?'.
+samian:ae_9140 dc:identifier '9140'.
+samian:ae_9140 lado:hasStatus lado:CooperationPotter .
+samian:ae_9140 lado:hasType lado:Potmaker .
+samian:ae_9140 lado:hasType lado:MouldMaker .
+samian:ae_9140 lado:hasType lado:KilnFiringPerson .
+samian:ae_9140 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9140 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9140 prov:wasGeneratedBy samian:activity_ae_9140 .
+samian:activity_ae_9140 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9140 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9140 prov:endedAtTime '2020-12-09T20:53:17.808776Z'^^xsd:dateTime .
+samian:activity_ae_9140 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9166 rdf:type lado:ActorEntity .
+samian:ae_9166 amt:instanceOf lado:ActorEntity .
+samian:ae_9166 rdfs:label 'Ateius Tet(t)Ius'@en.
+samian:ae_9166 lado:name 'Ateius Tet(t)Ius'.
+samian:ae_9166 lado:timeinterval 'Late Augustan?'.
+samian:ae_9166 dc:identifier '9166'.
+samian:ae_9166 lado:hasStatus lado:CooperationPotter .
+samian:ae_9166 lado:hasType lado:Potmaker .
+samian:ae_9166 lado:hasType lado:MouldMaker .
+samian:ae_9166 lado:hasType lado:KilnFiringPerson .
+samian:ae_9166 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9166 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9166 prov:wasGeneratedBy samian:activity_ae_9166 .
+samian:activity_ae_9166 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9166 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9166 prov:endedAtTime '2020-12-09T20:53:17.811770Z'^^xsd:dateTime .
+samian:activity_ae_9166 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9184 rdf:type lado:ActorEntity .
+samian:ae_9184 amt:instanceOf lado:ActorEntity .
+samian:ae_9184 rdfs:label 'Sceunius Sceunius'@en.
+samian:ae_9184 lado:name 'Sceunius Sceunius'.
+samian:ae_9184 lado:timeinterval 'AD 15+'.
+samian:ae_9184 dc:identifier '9184'.
+samian:ae_9184 lado:hasStatus lado:CooperationPotter .
+samian:ae_9184 lado:hasType lado:Potmaker .
+samian:ae_9184 lado:hasType lado:MouldMaker .
+samian:ae_9184 lado:hasType lado:KilnFiringPerson .
+samian:ae_9184 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9184 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9184 prov:wasGeneratedBy samian:activity_ae_9184 .
+samian:activity_ae_9184 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9184 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9184 prov:endedAtTime '2020-12-09T20:53:17.812761Z'^^xsd:dateTime .
+samian:activity_ae_9184 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9203 rdf:type lado:ActorEntity .
+samian:ae_9203 amt:instanceOf lado:ActorEntity .
+samian:ae_9203 rdfs:label '(L.) Saufeius Rasinius'@en.
+samian:ae_9203 lado:name '(L.) Saufeius Rasinius'.
+samian:ae_9203 lado:praenomen '(L.)'.
+samian:ae_9203 lado:cognomen 'nan'.
+samian:ae_9203 lado:gentilicium 'SAVFEIVS'.
+samian:ae_9203 lado:worksAtPlaceString 'Arezzo'.
+samian:ae_9203 lado:timeinterval 'Augustan'.
+samian:ae_9203 dc:identifier '9203'.
+samian:ae_9203 lado:hasStatus lado:CooperationPotter .
+samian:ae_9203 lado:hasType lado:Potmaker .
+samian:ae_9203 lado:hasType lado:MouldMaker .
+samian:ae_9203 lado:hasType lado:KilnFiringPerson .
+samian:ae_9203 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9203 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9203 prov:wasGeneratedBy samian:activity_ae_9203 .
+samian:activity_ae_9203 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9203 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9203 prov:endedAtTime '2020-12-09T20:53:17.813758Z'^^xsd:dateTime .
+samian:activity_ae_9203 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9279 rdf:type lado:ActorEntity .
+samian:ae_9279 amt:instanceOf lado:ActorEntity .
+samian:ae_9279 rdfs:label 'Primus Carp(us?)'@en.
+samian:ae_9279 lado:name 'Primus Carp(us?)'.
+samian:ae_9279 lado:timeinterval 'Unknown'.
+samian:ae_9279 dc:identifier '9279'.
+samian:ae_9279 lado:hasStatus lado:CooperationPotter .
+samian:ae_9279 lado:hasType lado:Potmaker .
+samian:ae_9279 lado:hasType lado:MouldMaker .
+samian:ae_9279 lado:hasType lado:KilnFiringPerson .
+samian:ae_9279 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9279 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9279 prov:wasGeneratedBy samian:activity_ae_9279 .
+samian:activity_ae_9279 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9279 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9279 prov:endedAtTime '2020-12-09T20:53:17.814757Z'^^xsd:dateTime .
+samian:activity_ae_9279 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9294 rdf:type lado:ActorEntity .
+samian:ae_9294 amt:instanceOf lado:ActorEntity .
+samian:ae_9294 rdfs:label 'L. Av( ) G( ) P. Av( ) G( )'@en.
+samian:ae_9294 lado:name 'L. Av( ) G( ) P. Av( ) G( )'.
+samian:ae_9294 lado:praenomen 'L.'.
+samian:ae_9294 lado:cognomen 'G( )'.
+samian:ae_9294 lado:gentilicium 'AV( )'.
+samian:ae_9294 lado:worksAtPlaceString 'Central Italy'.
+samian:ae_9294 lado:timeinterval 'AD 30+'.
+samian:ae_9294 dc:identifier '9294'.
+samian:ae_9294 lado:hasStatus lado:CooperationPotter .
+samian:ae_9294 lado:hasType lado:Potmaker .
+samian:ae_9294 lado:hasType lado:MouldMaker .
+samian:ae_9294 lado:hasType lado:KilnFiringPerson .
+samian:ae_9294 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9294 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9294 prov:wasGeneratedBy samian:activity_ae_9294 .
+samian:activity_ae_9294 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9294 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9294 prov:endedAtTime '2020-12-09T20:53:17.815754Z'^^xsd:dateTime .
+samian:activity_ae_9294 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9418 rdf:type lado:ActorEntity .
+samian:ae_9418 amt:instanceOf lado:ActorEntity .
+samian:ae_9418 rdfs:label 'Volusus Potitus (1)'@en.
+samian:ae_9418 lado:name 'Volusus Potitus (1)'.
+samian:ae_9418 lado:timeinterval 'AD 15+'.
+samian:ae_9418 dc:identifier '9418'.
+samian:ae_9418 lado:hasStatus lado:CooperationPotter .
+samian:ae_9418 lado:hasType lado:Potmaker .
+samian:ae_9418 lado:hasType lado:MouldMaker .
+samian:ae_9418 lado:hasType lado:KilnFiringPerson .
+samian:ae_9418 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9418 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9418 prov:wasGeneratedBy samian:activity_ae_9418 .
+samian:activity_ae_9418 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9418 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9418 prov:endedAtTime '2020-12-09T20:53:17.817197Z'^^xsd:dateTime .
+samian:activity_ae_9418 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9431 rdf:type lado:ActorEntity .
+samian:ae_9431 amt:instanceOf lado:ActorEntity .
+samian:ae_9431 rdfs:label 'Volusus Potitus (2)'@en.
+samian:ae_9431 lado:name 'Volusus Potitus (2)'.
+samian:ae_9431 lado:timeinterval '15 BC+'.
+samian:ae_9431 dc:identifier '9431'.
+samian:ae_9431 lado:hasStatus lado:CooperationPotter .
+samian:ae_9431 lado:hasType lado:Potmaker .
+samian:ae_9431 lado:hasType lado:MouldMaker .
+samian:ae_9431 lado:hasType lado:KilnFiringPerson .
+samian:ae_9431 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9431 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9431 prov:wasGeneratedBy samian:activity_ae_9431 .
+samian:activity_ae_9431 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9431 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9431 prov:endedAtTime '2020-12-09T20:53:17.817746Z'^^xsd:dateTime .
+samian:activity_ae_9431 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9444 rdf:type lado:ActorEntity .
+samian:ae_9444 amt:instanceOf lado:ActorEntity .
+samian:ae_9444 rdfs:label 'L. Nonius Flor(entinus) L.'@en.
+samian:ae_9444 lado:name 'L. Nonius Flor(entinus) L.'.
+samian:ae_9444 lado:praenomen 'L.'.
+samian:ae_9444 lado:cognomen 'FLOR(ENTINVS)'.
+samian:ae_9444 lado:gentilicium 'NONIVS'.
+samian:ae_9444 lado:worksAtPlaceString 'Pisa'.
+samian:ae_9444 lado:timeinterval '1st half of C2 AD'.
+samian:ae_9444 dc:identifier '9444'.
+samian:ae_9444 lado:hasStatus lado:CooperationPotter .
+samian:ae_9444 lado:hasType lado:Potmaker .
+samian:ae_9444 lado:hasType lado:MouldMaker .
+samian:ae_9444 lado:hasType lado:KilnFiringPerson .
+samian:ae_9444 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9444 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9444 prov:wasGeneratedBy samian:activity_ae_9444 .
+samian:activity_ae_9444 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9444 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9444 prov:endedAtTime '2020-12-09T20:53:17.818748Z'^^xsd:dateTime .
+samian:activity_ae_9444 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9488 rdf:type lado:ActorEntity .
+samian:ae_9488 amt:instanceOf lado:ActorEntity .
+samian:ae_9488 rdfs:label 'Publius Titius?'@en.
+samian:ae_9488 lado:name 'Publius Titius?'.
+samian:ae_9488 lado:timeinterval '20 - 10 BC'.
+samian:ae_9488 dc:identifier '9488'.
+samian:ae_9488 lado:hasStatus lado:CooperationPotter .
+samian:ae_9488 lado:hasType lado:Potmaker .
+samian:ae_9488 lado:hasType lado:MouldMaker .
+samian:ae_9488 lado:hasType lado:KilnFiringPerson .
+samian:ae_9488 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9488 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9488 prov:wasGeneratedBy samian:activity_ae_9488 .
+samian:activity_ae_9488 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9488 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9488 prov:endedAtTime '2020-12-09T20:53:17.821747Z'^^xsd:dateTime .
+samian:activity_ae_9488 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9491 rdf:type lado:ActorEntity .
+samian:ae_9491 amt:instanceOf lado:ActorEntity .
+samian:ae_9491 rdfs:label '(Cn.) Ateius Crestus Euhodus'@en.
+samian:ae_9491 lado:name '(Cn.) Ateius Crestus Euhodus'.
+samian:ae_9491 lado:praenomen '(CN.)'.
+samian:ae_9491 lado:cognomen 'CRESTVS'.
+samian:ae_9491 lado:gentilicium 'ATEIVS'.
+samian:ae_9491 lado:worksAtPlaceString 'Pisa'.
+samian:ae_9491 lado:timeinterval '5 BC - AD 10'.
+samian:ae_9491 dc:identifier '9491'.
+samian:ae_9491 lado:hasStatus lado:CooperationPotter .
+samian:ae_9491 lado:hasType lado:Potmaker .
+samian:ae_9491 lado:hasType lado:MouldMaker .
+samian:ae_9491 lado:hasType lado:KilnFiringPerson .
+samian:ae_9491 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9491 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9491 prov:wasGeneratedBy samian:activity_ae_9491 .
+samian:activity_ae_9491 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9491 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9491 prov:endedAtTime '2020-12-09T20:53:17.824729Z'^^xsd:dateTime .
+samian:activity_ae_9491 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9663 rdf:type lado:ActorEntity .
+samian:ae_9663 amt:instanceOf lado:ActorEntity .
+samian:ae_9663 rdfs:label 'Primig(enius) Strato'@en.
+samian:ae_9663 lado:name 'Primig(enius) Strato'.
+samian:ae_9663 lado:timeinterval '10 BC+'.
+samian:ae_9663 dc:identifier '9663'.
+samian:ae_9663 lado:hasStatus lado:CooperationPotter .
+samian:ae_9663 lado:hasType lado:Potmaker .
+samian:ae_9663 lado:hasType lado:MouldMaker .
+samian:ae_9663 lado:hasType lado:KilnFiringPerson .
+samian:ae_9663 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9663 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9663 prov:wasGeneratedBy samian:activity_ae_9663 .
+samian:activity_ae_9663 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9663 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9663 prov:endedAtTime '2020-12-09T20:53:17.826749Z'^^xsd:dateTime .
+samian:activity_ae_9663 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9769 rdf:type lado:ActorEntity .
+samian:ae_9769 amt:instanceOf lado:ActorEntity .
+samian:ae_9769 rdfs:label '(Cn.) Ateius Mahes Zoilus'@en.
+samian:ae_9769 lado:name '(Cn.) Ateius Mahes Zoilus'.
+samian:ae_9769 lado:praenomen '(CN.)'.
+samian:ae_9769 lado:cognomen 'MAHES'.
+samian:ae_9769 lado:gentilicium 'ATEIVS'.
+samian:ae_9769 lado:worksAtPlaceString 'Pisa'.
+samian:ae_9769 lado:timeinterval '5 BC - AD 15'.
+samian:ae_9769 dc:identifier '9769'.
+samian:ae_9769 lado:hasStatus lado:CooperationPotter .
+samian:ae_9769 lado:hasType lado:Potmaker .
+samian:ae_9769 lado:hasType lado:MouldMaker .
+samian:ae_9769 lado:hasType lado:KilnFiringPerson .
+samian:ae_9769 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9769 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9769 prov:wasGeneratedBy samian:activity_ae_9769 .
+samian:activity_ae_9769 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9769 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9769 prov:endedAtTime '2020-12-09T20:53:17.827724Z'^^xsd:dateTime .
+samian:activity_ae_9769 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9815 rdf:type lado:ActorEntity .
+samian:ae_9815 amt:instanceOf lado:ActorEntity .
+samian:ae_9815 rdfs:label 'Xanthus Zoilus'@en.
+samian:ae_9815 lado:name 'Xanthus Zoilus'.
+samian:ae_9815 lado:timeinterval '5 BC+'.
+samian:ae_9815 dc:identifier '9815'.
+samian:ae_9815 lado:hasStatus lado:CooperationPotter .
+samian:ae_9815 lado:hasType lado:Potmaker .
+samian:ae_9815 lado:hasType lado:MouldMaker .
+samian:ae_9815 lado:hasType lado:KilnFiringPerson .
+samian:ae_9815 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9815 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9815 prov:wasGeneratedBy samian:activity_ae_9815 .
+samian:activity_ae_9815 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9815 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9815 prov:endedAtTime '2020-12-09T20:53:17.827724Z'^^xsd:dateTime .
+samian:activity_ae_9815 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9970 rdf:type lado:ActorEntity .
+samian:ae_9970 amt:instanceOf lado:ActorEntity .
+samian:ae_9970 rdfs:label 'Umbricius Umbricius'@en.
+samian:ae_9970 lado:name 'Umbricius Umbricius'.
+samian:ae_9970 lado:timeinterval 'AD 1+'.
+samian:ae_9970 dc:identifier '9970'.
+samian:ae_9970 lado:hasStatus lado:CooperationPotter .
+samian:ae_9970 lado:hasType lado:Potmaker .
+samian:ae_9970 lado:hasType lado:MouldMaker .
+samian:ae_9970 lado:hasType lado:KilnFiringPerson .
+samian:ae_9970 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9970 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9970 prov:wasGeneratedBy samian:activity_ae_9970 .
+samian:activity_ae_9970 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9970 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_9970 prov:endedAtTime '2020-12-09T20:53:17.828718Z'^^xsd:dateTime .
+samian:activity_ae_9970 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_10029 rdf:type lado:ActorEntity .
+samian:ae_10029 amt:instanceOf lado:ActorEntity .
+samian:ae_10029 rdfs:label 'P. Cornelius Vibius'@en.
+samian:ae_10029 lado:name 'P. Cornelius Vibius'.
+samian:ae_10029 lado:praenomen 'P.'.
+samian:ae_10029 lado:cognomen 'nan'.
+samian:ae_10029 lado:gentilicium 'CORNELIVS'.
+samian:ae_10029 lado:worksAtPlaceString 'Arezzo'.
+samian:ae_10029 lado:timeinterval 'Unknown'.
+samian:ae_10029 dc:identifier '10029'.
+samian:ae_10029 lado:hasStatus lado:CooperationPotter .
+samian:ae_10029 lado:hasType lado:Potmaker .
+samian:ae_10029 lado:hasType lado:MouldMaker .
+samian:ae_10029 lado:hasType lado:KilnFiringPerson .
+samian:ae_10029 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_10029 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_10029 prov:wasGeneratedBy samian:activity_ae_10029 .
+samian:activity_ae_10029 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_10029 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_10029 prov:endedAtTime '2020-12-09T20:53:17.829717Z'^^xsd:dateTime .
+samian:activity_ae_10029 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_10037 rdf:type lado:ActorEntity .
+samian:ae_10037 amt:instanceOf lado:ActorEntity .
+samian:ae_10037 rdfs:label 'Primus Pris(cus?)'@en.
+samian:ae_10037 lado:name 'Primus Pris(cus?)'.
+samian:ae_10037 lado:timeinterval 'Unknown'.
+samian:ae_10037 dc:identifier '10037'.
+samian:ae_10037 lado:hasStatus lado:CooperationPotter .
+samian:ae_10037 lado:hasType lado:Potmaker .
+samian:ae_10037 lado:hasType lado:MouldMaker .
+samian:ae_10037 lado:hasType lado:KilnFiringPerson .
+samian:ae_10037 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_10037 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_10037 prov:wasGeneratedBy samian:activity_ae_10037 .
+samian:activity_ae_10037 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_10037 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_10037 prov:endedAtTime '2020-12-09T20:53:17.829717Z'^^xsd:dateTime .
+samian:activity_ae_10037 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_10050 rdf:type lado:ActorEntity .
+samian:ae_10050 amt:instanceOf lado:ActorEntity .
+samian:ae_10050 rdfs:label 'M. Meti(lius) C. + C. Metilius ?'@en.
+samian:ae_10050 lado:name 'M. Meti(lius) C. + C. Metilius ?'.
+samian:ae_10050 lado:praenomen 'M.'.
+samian:ae_10050 lado:cognomen 'nan'.
+samian:ae_10050 lado:gentilicium 'METI(LIVS)'.
+samian:ae_10050 lado:worksAtPlaceString 'Central Italy?'.
+samian:ae_10050 lado:timeinterval 'AD 15+'.
+samian:ae_10050 dc:identifier '10050'.
+samian:ae_10050 lado:hasStatus lado:CooperationPotter .
+samian:ae_10050 lado:hasType lado:Potmaker .
+samian:ae_10050 lado:hasType lado:MouldMaker .
+samian:ae_10050 lado:hasType lado:KilnFiringPerson .
+samian:ae_10050 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_10050 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_10050 prov:wasGeneratedBy samian:activity_ae_10050 .
+samian:activity_ae_10050 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_10050 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_10050 prov:endedAtTime '2020-12-09T20:53:17.830714Z'^^xsd:dateTime .
+samian:activity_ae_10050 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_10088 rdf:type lado:ActorEntity .
+samian:ae_10088 amt:instanceOf lado:ActorEntity .
+samian:ae_10088 rdfs:label 'Heraclida Marius'@en.
+samian:ae_10088 lado:name 'Heraclida Marius'.
+samian:ae_10088 lado:timeinterval 'Unknown'.
+samian:ae_10088 dc:identifier '10088'.
+samian:ae_10088 lado:hasStatus lado:CooperationPotter .
+samian:ae_10088 lado:hasType lado:Potmaker .
+samian:ae_10088 lado:hasType lado:MouldMaker .
+samian:ae_10088 lado:hasType lado:KilnFiringPerson .
+samian:ae_10088 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_10088 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_10088 prov:wasGeneratedBy samian:activity_ae_10088 .
+samian:activity_ae_10088 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_10088 prov:startedAtTime '2020-12-09T20:53:17.594603Z'^^xsd:dateTime .
+samian:activity_ae_10088 prov:endedAtTime '2020-12-09T20:53:17.831709Z'^^xsd:dateTime .
+samian:activity_ae_10088 prov:wasAssociatedWith samian:ImportPythonScript_Samian .

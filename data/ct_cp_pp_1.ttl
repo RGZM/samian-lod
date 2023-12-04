@@ -1,0 +1,66 @@
+# create triples from https://www1.rgzm.de/ips/lod/ct_cp_pp.csv 
+# on 2020-12-09 20:53
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX sf: <http://www.opengis.net/ont/sf#> 
+PREFIX lado: <http://archaeology.link/ontology#> 
+PREFIX samian: <http://data.archaeology.link/data/samian/> 
+PREFIX wd: <http://www.wikidata.org/entity/> 
+ PREFIX pelagios: <http://pelagios.github.io/vocab/terms#> 
+PREFIX oa: <http://www.w3.org/ns/oa#> 
+PREFIX prov: <http://www.w3.org/ns/prov-o/>
+PREFIX dcterms: <http://purl.org/dc/terms/> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX relations: <http://pelagios.github.io/vocab/relations#> 
+PREFIX cnt: <http://www.w3.org/2011/content#> 
+PREFIX pleiades: <http://pleiades.stoa.org/places/> 
+PREFIX amt: <http://academic-meta-tool.xyz/vocab#> 
+
+samian:ae_8351 lado:interactsWith samian:ae_194391.
+samian:ae_7951 lado:interactsWith samian:ae_101077.
+samian:ae_8365 lado:interactsWith samian:ae_126555.
+samian:ae_10050 lado:interactsWith samian:ae_511931.
+samian:ae_8900 lado:interactsWith samian:ae_153497.
+samian:ae_8540 lado:interactsWith samian:ae_317571.
+samian:ae_9279 lado:interactsWith samian:ae_482588.
+samian:ae_8922 lado:interactsWith samian:ae_916475.
+samian:ae_8765 lado:interactsWith samian:ae_123596.
+samian:ae_8304 lado:interactsWith samian:ae_863138.
+samian:ae_9491 lado:interactsWith samian:ae_180628.
+samian:ae_7932 lado:interactsWith samian:ae_200412.
+samian:ae_8277 lado:interactsWith samian:ae_206373.
+samian:ae_8893 lado:interactsWith samian:ae_598811.
+samian:ae_8576 lado:interactsWith samian:ae_154936.
+samian:ae_9444 lado:interactsWith samian:ae_131544.
+samian:ae_9052 lado:interactsWith samian:ae_207510.
+samian:ae_8496 lado:interactsWith samian:ae_151113.
+samian:ae_9140 lado:interactsWith samian:ae_968405.
+samian:ae_7976 lado:interactsWith samian:ae_302752.
+samian:ae_8907 lado:interactsWith samian:ae_116430.
+samian:ae_10088 lado:interactsWith samian:ae_832618.
+samian:ae_9294 lado:interactsWith samian:ae_627276.
+samian:ae_8527 lado:interactsWith samian:ae_116427.
+samian:ae_9418 lado:interactsWith samian:ae_128015.
+samian:ae_9431 lado:interactsWith samian:ae_128015.
+samian:ae_8918 lado:interactsWith samian:ae_160005.
+samian:ae_9079 lado:interactsWith samian:ae_203115.
+samian:ae_10037 lado:interactsWith samian:ae_198308.
+samian:ae_9203 lado:interactsWith samian:ae_154665.
+samian:ae_9184 lado:interactsWith samian:ae_763332.
+samian:ae_8670 lado:interactsWith samian:ae_202045.
+samian:ae_9663 lado:interactsWith samian:ae_208642.
+samian:ae_7814 lado:interactsWith samian:ae_346737.
+samian:ae_9166 lado:interactsWith samian:ae_107329.
+samian:ae_9488 lado:interactsWith samian:ae_101224.
+samian:ae_9062 lado:interactsWith samian:ae_155909.
+samian:ae_7970 lado:interactsWith samian:ae_696117.
+samian:ae_8661 lado:interactsWith samian:ae_680435.
+samian:ae_10029 lado:interactsWith samian:ae_680435.
+samian:ae_9970 lado:interactsWith samian:ae_124173.
+samian:ae_9769 lado:interactsWith samian:ae_188501.
+samian:ae_9815 lado:interactsWith samian:ae_188501.

@@ -1,0 +1,36 @@
+# create triples from https://www1.rgzm.de/ips/lod/ct_cpchp_pp.csv 
+# on 2020-12-09 20:53
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX sf: <http://www.opengis.net/ont/sf#> 
+PREFIX lado: <http://archaeology.link/ontology#> 
+PREFIX samian: <http://data.archaeology.link/data/samian/> 
+PREFIX wd: <http://www.wikidata.org/entity/> 
+ PREFIX pelagios: <http://pelagios.github.io/vocab/terms#> 
+PREFIX oa: <http://www.w3.org/ns/oa#> 
+PREFIX dcterms: <http://purl.org/dc/terms/> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX relations: <http://pelagios.github.io/vocab/relations#> 
+PREFIX cnt: <http://www.w3.org/2011/content#> 
+PREFIX pleiades: <http://pleiades.stoa.org/places/> 
+PREFIX amt: <http://academic-meta-tool.xyz/vocab#> 
+
+samian:ae_9825 lado:interactsWith samian:ae_267675.
+samian:ae_7878 lado:interactsWith samian:ae_267675.
+samian:ae_8640 lado:interactsWith samian:ae_267675.
+samian:ae_8729 lado:interactsWith samian:ae_267675.
+samian:ae_8394 lado:interactsWith samian:ae_267675.
+samian:ae_8399 lado:interactsWith samian:ae_680435.
+samian:ae_8495 lado:interactsWith samian:ae_680435.
+samian:ae_8747 lado:interactsWith samian:ae_680435.
+samian:ae_9215 lado:interactsWith samian:ae_680435.
+samian:ae_9616 lado:interactsWith samian:ae_680435.
+samian:ae_9654 lado:interactsWith samian:ae_680435.
+samian:ae_10348 lado:interactsWith samian:ae_680435.
+samian:ae_8135 lado:interactsWith samian:ae_680435.
+samian:ae_9540 lado:interactsWith samian:ae_696117.

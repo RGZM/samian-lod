@@ -1,0 +1,1774 @@
+# create triples from https://www1.rgzm.de/ips/lod/productioncentre.csv 
+# on 2020-12-09 20:53
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX sf: <http://www.opengis.net/ont/sf#> 
+PREFIX lado: <http://archaeology.link/ontology#> 
+PREFIX samian: <http://data.archaeology.link/data/samian/> 
+PREFIX wd: <http://www.wikidata.org/entity/> 
+ PREFIX pelagios: <http://pelagios.github.io/vocab/terms#> 
+PREFIX oa: <http://www.w3.org/ns/oa#> 
+PREFIX prov: <http://www.w3.org/ns/prov-o/>
+PREFIX dcterms: <http://purl.org/dc/terms/> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX relations: <http://pelagios.github.io/vocab/relations#> 
+PREFIX cnt: <http://www.w3.org/2011/content#> 
+PREFIX pleiades: <http://pleiades.stoa.org/places/> 
+PREFIX amt: <http://academic-meta-tool.xyz/vocab#> 
+
+samian:loc_pc_2000001 rdf:type lado:Location .
+samian:loc_pc_2000001 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000001 amt:instanceOf lado:Location .
+samian:loc_pc_2000001 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000001 rdfs:label 'La Graufesenque'@en.
+samian:loc_pc_2000001 dc:identifier 2000001.
+samian:loc_pc_2000001 lado:exactMatch wd:Q102763431 . 
+samian:loc_pc_2000001 geosparql:hasGeometry samian:loc_pc_2000001_geom .
+samian:loc_pc_2000001_geom rdf:type sf:Point .
+samian:loc_pc_2000001_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.083333 44.1)"^^geosparql:wktLiteral.
+samian:loc_pc_2000001 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000001 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000001 prov:wasGeneratedBy samian:activity_loc_pc_2000001 .
+samian:activity_loc_pc_2000001 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000001 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000001 prov:endedAtTime '2020-12-09T20:53:31.359230Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000001 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000002 rdf:type lado:Location .
+samian:loc_pc_2000002 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000002 amt:instanceOf lado:Location .
+samian:loc_pc_2000002 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000002 rdfs:label 'Banassac'@en.
+samian:loc_pc_2000002 dc:identifier 2000002.
+samian:loc_pc_2000002 lado:exactMatch wd:Q103135455 . 
+samian:loc_pc_2000002 geosparql:hasGeometry samian:loc_pc_2000002_geom .
+samian:loc_pc_2000002_geom rdf:type sf:Point .
+samian:loc_pc_2000002_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.2 44.433333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000002 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000002 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000002 prov:wasGeneratedBy samian:activity_loc_pc_2000002 .
+samian:activity_loc_pc_2000002 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000002 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000002 prov:endedAtTime '2020-12-09T20:53:31.360230Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000002 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000003 rdf:type lado:Location .
+samian:loc_pc_2000003 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000003 amt:instanceOf lado:Location .
+samian:loc_pc_2000003 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000003 rdfs:label 'Le Rozier'@en.
+samian:loc_pc_2000003 dc:identifier 2000003.
+samian:loc_pc_2000003 lado:exactMatch wd:Q103135459 . 
+samian:loc_pc_2000003 geosparql:hasGeometry samian:loc_pc_2000003_geom .
+samian:loc_pc_2000003_geom rdf:type sf:Point .
+samian:loc_pc_2000003_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.216667 44.18333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000003 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000003 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000003 prov:wasGeneratedBy samian:activity_loc_pc_2000003 .
+samian:activity_loc_pc_2000003 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000003 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000003 prov:endedAtTime '2020-12-09T20:53:31.360230Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000003 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000004 rdf:type lado:Location .
+samian:loc_pc_2000004 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000004 amt:instanceOf lado:Location .
+samian:loc_pc_2000004 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000004 rdfs:label 'Carrade'@en.
+samian:loc_pc_2000004 dc:identifier 2000004.
+samian:loc_pc_2000004 lado:exactMatch wd:Q103135467 . 
+samian:loc_pc_2000004 geosparql:hasGeometry samian:loc_pc_2000004_geom .
+samian:loc_pc_2000004_geom rdf:type sf:Point .
+samian:loc_pc_2000004_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1.666667 44.46667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000004 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000004 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000004 prov:wasGeneratedBy samian:activity_loc_pc_2000004 .
+samian:activity_loc_pc_2000004 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000004 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000004 prov:endedAtTime '2020-12-09T20:53:31.361227Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000004 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000005 rdf:type lado:Location .
+samian:loc_pc_2000005 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000005 amt:instanceOf lado:Location .
+samian:loc_pc_2000005 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000005 rdfs:label 'Crambade'@en.
+samian:loc_pc_2000005 dc:identifier 2000005.
+samian:loc_pc_2000005 lado:exactMatch wd:Q103135471 . 
+samian:loc_pc_2000005 geosparql:hasGeometry samian:loc_pc_2000005_geom .
+samian:loc_pc_2000005_geom rdf:type sf:Point .
+samian:loc_pc_2000005_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1.9 43.865)"^^geosparql:wktLiteral.
+samian:loc_pc_2000005 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000005 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000005 prov:wasGeneratedBy samian:activity_loc_pc_2000005 .
+samian:activity_loc_pc_2000005 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000005 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000005 prov:endedAtTime '2020-12-09T20:53:31.361227Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000005 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000006 rdf:type lado:Location .
+samian:loc_pc_2000006 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000006 amt:instanceOf lado:Location .
+samian:loc_pc_2000006 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000006 rdfs:label 'Espalion'@en.
+samian:loc_pc_2000006 dc:identifier 2000006.
+samian:loc_pc_2000006 lado:exactMatch wd:Q103135475 . 
+samian:loc_pc_2000006 geosparql:hasGeometry samian:loc_pc_2000006_geom .
+samian:loc_pc_2000006_geom rdf:type sf:Point .
+samian:loc_pc_2000006_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(2.766667 44.516667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000006 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000006 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000006 prov:wasGeneratedBy samian:activity_loc_pc_2000006 .
+samian:activity_loc_pc_2000006 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000006 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000006 prov:endedAtTime '2020-12-09T20:53:31.361227Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000006 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000007 rdf:type lado:Location .
+samian:loc_pc_2000007 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000007 amt:instanceOf lado:Location .
+samian:loc_pc_2000007 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000007 rdfs:label 'Jonquières, Saint Saturnin'@en.
+samian:loc_pc_2000007 dc:identifier 2000007.
+samian:loc_pc_2000007 lado:exactMatch wd:Q103135481 . 
+samian:loc_pc_2000007 geosparql:hasGeometry samian:loc_pc_2000007_geom .
+samian:loc_pc_2000007_geom rdf:type sf:Point .
+samian:loc_pc_2000007_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.466667 43.683333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000007 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000007 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000007 prov:wasGeneratedBy samian:activity_loc_pc_2000007 .
+samian:activity_loc_pc_2000007 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000007 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000007 prov:endedAtTime '2020-12-09T20:53:31.362224Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000007 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000008 rdf:type lado:Location .
+samian:loc_pc_2000008 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000008 amt:instanceOf lado:Location .
+samian:loc_pc_2000008 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000008 rdfs:label 'Aspiran'@en.
+samian:loc_pc_2000008 dc:identifier 2000008.
+samian:loc_pc_2000008 lado:exactMatch wd:Q103135496 . 
+samian:loc_pc_2000008 geosparql:hasGeometry samian:loc_pc_2000008_geom .
+samian:loc_pc_2000008_geom rdf:type sf:Point .
+samian:loc_pc_2000008_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.433333 43.566667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000008 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000008 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000008 prov:wasGeneratedBy samian:activity_loc_pc_2000008 .
+samian:activity_loc_pc_2000008 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000008 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000008 prov:endedAtTime '2020-12-09T20:53:31.363220Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000008 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000009 rdf:type lado:Location .
+samian:loc_pc_2000009 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000009 amt:instanceOf lado:Location .
+samian:loc_pc_2000009 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000009 rdfs:label 'Narbonne'@en.
+samian:loc_pc_2000009 dc:identifier 2000009.
+samian:loc_pc_2000009 lado:exactMatch wd:Q103135500 . 
+samian:loc_pc_2000009 geosparql:hasGeometry samian:loc_pc_2000009_geom .
+samian:loc_pc_2000009_geom rdf:type sf:Point .
+samian:loc_pc_2000009_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.0 43.183333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000009 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000009 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000009 prov:wasGeneratedBy samian:activity_loc_pc_2000009 .
+samian:activity_loc_pc_2000009 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000009 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000009 prov:endedAtTime '2020-12-09T20:53:31.363220Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000009 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000010 rdf:type lado:Location .
+samian:loc_pc_2000010 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000010 amt:instanceOf lado:Location .
+samian:loc_pc_2000010 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000010 rdfs:label 'Bram'@en.
+samian:loc_pc_2000010 dc:identifier 2000010.
+samian:loc_pc_2000010 lado:exactMatch wd:Q103135508 . 
+samian:loc_pc_2000010 geosparql:hasGeometry samian:loc_pc_2000010_geom .
+samian:loc_pc_2000010_geom rdf:type sf:Point .
+samian:loc_pc_2000010_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(2.116667 43.25)"^^geosparql:wktLiteral.
+samian:loc_pc_2000010 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000010 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000010 prov:wasGeneratedBy samian:activity_loc_pc_2000010 .
+samian:activity_loc_pc_2000010 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000010 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000010 prov:endedAtTime '2020-12-09T20:53:31.364218Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000010 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000011 rdf:type lado:Location .
+samian:loc_pc_2000011 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000011 amt:instanceOf lado:Location .
+samian:loc_pc_2000011 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000011 rdfs:label 'Montans'@en.
+samian:loc_pc_2000011 dc:identifier 2000011.
+samian:loc_pc_2000011 lado:exactMatch wd:Q103135513 . 
+samian:loc_pc_2000011 geosparql:hasGeometry samian:loc_pc_2000011_geom .
+samian:loc_pc_2000011_geom rdf:type sf:Point .
+samian:loc_pc_2000011_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1.9 43.866667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000011 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000011 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000011 prov:wasGeneratedBy samian:activity_loc_pc_2000011 .
+samian:activity_loc_pc_2000011 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000011 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000011 prov:endedAtTime '2020-12-09T20:53:31.364218Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000011 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000012 rdf:type lado:Location .
+samian:loc_pc_2000012 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000012 amt:instanceOf lado:Location .
+samian:loc_pc_2000012 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000012 rdfs:label 'Saint-Sauveur'@en.
+samian:loc_pc_2000012 dc:identifier 2000012.
+samian:loc_pc_2000012 lado:exactMatch wd:Q103135517 . 
+samian:loc_pc_2000012 geosparql:hasGeometry samian:loc_pc_2000012_geom .
+samian:loc_pc_2000012_geom rdf:type sf:Point .
+samian:loc_pc_2000012_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1.916667 43.9)"^^geosparql:wktLiteral.
+samian:loc_pc_2000012 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000012 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000012 prov:wasGeneratedBy samian:activity_loc_pc_2000012 .
+samian:activity_loc_pc_2000012 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000012 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000012 prov:endedAtTime '2020-12-09T20:53:31.365217Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000012 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000013 rdf:type lado:Location .
+samian:loc_pc_2000013 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000013 amt:instanceOf lado:Location .
+samian:loc_pc_2000013 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000013 rdfs:label 'Valéry'@en.
+samian:loc_pc_2000013 dc:identifier 2000013.
+samian:loc_pc_2000013 lado:exactMatch wd:Q103135521 . 
+samian:loc_pc_2000013 geosparql:hasGeometry samian:loc_pc_2000013_geom .
+samian:loc_pc_2000013_geom rdf:type sf:Point .
+samian:loc_pc_2000013_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1.966667 43.783333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000013 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000013 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000013 prov:wasGeneratedBy samian:activity_loc_pc_2000013 .
+samian:activity_loc_pc_2000013 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000013 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000013 prov:endedAtTime '2020-12-09T20:53:31.366214Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000013 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000014 rdf:type lado:Location .
+samian:loc_pc_2000014 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000014 amt:instanceOf lado:Location .
+samian:loc_pc_2000014 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000014 rdfs:label 'Cournon'@en.
+samian:loc_pc_2000014 dc:identifier 2000014.
+samian:loc_pc_2000014 lado:exactMatch wd:Q103135526 . 
+samian:loc_pc_2000014 geosparql:hasGeometry samian:loc_pc_2000014_geom .
+samian:loc_pc_2000014_geom rdf:type sf:Point .
+samian:loc_pc_2000014_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.216667 45.75)"^^geosparql:wktLiteral.
+samian:loc_pc_2000014 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000014 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000014 prov:wasGeneratedBy samian:activity_loc_pc_2000014 .
+samian:activity_loc_pc_2000014 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000014 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000014 prov:endedAtTime '2020-12-09T20:53:31.366214Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000014 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000015 rdf:type lado:Location .
+samian:loc_pc_2000015 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000015 amt:instanceOf lado:Location .
+samian:loc_pc_2000015 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000015 rdfs:label 'Gueugnon'@en.
+samian:loc_pc_2000015 dc:identifier 2000015.
+samian:loc_pc_2000015 lado:exactMatch wd:Q103135532 . 
+samian:loc_pc_2000015 geosparql:hasGeometry samian:loc_pc_2000015_geom .
+samian:loc_pc_2000015_geom rdf:type sf:Point .
+samian:loc_pc_2000015_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(4.066667 46.6)"^^geosparql:wktLiteral.
+samian:loc_pc_2000015 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000015 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000015 prov:wasGeneratedBy samian:activity_loc_pc_2000015 .
+samian:activity_loc_pc_2000015 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000015 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000015 prov:endedAtTime '2020-12-09T20:53:31.367212Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000015 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000016 rdf:type lado:Location .
+samian:loc_pc_2000016 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000016 amt:instanceOf lado:Location .
+samian:loc_pc_2000016 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000016 rdfs:label 'Lezoux'@en.
+samian:loc_pc_2000016 dc:identifier 2000016.
+samian:loc_pc_2000016 lado:exactMatch wd:Q103135540 . 
+samian:loc_pc_2000016 geosparql:hasGeometry samian:loc_pc_2000016_geom .
+samian:loc_pc_2000016_geom rdf:type sf:Point .
+samian:loc_pc_2000016_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.383333 45.833333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000016 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000016 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000016 prov:wasGeneratedBy samian:activity_loc_pc_2000016 .
+samian:activity_loc_pc_2000016 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000016 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000016 prov:endedAtTime '2020-12-09T20:53:31.368208Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000016 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000017 rdf:type lado:Location .
+samian:loc_pc_2000017 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000017 amt:instanceOf lado:Location .
+samian:loc_pc_2000017 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000017 rdfs:label 'Lubié'@en.
+samian:loc_pc_2000017 dc:identifier 2000017.
+samian:loc_pc_2000017 lado:exactMatch wd:Q103135546 . 
+samian:loc_pc_2000017 geosparql:hasGeometry samian:loc_pc_2000017_geom .
+samian:loc_pc_2000017_geom rdf:type sf:Point .
+samian:loc_pc_2000017_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.633333 46.25)"^^geosparql:wktLiteral.
+samian:loc_pc_2000017 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000017 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000017 prov:wasGeneratedBy samian:activity_loc_pc_2000017 .
+samian:activity_loc_pc_2000017 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000017 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000017 prov:endedAtTime '2020-12-09T20:53:31.368208Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000017 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000018 rdf:type lado:Location .
+samian:loc_pc_2000018 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000018 amt:instanceOf lado:Location .
+samian:loc_pc_2000018 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000018 rdfs:label 'Martres-de-Veyre'@en.
+samian:loc_pc_2000018 dc:identifier 2000018.
+samian:loc_pc_2000018 lado:exactMatch wd:Q103135552 . 
+samian:loc_pc_2000018 geosparql:hasGeometry samian:loc_pc_2000018_geom .
+samian:loc_pc_2000018_geom rdf:type sf:Point .
+samian:loc_pc_2000018_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.2 45.683333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000018 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000018 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000018 prov:wasGeneratedBy samian:activity_loc_pc_2000018 .
+samian:activity_loc_pc_2000018 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000018 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000018 prov:endedAtTime '2020-12-09T20:53:31.369205Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000018 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000019 rdf:type lado:Location .
+samian:loc_pc_2000019 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000019 amt:instanceOf lado:Location .
+samian:loc_pc_2000019 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000019 rdfs:label 'Mougon'@en.
+samian:loc_pc_2000019 dc:identifier 2000019.
+samian:loc_pc_2000019 lado:exactMatch wd:Q103135554 . 
+samian:loc_pc_2000019 geosparql:hasGeometry samian:loc_pc_2000019_geom .
+samian:loc_pc_2000019_geom rdf:type sf:Point .
+samian:loc_pc_2000019_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(0.466667 47.1)"^^geosparql:wktLiteral.
+samian:loc_pc_2000019 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000019 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000019 prov:wasGeneratedBy samian:activity_loc_pc_2000019 .
+samian:activity_loc_pc_2000019 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000019 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000019 prov:endedAtTime '2020-12-09T20:53:31.369205Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000019 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000020 rdf:type lado:Location .
+samian:loc_pc_2000020 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000020 amt:instanceOf lado:Location .
+samian:loc_pc_2000020 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000020 rdfs:label 'Nouâtre'@en.
+samian:loc_pc_2000020 dc:identifier 2000020.
+samian:loc_pc_2000020 lado:exactMatch wd:Q103135559 . 
+samian:loc_pc_2000020 geosparql:hasGeometry samian:loc_pc_2000020_geom .
+samian:loc_pc_2000020_geom rdf:type sf:Point .
+samian:loc_pc_2000020_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(0.55 47.05)"^^geosparql:wktLiteral.
+samian:loc_pc_2000020 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000020 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000020 prov:wasGeneratedBy samian:activity_loc_pc_2000020 .
+samian:activity_loc_pc_2000020 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000020 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000020 prov:endedAtTime '2020-12-09T20:53:31.370204Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000020 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000021 rdf:type lado:Location .
+samian:loc_pc_2000021 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000021 amt:instanceOf lado:Location .
+samian:loc_pc_2000021 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000021 rdfs:label 'Toulon-sur-Allier'@en.
+samian:loc_pc_2000021 dc:identifier 2000021.
+samian:loc_pc_2000021 lado:exactMatch wd:Q103135565 . 
+samian:loc_pc_2000021 geosparql:hasGeometry samian:loc_pc_2000021_geom .
+samian:loc_pc_2000021_geom rdf:type sf:Point .
+samian:loc_pc_2000021_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.366667 46.516667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000021 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000021 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000021 prov:wasGeneratedBy samian:activity_loc_pc_2000021 .
+samian:activity_loc_pc_2000021 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000021 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000021 prov:endedAtTime '2020-12-09T20:53:31.371199Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000021 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000022 rdf:type lado:Location .
+samian:loc_pc_2000022 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000022 amt:instanceOf lado:Location .
+samian:loc_pc_2000022 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000022 rdfs:label 'Vichy, Terre Franche'@en.
+samian:loc_pc_2000022 dc:identifier 2000022.
+samian:loc_pc_2000022 lado:exactMatch wd:Q103135570 . 
+samian:loc_pc_2000022 geosparql:hasGeometry samian:loc_pc_2000022_geom .
+samian:loc_pc_2000022_geom rdf:type sf:Point .
+samian:loc_pc_2000022_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.4 46.116667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000022 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000022 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000022 prov:wasGeneratedBy samian:activity_loc_pc_2000022 .
+samian:activity_loc_pc_2000022 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000022 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000022 prov:endedAtTime '2020-12-09T20:53:31.371199Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000022 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000023 rdf:type lado:Location .
+samian:loc_pc_2000023 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000023 amt:instanceOf lado:Location .
+samian:loc_pc_2000023 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000023 rdfs:label 'Aachen'@en.
+samian:loc_pc_2000023 dc:identifier 2000023.
+samian:loc_pc_2000023 lado:exactMatch wd:Q103135575 . 
+samian:loc_pc_2000023 geosparql:hasGeometry samian:loc_pc_2000023_geom .
+samian:loc_pc_2000023_geom rdf:type sf:Point .
+samian:loc_pc_2000023_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.105278 50.770833)"^^geosparql:wktLiteral.
+samian:loc_pc_2000023 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000023 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000023 prov:wasGeneratedBy samian:activity_loc_pc_2000023 .
+samian:activity_loc_pc_2000023 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000023 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000023 prov:endedAtTime '2020-12-09T20:53:31.372197Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000023 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000024 rdf:type lado:Location .
+samian:loc_pc_2000024 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000024 amt:instanceOf lado:Location .
+samian:loc_pc_2000024 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000024 rdfs:label 'Avocourt'@en.
+samian:loc_pc_2000024 dc:identifier 2000024.
+samian:loc_pc_2000024 lado:exactMatch wd:Q103135580 . 
+samian:loc_pc_2000024 geosparql:hasGeometry samian:loc_pc_2000024_geom .
+samian:loc_pc_2000024_geom rdf:type sf:Point .
+samian:loc_pc_2000024_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(5.15 49.2)"^^geosparql:wktLiteral.
+samian:loc_pc_2000024 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000024 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000024 prov:wasGeneratedBy samian:activity_loc_pc_2000024 .
+samian:activity_loc_pc_2000024 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000024 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000024 prov:endedAtTime '2020-12-09T20:53:31.373194Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000024 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000025 rdf:type lado:Location .
+samian:loc_pc_2000025 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000025 amt:instanceOf lado:Location .
+samian:loc_pc_2000025 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000025 rdfs:label 'Baden'@en.
+samian:loc_pc_2000025 dc:identifier 2000025.
+samian:loc_pc_2000025 lado:exactMatch wd:Q103135582 . 
+samian:loc_pc_2000025 geosparql:hasGeometry samian:loc_pc_2000025_geom .
+samian:loc_pc_2000025_geom rdf:type sf:Point .
+samian:loc_pc_2000025_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(8.3 47.466667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000025 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000025 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000025 prov:wasGeneratedBy samian:activity_loc_pc_2000025 .
+samian:activity_loc_pc_2000025 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000025 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000025 prov:endedAtTime '2020-12-09T20:53:31.373194Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000025 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000026 rdf:type lado:Location .
+samian:loc_pc_2000026 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000026 amt:instanceOf lado:Location .
+samian:loc_pc_2000026 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000026 rdfs:label 'Bern'@en.
+samian:loc_pc_2000026 dc:identifier 2000026.
+samian:loc_pc_2000026 lado:exactMatch wd:Q103135588 . 
+samian:loc_pc_2000026 geosparql:hasGeometry samian:loc_pc_2000026_geom .
+samian:loc_pc_2000026_geom rdf:type sf:Point .
+samian:loc_pc_2000026_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.466667 46.916667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000026 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000026 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000026 prov:wasGeneratedBy samian:activity_loc_pc_2000026 .
+samian:activity_loc_pc_2000026 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000026 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000026 prov:endedAtTime '2020-12-09T20:53:31.374193Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000026 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000027 rdf:type lado:Location .
+samian:loc_pc_2000027 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000027 amt:instanceOf lado:Location .
+samian:loc_pc_2000027 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000027 rdfs:label 'Blickweiler'@en.
+samian:loc_pc_2000027 dc:identifier 2000027.
+samian:loc_pc_2000027 lado:exactMatch wd:Q103135593 . 
+samian:loc_pc_2000027 geosparql:hasGeometry samian:loc_pc_2000027_geom .
+samian:loc_pc_2000027_geom rdf:type sf:Point .
+samian:loc_pc_2000027_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.25 49.216667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000027 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000027 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000027 prov:wasGeneratedBy samian:activity_loc_pc_2000027 .
+samian:activity_loc_pc_2000027 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000027 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000027 prov:endedAtTime '2020-12-09T20:53:31.375197Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000027 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000028 rdf:type lado:Location .
+samian:loc_pc_2000028 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000028 amt:instanceOf lado:Location .
+samian:loc_pc_2000028 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000028 rdfs:label 'Bliesbruck'@en.
+samian:loc_pc_2000028 dc:identifier 2000028.
+samian:loc_pc_2000028 lado:exactMatch wd:Q103135600 . 
+samian:loc_pc_2000028 geosparql:hasGeometry samian:loc_pc_2000028_geom .
+samian:loc_pc_2000028_geom rdf:type sf:Point .
+samian:loc_pc_2000028_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.183333 49.116667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000028 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000028 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000028 prov:wasGeneratedBy samian:activity_loc_pc_2000028 .
+samian:activity_loc_pc_2000028 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000028 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000028 prov:endedAtTime '2020-12-09T20:53:31.376190Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000028 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000029 rdf:type lado:Location .
+samian:loc_pc_2000029 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000029 amt:instanceOf lado:Location .
+samian:loc_pc_2000029 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000029 rdfs:label 'Boucheporn'@en.
+samian:loc_pc_2000029 dc:identifier 2000029.
+samian:loc_pc_2000029 lado:exactMatch wd:Q103135608 . 
+samian:loc_pc_2000029 geosparql:hasGeometry samian:loc_pc_2000029_geom .
+samian:loc_pc_2000029_geom rdf:type sf:Point .
+samian:loc_pc_2000029_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.6 49.15)"^^geosparql:wktLiteral.
+samian:loc_pc_2000029 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000029 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000029 prov:wasGeneratedBy samian:activity_loc_pc_2000029 .
+samian:activity_loc_pc_2000029 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000029 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000029 prov:endedAtTime '2020-12-09T20:53:31.379327Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000029 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000030 rdf:type lado:Location .
+samian:loc_pc_2000030 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000030 amt:instanceOf lado:Location .
+samian:loc_pc_2000030 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000030 rdfs:label 'Chémery-Faulquemont'@en.
+samian:loc_pc_2000030 dc:identifier 2000030.
+samian:loc_pc_2000030 lado:exactMatch wd:Q103135613 . 
+samian:loc_pc_2000030 geosparql:hasGeometry samian:loc_pc_2000030_geom .
+samian:loc_pc_2000030_geom rdf:type sf:Point .
+samian:loc_pc_2000030_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.50833 49.15)"^^geosparql:wktLiteral.
+samian:loc_pc_2000030 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000030 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000030 prov:wasGeneratedBy samian:activity_loc_pc_2000030 .
+samian:activity_loc_pc_2000030 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000030 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000030 prov:endedAtTime '2020-12-09T20:53:31.380285Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000030 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000031 rdf:type lado:Location .
+samian:loc_pc_2000031 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000031 amt:instanceOf lado:Location .
+samian:loc_pc_2000031 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000031 rdfs:label 'Eincheville'@en.
+samian:loc_pc_2000031 dc:identifier 2000031.
+samian:loc_pc_2000031 lado:exactMatch wd:Q103135618 . 
+samian:loc_pc_2000031 geosparql:hasGeometry samian:loc_pc_2000031_geom .
+samian:loc_pc_2000031_geom rdf:type sf:Point .
+samian:loc_pc_2000031_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.6 48.983333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000031 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000031 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000031 prov:wasGeneratedBy samian:activity_loc_pc_2000031 .
+samian:activity_loc_pc_2000031 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000031 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000031 prov:endedAtTime '2020-12-09T20:53:31.380285Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000031 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000032 rdf:type lado:Location .
+samian:loc_pc_2000032 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000032 amt:instanceOf lado:Location .
+samian:loc_pc_2000032 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000032 rdfs:label 'Eschweilerhof'@en.
+samian:loc_pc_2000032 dc:identifier 2000032.
+samian:loc_pc_2000032 lado:exactMatch wd:Q103135621 . 
+samian:loc_pc_2000032 geosparql:hasGeometry samian:loc_pc_2000032_geom .
+samian:loc_pc_2000032_geom rdf:type sf:Point .
+samian:loc_pc_2000032_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.2 49.3)"^^geosparql:wktLiteral.
+samian:loc_pc_2000032 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000032 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000032 prov:wasGeneratedBy samian:activity_loc_pc_2000032 .
+samian:activity_loc_pc_2000032 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000032 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000032 prov:endedAtTime '2020-12-09T20:53:31.381283Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000032 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000033 rdf:type lado:Location .
+samian:loc_pc_2000033 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000033 amt:instanceOf lado:Location .
+samian:loc_pc_2000033 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000033 rdfs:label 'Haute-Yutz'@en.
+samian:loc_pc_2000033 dc:identifier 2000033.
+samian:loc_pc_2000033 lado:exactMatch wd:Q103135627 . 
+samian:loc_pc_2000033 geosparql:hasGeometry samian:loc_pc_2000033_geom .
+samian:loc_pc_2000033_geom rdf:type sf:Point .
+samian:loc_pc_2000033_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.2 49.35)"^^geosparql:wktLiteral.
+samian:loc_pc_2000033 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000033 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000033 prov:wasGeneratedBy samian:activity_loc_pc_2000033 .
+samian:activity_loc_pc_2000033 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000033 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000033 prov:endedAtTime '2020-12-09T20:53:31.382280Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000033 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000034 rdf:type lado:Location .
+samian:loc_pc_2000034 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000034 amt:instanceOf lado:Location .
+samian:loc_pc_2000034 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000034 rdfs:label 'Heiligenberg'@en.
+samian:loc_pc_2000034 dc:identifier 2000034.
+samian:loc_pc_2000034 lado:exactMatch wd:Q103135630 . 
+samian:loc_pc_2000034 geosparql:hasGeometry samian:loc_pc_2000034_geom .
+samian:loc_pc_2000034_geom rdf:type sf:Point .
+samian:loc_pc_2000034_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.4 48.533333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000034 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000034 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000034 prov:wasGeneratedBy samian:activity_loc_pc_2000034 .
+samian:activity_loc_pc_2000034 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000034 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000034 prov:endedAtTime '2020-12-09T20:53:31.384283Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000034 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000035 rdf:type lado:Location .
+samian:loc_pc_2000035 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000035 amt:instanceOf lado:Location .
+samian:loc_pc_2000035 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000035 rdfs:label 'Horbourg'@en.
+samian:loc_pc_2000035 dc:identifier 2000035.
+samian:loc_pc_2000035 lado:exactMatch wd:Q103135638 . 
+samian:loc_pc_2000035 geosparql:hasGeometry samian:loc_pc_2000035_geom .
+samian:loc_pc_2000035_geom rdf:type sf:Point .
+samian:loc_pc_2000035_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.383333 48.083333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000035 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000035 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000035 prov:wasGeneratedBy samian:activity_loc_pc_2000035 .
+samian:activity_loc_pc_2000035 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000035 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000035 prov:endedAtTime '2020-12-09T20:53:31.385271Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000035 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000036 rdf:type lado:Location .
+samian:loc_pc_2000036 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000036 amt:instanceOf lado:Location .
+samian:loc_pc_2000036 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000036 rdfs:label 'Ittenwiller'@en.
+samian:loc_pc_2000036 dc:identifier 2000036.
+samian:loc_pc_2000036 lado:exactMatch wd:Q103135642 . 
+samian:loc_pc_2000036 geosparql:hasGeometry samian:loc_pc_2000036_geom .
+samian:loc_pc_2000036_geom rdf:type sf:Point .
+samian:loc_pc_2000036_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.466667 48.383333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000036 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000036 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000036 prov:wasGeneratedBy samian:activity_loc_pc_2000036 .
+samian:activity_loc_pc_2000036 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000036 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000036 prov:endedAtTime '2020-12-09T20:53:31.386271Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000036 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000037 rdf:type lado:Location .
+samian:loc_pc_2000037 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000037 amt:instanceOf lado:Location .
+samian:loc_pc_2000037 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000037 rdfs:label 'Jaulges-Villiers-Vineux'@en.
+samian:loc_pc_2000037 dc:identifier 2000037.
+samian:loc_pc_2000037 lado:exactMatch wd:Q103135647 . 
+samian:loc_pc_2000037 geosparql:hasGeometry samian:loc_pc_2000037_geom .
+samian:loc_pc_2000037_geom rdf:type sf:Point .
+samian:loc_pc_2000037_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.783333 47.966667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000037 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000037 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000037 prov:wasGeneratedBy samian:activity_loc_pc_2000037 .
+samian:activity_loc_pc_2000037 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000037 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000037 prov:endedAtTime '2020-12-09T20:53:31.388267Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000037 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000038 rdf:type lado:Location .
+samian:loc_pc_2000038 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000038 amt:instanceOf lado:Location .
+samian:loc_pc_2000038 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000038 rdfs:label 'La Madeleine'@en.
+samian:loc_pc_2000038 dc:identifier 2000038.
+samian:loc_pc_2000038 lado:exactMatch wd:Q103135650 . 
+samian:loc_pc_2000038 geosparql:hasGeometry samian:loc_pc_2000038_geom .
+samian:loc_pc_2000038_geom rdf:type sf:Point .
+samian:loc_pc_2000038_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.25 48.65)"^^geosparql:wktLiteral.
+samian:loc_pc_2000038 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000038 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000038 prov:wasGeneratedBy samian:activity_loc_pc_2000038 .
+samian:activity_loc_pc_2000038 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000038 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000038 prov:endedAtTime '2020-12-09T20:53:31.390266Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000038 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000039 rdf:type lado:Location .
+samian:loc_pc_2000039 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000039 amt:instanceOf lado:Location .
+samian:loc_pc_2000039 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000039 rdfs:label 'Lavoye'@en.
+samian:loc_pc_2000039 dc:identifier 2000039.
+samian:loc_pc_2000039 lado:exactMatch wd:Q103135658 . 
+samian:loc_pc_2000039 geosparql:hasGeometry samian:loc_pc_2000039_geom .
+samian:loc_pc_2000039_geom rdf:type sf:Point .
+samian:loc_pc_2000039_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(5.13333 49.0333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000039 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000039 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000039 prov:wasGeneratedBy samian:activity_loc_pc_2000039 .
+samian:activity_loc_pc_2000039 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000039 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000039 prov:endedAtTime '2020-12-09T20:53:31.392261Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000039 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000040 rdf:type lado:Location .
+samian:loc_pc_2000040 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000040 amt:instanceOf lado:Location .
+samian:loc_pc_2000040 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000040 rdfs:label 'Lehen'@en.
+samian:loc_pc_2000040 dc:identifier 2000040.
+samian:loc_pc_2000040 lado:exactMatch wd:Q103135664 . 
+samian:loc_pc_2000040 geosparql:hasGeometry samian:loc_pc_2000040_geom .
+samian:loc_pc_2000040_geom rdf:type sf:Point .
+samian:loc_pc_2000040_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.8 48.016667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000040 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000040 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000040 prov:wasGeneratedBy samian:activity_loc_pc_2000040 .
+samian:activity_loc_pc_2000040 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000040 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000040 prov:endedAtTime '2020-12-09T20:53:31.393251Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000040 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000041 rdf:type lado:Location .
+samian:loc_pc_2000041 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000041 amt:instanceOf lado:Location .
+samian:loc_pc_2000041 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000041 rdfs:label 'Le Pont des Rèmes'@en.
+samian:loc_pc_2000041 dc:identifier 2000041.
+samian:loc_pc_2000041 lado:exactMatch wd:Q103135669 . 
+samian:loc_pc_2000041 geosparql:hasGeometry samian:loc_pc_2000041_geom .
+samian:loc_pc_2000041_geom rdf:type sf:Point .
+samian:loc_pc_2000041_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(4.95 49.1333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000041 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000041 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000041 prov:wasGeneratedBy samian:activity_loc_pc_2000041 .
+samian:activity_loc_pc_2000041 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000041 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000041 prov:endedAtTime '2020-12-09T20:53:31.393251Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000041 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000042 rdf:type lado:Location .
+samian:loc_pc_2000042 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000042 amt:instanceOf lado:Location .
+samian:loc_pc_2000042 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000042 rdfs:label 'Les Allieux'@en.
+samian:loc_pc_2000042 dc:identifier 2000042.
+samian:loc_pc_2000042 lado:exactMatch wd:Q103135673 . 
+samian:loc_pc_2000042 geosparql:hasGeometry samian:loc_pc_2000042_geom .
+samian:loc_pc_2000042_geom rdf:type sf:Point .
+samian:loc_pc_2000042_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(5.06667 49.2)"^^geosparql:wktLiteral.
+samian:loc_pc_2000042 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000042 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000042 prov:wasGeneratedBy samian:activity_loc_pc_2000042 .
+samian:activity_loc_pc_2000042 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000042 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000042 prov:endedAtTime '2020-12-09T20:53:31.394250Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000042 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000043 rdf:type lado:Location .
+samian:loc_pc_2000043 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000043 amt:instanceOf lado:Location .
+samian:loc_pc_2000043 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000043 rdfs:label 'Luxeuil-les-Bains'@en.
+samian:loc_pc_2000043 dc:identifier 2000043.
+samian:loc_pc_2000043 lado:exactMatch wd:Q103135681 . 
+samian:loc_pc_2000043 geosparql:hasGeometry samian:loc_pc_2000043_geom .
+samian:loc_pc_2000043_geom rdf:type sf:Point .
+samian:loc_pc_2000043_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.383333 47.816667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000043 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000043 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000043 prov:wasGeneratedBy samian:activity_loc_pc_2000043 .
+samian:activity_loc_pc_2000043 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000043 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000043 prov:endedAtTime '2020-12-09T20:53:31.395249Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000043 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000044 rdf:type lado:Location .
+samian:loc_pc_2000044 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000044 amt:instanceOf lado:Location .
+samian:loc_pc_2000044 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000044 rdfs:label 'Mittelbronn'@en.
+samian:loc_pc_2000044 dc:identifier 2000044.
+samian:loc_pc_2000044 lado:exactMatch wd:Q103135687 . 
+samian:loc_pc_2000044 geosparql:hasGeometry samian:loc_pc_2000044_geom .
+samian:loc_pc_2000044_geom rdf:type sf:Point .
+samian:loc_pc_2000044_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.216667 48.766667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000044 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000044 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000044 prov:wasGeneratedBy samian:activity_loc_pc_2000044 .
+samian:activity_loc_pc_2000044 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000044 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000044 prov:endedAtTime '2020-12-09T20:53:31.396252Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000044 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000045 rdf:type lado:Location .
+samian:loc_pc_2000045 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000045 amt:instanceOf lado:Location .
+samian:loc_pc_2000045 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000045 rdfs:label 'Nürtingen'@en.
+samian:loc_pc_2000045 dc:identifier 2000045.
+samian:loc_pc_2000045 lado:exactMatch wd:Q103135692 . 
+samian:loc_pc_2000045 geosparql:hasGeometry samian:loc_pc_2000045_geom .
+samian:loc_pc_2000045_geom rdf:type sf:Point .
+samian:loc_pc_2000045_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(9.35 48.633333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000045 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000045 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000045 prov:wasGeneratedBy samian:activity_loc_pc_2000045 .
+samian:activity_loc_pc_2000045 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000045 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000045 prov:endedAtTime '2020-12-09T20:53:31.397243Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000045 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000046 rdf:type lado:Location .
+samian:loc_pc_2000046 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000046 amt:instanceOf lado:Location .
+samian:loc_pc_2000046 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000046 rdfs:label 'Offemont'@en.
+samian:loc_pc_2000046 dc:identifier 2000046.
+samian:loc_pc_2000046 lado:exactMatch wd:Q103135695 . 
+samian:loc_pc_2000046 geosparql:hasGeometry samian:loc_pc_2000046_geom .
+samian:loc_pc_2000046_geom rdf:type sf:Point .
+samian:loc_pc_2000046_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.883333 47.666667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000046 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000046 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000046 prov:wasGeneratedBy samian:activity_loc_pc_2000046 .
+samian:activity_loc_pc_2000046 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000046 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000046 prov:endedAtTime '2020-12-09T20:53:31.397243Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000046 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000047 rdf:type lado:Location .
+samian:loc_pc_2000047 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000047 amt:instanceOf lado:Location .
+samian:loc_pc_2000047 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000047 rdfs:label 'Rheinzabern'@en.
+samian:loc_pc_2000047 dc:identifier 2000047.
+samian:loc_pc_2000047 lado:exactMatch wd:Q103135703 . 
+samian:loc_pc_2000047 geosparql:hasGeometry samian:loc_pc_2000047_geom .
+samian:loc_pc_2000047_geom rdf:type sf:Point .
+samian:loc_pc_2000047_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(8.278055999999998 49.118056)"^^geosparql:wktLiteral.
+samian:loc_pc_2000047 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000047 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000047 prov:wasGeneratedBy samian:activity_loc_pc_2000047 .
+samian:activity_loc_pc_2000047 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000047 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000047 prov:endedAtTime '2020-12-09T20:53:31.399236Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000047 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000048 rdf:type lado:Location .
+samian:loc_pc_2000048 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000048 amt:instanceOf lado:Location .
+samian:loc_pc_2000048 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000048 rdfs:label 'Sinzig'@en.
+samian:loc_pc_2000048 dc:identifier 2000048.
+samian:loc_pc_2000048 lado:exactMatch wd:Q103135708 . 
+samian:loc_pc_2000048 geosparql:hasGeometry samian:loc_pc_2000048_geom .
+samian:loc_pc_2000048_geom rdf:type sf:Point .
+samian:loc_pc_2000048_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(7.25 50.55)"^^geosparql:wktLiteral.
+samian:loc_pc_2000048 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000048 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000048 prov:wasGeneratedBy samian:activity_loc_pc_2000048 .
+samian:activity_loc_pc_2000048 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000048 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000048 prov:endedAtTime '2020-12-09T20:53:31.401234Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000048 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000049 rdf:type lado:Location .
+samian:loc_pc_2000049 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000049 amt:instanceOf lado:Location .
+samian:loc_pc_2000049 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000049 rdfs:label 'Trier'@en.
+samian:loc_pc_2000049 dc:identifier 2000049.
+samian:loc_pc_2000049 lado:exactMatch wd:Q103135714 . 
+samian:loc_pc_2000049 geosparql:hasGeometry samian:loc_pc_2000049_geom .
+samian:loc_pc_2000049_geom rdf:type sf:Point .
+samian:loc_pc_2000049_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(6.633333 49.75)"^^geosparql:wktLiteral.
+samian:loc_pc_2000049 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000049 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000049 prov:wasGeneratedBy samian:activity_loc_pc_2000049 .
+samian:activity_loc_pc_2000049 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000049 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000049 prov:endedAtTime '2020-12-09T20:53:31.403226Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000049 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000050 rdf:type lado:Location .
+samian:loc_pc_2000050 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000050 amt:instanceOf lado:Location .
+samian:loc_pc_2000050 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000050 rdfs:label 'Schwabegg'@en.
+samian:loc_pc_2000050 dc:identifier 2000050.
+samian:loc_pc_2000050 lado:exactMatch wd:Q103135717 . 
+samian:loc_pc_2000050 geosparql:hasGeometry samian:loc_pc_2000050_geom .
+samian:loc_pc_2000050_geom rdf:type sf:Point .
+samian:loc_pc_2000050_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(10.683333 48.183333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000050 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000050 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000050 prov:wasGeneratedBy samian:activity_loc_pc_2000050 .
+samian:activity_loc_pc_2000050 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000050 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000050 prov:endedAtTime '2020-12-09T20:53:31.404222Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000050 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000051 rdf:type lado:Location .
+samian:loc_pc_2000051 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000051 amt:instanceOf lado:Location .
+samian:loc_pc_2000051 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000051 rdfs:label 'Kräherwald'@en.
+samian:loc_pc_2000051 dc:identifier 2000051.
+samian:loc_pc_2000051 lado:exactMatch wd:Q103135724 . 
+samian:loc_pc_2000051 geosparql:hasGeometry samian:loc_pc_2000051_geom .
+samian:loc_pc_2000051_geom rdf:type sf:Point .
+samian:loc_pc_2000051_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(9.183333 48.766667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000051 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000051 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000051 prov:wasGeneratedBy samian:activity_loc_pc_2000051 .
+samian:activity_loc_pc_2000051 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000051 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000051 prov:endedAtTime '2020-12-09T20:53:31.405219Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000051 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000052 rdf:type lado:Location .
+samian:loc_pc_2000052 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000052 amt:instanceOf lado:Location .
+samian:loc_pc_2000052 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000052 rdfs:label 'Waiblingen'@en.
+samian:loc_pc_2000052 dc:identifier 2000052.
+samian:loc_pc_2000052 lado:exactMatch wd:Q103135730 . 
+samian:loc_pc_2000052 geosparql:hasGeometry samian:loc_pc_2000052_geom .
+samian:loc_pc_2000052_geom rdf:type sf:Point .
+samian:loc_pc_2000052_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(9.3 48.833333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000052 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000052 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000052 prov:wasGeneratedBy samian:activity_loc_pc_2000052 .
+samian:activity_loc_pc_2000052 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000052 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000052 prov:endedAtTime '2020-12-09T20:53:31.405219Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000052 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000053 rdf:type lado:Location .
+samian:loc_pc_2000053 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000053 amt:instanceOf lado:Location .
+samian:loc_pc_2000053 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000053 rdfs:label 'Pfaffenhofen'@en.
+samian:loc_pc_2000053 dc:identifier 2000053.
+samian:loc_pc_2000053 lado:exactMatch wd:Q103135734 . 
+samian:loc_pc_2000053 geosparql:hasGeometry samian:loc_pc_2000053_geom .
+samian:loc_pc_2000053_geom rdf:type sf:Point .
+samian:loc_pc_2000053_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(12.133333 47.9)"^^geosparql:wktLiteral.
+samian:loc_pc_2000053 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000053 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000053 prov:wasGeneratedBy samian:activity_loc_pc_2000053 .
+samian:activity_loc_pc_2000053 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000053 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000053 prov:endedAtTime '2020-12-09T20:53:31.406215Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000053 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000054 rdf:type lado:Location .
+samian:loc_pc_2000054 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000054 amt:instanceOf lado:Location .
+samian:loc_pc_2000054 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000054 rdfs:label 'Westerndorf'@en.
+samian:loc_pc_2000054 dc:identifier 2000054.
+samian:loc_pc_2000054 lado:exactMatch wd:Q103135739 . 
+samian:loc_pc_2000054 geosparql:hasGeometry samian:loc_pc_2000054_geom .
+samian:loc_pc_2000054_geom rdf:type sf:Point .
+samian:loc_pc_2000054_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(12.116667 47.883333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000054 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000054 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000054 prov:wasGeneratedBy samian:activity_loc_pc_2000054 .
+samian:activity_loc_pc_2000054 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000054 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000054 prov:endedAtTime '2020-12-09T20:53:31.406215Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000054 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000055 rdf:type lado:Location .
+samian:loc_pc_2000055 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000055 amt:instanceOf lado:Location .
+samian:loc_pc_2000055 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000055 rdfs:label 'Colchester'@en.
+samian:loc_pc_2000055 dc:identifier 2000055.
+samian:loc_pc_2000055 lado:exactMatch wd:Q103135744 . 
+samian:loc_pc_2000055 geosparql:hasGeometry samian:loc_pc_2000055_geom .
+samian:loc_pc_2000055_geom rdf:type sf:Point .
+samian:loc_pc_2000055_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(0.9 51.883333)"^^geosparql:wktLiteral.
+samian:loc_pc_2000055 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000055 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000055 prov:wasGeneratedBy samian:activity_loc_pc_2000055 .
+samian:activity_loc_pc_2000055 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000055 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000055 prov:endedAtTime '2020-12-09T20:53:31.407219Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000055 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000056 rdf:type lado:Location .
+samian:loc_pc_2000056 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000056 amt:instanceOf lado:Location .
+samian:loc_pc_2000056 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000056 rdfs:label 'Pulborough'@en.
+samian:loc_pc_2000056 dc:identifier 2000056.
+samian:loc_pc_2000056 lado:exactMatch wd:Q103135749 . 
+samian:loc_pc_2000056 geosparql:hasGeometry samian:loc_pc_2000056_geom .
+samian:loc_pc_2000056_geom rdf:type sf:Point .
+samian:loc_pc_2000056_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-0.516667 50.95)"^^geosparql:wktLiteral.
+samian:loc_pc_2000056 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000056 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000056 prov:wasGeneratedBy samian:activity_loc_pc_2000056 .
+samian:activity_loc_pc_2000056 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000056 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000056 prov:endedAtTime '2020-12-09T20:53:31.407219Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000056 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000057 rdf:type lado:Location .
+samian:loc_pc_2000057 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000057 amt:instanceOf lado:Location .
+samian:loc_pc_2000057 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000057 rdfs:label 'Abella'@en.
+samian:loc_pc_2000057 dc:identifier 2000057.
+samian:loc_pc_2000057 lado:exactMatch wd:Q103135752 . 
+samian:loc_pc_2000057 geosparql:hasGeometry samian:loc_pc_2000057_geom .
+samian:loc_pc_2000057_geom rdf:type sf:Point .
+samian:loc_pc_2000057_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(2.3166699 42.3167)"^^geosparql:wktLiteral.
+samian:loc_pc_2000057 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000057 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000057 prov:wasGeneratedBy samian:activity_loc_pc_2000057 .
+samian:activity_loc_pc_2000057 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000057 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000057 prov:endedAtTime '2020-12-09T20:53:31.408212Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000057 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000058 rdf:type lado:Location .
+samian:loc_pc_2000058 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000058 amt:instanceOf lado:Location .
+samian:loc_pc_2000058 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000058 rdfs:label 'Andújar'@en.
+samian:loc_pc_2000058 dc:identifier 2000058.
+samian:loc_pc_2000058 lado:exactMatch wd:Q103135756 . 
+samian:loc_pc_2000058 geosparql:hasGeometry samian:loc_pc_2000058_geom .
+samian:loc_pc_2000058_geom rdf:type sf:Point .
+samian:loc_pc_2000058_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-4.0666699 38.0499992)"^^geosparql:wktLiteral.
+samian:loc_pc_2000058 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000058 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000058 prov:wasGeneratedBy samian:activity_loc_pc_2000058 .
+samian:activity_loc_pc_2000058 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000058 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000058 prov:endedAtTime '2020-12-09T20:53:31.408730Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000058 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000059 rdf:type lado:Location .
+samian:loc_pc_2000059 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000059 amt:instanceOf lado:Location .
+samian:loc_pc_2000059 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000059 rdfs:label 'Arenzana de Abajo'@en.
+samian:loc_pc_2000059 dc:identifier 2000059.
+samian:loc_pc_2000059 lado:exactMatch wd:Q103135761 . 
+samian:loc_pc_2000059 geosparql:hasGeometry samian:loc_pc_2000059_geom .
+samian:loc_pc_2000059_geom rdf:type sf:Point .
+samian:loc_pc_2000059_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.71667 42.3833008)"^^geosparql:wktLiteral.
+samian:loc_pc_2000059 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000059 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000059 prov:wasGeneratedBy samian:activity_loc_pc_2000059 .
+samian:activity_loc_pc_2000059 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000059 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000059 prov:endedAtTime '2020-12-09T20:53:31.409265Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000059 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000060 rdf:type lado:Location .
+samian:loc_pc_2000060 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000060 amt:instanceOf lado:Location .
+samian:loc_pc_2000060 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000060 rdfs:label 'Arenzana de Arriba'@en.
+samian:loc_pc_2000060 dc:identifier 2000060.
+samian:loc_pc_2000060 lado:exactMatch wd:Q103135765 . 
+samian:loc_pc_2000060 geosparql:hasGeometry samian:loc_pc_2000060_geom .
+samian:loc_pc_2000060_geom rdf:type sf:Point .
+samian:loc_pc_2000060_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.6833301 42.3833008)"^^geosparql:wktLiteral.
+samian:loc_pc_2000060 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000060 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000060 prov:wasGeneratedBy samian:activity_loc_pc_2000060 .
+samian:activity_loc_pc_2000060 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000060 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000060 prov:endedAtTime '2020-12-09T20:53:31.409265Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000060 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000061 rdf:type lado:Location .
+samian:loc_pc_2000061 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000061 amt:instanceOf lado:Location .
+samian:loc_pc_2000061 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000061 rdfs:label 'Baños de Río Tobía'@en.
+samian:loc_pc_2000061 dc:identifier 2000061.
+samian:loc_pc_2000061 lado:exactMatch wd:Q103135769 . 
+samian:loc_pc_2000061 geosparql:hasGeometry samian:loc_pc_2000061_geom .
+samian:loc_pc_2000061_geom rdf:type sf:Point .
+samian:loc_pc_2000061_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.75 42.3333015)"^^geosparql:wktLiteral.
+samian:loc_pc_2000061 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000061 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000061 prov:wasGeneratedBy samian:activity_loc_pc_2000061 .
+samian:activity_loc_pc_2000061 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000061 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000061 prov:endedAtTime '2020-12-09T20:53:31.410239Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000061 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000062 rdf:type lado:Location .
+samian:loc_pc_2000062 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000062 amt:instanceOf lado:Location .
+samian:loc_pc_2000062 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000062 rdfs:label 'Bezares'@en.
+samian:loc_pc_2000062 dc:identifier 2000062.
+samian:loc_pc_2000062 lado:exactMatch wd:Q103135773 . 
+samian:loc_pc_2000062 geosparql:hasGeometry samian:loc_pc_2000062_geom .
+samian:loc_pc_2000062_geom rdf:type sf:Point .
+samian:loc_pc_2000062_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.6666701 42.3666992)"^^geosparql:wktLiteral.
+samian:loc_pc_2000062 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000062 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000062 prov:wasGeneratedBy samian:activity_loc_pc_2000062 .
+samian:activity_loc_pc_2000062 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000062 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000062 prov:endedAtTime '2020-12-09T20:53:31.410239Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000062 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000063 rdf:type lado:Location .
+samian:loc_pc_2000063 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000063 amt:instanceOf lado:Location .
+samian:loc_pc_2000063 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000063 rdfs:label 'Bobadilla'@en.
+samian:loc_pc_2000063 dc:identifier 2000063.
+samian:loc_pc_2000063 lado:exactMatch wd:Q103135778 . 
+samian:loc_pc_2000063 geosparql:hasGeometry samian:loc_pc_2000063_geom .
+samian:loc_pc_2000063_geom rdf:type sf:Point .
+samian:loc_pc_2000063_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.75 42.3167)"^^geosparql:wktLiteral.
+samian:loc_pc_2000063 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000063 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000063 prov:wasGeneratedBy samian:activity_loc_pc_2000063 .
+samian:activity_loc_pc_2000063 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000063 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000063 prov:endedAtTime '2020-12-09T20:53:31.426205Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000063 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000064 rdf:type lado:Location .
+samian:loc_pc_2000064 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000064 amt:instanceOf lado:Location .
+samian:loc_pc_2000064 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000064 rdfs:label 'Bronchales'@en.
+samian:loc_pc_2000064 dc:identifier 2000064.
+samian:loc_pc_2000064 lado:exactMatch wd:Q103135784 . 
+samian:loc_pc_2000064 geosparql:hasGeometry samian:loc_pc_2000064_geom .
+samian:loc_pc_2000064_geom rdf:type sf:Point .
+samian:loc_pc_2000064_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-1.58333 40.5167007)"^^geosparql:wktLiteral.
+samian:loc_pc_2000064 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000064 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000064 prov:wasGeneratedBy samian:activity_loc_pc_2000064 .
+samian:activity_loc_pc_2000064 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000064 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000064 prov:endedAtTime '2020-12-09T20:53:31.427194Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000064 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000065 rdf:type lado:Location .
+samian:loc_pc_2000065 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000065 amt:instanceOf lado:Location .
+samian:loc_pc_2000065 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000065 rdfs:label 'Camproviín'@en.
+samian:loc_pc_2000065 dc:identifier 2000065.
+samian:loc_pc_2000065 lado:exactMatch wd:Q103135788 . 
+samian:loc_pc_2000065 geosparql:hasGeometry samian:loc_pc_2000065_geom .
+samian:loc_pc_2000065_geom rdf:type sf:Point .
+samian:loc_pc_2000065_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.71667 42.3499985)"^^geosparql:wktLiteral.
+samian:loc_pc_2000065 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000065 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000065 prov:wasGeneratedBy samian:activity_loc_pc_2000065 .
+samian:activity_loc_pc_2000065 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000065 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000065 prov:endedAtTime '2020-12-09T20:53:31.428719Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000065 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000066 rdf:type lado:Location .
+samian:loc_pc_2000066 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000066 amt:instanceOf lado:Location .
+samian:loc_pc_2000066 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000066 rdfs:label 'Corella'@en.
+samian:loc_pc_2000066 dc:identifier 2000066.
+samian:loc_pc_2000066 lado:exactMatch wd:Q103135792 . 
+samian:loc_pc_2000066 geosparql:hasGeometry samian:loc_pc_2000066_geom .
+samian:loc_pc_2000066_geom rdf:type sf:Point .
+samian:loc_pc_2000066_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-1.78333 42.1166992)"^^geosparql:wktLiteral.
+samian:loc_pc_2000066 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000066 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000066 prov:wasGeneratedBy samian:activity_loc_pc_2000066 .
+samian:activity_loc_pc_2000066 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000066 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000066 prov:endedAtTime '2020-12-09T20:53:31.429264Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000066 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000067 rdf:type lado:Location .
+samian:loc_pc_2000067 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000067 amt:instanceOf lado:Location .
+samian:loc_pc_2000067 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000067 rdfs:label 'Cornella de Terri'@en.
+samian:loc_pc_2000067 dc:identifier 2000067.
+samian:loc_pc_2000067 lado:exactMatch wd:Q103135797 . 
+samian:loc_pc_2000067 geosparql:hasGeometry samian:loc_pc_2000067_geom .
+samian:loc_pc_2000067_geom rdf:type sf:Point .
+samian:loc_pc_2000067_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(2.8166699 42.0833015)"^^geosparql:wktLiteral.
+samian:loc_pc_2000067 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000067 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000067 prov:wasGeneratedBy samian:activity_loc_pc_2000067 .
+samian:activity_loc_pc_2000067 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000067 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000067 prov:endedAtTime '2020-12-09T20:53:31.430233Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000067 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000068 rdf:type lado:Location .
+samian:loc_pc_2000068 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000068 amt:instanceOf lado:Location .
+samian:loc_pc_2000068 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000068 rdfs:label 'Covarrubias'@en.
+samian:loc_pc_2000068 dc:identifier 2000068.
+samian:loc_pc_2000068 lado:exactMatch wd:Q103135800 . 
+samian:loc_pc_2000068 geosparql:hasGeometry samian:loc_pc_2000068_geom .
+samian:loc_pc_2000068_geom rdf:type sf:Point .
+samian:loc_pc_2000068_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.5166699999999995 42.0667)"^^geosparql:wktLiteral.
+samian:loc_pc_2000068 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000068 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000068 prov:wasGeneratedBy samian:activity_loc_pc_2000068 .
+samian:activity_loc_pc_2000068 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000068 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000068 prov:endedAtTime '2020-12-09T20:53:31.430233Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000068 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000069 rdf:type lado:Location .
+samian:loc_pc_2000069 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000069 amt:instanceOf lado:Location .
+samian:loc_pc_2000069 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000069 rdfs:label 'Estollo'@en.
+samian:loc_pc_2000069 dc:identifier 2000069.
+samian:loc_pc_2000069 lado:exactMatch wd:Q103135808 . 
+samian:loc_pc_2000069 geosparql:hasGeometry samian:loc_pc_2000069_geom .
+samian:loc_pc_2000069_geom rdf:type sf:Point .
+samian:loc_pc_2000069_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.8499999 42.3333015)"^^geosparql:wktLiteral.
+samian:loc_pc_2000069 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000069 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000069 prov:wasGeneratedBy samian:activity_loc_pc_2000069 .
+samian:activity_loc_pc_2000069 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000069 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000069 prov:endedAtTime '2020-12-09T20:53:31.433223Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000069 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000070 rdf:type lado:Location .
+samian:loc_pc_2000070 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000070 amt:instanceOf lado:Location .
+samian:loc_pc_2000070 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000070 rdfs:label 'Granada'@en.
+samian:loc_pc_2000070 dc:identifier 2000070.
+samian:loc_pc_2000070 lado:exactMatch wd:Q103135811 . 
+samian:loc_pc_2000070 geosparql:hasGeometry samian:loc_pc_2000070_geom .
+samian:loc_pc_2000070_geom rdf:type sf:Point .
+samian:loc_pc_2000070_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.425 37.2167015)"^^geosparql:wktLiteral.
+samian:loc_pc_2000070 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000070 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000070 prov:wasGeneratedBy samian:activity_loc_pc_2000070 .
+samian:activity_loc_pc_2000070 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000070 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000070 prov:endedAtTime '2020-12-09T20:53:31.435223Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000070 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000071 rdf:type lado:Location .
+samian:loc_pc_2000071 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000071 amt:instanceOf lado:Location .
+samian:loc_pc_2000071 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000071 rdfs:label 'La Rioja'@en.
+samian:loc_pc_2000071 dc:identifier 2000071.
+samian:loc_pc_2000071 lado:exactMatch wd:Q103135816 . 
+samian:loc_pc_2000071 geosparql:hasGeometry samian:loc_pc_2000071_geom .
+samian:loc_pc_2000071_geom rdf:type sf:Point .
+samian:loc_pc_2000071_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.5 42.3333015)"^^geosparql:wktLiteral.
+samian:loc_pc_2000071 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000071 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000071 prov:wasGeneratedBy samian:activity_loc_pc_2000071 .
+samian:activity_loc_pc_2000071 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000071 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000071 prov:endedAtTime '2020-12-09T20:53:31.437219Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000071 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000072 rdf:type lado:Location .
+samian:loc_pc_2000072 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000072 amt:instanceOf lado:Location .
+samian:loc_pc_2000072 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000072 rdfs:label 'Liédena'@en.
+samian:loc_pc_2000072 dc:identifier 2000072.
+samian:loc_pc_2000072 lado:exactMatch wd:Q103135824 . 
+samian:loc_pc_2000072 geosparql:hasGeometry samian:loc_pc_2000072_geom .
+samian:loc_pc_2000072_geom rdf:type sf:Point .
+samian:loc_pc_2000072_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-1.26667 42.6166992)"^^geosparql:wktLiteral.
+samian:loc_pc_2000072 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000072 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000072 prov:wasGeneratedBy samian:activity_loc_pc_2000072 .
+samian:activity_loc_pc_2000072 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000072 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000072 prov:endedAtTime '2020-12-09T20:53:31.437219Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000072 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000073 rdf:type lado:Location .
+samian:loc_pc_2000073 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000073 amt:instanceOf lado:Location .
+samian:loc_pc_2000073 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000073 rdfs:label 'Manjarrés'@en.
+samian:loc_pc_2000073 dc:identifier 2000073.
+samian:loc_pc_2000073 lado:exactMatch wd:Q103135828 . 
+samian:loc_pc_2000073 geosparql:hasGeometry samian:loc_pc_2000073_geom .
+samian:loc_pc_2000073_geom rdf:type sf:Point .
+samian:loc_pc_2000073_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.6666701 42.3833008)"^^geosparql:wktLiteral.
+samian:loc_pc_2000073 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000073 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000073 prov:wasGeneratedBy samian:activity_loc_pc_2000073 .
+samian:activity_loc_pc_2000073 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000073 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000073 prov:endedAtTime '2020-12-09T20:53:31.438211Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000073 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000074 rdf:type lado:Location .
+samian:loc_pc_2000074 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000074 amt:instanceOf lado:Location .
+samian:loc_pc_2000074 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000074 rdfs:label 'Málaga'@en.
+samian:loc_pc_2000074 dc:identifier 2000074.
+samian:loc_pc_2000074 lado:exactMatch wd:Q103135835 . 
+samian:loc_pc_2000074 geosparql:hasGeometry samian:loc_pc_2000074_geom .
+samian:loc_pc_2000074_geom rdf:type sf:Point .
+samian:loc_pc_2000074_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-4.4166698 36.7167015)"^^geosparql:wktLiteral.
+samian:loc_pc_2000074 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000074 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000074 prov:wasGeneratedBy samian:activity_loc_pc_2000074 .
+samian:activity_loc_pc_2000074 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000074 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000074 prov:endedAtTime '2020-12-09T20:53:31.439207Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000074 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000075 rdf:type lado:Location .
+samian:loc_pc_2000075 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000075 amt:instanceOf lado:Location .
+samian:loc_pc_2000075 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000075 rdfs:label 'Montroig'@en.
+samian:loc_pc_2000075 dc:identifier 2000075.
+samian:loc_pc_2000075 lado:exactMatch wd:Q103135842 . 
+samian:loc_pc_2000075 geosparql:hasGeometry samian:loc_pc_2000075_geom .
+samian:loc_pc_2000075_geom rdf:type sf:Point .
+samian:loc_pc_2000075_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(0.966667 41.0833015)"^^geosparql:wktLiteral.
+samian:loc_pc_2000075 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000075 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000075 prov:wasGeneratedBy samian:activity_loc_pc_2000075 .
+samian:activity_loc_pc_2000075 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000075 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000075 prov:endedAtTime '2020-12-09T20:53:31.439207Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000075 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000076 rdf:type lado:Location .
+samian:loc_pc_2000076 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000076 amt:instanceOf lado:Location .
+samian:loc_pc_2000076 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000076 rdfs:label 'Pamplona'@en.
+samian:loc_pc_2000076 dc:identifier 2000076.
+samian:loc_pc_2000076 lado:exactMatch wd:Q103135846 . 
+samian:loc_pc_2000076 geosparql:hasGeometry samian:loc_pc_2000076_geom .
+samian:loc_pc_2000076_geom rdf:type sf:Point .
+samian:loc_pc_2000076_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-1.63333 42.8167)"^^geosparql:wktLiteral.
+samian:loc_pc_2000076 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000076 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000076 prov:wasGeneratedBy samian:activity_loc_pc_2000076 .
+samian:activity_loc_pc_2000076 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000076 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000076 prov:endedAtTime '2020-12-09T20:53:31.440204Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000076 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000077 rdf:type lado:Location .
+samian:loc_pc_2000077 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000077 amt:instanceOf lado:Location .
+samian:loc_pc_2000077 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000077 rdfs:label 'Pantoja'@en.
+samian:loc_pc_2000077 dc:identifier 2000077.
+samian:loc_pc_2000077 lado:exactMatch wd:Q103135850 . 
+samian:loc_pc_2000077 geosparql:hasGeometry samian:loc_pc_2000077_geom .
+samian:loc_pc_2000077_geom rdf:type sf:Point .
+samian:loc_pc_2000077_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.8333299 40.0499992)"^^geosparql:wktLiteral.
+samian:loc_pc_2000077 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000077 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000077 prov:wasGeneratedBy samian:activity_loc_pc_2000077 .
+samian:activity_loc_pc_2000077 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000077 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000077 prov:endedAtTime '2020-12-09T20:53:31.440204Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000077 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000078 rdf:type lado:Location .
+samian:loc_pc_2000078 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000078 amt:instanceOf lado:Location .
+samian:loc_pc_2000078 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000078 rdfs:label 'Pradejón'@en.
+samian:loc_pc_2000078 dc:identifier 2000078.
+samian:loc_pc_2000078 lado:exactMatch wd:Q103135855 . 
+samian:loc_pc_2000078 geosparql:hasGeometry samian:loc_pc_2000078_geom .
+samian:loc_pc_2000078_geom rdf:type sf:Point .
+samian:loc_pc_2000078_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.0666699 42.333301)"^^geosparql:wktLiteral.
+samian:loc_pc_2000078 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000078 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000078 prov:wasGeneratedBy samian:activity_loc_pc_2000078 .
+samian:activity_loc_pc_2000078 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000078 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000078 prov:endedAtTime '2020-12-09T20:53:31.441200Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000078 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000079 rdf:type lado:Location .
+samian:loc_pc_2000079 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000079 amt:instanceOf lado:Location .
+samian:loc_pc_2000079 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000079 rdfs:label 'Ruidoms'@en.
+samian:loc_pc_2000079 dc:identifier 2000079.
+samian:loc_pc_2000079 lado:exactMatch wd:Q103135861 . 
+samian:loc_pc_2000079 geosparql:hasGeometry samian:loc_pc_2000079_geom .
+samian:loc_pc_2000079_geom rdf:type sf:Point .
+samian:loc_pc_2000079_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1.05 41.1333008)"^^geosparql:wktLiteral.
+samian:loc_pc_2000079 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000079 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000079 prov:wasGeneratedBy samian:activity_loc_pc_2000079 .
+samian:activity_loc_pc_2000079 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000079 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000079 prov:endedAtTime '2020-12-09T20:53:31.441200Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000079 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000080 rdf:type lado:Location .
+samian:loc_pc_2000080 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000080 amt:instanceOf lado:Location .
+samian:loc_pc_2000080 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000080 rdfs:label 'Sabadell'@en.
+samian:loc_pc_2000080 dc:identifier 2000080.
+samian:loc_pc_2000080 lado:exactMatch wd:Q103135866 . 
+samian:loc_pc_2000080 geosparql:hasGeometry samian:loc_pc_2000080_geom .
+samian:loc_pc_2000080_geom rdf:type sf:Point .
+samian:loc_pc_2000080_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(2.099999 41.5499992)"^^geosparql:wktLiteral.
+samian:loc_pc_2000080 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000080 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000080 prov:wasGeneratedBy samian:activity_loc_pc_2000080 .
+samian:activity_loc_pc_2000080 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000080 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000080 prov:endedAtTime '2020-12-09T20:53:31.441200Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000080 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000081 rdf:type lado:Location .
+samian:loc_pc_2000081 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000081 amt:instanceOf lado:Location .
+samian:loc_pc_2000081 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000081 rdfs:label 'Solsona'@en.
+samian:loc_pc_2000081 dc:identifier 2000081.
+samian:loc_pc_2000081 lado:exactMatch wd:Q103135880 . 
+samian:loc_pc_2000081 geosparql:hasGeometry samian:loc_pc_2000081_geom .
+samian:loc_pc_2000081_geom rdf:type sf:Point .
+samian:loc_pc_2000081_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1.51667 41.9832993)"^^geosparql:wktLiteral.
+samian:loc_pc_2000081 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000081 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000081 prov:wasGeneratedBy samian:activity_loc_pc_2000081 .
+samian:activity_loc_pc_2000081 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000081 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000081 prov:endedAtTime '2020-12-09T20:53:31.442197Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000081 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000082 rdf:type lado:Location .
+samian:loc_pc_2000082 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000082 amt:instanceOf lado:Location .
+samian:loc_pc_2000082 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000082 rdfs:label 'Sotés'@en.
+samian:loc_pc_2000082 dc:identifier 2000082.
+samian:loc_pc_2000082 lado:exactMatch wd:Q103135891 . 
+samian:loc_pc_2000082 geosparql:hasGeometry samian:loc_pc_2000082_geom .
+samian:loc_pc_2000082_geom rdf:type sf:Point .
+samian:loc_pc_2000082_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.6054001 42.3907585)"^^geosparql:wktLiteral.
+samian:loc_pc_2000082 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000082 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000082 prov:wasGeneratedBy samian:activity_loc_pc_2000082 .
+samian:activity_loc_pc_2000082 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000082 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000082 prov:endedAtTime '2020-12-09T20:53:31.443196Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000082 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000083 rdf:type lado:Location .
+samian:loc_pc_2000083 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000083 amt:instanceOf lado:Location .
+samian:loc_pc_2000083 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000083 rdfs:label 'Talavera de la Reina'@en.
+samian:loc_pc_2000083 dc:identifier 2000083.
+samian:loc_pc_2000083 lado:exactMatch wd:Q103135899 . 
+samian:loc_pc_2000083 geosparql:hasGeometry samian:loc_pc_2000083_geom .
+samian:loc_pc_2000083_geom rdf:type sf:Point .
+samian:loc_pc_2000083_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-4.8333302 39.9500008)"^^geosparql:wktLiteral.
+samian:loc_pc_2000083 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000083 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000083 prov:wasGeneratedBy samian:activity_loc_pc_2000083 .
+samian:activity_loc_pc_2000083 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000083 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000083 prov:endedAtTime '2020-12-09T20:53:31.443196Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000083 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000084 rdf:type lado:Location .
+samian:loc_pc_2000084 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000084 amt:instanceOf lado:Location .
+samian:loc_pc_2000084 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000084 rdfs:label 'Tiermes'@en.
+samian:loc_pc_2000084 dc:identifier 2000084.
+samian:loc_pc_2000084 lado:exactMatch wd:Q103135906 . 
+samian:loc_pc_2000084 geosparql:hasGeometry samian:loc_pc_2000084_geom .
+samian:loc_pc_2000084_geom rdf:type sf:Point .
+samian:loc_pc_2000084_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.2 41.3666687)"^^geosparql:wktLiteral.
+samian:loc_pc_2000084 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000084 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000084 prov:wasGeneratedBy samian:activity_loc_pc_2000084 .
+samian:activity_loc_pc_2000084 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000084 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000084 prov:endedAtTime '2020-12-09T20:53:31.444193Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000084 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000085 rdf:type lado:Location .
+samian:loc_pc_2000085 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000085 amt:instanceOf lado:Location .
+samian:loc_pc_2000085 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000085 rdfs:label 'Tricio'@en.
+samian:loc_pc_2000085 dc:identifier 2000085.
+samian:loc_pc_2000085 lado:exactMatch wd:Q103135911 . 
+samian:loc_pc_2000085 geosparql:hasGeometry samian:loc_pc_2000085_geom .
+samian:loc_pc_2000085_geom rdf:type sf:Point .
+samian:loc_pc_2000085_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-2.71667 42.4000015)"^^geosparql:wktLiteral.
+samian:loc_pc_2000085 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000085 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000085 prov:wasGeneratedBy samian:activity_loc_pc_2000085 .
+samian:activity_loc_pc_2000085 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000085 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000085 prov:endedAtTime '2020-12-09T20:53:31.444193Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000085 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000086 rdf:type lado:Location .
+samian:loc_pc_2000086 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000086 amt:instanceOf lado:Location .
+samian:loc_pc_2000086 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000086 rdfs:label 'Ampurias'@en.
+samian:loc_pc_2000086 dc:identifier 2000086.
+samian:loc_pc_2000086 lado:exactMatch wd:Q103135914 . 
+samian:loc_pc_2000086 geosparql:hasGeometry samian:loc_pc_2000086_geom .
+samian:loc_pc_2000086_geom rdf:type sf:Point .
+samian:loc_pc_2000086_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(3.1166699 42.1333008)"^^geosparql:wktLiteral.
+samian:loc_pc_2000086 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000086 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000086 prov:wasGeneratedBy samian:activity_loc_pc_2000086 .
+samian:activity_loc_pc_2000086 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000086 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000086 prov:endedAtTime '2020-12-09T20:53:31.445190Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000086 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000087 rdf:type lado:Location .
+samian:loc_pc_2000087 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000087 amt:instanceOf lado:Location .
+samian:loc_pc_2000087 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000087 rdfs:label 'Arezzo'@en.
+samian:loc_pc_2000087 dc:identifier 2000087.
+samian:loc_pc_2000087 lado:exactMatch wd:Q103135920 . 
+samian:loc_pc_2000087 geosparql:hasGeometry samian:loc_pc_2000087_geom .
+samian:loc_pc_2000087_geom rdf:type sf:Point .
+samian:loc_pc_2000087_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(11.880000099999998 43.46400070000001)"^^geosparql:wktLiteral.
+samian:loc_pc_2000087 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000087 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000087 prov:wasGeneratedBy samian:activity_loc_pc_2000087 .
+samian:activity_loc_pc_2000087 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000087 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000087 prov:endedAtTime '2020-12-09T20:53:31.445190Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000087 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000088 rdf:type lado:Location .
+samian:loc_pc_2000088 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000088 amt:instanceOf lado:Location .
+samian:loc_pc_2000088 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000088 rdfs:label 'Cales'@en.
+samian:loc_pc_2000088 dc:identifier 2000088.
+samian:loc_pc_2000088 lado:exactMatch wd:Q103135933 . 
+samian:loc_pc_2000088 geosparql:hasGeometry samian:loc_pc_2000088_geom .
+samian:loc_pc_2000088_geom rdf:type sf:Point .
+samian:loc_pc_2000088_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(14.8652401 41.0716209)"^^geosparql:wktLiteral.
+samian:loc_pc_2000088 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000088 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000088 prov:wasGeneratedBy samian:activity_loc_pc_2000088 .
+samian:activity_loc_pc_2000088 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000088 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000088 prov:endedAtTime '2020-12-09T20:53:31.445190Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000088 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000089 rdf:type lado:Location .
+samian:loc_pc_2000089 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000089 amt:instanceOf lado:Location .
+samian:loc_pc_2000089 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000089 rdfs:label 'Cincelli'@en.
+samian:loc_pc_2000089 dc:identifier 2000089.
+samian:loc_pc_2000089 lado:exactMatch wd:Q103135942 . 
+samian:loc_pc_2000089 geosparql:hasGeometry samian:loc_pc_2000089_geom .
+samian:loc_pc_2000089_geom rdf:type sf:Point .
+samian:loc_pc_2000089_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(11.798500099999998 43.5116997)"^^geosparql:wktLiteral.
+samian:loc_pc_2000089 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000089 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000089 prov:wasGeneratedBy samian:activity_loc_pc_2000089 .
+samian:activity_loc_pc_2000089 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000089 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000089 prov:endedAtTime '2020-12-09T20:53:31.446189Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000089 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000090 rdf:type lado:Location .
+samian:loc_pc_2000090 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000090 amt:instanceOf lado:Location .
+samian:loc_pc_2000090 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000090 rdfs:label 'Herrera de Pisuerga'@en.
+samian:loc_pc_2000090 dc:identifier 2000090.
+samian:loc_pc_2000090 lado:exactMatch wd:Q103135947 . 
+samian:loc_pc_2000090 geosparql:hasGeometry samian:loc_pc_2000090_geom .
+samian:loc_pc_2000090_geom rdf:type sf:Point .
+samian:loc_pc_2000090_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-4.3333302 42.5999985)"^^geosparql:wktLiteral.
+samian:loc_pc_2000090 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000090 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000090 prov:wasGeneratedBy samian:activity_loc_pc_2000090 .
+samian:activity_loc_pc_2000090 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000090 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000090 prov:endedAtTime '2020-12-09T20:53:31.447186Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000090 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000091 rdf:type lado:Location .
+samian:loc_pc_2000091 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000091 amt:instanceOf lado:Location .
+samian:loc_pc_2000091 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000091 rdfs:label 'Pisa'@en.
+samian:loc_pc_2000091 dc:identifier 2000091.
+samian:loc_pc_2000091 lado:exactMatch wd:Q103135954 . 
+samian:loc_pc_2000091 geosparql:hasGeometry samian:loc_pc_2000091_geom .
+samian:loc_pc_2000091_geom rdf:type sf:Point .
+samian:loc_pc_2000091_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(10.383299800000001 43.7167015)"^^geosparql:wktLiteral.
+samian:loc_pc_2000091 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000091 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000091 prov:wasGeneratedBy samian:activity_loc_pc_2000091 .
+samian:activity_loc_pc_2000091 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000091 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000091 prov:endedAtTime '2020-12-09T20:53:31.447186Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000091 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000092 rdf:type lado:Location .
+samian:loc_pc_2000092 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000092 amt:instanceOf lado:Location .
+samian:loc_pc_2000092 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000092 rdfs:label 'Po Valley'@en.
+samian:loc_pc_2000092 dc:identifier 2000092.
+samian:loc_pc_2000092 lado:exactMatch wd:Q103135960 . 
+samian:loc_pc_2000092 geosparql:hasGeometry samian:loc_pc_2000092_geom .
+samian:loc_pc_2000092_geom rdf:type sf:Point .
+samian:loc_pc_2000092_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(10.5 45.0)"^^geosparql:wktLiteral.
+samian:loc_pc_2000092 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000092 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000092 prov:wasGeneratedBy samian:activity_loc_pc_2000092 .
+samian:activity_loc_pc_2000092 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000092 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000092 prov:endedAtTime '2020-12-09T20:53:31.449233Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000092 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000093 rdf:type lado:Location .
+samian:loc_pc_2000093 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000093 amt:instanceOf lado:Location .
+samian:loc_pc_2000093 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000093 rdfs:label 'Ponte a Buriano'@en.
+samian:loc_pc_2000093 dc:identifier 2000093.
+samian:loc_pc_2000093 lado:exactMatch wd:Q103135970 . 
+samian:loc_pc_2000093 geosparql:hasGeometry samian:loc_pc_2000093_geom .
+samian:loc_pc_2000093_geom rdf:type sf:Point .
+samian:loc_pc_2000093_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(11.8000002 43.507)"^^geosparql:wktLiteral.
+samian:loc_pc_2000093 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000093 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000093 prov:wasGeneratedBy samian:activity_loc_pc_2000093 .
+samian:activity_loc_pc_2000093 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000093 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000093 prov:endedAtTime '2020-12-09T20:53:31.450212Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000093 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000094 rdf:type lado:Location .
+samian:loc_pc_2000094 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000094 amt:instanceOf lado:Location .
+samian:loc_pc_2000094 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000094 rdfs:label 'Pozzuoli'@en.
+samian:loc_pc_2000094 dc:identifier 2000094.
+samian:loc_pc_2000094 lado:exactMatch wd:Q103135980 . 
+samian:loc_pc_2000094 geosparql:hasGeometry samian:loc_pc_2000094_geom .
+samian:loc_pc_2000094_geom rdf:type sf:Point .
+samian:loc_pc_2000094_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(14.116700199999999 40.8167)"^^geosparql:wktLiteral.
+samian:loc_pc_2000094 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000094 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000094 prov:wasGeneratedBy samian:activity_loc_pc_2000094 .
+samian:activity_loc_pc_2000094 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000094 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000094 prov:endedAtTime '2020-12-09T20:53:31.451208Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000094 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000095 rdf:type lado:Location .
+samian:loc_pc_2000095 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000095 amt:instanceOf lado:Location .
+samian:loc_pc_2000095 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000095 rdfs:label 'Scoppieto'@en.
+samian:loc_pc_2000095 dc:identifier 2000095.
+samian:loc_pc_2000095 lado:exactMatch wd:Q103136219 . 
+samian:loc_pc_2000095 geosparql:hasGeometry samian:loc_pc_2000095_geom .
+samian:loc_pc_2000095_geom rdf:type sf:Point .
+samian:loc_pc_2000095_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(12.2833328 42.7166672)"^^geosparql:wktLiteral.
+samian:loc_pc_2000095 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000095 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000095 prov:wasGeneratedBy samian:activity_loc_pc_2000095 .
+samian:activity_loc_pc_2000095 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000095 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000095 prov:endedAtTime '2020-12-09T20:53:31.451208Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000095 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000096 rdf:type lado:Location .
+samian:loc_pc_2000096 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000096 amt:instanceOf lado:Location .
+samian:loc_pc_2000096 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000096 rdfs:label 'Torrita di Siena'@en.
+samian:loc_pc_2000096 dc:identifier 2000096.
+samian:loc_pc_2000096 lado:exactMatch wd:Q103136223 . 
+samian:loc_pc_2000096 geosparql:hasGeometry samian:loc_pc_2000096_geom .
+samian:loc_pc_2000096_geom rdf:type sf:Point .
+samian:loc_pc_2000096_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(11.7666664 43.1666679)"^^geosparql:wktLiteral.
+samian:loc_pc_2000096 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000096 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000096 prov:wasGeneratedBy samian:activity_loc_pc_2000096 .
+samian:activity_loc_pc_2000096 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000096 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000096 prov:endedAtTime '2020-12-09T20:53:31.452206Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000096 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000097 rdf:type lado:Location .
+samian:loc_pc_2000097 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000097 amt:instanceOf lado:Location .
+samian:loc_pc_2000097 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000097 rdfs:label 'Vasanello'@en.
+samian:loc_pc_2000097 dc:identifier 2000097.
+samian:loc_pc_2000097 lado:exactMatch wd:Q103136227 . 
+samian:loc_pc_2000097 geosparql:hasGeometry samian:loc_pc_2000097_geom .
+samian:loc_pc_2000097_geom rdf:type sf:Point .
+samian:loc_pc_2000097_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(12.3500004 42.4166985)"^^geosparql:wktLiteral.
+samian:loc_pc_2000097 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000097 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000097 prov:wasGeneratedBy samian:activity_loc_pc_2000097 .
+samian:activity_loc_pc_2000097 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000097 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000097 prov:endedAtTime '2020-12-09T20:53:31.453202Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000097 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000098 rdf:type lado:Location .
+samian:loc_pc_2000098 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000098 amt:instanceOf lado:Location .
+samian:loc_pc_2000098 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000098 rdfs:label 'Venosa'@en.
+samian:loc_pc_2000098 dc:identifier 2000098.
+samian:loc_pc_2000098 lado:exactMatch wd:Q103136235 . 
+samian:loc_pc_2000098 geosparql:hasGeometry samian:loc_pc_2000098_geom .
+samian:loc_pc_2000098_geom rdf:type sf:Point .
+samian:loc_pc_2000098_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(15.8166666 40.9666672)"^^geosparql:wktLiteral.
+samian:loc_pc_2000098 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000098 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000098 prov:wasGeneratedBy samian:activity_loc_pc_2000098 .
+samian:activity_loc_pc_2000098 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000098 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000098 prov:endedAtTime '2020-12-09T20:53:31.453202Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000098 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000099 rdf:type lado:Location .
+samian:loc_pc_2000099 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000099 amt:instanceOf lado:Location .
+samian:loc_pc_2000099 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000099 rdfs:label 'Micasasa'@en.
+samian:loc_pc_2000099 dc:identifier 2000099.
+samian:loc_pc_2000099 lado:exactMatch wd:Q103136239 . 
+samian:loc_pc_2000099 geosparql:hasGeometry samian:loc_pc_2000099_geom .
+samian:loc_pc_2000099_geom rdf:type sf:Point .
+samian:loc_pc_2000099_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(24.108056 46.08666)"^^geosparql:wktLiteral.
+samian:loc_pc_2000099 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000099 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000099 prov:wasGeneratedBy samian:activity_loc_pc_2000099 .
+samian:activity_loc_pc_2000099 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000099 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000099 prov:endedAtTime '2020-12-09T20:53:31.454199Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000099 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000100 rdf:type lado:Location .
+samian:loc_pc_2000100 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000100 amt:instanceOf lado:Location .
+samian:loc_pc_2000100 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000100 rdfs:label 'Lyon'@en.
+samian:loc_pc_2000100 dc:identifier 2000100.
+samian:loc_pc_2000100 lado:exactMatch wd:Q103136244 . 
+samian:loc_pc_2000100 geosparql:hasGeometry samian:loc_pc_2000100_geom .
+samian:loc_pc_2000100_geom rdf:type sf:Point .
+samian:loc_pc_2000100_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(4.84 45.76)"^^geosparql:wktLiteral.
+samian:loc_pc_2000100 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000100 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000100 prov:wasGeneratedBy samian:activity_loc_pc_2000100 .
+samian:activity_loc_pc_2000100 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000100 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000100 prov:endedAtTime '2020-12-09T20:53:31.455197Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000100 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000101 rdf:type lado:Location .
+samian:loc_pc_2000101 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000101 amt:instanceOf lado:Location .
+samian:loc_pc_2000101 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000101 rdfs:label 'Sagone'@en.
+samian:loc_pc_2000101 dc:identifier 2000101.
+samian:loc_pc_2000101 lado:exactMatch wd:Q103136249 . 
+samian:loc_pc_2000101 geosparql:hasGeometry samian:loc_pc_2000101_geom .
+samian:loc_pc_2000101_geom rdf:type sf:Point .
+samian:loc_pc_2000101_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(8.702547 42.112142)"^^geosparql:wktLiteral.
+samian:loc_pc_2000101 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000101 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000101 prov:wasGeneratedBy samian:activity_loc_pc_2000101 .
+samian:activity_loc_pc_2000101 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000101 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000101 prov:endedAtTime '2020-12-09T20:53:31.456200Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000101 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000102 rdf:type lado:Location .
+samian:loc_pc_2000102 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000102 amt:instanceOf lado:Location .
+samian:loc_pc_2000102 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000102 rdfs:label 'Albi'@en.
+samian:loc_pc_2000102 dc:identifier 2000102.
+samian:loc_pc_2000102 lado:exactMatch wd:Q103136253 . 
+samian:loc_pc_2000102 geosparql:hasGeometry samian:loc_pc_2000102_geom .
+samian:loc_pc_2000102_geom rdf:type sf:Point .
+samian:loc_pc_2000102_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(2.149255 43.927186)"^^geosparql:wktLiteral.
+samian:loc_pc_2000102 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000102 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000102 prov:wasGeneratedBy samian:activity_loc_pc_2000102 .
+samian:activity_loc_pc_2000102 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000102 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000102 prov:endedAtTime '2020-12-09T20:53:31.457194Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000102 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:loc_pc_2000103 rdf:type lado:Location .
+samian:loc_pc_2000103 rdf:type lado:ProductionCentre .
+samian:loc_pc_2000103 amt:instanceOf lado:Location .
+samian:loc_pc_2000103 lado:hasType lado:ProductionCentre .
+samian:loc_pc_2000103 rdfs:label 'Rodez'@en.
+samian:loc_pc_2000103 dc:identifier 2000103.
+samian:loc_pc_2000103 lado:exactMatch wd:Q103136256 . 
+samian:loc_pc_2000103 geosparql:hasGeometry samian:loc_pc_2000103_geom .
+samian:loc_pc_2000103_geom rdf:type sf:Point .
+samian:loc_pc_2000103_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(2.572616 44.35237)"^^geosparql:wktLiteral.
+samian:loc_pc_2000103 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:loc_pc_2000103 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:loc_pc_2000103 prov:wasGeneratedBy samian:activity_loc_pc_2000103 .
+samian:activity_loc_pc_2000103 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_loc_pc_2000103 prov:startedAtTime '2020-12-09T20:53:31.138128Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000103 prov:endedAtTime '2020-12-09T20:53:31.458189Z'^^xsd:dateTime .
+samian:activity_loc_pc_2000103 prov:wasAssociatedWith samian:ImportPythonScript_Samian .

@@ -1,0 +1,2211 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Documentation - Linked Open Samian Ware</title>
+<meta name="description" content="This Website provides the documentation to the SPARQL-Query Editor for the Samian Research Database.">
+
+
+  <meta name="author" content="archaeology.link">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Linked Open Samian Ware">
+<meta property="og:title" content="Documentation">
+<meta property="og:url" content="/samian-lod/doc/">
+
+
+  <meta property="og:description" content="This Website provides the documentation to the SPARQL-Query Editor for the Samian Research Database.">
+
+
+
+  <meta property="og:image" content="/samian-lod/assets/images/header.jpg">
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/samian-lod/doc/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "/samian-lod/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/samian-lod/feed.xml" type="application/atom+xml" rel="alternate" title="Linked Open Samian Ware Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/samian-lod/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/samian-lod/">
+          Linked Open Samian Ware
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/samian-lod/doc/">Documentation</a>
+            </li><li class="masthead__menu-item">
+              <a href="/samian-lod/linking/">Linking</a>
+            </li><li class="masthead__menu-item">
+              <a href="/samian-lod/lit/">Related Literature</a>
+            </li><li class="masthead__menu-item">
+              <a href="/samian-lod/datapub/">Data Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/samian-lod/ontdoc/">Ontdoc</a>
+            </li><li class="masthead__menu-item">
+              <a href="/samian-lod/about/">About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" background-image: url('');"
+>
+  
+    <img src="/samian-lod/assets/images/header.jpg" alt="Documentation" class="page__hero-image">
+  
+  
+    <span class="page__hero-caption">Photo credit: Carole Raddato from FRANKFURT, Germany, CC BY-SA 2.0, via <a href="https://commons.wikimedia.org/wiki/File:Terra_sigillata,_Gallo-Roman_Museum_of_Tongeren,_Belgium_(27032316984).jpg"><strong>Wikimedia Commons</strong></a>
+</span>
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="/samian-lod/">
+        <img src="/samian-lod/assets/images/archaeologylink_logo.png" alt="archaeology.link" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="/samian-lod/" itemprop="url">archaeology.link</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Linked Open Samian Ware</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://github.com/RGZM/samian-lod" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/samian-lod/doc/#transformation-workflow"><span class="nav__sub-title">Transformation Workflow</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/samian-lod/doc/#ontology"><span class="nav__sub-title">Ontology</span></a>
+        
+
+        
+        <ul>
+          
+            <li><a href="/samian-lod/doc/#prefixes">Prefixes</a></li>
+          
+            <li><a href="/samian-lod/doc/#class-structure">Class Structure</a></li>
+          
+            <li><a href="/samian-lod/doc/#detailed-informationcarrier">  1) Detailed InformationCarrier</a></li>
+          
+            <li><a href="/samian-lod/doc/#detailed-inscription">  2) Detailed Inscription</a></li>
+          
+            <li><a href="/samian-lod/doc/#detailed-actor">  3) Detailed Actor</a></li>
+          
+            <li><a href="/samian-lod/doc/#detailed-location">  4) Detailed Location</a></li>
+          
+            <li><a href="/samian-lod/doc/#detailed-potform">  5) Detailed Potform</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/samian-lod/doc/#amt-model"><span class="nav__sub-title">AMT-Model</span></a>
+        
+
+        
+        <ul>
+          
+            <li><a href="/samian-lod/doc/#amt-model-examples">AMT-Model Examples</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/samian-lod/doc/#provenance-modelling"><span class="nav__sub-title">Provenance Modelling</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/samian-lod/doc/#csv-documentation"><span class="nav__sub-title">CSV-Documentation</span></a>
+        
+
+        
+        <ul>
+          
+            <li><a href="/samian-lod/doc/#file-structure">File Structure</a></li>
+          
+            <li><a href="/samian-lod/doc/#instances">Instances</a></li>
+          
+            <li><a href="/samian-lod/doc/#semantic-relations">Semantic Relations</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Documentation">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Documentation
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h1 id="linked-open-samian-ware">Linked Open Samian Ware</h1>
+
+<hr />
+
+<h2 id="transformation-workflow">Transformation Workflow</h2>
+
+<figure class="">
+  <img src="/samian-lod/assets/images/Samian_Workflow.png" alt="" /></figure>
+
+<p>The Data used for the Linked Open Samian Ware-Project stems from multiple resources (e.g. Corpus Vasorum Arretinorum, User Entries of the Samian Research-Community), resulting in a partly normalised database.
+Several steps (especially the cfm-scripts) were necessary in order to normalise the source data and transform it into RDF:</p>
+
+<ul>
+  <li><strong>curate</strong> entries in the Samian Research Database (PostgreSQL)</li>
+  <li><strong>create</strong> database views from the original database tables via ColdFusion/SQL</li>
+  <li><strong>export</strong> database views as CSV files</li>
+  <li><strong>transform</strong> CSV files with Python to RDF according to the Samian ontology</li>
+  <li><strong>import</strong> RDF files with a Java application in a RDF4J triplestore</li>
+  <li><strong>link</strong> the data to the Linked Open Data Cloud, e.g. Pleiades, Wikidata</li>
+</ul>
+
+<hr />
+<p>
+    <center><img src="https://github.com/RGZM/samian-lod/raw/main/assets/images/spacer.png" style="height:24px;" /></center>
+</p>
+<hr />
+
+<h2 id="ontology">Ontology</h2>
+
+<h3 id="prefixes">Prefixes</h3>
+
+<p>Linked Open Samian Ware features several preestablished prefixes as well as the prefix <em>lado</em> and <em>samian</em>.
+Uses are demonstrated in the maps and examples below.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Prefix</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>samian</strong></td>
+      <td><a href="http://lod.archaeology.link/data/samian/">http://lod.archaeology.link/data/samian/</a></td>
+    </tr>
+    <tr>
+      <td><strong>crm</strong></td>
+      <td><a href="http://www.cidoc-crm.org/cidoc-crm/">http://www.cidoc-crm.org/cidoc-crm/</a></td>
+    </tr>
+    <tr>
+      <td><strong>dc</strong></td>
+      <td><a href="http://purl.org/dc/elements/1.1/">http://purl.org/dc/elements/1.1/</a></td>
+    </tr>
+    <tr>
+      <td><strong>dct</strong></td>
+      <td><a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a></td>
+    </tr>
+    <tr>
+      <td><strong>dcmitype</strong></td>
+      <td><a href="http://purl.org/dc/dcmitype/">http://purl.org/dc/dcmitype/</a></td>
+    </tr>
+    <tr>
+      <td><strong>geosparql</strong></td>
+      <td><a href="http://www.opengis.net/ont/geosparql#">http://www.opengis.net/ont/geosparql#</a>&gt;</td>
+    </tr>
+    <tr>
+      <td><strong>lado</strong></td>
+      <td><a href="http://samian/ontology">http://samian/ontology</a></td>
+    </tr>
+    <tr>
+      <td><strong>owl</strong></td>
+      <td><a href="http://www.w3.org/2002/07/owl#">http://www.w3.org/2002/07/owl#</a></td>
+    </tr>
+    <tr>
+      <td><strong>pleiades</strong></td>
+      <td><a href="https://pleiades.stoa.org/places/vocab#">https://pleiades.stoa.org/places/vocab#</a></td>
+    </tr>
+    <tr>
+      <td><strong>rdf</strong></td>
+      <td><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a></td>
+    </tr>
+    <tr>
+      <td><strong>rdfs</strong></td>
+      <td><a href="http://www.w3.org/2000/01/rdf-schema#">http://www.w3.org/2000/01/rdf-schema#</a></td>
+    </tr>
+    <tr>
+      <td><strong>sf</strong></td>
+      <td><a href="http://www.opengis.net/ont/sf#">http://www.opengis.net/ont/sf#</a></td>
+    </tr>
+    <tr>
+      <td><strong>skos</strong></td>
+      <td><a href="http://www.w3.org/2004/02/skos/core#">http://www.w3.org/2004/02/skos/core#</a></td>
+    </tr>
+    <tr>
+      <td><strong>xml</strong></td>
+      <td><a href="http://www.w3.org/XML/1998/namespace">http://www.w3.org/XML/1998/namespace</a></td>
+    </tr>
+    <tr>
+      <td><strong>xsd</strong></td>
+      <td><a href="http://www.w3.org/2001/XMLSchema#">http://www.w3.org/2001/XMLSchema#</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<p>
+    <center><img src="https://github.com/RGZM/samian-lod/raw/main/assets/images/spacer.png" style="height:24px;" /></center>
+</p>
+<hr />
+
+<h3 id="class-structure">Class Structure</h3>
+
+<h4 id="samian-map">Samian Map</h4>
+
+<figure class="">
+  <img src="/samian-lod/assets/images/SamianLod_map.png" alt="" /></figure>
+
+<p>The ontology represents a graph model of the original relational database. Vague relations are included and marked as <em>amt</em>.
+Classes (white boxes) are related to each other through predicates (arrows).
+Checkered lines present abstract relations to type classes (yellow and grey) as well as AMT-relations, which belong to their superclass but have been highlighted for visibility.</p>
+
+<hr />
+<p>
+    <center><img src="https://github.com/RGZM/samian-lod/raw/main/assets/images/spacer.png" style="height:24px;" /></center>
+</p>
+<hr />
+
+<h4 id="detailed-informationcarrier">Detailed InformationCarrier</h4>
+
+<figure class="">
+  <img src="/samian-lod/assets/images/SamianLod_map_InformationCarrier.png" alt="" /></figure>
+
+<p><strong>Example Query - InformationCarrier</strong></p>
+
+<p><em>-&gt; 100 Random InformationCarriers and their associated Discovery Site, Production Centre and Repository Location</em></p>
+
+<pre>
+  <code>
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX lado: &lt;http://archaeology.link/ontology#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+
+SELECT *  WHERE {
+  ?item	rdf:type lado:InformationCarrier.
+  ?item 	rdfs:label ?label.
+  ?item 	lado:disclosedAt ?loc_disc.
+  ?loc_disc 	rdfs:label ?disc_label.
+  ?item	lado:hasKilnsite ?loc_prod.
+  ?loc_prod 	rdfs:label ?prod_label.
+  ?item	lado:storedAt ?loc_rep.
+  ?loc_rep	rdfs:label ?rep_label.   	
+}
+LIMIT 100
+  </code>
+</pre>
+
+<p><em>Output:</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>item</strong></th>
+      <th><strong>label</strong></th>
+      <th><strong>loc_disc</strong></th>
+      <th><strong>disc_label</strong></th>
+      <th><strong>loc_prod</strong></th>
+      <th><strong>prod_label</strong></th>
+      <th><strong>loc_rep</strong></th>
+      <th><strong>rep_label</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>samian:ic_208496</td>
+      <td>“redslipvessel formtype Unknown”@en</td>
+      <td>samian:loc_ds_1002687</td>
+      <td>“Plessis-du-Mée”@en</td>
+      <td>samian:loc_pc_2000016</td>
+      <td>“Lezoux”@en</td>
+      <td>samian:loc_rl_3102331</td>
+      <td>“Plessis-du-Mée”@en</td>
+    </tr>
+    <tr>
+      <td>samian:ic_207892</td>
+      <td>“redslipvessel formtype 37”@en</td>
+      <td>samian:loc_ds_1000357</td>
+      <td>“Susa”@en</td>
+      <td>samian:loc_pc_2000017</td>
+      <td>“Lubié”@en</td>
+      <td>samian:loc_rl_3446482</td>
+      <td>“Susa”@en</td>
+    </tr>
+    <tr>
+      <td>samian:ic_207892</td>
+      <td>“redslipvessel formtype 37”@en</td>
+      <td>samian:loc_ds_1000357</td>
+      <td>“Susa”@en</td>
+      <td>samian:loc_pc_2000016</td>
+      <td>“Lezoux”@en</td>
+      <td>samian:loc_rl_3446482</td>
+      <td>“Susa”@en</td>
+    </tr>
+    <tr>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>-&gt; 100 distinct InformationCarriers and their weight (vagueness) &amp; production centres</em></p>
+
+<pre>
+  <code>
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX lado: &lt;http://archaeology.link/ontology#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX vocab: &lt;http://academic-meta-tool.xyz/vocab#&gt;
+
+SELECT ?item (SAMPLE (?Info_label) as ?Info_label) (SAMPLE(?weight)as ?weight) (SAMPLE (?prod_label) as ?prod_label) WHERE {
+  ?item rdf:type lado:InformationCarrier;
+  rdfs:label ?Info_label;
+  lado:hasKilnsite ?productioncentre;
+  lado:hasAMT ?amt.
+  ?amt vocab:weight ?weight.
+  ?productioncentre rdfs:label ?prod_label;
+}
+GROUP BY ?item
+LIMIT 100
+</code>
+</pre>
+
+<p><em>Output:</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>item</strong></th>
+      <th><strong>Info_label</strong></th>
+      <th><strong>weight</strong></th>
+      <th><strong>prod_label</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>samian:ic_112680</td>
+      <td>“redslipvessel formtype 31”@en</td>
+      <td>1</td>
+      <td>“Lezoux”@en</td>
+    </tr>
+    <tr>
+      <td>samian:ic_55293</td>
+      <td>“redslipvessel formtype Unknown”@en</td>
+      <td>1</td>
+      <td>“Lezoux”@en</td>
+    </tr>
+    <tr>
+      <td>samian:ic_55292</td>
+      <td>“redslipvessel formtype Unknown”@en</td>
+      <td>1</td>
+      <td>“Lezoux”@en</td>
+    </tr>
+    <tr>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<p>
+    <center><img src="https://github.com/RGZM/samian-lod/raw/main/assets/images/spacer.png" style="height:24px;" /></center>
+</p>
+<hr />
+
+<h4 id="detailed-inscription">Detailed Inscription</h4>
+
+<figure class="">
+  <img src="/samian-lod/assets/images/SamianLod_map_Insription.png" alt="" /></figure>
+
+<p><strong>Example Query - Inscription</strong></p>
+
+<p><em>-&gt; Inscriptions with a reading stemming from a die impression and the actor which is mentioned in it:</em></p>
+
+<pre>
+  <code>
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX lado: &lt;http://archaeology.link/ontology#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+
+SELECT *  WHERE {
+  ?insc	rdf:type lado:Inscription;
+  lado:simpleReading ?reading;
+  lado:hasType lado:DieImpression;
+  lado:isAbout ?actor.
+  ?actor lado:name ?name.  
+}
+  </code>
+</pre>
+
+<p><em>Output:</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Insc</strong></th>
+      <th><strong>Reading</strong></th>
+      <th><strong>Actor</strong></th>
+      <th><strong>Name</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>samian:insc_43034</td>
+      <td>“DIOMEDES”</td>
+      <td>samian:ac_7010018</td>
+      <td>“(M.) (Perennius) (Tigranus) (4)”</td>
+    </tr>
+    <tr>
+      <td>samian:insc_43389</td>
+      <td>“POTITVS”</td>
+      <td>samian:ac_7009673</td>
+      <td>“Potitus (1)”</td>
+    </tr>
+    <tr>
+      <td>samian:insc_43415</td>
+      <td>“PRIMVS”</td>
+      <td>samian:ac_7009402</td>
+      <td>“Primus (1)”</td>
+    </tr>
+    <tr>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>-&gt; InformationCarriers, their inscriptions and makingtypes:</em></p>
+
+<pre>
+  <code>
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX lado: &lt;http://archaeology.link/ontology#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+
+SELECT ?item ?info_label ?inscription ?inscriptionmakingtype ?die WHERE {
+  ?item rdf:type lado:InformationCarrier;
+  rdfs:label ?info_label;
+  lado:carries ?inscription.
+  ?inscription lado:wasMadeBy ?inscriptionmakingtype.
+  ?inscriptionmakingtype lado:hasType ?die.
+}
+LIMIT 100
+  </code>
+</pre>
+
+<p><em>Output:</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>item</strong></th>
+      <th><strong>info_label</strong></th>
+      <th><strong>inscription</strong></th>
+      <th><strong>inscriptionmakingtype</strong></th>
+      <th><strong>die</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>samian:ic_14040</td>
+      <td>“redslipvessel formtype 27”@en</td>
+      <td>samian:insc_1</td>
+      <td>samian:mt_1</td>
+      <td>lado:Die</td>
+    </tr>
+    <tr>
+      <td>samian:ic_14058</td>
+      <td>“redslipvessel formtype Unknown”@en</td>
+      <td>samian:insc_10</td>
+      <td>samian:mt_10</td>
+      <td>lado:Die</td>
+    </tr>
+    <tr>
+      <td>samian:ic_202856</td>
+      <td>“redslipvessel formtype 29”@en</td>
+      <td>samian:insc_100</td>
+      <td>samian:mt_100</td>
+      <td>lado:Die</td>
+    </tr>
+    <tr>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<p>
+    <center><img src="https://github.com/RGZM/samian-lod/raw/main/assets/images/spacer.png" style="height:24px;" /></center>
+</p>
+<hr />
+
+<h4 id="detailed-actor">Detailed Actor</h4>
+
+<figure class="">
+  <img src="/samian-lod/assets/images/SamianLod_map_Actor.png" alt="" /></figure>
+
+<p><strong>Example Query - Actor</strong></p>
+
+<p><em>-&gt; 100 Random ActorEntities and their associated Production Centre and Status:</em></p>
+
+<pre>
+  <code>
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX lado: &lt;http://archaeology.link/ontology#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+
+SELECT *  WHERE {
+  ?actor_ent	rdf:type lado:ActorEntity;
+  rdfs:label ?label;
+  lado:hasStatus ?status;
+  lado:worksAtPlace ?worksAt.
+  ?worksAt rdfs:label ?loc_label.
+}
+LIMIT 100
+  </code>
+</pre>
+
+<p><em>Output:</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>actor_ent</strong></th>
+      <th><strong>label</strong></th>
+      <th><strong>status</strong></th>
+      <th><strong>worksAt</strong></th>
+      <th><strong>loc_label</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>samian:ae_564</td>
+      <td>“Arvernicus ii”@en</td>
+      <td>lado:IndependentPotter</td>
+      <td>samian:loc_pc_2000048</td>
+      <td>“Sinzig”@en</td>
+    </tr>
+    <tr>
+      <td>samian:ae_1044</td>
+      <td>“Boudus ii”@en</td>
+      <td>lado:IndependentPotter</td>
+      <td>samian:loc_pc_2000048</td>
+      <td>“Sinzig”@en</td>
+    </tr>
+    <tr>
+      <td>samian:ae_1541</td>
+      <td>“Arvernicus ii”@en</td>
+      <td>lado:IndependentPotter</td>
+      <td>samian:loc_pc_2000048</td>
+      <td>“Sinzig”@en</td>
+    </tr>
+    <tr>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>-&gt; ChiefPotters who interact with DependentPotters:</em></p>
+
+<pre>
+  <code>
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX lado: &lt;http://archaeology.link/ontology#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+
+SELECT ?chief ?chief_label ?dependent ?dependent_label  WHERE {
+  ?chief rdf:type lado:ActorEntity;
+  rdfs:label ?chief_label;
+  lado:hasStatus lado:ChiefPotter;
+  lado:interactsWith ?dependent.
+  ?dependent rdf:type lado:ActorEntity;
+  rdfs:label ?dependent_label;
+  lado:hasStatus lado:DependentPotter.
+}
+  </code>
+</pre>
+
+<p><em>Output:</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>chief</strong></th>
+      <th><strong>chief_label</strong></th>
+      <th><strong>dependent</strong></th>
+      <th><strong>dependent_label</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>samian:ae_10348</td>
+      <td>“Vibius Iucun(dus) Vibius”@en</td>
+      <td>samian:ae_136996</td>
+      <td>“IVCVN(DVS)”@en</td>
+    </tr>
+    <tr>
+      <td>samian:ae_7878</td>
+      <td>“Serius Thyrsus Serius”@en</td>
+      <td>samian:ae_214084</td>
+      <td>“THYRSVS”@en</td>
+    </tr>
+    <tr>
+      <td>samian:ae_8314</td>
+      <td>“L. Umbricius Thyrsus”@en</td>
+      <td>samian:ae_214084</td>
+      <td>“THYRSVS”@en</td>
+    </tr>
+    <tr>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<p>
+    <center><img src="https://github.com/RGZM/samian-lod/raw/main/assets/images/spacer.png" style="height:24px;" /></center>
+</p>
+<hr />
+
+<h4 id="detailed-location">Detailed Location</h4>
+
+<figure class="">
+  <img src="/samian-lod/assets/images/SamianLod_map_Location.png" alt="" /></figure>
+
+<p><strong>Example Query - Location</strong></p>
+
+<p><em>-&gt; Kilnregion, Workers &amp; their Status of the Productioncentre “La Graufesenque:”</em></p>
+
+<pre>
+  <code>
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX lado: &lt;http://archaeology.link/ontology#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+
+SELECT ?loc_label ?kr_label ?name ?status WHERE {
+  ?item rdf:type lado:Location.
+  ?item rdfs:label ?loc_label.
+  ?item rdfs:label "La Graufesenque"@en.
+  ?item lado:clusteredAs ?kilnregion.
+  ?kilnregion rdfs:label ?kr_label.
+  ?item lado:hasWorker ?worker.
+  ?worker lado:name ?name.
+  ?worker lado:hasStatus ?status.
+}
+  </code>
+</pre>
+
+<p><em>Output:</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>loc_label</strong></th>
+      <th><strong>kr_label</strong></th>
+      <th><strong>name</strong></th>
+      <th><strong>status</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>“La Graufesenque”@en</td>
+      <td>“South Gaulish”@en</td>
+      <td>“ABC (or Abc- or ABG-)”</td>
+      <td>lado:IndependentPotter</td>
+    </tr>
+    <tr>
+      <td>“La Graufesenque”@en</td>
+      <td>“South Gaulish”@en</td>
+      <td>“Abitus (Habitus)”</td>
+      <td>lado:IndependentPotter</td>
+    </tr>
+    <tr>
+      <td>“La Graufesenque”@en</td>
+      <td>“South Gaulish”@en</td>
+      <td>“Acanus (Acaunus)”</td>
+      <td>lado:IndependentPotter</td>
+    </tr>
+    <tr>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<p>
+    <center><img src="https://github.com/RGZM/samian-lod/raw/main/assets/images/spacer.png" style="height:24px;" /></center>
+</p>
+<hr />
+
+<h4 id="detailed-potform">Detailed Potform</h4>
+
+<figure class="">
+  <img src="/samian-lod/assets/images/SamianLod_map_Potform.png" alt="" /></figure>
+
+<p><strong>Example Query - Potform</strong></p>
+
+<p><em>-&gt; Potforms and their labels with tradition “Gaulish:”</em></p>
+
+<pre>
+  <code>
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX lado: &lt;http://archaeology.link/ontology#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+
+SELECT ?item ?tradition ?label WHERE {
+  ?item rdf:type lado:Potform.
+  ?item lado:hasType ?tradition; lado:hasType lado:Gaulish.
+  ?item rdfs:label ?label.
+}
+  </code>
+</pre>
+
+<p><em>Output</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Item</strong></th>
+      <th><strong>Tradition</strong></th>
+      <th><strong>Label</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>samian:pf_1</td>
+      <td>lado:Gaulish</td>
+      <td>“15”</td>
+    </tr>
+    <tr>
+      <td>samian:pf_11</td>
+      <td>lado:Gaulish</td>
+      <td>“18/31”</td>
+    </tr>
+    <tr>
+      <td>samian:pf_12</td>
+      <td>lado:Gaulish</td>
+      <td>“18/31R”</td>
+    </tr>
+    <tr>
+      <td>…</td>
+      <td>…</td>
+      <td>…</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<p>
+    <center><img src="https://github.com/RGZM/samian-lod/raw/main/assets/images/spacer.png" style="height:24px;" /></center>
+</p>
+<hr />
+
+<h4 id="amt-model">AMT-Model</h4>
+
+<figure class="">
+  <img src="/samian-lod/assets/images/Samian_amt_model.png" alt="" /></figure>
+
+<p>The data contains strings with vague expressions.
+This vagueness is modelled using the Academic Meta Tool.
+The AMT-Model depends on the keywords <strong>AND</strong> (<em>AMT-weight = 1</em>) and <strong>OR</strong> (<em>AMT-weight/2</em>).
+Attributions for e.g. productionscenters can result in more than one place, which has to be recorded accordingly.
+This vagueness has been taken into consideration with the Linked Open Samian Ware Project.</p>
+
+<p>In the following examples the relations for the potter Quietus/Quetus (ae_5889), his production centres as well as the information carrier 118117 (ic_118117) are mapped.</p>
+
+<h5 id="amt-model-examples">AMT-Model Examples</h5>
+
+<p><strong>Example 1:</strong></p>
+
+<p>Samian AMT-Model for the potter <strong>Quietus/Quetus (ae_5889)</strong>
+and the productioncentre <strong>Rheinzabern (loc_pc_2000047)</strong>:</p>
+
+<figure class="">
+  <img src="/samian-lod/assets/images/Samian_amt_model_ae_pc_example.png" alt="" /></figure>
+
+<p><em>Example Query: Filter all weights for the Potter Quietus’ Productioncentres:</em></p>
+
+<p>The String containing the necessary data reads as follows “Kräherwald and Rheinzabern”</p>
+
+<pre>
+  <code>
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX lado: &lt;http://archaeology.link/ontology#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX amt: &lt;http://academic-meta-tool.xyz/vocab#&gt;
+PREFIX samian: &lt;http://data.archaeology.link/data/samian/&gt;
+
+SELECT ?subject ?subjectLabel ?predicateLabel ?objectLabel ?weight WHERE {
+  ?subject lado:hasAMT ?amt.
+  ?amt rdf:subject ?subject.
+  ?subject rdfs:label ?subjectLabel.
+  ?amt rdf:predicate ?predicate.
+  ?predicate rdfs:label ?predicateLabel.
+  ?amt rdf:object ?object.
+  ?object rdfs:label ?objectLabel.
+  ?amt amt:weight ?weight.
+  FILTER(?subject = samian:ae_5889)
+  FILTER(?predicate = lado:worksAtPlace)
+  FILTER (lang(?predicateLabel) = 'en')
+}
+  </code>
+</pre>
+
+<p><em>Output:</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>subject</strong></th>
+      <th><strong>subjectLabel</strong></th>
+      <th><strong>predicateLabel</strong></th>
+      <th><strong>objectLabel</strong></th>
+      <th><strong>weight</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>samian:ae_5889</td>
+      <td>“Quietus (Quetus)”@en</td>
+      <td>“works at place”@en</td>
+      <td>“Kräherwald”@en</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>samian:ae_5889</td>
+      <td>“Quietus (Quetus)”@en</td>
+      <td>“works at place”@en</td>
+      <td>“Rheinzabern”@en</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>-&gt; Quietus worked at Kräherwald AND Rheinzabern, so the weight results in 1</em></p>
+
+<hr />
+<p>
+    <center><img src="https://github.com/RGZM/samian-lod/raw/main/assets/images/spacer.png" style="height:24px;" /></center>
+</p>
+<hr />
+
+<p><strong>Example 2:</strong></p>
+
+<p>Samian AMT-Model for <strong>information carrier 118117 (ic_118117)</strong>
+and the productioncentre <strong>Rheinzabern (loc_pc_2000047)</strong>:</p>
+
+<figure class="">
+  <img src="/samian-lod/assets/images/Samian_amt_model_ic_pc_example.png" alt="" /></figure>
+
+<p><em>Example Query: Filter all weights for the Kilnsites of Information Carrier 118117:</em></p>
+
+<p>The String containing the necessary data reads as follows “Kräherwald and Rheinzabern”</p>
+
+<pre>
+  <code>
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX lado: &lt;http://archaeology.link/ontology#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX amt: &lt;http://academic-meta-tool.xyz/vocab#&gt;
+PREFIX samian: &lt;http://data.archaeology.link/data/samian/&gt;
+
+SELECT ?subject ?subjectLabel ?predicateLabel ?objectLabel ?weight WHERE {
+  ?subject lado:hasAMT ?amt.
+  ?amt rdf:subject ?subject.
+  ?subject rdfs:label ?subjectLabel.
+	?amt rdf:predicate ?predicate.
+  ?predicate rdfs:label ?predicateLabel.
+  ?amt rdf:object ?object.
+  ?object rdfs:label ?objectLabel.
+  ?amt amt:weight ?weight.
+  FILTER(?subject = samian:ic_118117)
+  FILTER(?predicate = lado:hasKilnsite)
+  FILTER (lang(?predicateLabel) = 'en')
+}
+  </code>
+</pre>
+
+<p><em>Output:</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>subject</strong></th>
+      <th><strong>subjectLabel</strong></th>
+      <th><strong>predicateLabel</strong></th>
+      <th><strong>objectLabel</strong></th>
+      <th><strong>weight</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>samian:ic_118117</td>
+      <td>“redslipvessel formtype 15/17 or 18 or 18/31”@en</td>
+      <td>“has kilnsite”@en</td>
+      <td>“Kräherwald”@en</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>samian:ic_118117</td>
+      <td>“redslipvessel formtype 15/17 or 18 or 18/31”@en</td>
+      <td>“has kilnsite”@en</td>
+      <td>“Rheinzabern”@en</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>-&gt; The Informationcarrier’s Productioncentre has been attributed to Kräherwald AND Rheinzabern, so the weight results in 1</em></p>
+
+<hr />
+<p>
+    <center><img src="https://github.com/RGZM/samian-lod/raw/main/assets/images/spacer.png" style="height:24px;" /></center>
+</p>
+<hr />
+
+<p><strong>Example 3:</strong></p>
+
+<p>Samian AMT-Model for <strong>information carrier 118117 (ic_118117)</strong>
+and the potform <strong>18 (pf_9)</strong>:</p>
+
+<figure class="">
+  <img src="/samian-lod/assets/images/Samian_amt_model_ic_pf_example.png" alt="" /></figure>
+
+<p><em>Example Query: Filter all weights for the potforms of Information Carrier 118117:</em></p>
+
+<p>The String containing the necessary data reads as follows “15/17 or 18 or 18/31”</p>
+
+<pre>
+  <code>
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX lado: &lt;http://archaeology.link/ontology#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX amt: &lt;http://academic-meta-tool.xyz/vocab#&gt;
+PREFIX samian: &lt;http://data.archaeology.link/data/samian/&gt;
+
+SELECT ?subject ?subjectLabel ?predicateLabel ?objectLabel ?weight WHERE {
+	?subject lado:hasAMT ?amt.
+  ?amt rdf:subject ?subject.
+  ?subject rdfs:label ?subjectLabel.
+	?amt rdf:predicate ?predicate.
+  ?predicate rdfs:label ?predicateLabel.
+  ?amt rdf:object ?object.
+  ?object rdfs:label ?objectLabel.
+  ?amt amt:weight ?weight.
+  FILTER(?subject = samian:ic_118117)
+  FILTER(?predicate = lado:representedBy)
+  FILTER (lang(?predicateLabel) = 'en')
+}
+  </code>
+</pre>
+
+<p><em>Output:</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>subject</strong></th>
+      <th><strong>subjectLabel</strong></th>
+      <th><strong>predicateLabel</strong></th>
+      <th><strong>objectLabel</strong></th>
+      <th><strong>weight</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>samian:ic_118117</td>
+      <td>“redslipvessel formtype 15/17 or 18 or 18/31”@en</td>
+      <td>“represented by”@en</td>
+      <td>“15/17”</td>
+      <td>0.330000013</td>
+    </tr>
+    <tr>
+      <td>samian:ic_118117</td>
+      <td>“redslipvessel formtype 15/17 or 18 or 18/31”@en</td>
+      <td>“represented by”@en</td>
+      <td>“18”</td>
+      <td>0.330000013</td>
+    </tr>
+    <tr>
+      <td>samian:ic_118117</td>
+      <td>“redslipvessel formtype 15/17 or 18 or 18/31”@en</td>
+      <td>“represented by”@en</td>
+      <td>“18/31”</td>
+      <td>0.330000013</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>-&gt; The Informationcarriers either has the potform 15/17, 18 OR 18/31 (vagueness), so each weight results in 0.33</em></p>
+
+<hr />
+<p>
+    <center><img src="https://github.com/RGZM/samian-lod/raw/main/assets/images/spacer.png" style="height:24px;" /></center>
+</p>
+<hr />
+
+<h2 id="provenance-modelling">Provenance Modelling</h2>
+
+<figure class="">
+  <img src="/samian-lod/assets/images/provO.jpg" alt="" /></figure>
+
+<p>The provenance information for the transformation process is stored using the <a href="https://www.w3.org/TR/prov-o/">PROV-O ontology</a>. Each entity is modelled as item which is derived form the <code class="language-plaintext highlighter-rouge">Samian Research</code> database, was attributed to the <code class="language-plaintext highlighter-rouge">Python Transformation Script</code> which acted on behalf of Research Engineers (RGZM), and was generated by an <code class="language-plaintext highlighter-rouge">Algorithm Activity</code> (associated with the <code class="language-plaintext highlighter-rouge">Python Transformation Script</code>) with a defined start and ending point.</p>
+
+<hr />
+<p>
+    <center><img src="https://github.com/RGZM/samian-lod/raw/main/assets/images/spacer.png" style="height:24px;" /></center>
+</p>
+<hr />
+
+<h2 id="csv-documentation">CSV-Documentation</h2>
+
+<h3 id="file-structure">File Structure</h3>
+
+<p>The CSV files can be downloaded under <a href="https://www1.rgzm.de/ips/lod/{filename}.csv">https://www1.rgzm.de/ips/lod/{filename}.csv</a></p>
+
+<figure class="">
+  <img src="/samian-lod/assets/images/Samian_universal_map.png" alt="" /></figure>
+
+<p>The CSV files are split into the categories <em>Instances</em>, containing unique lists (of classes/objects), and <em>Semantic Relations</em>, containing the necessary crosstables to link our instances by their IDs.</p>
+
+<h3 id="instances">Instances</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Columns</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>actorsasaconcept</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>name</strong></td>
+      <td>name of the potter</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>chiefpotter</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>name</strong></td>
+      <td>name of the potter</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>praenomen</strong></td>
+      <td>praenomen of the potter</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>cognomen</strong></td>
+      <td>cognomen of the potter</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>dependent</strong></td>
+      <td>name of associated dependent potter(s)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>gentilicium</strong></td>
+      <td>family name (gentilicium)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>partner</strong></td>
+      <td>name of associated partner potter(s)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>kilnsite</strong></td>
+      <td>related production centre(s)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>cooperationandchiefpotter</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>name</strong></td>
+      <td>name of the potter</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>praenomen</strong></td>
+      <td>praenomen of the potter</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>cognomen</strong></td>
+      <td>cognomen of the potter</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>dependent</strong></td>
+      <td>name of associated dependent potter(s)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>gentilicium</strong></td>
+      <td>family name (gentilicium)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>partner</strong></td>
+      <td>name of associated partner potter(s)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>kilnsite</strong></td>
+      <td>related production centre(s)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>cooperationpotter</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>pottername</strong></td>
+      <td>name of the potter</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>praenomen</strong></td>
+      <td>praenomen of the potter</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>cognomen</strong></td>
+      <td>cognomen of the potter</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>dependent</strong></td>
+      <td>name of associated dependent potter(s)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>gentilicium</strong></td>
+      <td>family name (gentilicium)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>partner</strong></td>
+      <td>name of associated partner potter(s)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>kilnsite</strong></td>
+      <td>related production centre(s)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>dependentpotter</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>name</strong></td>
+      <td>name of the dependent potter</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>discoverysite</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>label</strong></td>
+      <td>identifier (string)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>long</strong></td>
+      <td>longitude</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>pleiades_id</strong></td>
+      <td>pleiades id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>ancientname</strong></td>
+      <td>ancient name of the site</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>wkt</strong></td>
+      <td>well-known text format</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>genericpotform</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>label</strong></td>
+      <td>identifier (string)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>independentpotter</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>pottername</strong></td>
+      <td>name of the potter</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>praenomen</strong></td>
+      <td>praenomen of the potter</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>cognomen</strong></td>
+      <td>cognomen of the potter</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>dependent</strong></td>
+      <td>name of associated dependent potter(s)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>gentilicium</strong></td>
+      <td>family name (gentilicium)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>partner</strong></td>
+      <td>name of associated partner potter(s)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>kilnsite</strong></td>
+      <td>related production centre(s)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>informationcarrier</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>label</strong></td>
+      <td>identifier (string)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>shapes</strong></td>
+      <td>formtype (int)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>number</strong></td>
+      <td>number of items</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>kilnsite</strong></td>
+      <td>related production centre(s)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>pottername</strong></td>
+      <td>name of the potter</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>die</strong></td>
+      <td>die stamp or stylus</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>site</strong></td>
+      <td>discoverysite of the object(s)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>repositorysite</strong></td>
+      <td>repositorysite of the object(s)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>inscriptiondie</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>reading</strong></td>
+      <td>reading of the inscription</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>simplereading</strong></td>
+      <td>simplified reading of the inscription</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>direction</strong></td>
+      <td>reading direction of the inscription</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>inscriptiongraffito</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>reading</strong></td>
+      <td>reading of the inscription</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>simplereading</strong></td>
+      <td>simplified reading of the inscription</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>direction</strong></td>
+      <td>reading direction of the inscription</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>inscriptionmakingtypedie</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>label</strong></td>
+      <td>identifier (string)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>pottername</strong></td>
+      <td>name of the potter</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>die</strong></td>
+      <td>die stamp or stylus</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>inscriptionmakingtypestylus</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>label</strong></td>
+      <td>identifier (string)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>pottername</strong></td>
+      <td>name of the potter</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>die</strong></td>
+      <td>die stamp or stylus</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>kilnregion</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>label</strong></td>
+      <td>identifier (string)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>kilnregion_centroid_wkt</strong></td>
+      <td>well-known text centroid (geometry)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>kilnregion_wkt</strong></td>
+      <td>well-known text (geometry)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>partnerpotter</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>name</strong></td>
+      <td>name of the potter</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>placeasaconcept</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>label</strong></td>
+      <td>identifier (string)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>potformgaulish</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>label</strong></td>
+      <td>identifier (string)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>image</strong></td>
+      <td>image of potform</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>genericform</strong></td>
+      <td>generic potform label</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>tradition</strong></td>
+      <td>pottery tradition</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>potformitalian</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>label</strong></td>
+      <td>identifier (string)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>image</strong></td>
+      <td>image of potform</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>genericform</strong></td>
+      <td>generic potform label</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>tradition</strong></td>
+      <td>pottery tradition</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>productioncentre</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>label</strong></td>
+      <td>identifier (string)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>kilnregion</strong></td>
+      <td>productioncentre region</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>lat</strong></td>
+      <td>latitude (geometry)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>long</strong></td>
+      <td>longitude (geometry)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>wkt</strong></td>
+      <td>well-known text format (geometry)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>repositorylocation</td>
+      <td><strong>id</strong></td>
+      <td>identifier (numeric)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>label</strong></td>
+      <td>identifier (string)</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<p>
+    <center><img src="https://github.com/RGZM/samian-lod/raw/main/assets/images/spacer.png" style="height:24px;" /></center>
+</p>
+<hr />
+
+<h3 id="semantic-relations">Semantic Relations</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Columns</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ct_ac_ae</td>
+      <td><strong>ac_id</strong></td>
+      <td>actorsasaconcept.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>ae_id</strong></td>
+      <td>chiefpotter.id, cooperationpotter.id, independentpotter.id - partnerpotter.id, dependentpotter.id, cooperationandchiefpotter.id</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_cpchp_dp</td>
+      <td><strong>cpchp_id</strong></td>
+      <td>cooperationandchiefpotter.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>dp_id</strong></td>
+      <td>dependentpotter.id</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_cpchp_pp</td>
+      <td><strong>cpchp_id</strong></td>
+      <td>cooperationandchiefpotter.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>pp_id</strong></td>
+      <td>partnerpotter.id</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_ae_pc</td>
+      <td><strong>ae_id</strong></td>
+      <td>ct_ac_ae.fk2</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>pc_id</strong></td>
+      <td>ct_ac_ae.productioncentre</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>weight</strong></td>
+      <td>ct_ae_pc_2.weight</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_chp_dp</td>
+      <td><strong>chp_id</strong></td>
+      <td>chiefpotter.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>dp_id</strong></td>
+      <td>dependentpotter.id</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_cp_pp</td>
+      <td><strong>cp_id</strong></td>
+      <td>cooperationpotter.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>pp_id</strong></td>
+      <td>partnerpotter.id</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_ic_ds</td>
+      <td><strong>ic_id</strong></td>
+      <td>informationcarrier.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>ds_id</strong></td>
+      <td>discoverysite.id</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_ic_in</td>
+      <td><strong>ic_id</strong></td>
+      <td>informationcarrier.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>pottername</strong></td>
+      <td>informationcarrier.pottername</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>die</strong></td>
+      <td>informationcarrier.die</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_ic_pc</td>
+      <td><strong>ic_id</strong></td>
+      <td>ct_ic_pc_2.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>pc_id</strong></td>
+      <td>productioncentre.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>weight</strong></td>
+      <td>ct_ic_pc_2.weight</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_ic_pf</td>
+      <td><strong>ic_id</strong></td>
+      <td>ct_ic_pf_2.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>weight</strong></td>
+      <td>ct_ic_pf_2.weight</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>pf_id</strong></td>
+      <td>potform.id</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_ic_plc</td>
+      <td><strong>plc_id</strong></td>
+      <td>placeasaconcept.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>ic_id</strong></td>
+      <td>informationcarrier.id</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_ic_rl</td>
+      <td><strong>ic_id</strong></td>
+      <td>informationcarrier.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>rl_id</strong></td>
+      <td>repositorylocation.id</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_in_ac</td>
+      <td><strong>in_id</strong></td>
+      <td>inscription.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>ac_id</strong></td>
+      <td>actorsasaconcept.id</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_mt_in</td>
+      <td><strong>in_id</strong></td>
+      <td>inscription.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>mt_id</strong></td>
+      <td>inscriptionmakingtype.id</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_pc_kr</td>
+      <td><strong>kr_id</strong></td>
+      <td>kilnregion.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>pc_id</strong></td>
+      <td>productioncentre.id</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_pf_gf</td>
+      <td><strong>gf_id</strong></td>
+      <td>genericpotform.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>pf_id</strong></td>
+      <td>potform.id</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_plc_ds</td>
+      <td><strong>plc_id</strong></td>
+      <td>placeasaconcept.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>ds_id</strong></td>
+      <td>discoverysite.id</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_plc_pc</td>
+      <td><strong>plc_id</strong></td>
+      <td>placeasaconcept.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>pc_id</strong></td>
+      <td>productioncentre.id</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>ct_plc_rl</td>
+      <td><strong>plc_id</strong></td>
+      <td>placeasaconcept.id</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>rl_id</strong></td>
+      <td>repositylocation.id</td>
+    </tr>
+  </tbody>
+</table>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+    <ul class="social-icons">
+        
+
+        
+        
+        
+        <li><i class="fab fa-fw fa-github" aria-hidden="true"></i>&nbsp;<a href="https://github.com/RGZM/samian-lod" rel="nofollow noopener noreferrer">GitHub</a></li>
+        
+        
+        
+
+        <!--<li><a href="/samian-lod/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>-->
+    </ul>
+</div>
+
+<div class="page__footer-copyright"><b>CC BY 4.0</b>:2020 - 2023 Linked Open Samian Ware by RGZM (Florian Thiery, Allard Mees, Dennis Gottwald). Powered by
+    <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp;
+    <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    
+  <script src="/samian-lod/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

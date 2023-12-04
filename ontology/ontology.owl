@@ -1,0 +1,1746 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://archaeology.link/ontology#"
+     xml:base="http://archaeology.link/ontology"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:sf="http://www.opengis.net/ont/sf#"
+     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vocab="http://academic-meta-tool.xyz/vocab#"
+     xmlns:samian="http://data.archaeology.link/data/samian/"
+     xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+     xmlns:ontology="http://archaeology.link/ontology#"
+     xmlns:pleiades="https://pleiades.stoa.org/places/vocab#"
+     xmlns:wikidata="http://www.wikidata.org/entity/"
+     xmlns:geosparql="http://www.opengis.net/ont/geosparql#">
+    <owl:Ontology rdf:about="http://archaeology.link/ontology#">
+        <dc:contributor>Florian Thiery, Dennis Gottwald, Allard Mees</dc:contributor>
+        <dc:creator>Florian Thiery, Dennis Gottwald, Allard Mees</dc:creator>
+        <dc:description xml:lang="en">This ontology contains classes to describe data of the Samian Research Database hosted by the RGZM.</dc:description>
+        <dc:publisher>Römisch-Germanisches Zentralmuseum Leibniz-Forschungsinstitut für Archäologie</dc:publisher>
+        <dc:rights>CC BY 4.0</dc:rights>
+        <dc:subject>archaeology; samian ware; terra sigillata</dc:subject>
+        <rdfs:comment xml:lang="en">This ontology contains classes to describe data of the Samian Research Database hosted by the RGZM.</rdfs:comment>
+        <rdfs:label xml:lang="en">A Samian Ontology</rdfs:label>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://academic-meta-tool.xyz/vocab#placeholder -->
+
+    <owl:AnnotationProperty rdf:about="http://academic-meta-tool.xyz/vocab#placeholder"/>
+    
+
+
+    <!-- http://archaeology.link/ontology#isActorStatus -->
+
+    <owl:AnnotationProperty rdf:about="http://archaeology.link/ontology#isActorStatus"/>
+    
+
+
+    <!-- http://archaeology.link/ontology#isActorType -->
+
+    <owl:AnnotationProperty rdf:about="http://archaeology.link/ontology#isActorType"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier">
+        <rdfs:comment xml:lang="en">Recommended best practice is to identify the resource by means of a string conforming to a formal identification system.</rdfs:comment>
+        <rdfs:label xml:lang="en">Identifier</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/type"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:comment xml:lang="en">A human-readable name for the subject.</rdfs:comment>
+        <rdfs:label xml:lang="en">label</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/dcmitype/Image -->
+
+    <rdfs:Datatype rdf:about="http://purl.org/dc/dcmitype/Image">
+        <rdfs:comment xml:lang="en">Examples include images and photographs of physical objects, paintings, prints, drawings, other images and graphics, animations and moving pictures, film, diagrams, maps, musical notation. Note that Image may include both electronic and physical representations.</rdfs:comment>
+        <rdfs:label xml:lang="en">Image</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Resource -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://archaeology.link/ontology#PlaceOfInterest -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#PlaceOfInterest">
+        <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+        <rdfs:comment xml:lang="en">c.f. https://www.ogc.org/standards/geosparql, 1.0, OGC GeoSPARQL - A Geographic Query Language for RDF Data, 11-052r4, Annex B, B.1</rdfs:comment>
+        <rdfs:label xml:lang="en">place of interest</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#carries -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#carries">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#InformationCarrier"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#Inscription"/>
+        <rdfs:label xml:lang="en">carries</rdfs:label>
+        <rdfs:label xml:lang="de">trägt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#centroid -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#centroid">
+        <rdfs:subPropertyOf rdf:resource="http://archaeology.link/ontology#hasPointGeometry"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">has centroid</rdfs:label>
+        <rdfs:label xml:lang="de">hat Zentrum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#clusteredArea -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#clusteredArea">
+        <rdfs:subPropertyOf rdf:resource="http://archaeology.link/ontology#hasExactGeometry"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">has clustered area</rdfs:label>
+        <rdfs:label xml:lang="de">hat geclusterte Fläche</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#clusteredAs -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#clusteredAs">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Location"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#KilnRegion"/>
+        <rdfs:label xml:lang="en">clustered as</rdfs:label>
+        <rdfs:label xml:lang="de">geclustert als</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#disclosedAt -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#disclosedAt">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#InformationCarrier"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#Place"/>
+        <rdfs:label xml:lang="en">disclosed at</rdfs:label>
+        <rdfs:label xml:lang="de">offenbart bei</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#exactMatch -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#exactMatch">
+        <rdfs:subPropertyOf rdf:resource="http://www.wikidata.org/prop/direct/P2888"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">exact match</rdfs:label>
+        <rdfs:label xml:lang="de">exakte Übereinstimmung</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#generalisedAs -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#generalisedAs">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Potform"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#GenericPotform"/>
+        <rdfs:label xml:lang="en">generalised as</rdfs:label>
+        <rdfs:label xml:lang="de">generalisiert als</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasAMT -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasAMT">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">has AMT node</rdfs:label>
+        <rdfs:label xml:lang="de">hat AMT Knoten</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasEntity -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasEntity">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Actor"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#ActorEntity"/>
+        <rdfs:label xml:lang="en">has entity</rdfs:label>
+        <rdfs:label xml:lang="de">hat Entität</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasExactGeometry -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasExactGeometry">
+        <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">c.f. https://www.ogc.org/standards/geosparql, 1.0, OGC GeoSPARQL - A Geographic Query Language for RDF Data, 11-052r4, Annex B, B.1</rdfs:comment>
+        <rdfs:label xml:lang="en">has exact geometry</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasKilnsite -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasKilnsite">
+        <owl:inverseOf rdf:resource="http://archaeology.link/ontology#isKilnsiteOf"/>
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#InformationCarrier"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasLocation">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Place"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#Location"/>
+        <rdfs:label xml:lang="en">has location</rdfs:label>
+        <rdfs:label xml:lang="de">hat Standort</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasPointGeometry -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasPointGeometry">
+        <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">c.f. https://www.ogc.org/standards/geosparql, 1.0, OGC GeoSPARQL - A Geographic Query Language for RDF Data, 11-052r4, Annex B, B.1</rdfs:comment>
+        <rdfs:label xml:lang="en">has point geometry</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasStatus -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasStatus">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#ActorEntity"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#ActorEntity"/>
+        <rdfs:label xml:lang="en">has status</rdfs:label>
+        <rdfs:label xml:lang="de">hat Status</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasType -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasType">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+        <rdfs:label xml:lang="en">has type</rdfs:label>
+        <rdfs:label xml:lang="de">hat Typ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasWorker -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasWorker">
+        <owl:inverseOf rdf:resource="http://archaeology.link/ontology#worksAtPlace"/>
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Location"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#ActorEntity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#interactsWith -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#interactsWith">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#ActorEntity"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#ActorEntity"/>
+        <rdfs:label xml:lang="en">interacts with</rdfs:label>
+        <rdfs:label xml:lang="de">interagiert mit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#isAbout -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#isAbout">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Inscription"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#Actor"/>
+        <rdfs:label xml:lang="en">is about</rdfs:label>
+        <rdfs:label xml:lang="de">ist über</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#isKilnsiteOf -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#isKilnsiteOf">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Location"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#InformationCarrier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#locatedAt -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#locatedAt">
+        <rdfs:subPropertyOf rdf:resource="http://archaeology.link/ontology#hasPointGeometry"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">is located hat</rdfs:label>
+        <rdfs:label xml:lang="de">ist verortet in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#representedBy -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#representedBy">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#InformationCarrier"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#Potform"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#wasMadeBy -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#wasMadeBy">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Inscription"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#InscriptionMakingType"/>
+        <rdfs:label xml:lang="en">was made by</rdfs:label>
+        <rdfs:label xml:lang="de">wurde angefertigt durch</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#worksAtPlace -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#worksAtPlace">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#ActorEntity"/>
+        <rdfs:range rdf:resource="http://archaeology.link/ontology#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#hasGeometry -->
+
+    <owl:ObjectProperty rdf:about="http://www.opengis.net/ont/geosparql#hasGeometry">
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">has geometry</rdfs:label>
+        <rdfs:label xml:lang="de">hat Geometrie</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#sameAs -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#sameAs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <dc:description xml:lang="en">The property that determines that two given individuals are equal.</dc:description>
+        <rdfs:label xml:lang="en">sameAs</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">has exact match</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#actedOnBehalfOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#actedOnBehalfOf"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#endedAtTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#endedAtTime"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#startedAtTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#startedAtTime"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#used -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#used"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasAssociatedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasAssociatedWith"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasAttributedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasAttributedTo"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasDerivedFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasGeneratedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasGeneratedBy"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasInformedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasInformedBy"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P2888 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P2888">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <dc:description xml:lang="en">(URLs only) used to link two items, indicating a high degree of confidence that the concepts can be used interchangeably</dc:description>
+        <dc:description xml:lang="de">verwendet, um zwei Konzepte (Begriffe) zu verbinden, wobei mit großer Sicherheit gilt, dass beide untereinander auswechselbar sind</dc:description>
+        <rdfs:label xml:lang="en">exact match</rdfs:label>
+        <rdfs:label xml:lang="de">exakte Übereinstimmung</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://archaeology.link/ontology#ancientName -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#ancientName">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="de">antiker Ortsname (String)</rdfs:label>
+        <rdfs:label xml:lang="en">antiquity sitename (String)</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#cognomen -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#cognomen">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Actor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="de">Cognomen</rdfs:label>
+        <rdfs:label xml:lang="en">cognomen</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#die -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#die">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#InscriptionMakingType"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="de">Stempel</rdfs:label>
+        <rdfs:label xml:lang="en">die</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#dieposition -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#dieposition">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Inscription"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="de">Die Position</rdfs:label>
+        <rdfs:label xml:lang="en">die position</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#gentilicium -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#gentilicium">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Actor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="de">Gentilicium</rdfs:label>
+        <rdfs:label xml:lang="en">gentilicium</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasImage -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#hasImage">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Potform"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="de">Bild</rdfs:label>
+        <rdfs:label xml:lang="en">image</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasKilnsiteString -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#hasKilnsiteString">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#InformationCarrier"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">has kilnsite</rdfs:label>
+        <rdfs:label xml:lang="de">hat Produktionsort</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#name -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#name">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Actor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="de">Name</rdfs:label>
+        <rdfs:label xml:lang="en">name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#number -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#number">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#InformationCarrier"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="de">Anzahl</rdfs:label>
+        <rdfs:label xml:lang="en">number</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#pleiadesID -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#pleiadesID">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="de">Pleiades ID</rdfs:label>
+        <rdfs:label xml:lang="en">pleiades ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#pottername -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#pottername">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#InscriptionMakingType"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="de">Töpfername</rdfs:label>
+        <rdfs:label xml:lang="en">pottername</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#praenomen -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#praenomen">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Actor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="de">Praenomen</rdfs:label>
+        <rdfs:label xml:lang="en">praenomen</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#reading -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#reading">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Inscription"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="de">Schriftzug</rdfs:label>
+        <rdfs:label xml:lang="en">reading</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#readingDirection -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#readingDirection">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Inscription"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="de">Schriftzugrichtung</rdfs:label>
+        <rdfs:label xml:lang="en">reading direction</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#representedByString -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#representedByString">
+        <rdfs:label xml:lang="en">represented by (String)</rdfs:label>
+        <rdfs:label xml:lang="de">repäsentiert durch (String)</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#simpleReading -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#simpleReading">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Inscription"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="de">Schriftzug (einfach)</rdfs:label>
+        <rdfs:label xml:lang="en">simple reading</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#timeinterval -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#timeinterval">
+        <rdfs:label xml:lang="de">Zeitintervall</rdfs:label>
+        <rdfs:label xml:lang="en">timeinterval</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#worksAtPlaceString -->
+
+    <owl:DatatypeProperty rdf:about="http://archaeology.link/ontology#worksAtPlaceString">
+        <rdfs:domain rdf:resource="http://archaeology.link/ontology#Actor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="de">arbeitet in Produktionszentrum (String)</rdfs:label>
+        <rdfs:label xml:lang="en">works at place (String)</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#asGeoJSON -->
+
+    <owl:DatatypeProperty rdf:about="http://www.opengis.net/ont/geosparql#asGeoJSON">
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="de">als GeoJSON</rdfs:label>
+        <rdfs:label xml:lang="en">as GeoJSON</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#asWKT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.opengis.net/ont/geosparql#asWKT">
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="de">als well-known-text</rdfs:label>
+        <rdfs:label xml:lang="en">as well-known-text</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://academic-meta-tool.xyz/vocab#Concept -->
+
+    <owl:Class rdf:about="http://academic-meta-tool.xyz/vocab#Concept">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:comment>A node which is part of a triple with a vague edge.</rdfs:comment>
+        <rdfs:label>Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://academic-meta-tool.xyz/vocab#Role -->
+
+    <owl:Class rdf:about="http://academic-meta-tool.xyz/vocab#Role">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:comment>A vague edge which is part of a triple.</rdfs:comment>
+        <rdfs:label>Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#AMT_Entity -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#AMT_Entity">
+        <rdfs:label xml:lang="en">Academic Meta Tool Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#Actor -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#Actor">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+        <dc:description xml:lang="de">Akteure als Konzept.</dc:description>
+        <rdfs:label xml:lang="en">Actor</rdfs:label>
+        <rdfs:label xml:lang="de">Akteur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#ActorEntity -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#ActorEntity">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#Actor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#ChiefPotter -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#ChiefPotter">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#ActorEntity"/>
+        <isActorStatus xml:lang="en">true</isActorStatus>
+        <rdfs:label xml:lang="de">Cheftöpfer</rdfs:label>
+        <rdfs:label xml:lang="en">Chief Potter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#CooperationPotter -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#CooperationPotter">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#ActorEntity"/>
+        <isActorStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isActorStatus>
+        <rdfs:label xml:lang="en">Cooperation Potter</rdfs:label>
+        <rdfs:label xml:lang="de">Kooperationstöpfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#DependentPotter -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#DependentPotter">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#ActorEntity"/>
+        <isActorStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isActorStatus>
+        <rdfs:label xml:lang="de">Abhängiger Töpfer</rdfs:label>
+        <rdfs:label xml:lang="en">Dependent Potter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#Die -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#Die">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#Tool"/>
+        <rdfs:label xml:lang="en">Die</rdfs:label>
+        <rdfs:label xml:lang="de">Stempel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#DieImpression -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#DieImpression">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#Inscription"/>
+        <rdfs:label xml:lang="en">Die impression</rdfs:label>
+        <rdfs:label xml:lang="de">Stempelabdruck</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#DiscoverySite -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#DiscoverySite">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#Place"/>
+        <rdfs:label xml:lang="en">Discovery Site</rdfs:label>
+        <rdfs:label xml:lang="de">Entdeckungsort</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#Gaulish -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#Gaulish">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#Tradition"/>
+        <rdfs:label xml:lang="de">Gallisch</rdfs:label>
+        <rdfs:label xml:lang="en">Gaulish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#GenericPotform -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#GenericPotform">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+        <rdfs:label xml:lang="en">Generic potform</rdfs:label>
+        <rdfs:label xml:lang="de">Generische Form</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#Graffito -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#Graffito">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#Inscription"/>
+        <rdfs:label xml:lang="de">Graffito</rdfs:label>
+        <rdfs:label xml:lang="en">Graffito</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#IndependentPotter -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#IndependentPotter">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#ActorEntity"/>
+        <isActorStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isActorStatus>
+        <rdfs:label xml:lang="en">Independent Potter</rdfs:label>
+        <rdfs:label xml:lang="de">Unabhängiger Töpfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#InformationCarrier -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#InformationCarrier">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#Inscription -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#Inscription">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature"/>
+        <dc:description xml:lang="en">In Ton gebrannte Inschrift mit Verweis auf Hersteller(in).</dc:description>
+        <rdfs:label xml:lang="de">Inschrift</rdfs:label>
+        <rdfs:label xml:lang="en">Inscription</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#InscriptionMakingType -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#InscriptionMakingType">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <dc:description xml:lang="de">Anfertigungsmethode der Inschrift.</dc:description>
+        <rdfs:label xml:lang="de">Inschrift-Anfertigung</rdfs:label>
+        <rdfs:label xml:lang="en">Inscription making type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#Italian -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#Italian">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#Tradition"/>
+        <rdfs:label xml:lang="en">Italian</rdfs:label>
+        <rdfs:label xml:lang="de">Italienisch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#KilnFiringPerson -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#KilnFiringPerson">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#ActorEntity"/>
+        <isActorType rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isActorType>
+        <rdfs:label xml:lang="en">Kiln Firing Involved Person</rdfs:label>
+        <rdfs:label xml:lang="de">Ofenbrennvorgangsinvolvierter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#KilnRegion -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#KilnRegion">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#Place"/>
+        <rdfs:label xml:lang="en">Kiln region</rdfs:label>
+        <rdfs:label xml:lang="de">Produktionsregion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#Location -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#Location">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#MouldMaker -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#MouldMaker">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#ActorEntity"/>
+        <isActorType rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isActorType>
+        <rdfs:label xml:lang="de">Modelhersteller</rdfs:label>
+        <rdfs:label xml:lang="en">Mouldmaker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#Namespace -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#Namespace">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#PartnerPotter -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#PartnerPotter">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#ActorEntity"/>
+        <isActorStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isActorStatus>
+        <rdfs:label xml:lang="en">Partner Potter</rdfs:label>
+        <rdfs:label xml:lang="de">Partnertöpfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#Place -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#Place">
+        <rdfs:subClassOf rdf:resource="https://pleiades.stoa.org/places/vocab#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#Potform -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#Potform">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#GenericPotform"/>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#Potmaker -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#Potmaker">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#ActorEntity"/>
+        <isActorType rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isActorType>
+        <rdfs:label xml:lang="de">Gefäßhersteller</rdfs:label>
+        <rdfs:label xml:lang="en">Potmaker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#ProductionCentre -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#ProductionCentre">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#KilnRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#RepositoryLocation -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#RepositoryLocation">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#Place"/>
+        <rdfs:label xml:lang="de">Aufbewahrungsort</rdfs:label>
+        <rdfs:label xml:lang="en">Repository Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#Stylus -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#Stylus">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#Tool"/>
+        <rdfs:label xml:lang="de">Griffel</rdfs:label>
+        <rdfs:label xml:lang="en">Stylus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#Tool -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#Tool">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#InscriptionMakingType"/>
+        <rdfs:label xml:lang="en">Tool</rdfs:label>
+        <rdfs:label xml:lang="de">Werkzeug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://archaeology.link/ontology#Tradition -->
+
+    <owl:Class rdf:about="http://archaeology.link/ontology#Tradition">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment>This class comprises all things in the universe of discourse of the CIDOC Conceptual Reference Model.
+    It is an abstract concept providing for three general properties:
+    1.	Identification by name or appellation, and in particular by a preferred identifier
+    2.	Classification by type, allowing further refinement of the specific subclass an instance belongs to
+    3.	Attachment of free text for the expression of anything not captured by formal properties
+    With the exception of E59 Primitive Value, all other classes within the CRM are directly or indirectly specialisations of E1 CRM Entity.
+    </rdfs:comment>
+        <rdfs:label xml:lang="en">CRM Entity</rdfs:label>
+        <rdfs:label xml:lang="de">CRM Entität</rdfs:label>
+        <rdfs:label xml:lang="ru">CRM Сущность</rdfs:label>
+        <rdfs:label xml:lang="zh">CRM实体</rdfs:label>
+        <rdfs:label xml:lang="pt">Entidade CRM</rdfs:label>
+        <rdfs:label xml:lang="fr">Entité CRM</rdfs:label>
+        <rdfs:label xml:lang="el">Οντότητα CIDOC CRM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing"/>
+        <rdfs:comment>This class comprises physical objects purposely created by human activity.
+      No assumptions are made as to the extent of modification required to justify regarding an object as man-made. For example, an inscribed piece of rock or a preserved butterfly are both regarded as instances of E22 Man-Made Object.
+      </rdfs:comment>
+        <rdfs:label xml:lang="de">Künstlicher Gegenstand</rdfs:label>
+        <rdfs:label xml:lang="en">Man-Made Object</rdfs:label>
+        <rdfs:label xml:lang="fr">Objet fabriqué</rdfs:label>
+        <rdfs:label xml:lang="pt">Objeto Fabricado</rdfs:label>
+        <rdfs:label xml:lang="el">Ανθρωπογενές Αντικείμενο</rdfs:label>
+        <rdfs:label xml:lang="ru">Рукотворный Объект</rdfs:label>
+        <rdfs:label xml:lang="zh">人造物件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdfs:comment>This class comprises all persistent physical items that are purposely created by human activity.
+      This class comprises man-made objects, such as a swords, and man-made features, such as rock art. No assumptions are made as to the extent of modification required to justify regarding an object as man-made. For example, a “cup and ring” carving on bedrock is regarded as instance of E24 Physical Man-Made Thing.
+      </rdfs:comment>
+        <rdfs:label xml:lang="fr">Chose matérielle fabriquée</rdfs:label>
+        <rdfs:label xml:lang="pt">Coisa Material Fabricada</rdfs:label>
+        <rdfs:label xml:lang="de">Hergestelltes</rdfs:label>
+        <rdfs:label xml:lang="en">Physical Man-Made Thing</rdfs:label>
+        <rdfs:label xml:lang="el">Ανθρωπογενές Υλικό Πράγμα</rdfs:label>
+        <rdfs:label xml:lang="ru">Физическая Рукотворная Вещь</rdfs:label>
+        <rdfs:label xml:lang="zh">人造实体物</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing"/>
+        <rdfs:comment>This class comprises physical features that are purposely created by human activity, such as scratches, artificial caves, artificial water channels, etc.
+      No assumptions are made as to the extent of modification required to justify regarding a feature as man-made. For example, rock art or even “cup and ring” carvings on bedrock a regarded as types of E25 Man-Made Feature.
+      </rdfs:comment>
+        <rdfs:label xml:lang="pt">Característica Fabricada</rdfs:label>
+        <rdfs:label xml:lang="fr">Caractéristique fabriquée</rdfs:label>
+        <rdfs:label xml:lang="de">Hergestelltes Merkmal</rdfs:label>
+        <rdfs:label xml:lang="en">Man-Made Feature</rdfs:label>
+        <rdfs:label xml:lang="el">Ανθρωπογενές Μόρφωμα</rdfs:label>
+        <rdfs:label xml:lang="ru">Искусственный Признак</rdfs:label>
+        <rdfs:label xml:lang="zh">人造外貌表征</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E39_Actor -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39_Actor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:comment>This class comprises people, either individually or in groups, who have the potential to perform intentional actions of kinds for which someone may be held responsible.
+        The CRM does not attempt to model the inadvertent actions of such actors. Individual people should be documented as instances of E21 Person, whereas groups should be documented as instances of either E74 Group or its subclass E40 Legal Body.
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Actor</rdfs:label>
+        <rdfs:label xml:lang="fr">Agent</rdfs:label>
+        <rdfs:label xml:lang="pt">Agente</rdfs:label>
+        <rdfs:label xml:lang="de">Akteur</rdfs:label>
+        <rdfs:label xml:lang="el">Δράστης</rdfs:label>
+        <rdfs:label xml:lang="ru">Агент</rdfs:label>
+        <rdfs:label xml:lang="zh">角色</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E53_Place -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53_Place">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:comment>This class comprises extents in space, in particular on the surface of the earth, in the pure sense of physics: independent from temporal phenomena and matter.
+        The instances of E53 Place are usually determined by reference to the position of “immobile” objects such as buildings, cities, mountains, rivers, or dedicated geodetic marks. A Place can be determined by combining a frame of reference and a location with respect to this frame. It may be identified by one or more instances of E44 Place Appellation.
+         It is sometimes argued that instances of E53 Place are best identified by global coordinates or absolute reference systems. However, relative references are often more relevant in the context of cultural documentation and tend to be more precise. In particular, we are often interested in position in relation to large, mobile objects, such as ships. For example, the Place at which Nelson died is known with reference to a large mobile object – H.M.S Victory. A resolution of this Place in terms of absolute coordinates would require knowledge of the movements of the vessel and the precise time of death, either of which may be revised, and the result would lack historical and cultural relevance.
+        Any object can serve as a frame of reference for E53 Place determination. The model foresees the notion of a &quot;section&quot; of an E19 Physical Object as a valid E53 Place determination.</rdfs:comment>
+        <rdfs:label xml:lang="fr">Lieu</rdfs:label>
+        <rdfs:label xml:lang="pt">Local</rdfs:label>
+        <rdfs:label xml:lang="de">Ort</rdfs:label>
+        <rdfs:label xml:lang="en">Place</rdfs:label>
+        <rdfs:label xml:lang="el">Τόπος</rdfs:label>
+        <rdfs:label xml:lang="ru">Место</rdfs:label>
+        <rdfs:label xml:lang="zh">地点</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E55_Type -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E55_Type">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:comment>This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify instances of CRM classes. Instances of E55 Type represent concepts  in contrast to instances of E41 Appellation which are used to name instances of CRM classes.
+        E55 Type is the CRM’s interface to domain specific ontologies and thesauri. These can be represented in the CRM as subclasses of E55 Type, forming hierarchies of terms, i.e. instances of E55 Type linked via P127 has broader  term (has narrower term). Such hierarchies may be extended with additional properties.
+        </rdfs:comment>
+        <rdfs:label xml:lang="pt">Tipo</rdfs:label>
+        <rdfs:label xml:lang="en">Type</rdfs:label>
+        <rdfs:label xml:lang="fr">Type</rdfs:label>
+        <rdfs:label xml:lang="de">Typus</rdfs:label>
+        <rdfs:label xml:lang="el">Τύπος</rdfs:label>
+        <rdfs:label xml:lang="ru">Тип</rdfs:label>
+        <rdfs:label xml:lang="zh">类型</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#Feature -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Feature">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:label xml:lang="en">Feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#Geometry -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Geometry">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:label xml:lang="en">Geometry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#SpatialObject -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#SpatialObject">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+        <rdfs:label xml:lang="en">Spatial Object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/sf#MultiLineString -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiLineString">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:label xml:lang="en">Multi Line</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/sf#MultiPoint -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiPoint">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:label xml:lang="en">Mulit Point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/sf#MultiPolygon -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiPolygon">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:label xml:lang="en">Multi Polygon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/sf#Point -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/sf#Point">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:label xml:lang="en">Point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#Property -->
+
+    <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#AMT_Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Class -->
+
+    <owl:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+        <rdfs:subClassOf rdf:resource="http://archaeology.link/ontology#AMT_Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label xml:lang="de">OWL Thing</rdfs:label>
+        <rdfs:label xml:lang="en">OWL Thing</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <dc:description xml:lang="en">The class skos:Concept is the class of SKOS concepts.
+
+A SKOS concept can be viewed as an idea or notion; a unit of thought. However, what constitutes a unit of thought is subjective, and this definition is meant to be suggestive, rather than restrictive.
+
+The notion of a SKOS concept is useful when describing the conceptual or intellectual structure of a knowledge organization system, and when referring to specific ideas or meanings established within a KOS.</dc:description>
+        <rdfs:label xml:lang="en">Concept</rdfs:label>
+        <rdfs:label xml:lang="de">Konzept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Activity -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Activity">
+        <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1773840"/>
+        <rdfs:label xml:lang="en">Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Agent -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Agent">
+        <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1773840"/>
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Entity -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Entity">
+        <rdfs:label xml:lang="en">Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Organization -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Organization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:label xml:lang="en">Organisation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Person -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Person">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#SoftwareAgent -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#SoftwareAgent">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdfs:label xml:lang="en">Software Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q1773840 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q1773840">
+        <rdfs:label xml:lang="de">Herkunft</rdfs:label>
+        <rdfs:label xml:lang="en">Provenance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q3133368 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q3133368">
+        <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1773840"/>
+        <rdfs:label xml:lang="en">Repository</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdfs:label xml:lang="en">Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Project -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Project">
+        <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1773840"/>
+        <rdfs:label xml:lang="en">Project</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://pleiades.stoa.org/places/vocab#Place -->
+
+    <owl:Class rdf:about="https://pleiades.stoa.org/places/vocab#Place">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <dc:description xml:lang="en">Places are instances of skos:Concept as well as contexts for Locations and Names.</dc:description>
+        <rdfs:label xml:lang="de">Pleiades Place</rdfs:label>
+        <rdfs:label xml:lang="en">Pleiades Place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://archaeology.link/ontology#ActorEntity -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#ActorEntity">
+        <rdf:type rdf:resource="http://academic-meta-tool.xyz/vocab#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#InformationCarrier -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#InformationCarrier">
+        <rdf:type rdf:resource="http://academic-meta-tool.xyz/vocab#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#Location -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#Location">
+        <rdf:type rdf:resource="http://academic-meta-tool.xyz/vocab#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#Potform -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#Potform">
+        <rdf:type rdf:resource="http://academic-meta-tool.xyz/vocab#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#RGZM -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#RGZM">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:label>Römisch-Germanisches Zentralmuseum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasKilnsite -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#hasKilnsite">
+        <rdf:type rdf:resource="http://academic-meta-tool.xyz/vocab#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasWorker -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#hasWorker">
+        <rdf:type rdf:resource="http://academic-meta-tool.xyz/vocab#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#isKilnsiteOf -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#isKilnsiteOf">
+        <rdf:type rdf:resource="http://academic-meta-tool.xyz/vocab#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#representedBy -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#representedBy">
+        <rdf:type rdf:resource="http://academic-meta-tool.xyz/vocab#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#worksAtPlace -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#worksAtPlace">
+        <rdf:type rdf:resource="http://academic-meta-tool.xyz/vocab#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#0000-0000-1234-0001 -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#0000-0000-1234-0001">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label xml:lang="en">Florian Thiery</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#0000-0000-1234-0002 -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#0000-0000-1234-0002">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label xml:lang="en">Allard Mees</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#0000-0000-1234-0003 -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#0000-0000-1234-0003">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label xml:lang="en">Guido Heinz</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#0000-0000-5634-0001 -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#0000-0000-5634-0001">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label xml:lang="en">Louise Rokohl</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#0000-0000-8888-0001 -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#0000-0000-8888-0001">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label xml:lang="en">Samantha Beck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#0000-0000-8888-0002 -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#0000-0000-8888-0002">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label xml:lang="en">Anke Dingler</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://archaeology.link/ontology#0000-0000-9999-0001 -->
+
+    <owl:NamedIndividual rdf:about="http://archaeology.link/ontology#0000-0000-9999-0001">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label xml:lang="en">Dennis Gottwald</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://data.archaeology.link/data/samian/ -->
+
+    <owl:NamedIndividual rdf:about="http://data.archaeology.link/data/samian/">
+        <rdf:type rdf:resource="http://archaeology.link/ontology#Namespace"/>
+        <rdfs:label>arachaeology.link Samian Namespace</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://data.archaeology.link/data/samian/ImportPythonScript_Samian -->
+
+    <owl:NamedIndividual rdf:about="http://data.archaeology.link/data/samian/ImportPythonScript_Samian">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
+        <prov:actedOnBehalfOf rdf:resource="http://archaeology.link/ontology#0000-0000-1234-0001"/>
+        <dct:contributor rdf:resource="http://archaeology.link/ontology#0000-0000-1234-0002"/>
+        <dct:creator rdf:resource="http://archaeology.link/ontology#0000-0000-1234-0001"/>
+        <dct:creator rdf:resource="http://archaeology.link/ontology#0000-0000-9999-0001"/>
+        <dct:license rdf:resource="https://github.com/RGZM/samian-lod/blob/main/LICENSE"/>
+        <dct:source>python</dct:source>
+        <dct:type rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+        <rdfs:label xml:lang="en">Import Python Script Samian</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q90412636 -->
+
+    <owl:NamedIndividual rdf:about="http://www.wikidata.org/entity/Q90412636">
+        <rdf:type rdf:resource="http://www.wikidata.org/entity/Q3133368"/>
+        <rdfs:label xml:lang="en">Samian Research</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3246-3531 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3246-3531">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
+        <prov:actedOnBehalfOf rdf:resource="http://archaeology.link/ontology#RGZM"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7634-5342 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-7634-5342">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-8761-4659 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-8761-4659">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ror.org/0483qx226 -->
+
+    <owl:NamedIndividual rdf:about="https://ror.org/0483qx226">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://archaeology.link/ontology#ActorEntity">
+        <rdfs:label xml:lang="de">Akteur-Entität</rdfs:label>
+        <vocab:placeholder>actor entity name</vocab:placeholder>
+        <dc:description xml:lang="de">Entitäten von Akteuren.</dc:description>
+        <rdfs:label xml:lang="en">Actor entity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://archaeology.link/ontology#InformationCarrier">
+        <vocab:placeholder>information carrier label</vocab:placeholder>
+        <rdfs:label xml:lang="en">Information carrier</rdfs:label>
+        <dc:description xml:lang="de">In Teilen oder gänzlich erhaltene (Ton-)Gefäße.</dc:description>
+        <rdfs:label xml:lang="de">Informationsträger</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://archaeology.link/ontology#Location">
+        <rdfs:label xml:lang="en">Location</rdfs:label>
+        <rdfs:label xml:lang="de">Location</rdfs:label>
+        <dc:description xml:lang="de">Mit dieser Klasse werden drei verschiedene Typen von Standorten definiert:
+1. Entdeckungsort
+2. Aufbewahrungsort
+3. Produktionszentren</dc:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://archaeology.link/ontology#Potform">
+        <rdfs:label xml:lang="en">Potform</rdfs:label>
+        <vocab:placeholder>potform name</vocab:placeholder>
+        <rdfs:label xml:lang="de">Gefäßform</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://archaeology.link/ontology#hasKilnsite">
+        <rdfs:label xml:lang="en">has kilnsite</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://archaeology.link/ontology#hasWorker">
+        <rdfs:label xml:lang="de">hat Arbeiter</rdfs:label>
+        <rdfs:label xml:lang="en">has worker</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://archaeology.link/ontology#isKilnsiteOf">
+        <rdfs:label xml:lang="en">is kilnsite of</rdfs:label>
+        <rdfs:label xml:lang="de">ist Produktionsort von</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://archaeology.link/ontology#representedBy">
+        <rdfs:label xml:lang="en">represented by</rdfs:label>
+        <rdfs:label xml:lang="de">repräsentiert durch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://archaeology.link/ontology#worksAtPlace">
+        <rdfs:label xml:lang="de">arbeitet in</rdfs:label>
+        <rdfs:label xml:lang="en">works at place</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,515 @@
+# create triples from https://www1.rgzm.de/ips/lod/partnerpotter.csv 
+# on 2020-12-09 20:53
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX sf: <http://www.opengis.net/ont/sf#> 
+PREFIX lado: <http://archaeology.link/ontology#> 
+PREFIX samian: <http://data.archaeology.link/data/samian/> 
+PREFIX wd: <http://www.wikidata.org/entity/> 
+PREFIX prov: <http://www.w3.org/ns/prov-o/>
+ PREFIX pelagios: <http://pelagios.github.io/vocab/terms#> 
+PREFIX oa: <http://www.w3.org/ns/oa#> 
+PREFIX dcterms: <http://purl.org/dc/terms/> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX relations: <http://pelagios.github.io/vocab/relations#> 
+PREFIX cnt: <http://www.w3.org/2011/content#> 
+PREFIX pleiades: <http://pleiades.stoa.org/places/> 
+PREFIX amt: <http://academic-meta-tool.xyz/vocab#> 
+
+samian:ae_194391 rdf:type lado:ActorEntity .
+samian:ae_194391 rdfs:label '(L. AVILLIVS) SVRA'@en.
+samian:ae_194391 lado:name '(L. AVILLIVS) SVRA'.
+samian:ae_194391 lado:hasStatus lado:PartnerPotter .
+samian:ae_194391 dc:identifier'194391'.
+samian:ae_194391 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_194391 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_194391 prov:wasGeneratedBy samian:activity_ae_194391 .
+samian:activity_ae_194391 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_194391 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_194391 prov:endedAtTime '2020-12-09T20:53:26.663894Z'^^xsd:dateTime .
+samian:activity_ae_194391 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_101077 rdf:type lado:ActorEntity .
+samian:ae_101077 rdfs:label 'ANNIVS'@en.
+samian:ae_101077 lado:name 'ANNIVS'.
+samian:ae_101077 lado:hasStatus lado:PartnerPotter .
+samian:ae_101077 dc:identifier'101077'.
+samian:ae_101077 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_101077 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_101077 prov:wasGeneratedBy samian:activity_ae_101077 .
+samian:activity_ae_101077 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_101077 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_101077 prov:endedAtTime '2020-12-09T20:53:26.663894Z'^^xsd:dateTime .
+samian:activity_ae_101077 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_126555 rdf:type lado:ActorEntity .
+samian:ae_126555 rdfs:label 'AVILLIVS'@en.
+samian:ae_126555 lado:name 'AVILLIVS'.
+samian:ae_126555 lado:hasStatus lado:PartnerPotter .
+samian:ae_126555 dc:identifier'126555'.
+samian:ae_126555 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_126555 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_126555 prov:wasGeneratedBy samian:activity_ae_126555 .
+samian:activity_ae_126555 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_126555 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_126555 prov:endedAtTime '2020-12-09T20:53:26.664891Z'^^xsd:dateTime .
+samian:activity_ae_126555 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_511931 rdf:type lado:ActorEntity .
+samian:ae_511931 rdfs:label 'C. + C. METILIVS ?'@en.
+samian:ae_511931 lado:name 'C. + C. METILIVS ?'.
+samian:ae_511931 lado:hasStatus lado:PartnerPotter .
+samian:ae_511931 dc:identifier'511931'.
+samian:ae_511931 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_511931 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_511931 prov:wasGeneratedBy samian:activity_ae_511931 .
+samian:activity_ae_511931 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_511931 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_511931 prov:endedAtTime '2020-12-09T20:53:26.664891Z'^^xsd:dateTime .
+samian:activity_ae_511931 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_153497 rdf:type lado:ActorEntity .
+samian:ae_153497 rdfs:label 'C. O(CTAVIVS)'@en.
+samian:ae_153497 lado:name 'C. O(CTAVIVS)'.
+samian:ae_153497 lado:hasStatus lado:PartnerPotter .
+samian:ae_153497 dc:identifier'153497'.
+samian:ae_153497 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_153497 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_153497 prov:wasGeneratedBy samian:activity_ae_153497 .
+samian:activity_ae_153497 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_153497 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_153497 prov:endedAtTime '2020-12-09T20:53:26.665889Z'^^xsd:dateTime .
+samian:activity_ae_153497 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_317571 rdf:type lado:ActorEntity .
+samian:ae_317571 rdfs:label 'C. PETR(ONIVS) CORIA'@en.
+samian:ae_317571 lado:name 'C. PETR(ONIVS) CORIA'.
+samian:ae_317571 lado:hasStatus lado:PartnerPotter .
+samian:ae_317571 dc:identifier'317571'.
+samian:ae_317571 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_317571 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_317571 prov:wasGeneratedBy samian:activity_ae_317571 .
+samian:activity_ae_317571 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_317571 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_317571 prov:endedAtTime '2020-12-09T20:53:26.665889Z'^^xsd:dateTime .
+samian:activity_ae_317571 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_482588 rdf:type lado:ActorEntity .
+samian:ae_482588 rdfs:label 'CARP(VS?)'@en.
+samian:ae_482588 lado:name 'CARP(VS?)'.
+samian:ae_482588 lado:hasStatus lado:PartnerPotter .
+samian:ae_482588 dc:identifier'482588'.
+samian:ae_482588 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_482588 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_482588 prov:wasGeneratedBy samian:activity_ae_482588 .
+samian:activity_ae_482588 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_482588 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_482588 prov:endedAtTime '2020-12-09T20:53:26.666886Z'^^xsd:dateTime .
+samian:activity_ae_482588 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_916475 rdf:type lado:ActorEntity .
+samian:ae_916475 rdfs:label 'CORNELIVS'@en.
+samian:ae_916475 lado:name 'CORNELIVS'.
+samian:ae_916475 lado:hasStatus lado:PartnerPotter .
+samian:ae_916475 dc:identifier'916475'.
+samian:ae_916475 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_916475 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_916475 prov:wasGeneratedBy samian:activity_ae_916475 .
+samian:activity_ae_916475 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_916475 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_916475 prov:endedAtTime '2020-12-09T20:53:26.666886Z'^^xsd:dateTime .
+samian:activity_ae_916475 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_123596 rdf:type lado:ActorEntity .
+samian:ae_123596 rdfs:label 'DIOMEDES'@en.
+samian:ae_123596 lado:name 'DIOMEDES'.
+samian:ae_123596 lado:hasStatus lado:PartnerPotter .
+samian:ae_123596 dc:identifier'123596'.
+samian:ae_123596 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_123596 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_123596 prov:wasGeneratedBy samian:activity_ae_123596 .
+samian:activity_ae_123596 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_123596 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_123596 prov:endedAtTime '2020-12-09T20:53:26.667893Z'^^xsd:dateTime .
+samian:activity_ae_123596 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_863138 rdf:type lado:ActorEntity .
+samian:ae_863138 rdfs:label 'EPAP(HR)A'@en.
+samian:ae_863138 lado:name 'EPAP(HR)A'.
+samian:ae_863138 lado:hasStatus lado:PartnerPotter .
+samian:ae_863138 dc:identifier'863138'.
+samian:ae_863138 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_863138 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_863138 prov:wasGeneratedBy samian:activity_ae_863138 .
+samian:activity_ae_863138 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_863138 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_863138 prov:endedAtTime '2020-12-09T20:53:26.667893Z'^^xsd:dateTime .
+samian:activity_ae_863138 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_180628 rdf:type lado:ActorEntity .
+samian:ae_180628 rdfs:label 'EVHODVS'@en.
+samian:ae_180628 lado:name 'EVHODVS'.
+samian:ae_180628 lado:hasStatus lado:PartnerPotter .
+samian:ae_180628 dc:identifier'180628'.
+samian:ae_180628 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_180628 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_180628 prov:wasGeneratedBy samian:activity_ae_180628 .
+samian:activity_ae_180628 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_180628 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_180628 prov:endedAtTime '2020-12-09T20:53:26.668881Z'^^xsd:dateTime .
+samian:activity_ae_180628 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_200412 rdf:type lado:ActorEntity .
+samian:ae_200412 rdfs:label 'FASTIDIENVS'@en.
+samian:ae_200412 lado:name 'FASTIDIENVS'.
+samian:ae_200412 lado:hasStatus lado:PartnerPotter .
+samian:ae_200412 dc:identifier'200412'.
+samian:ae_200412 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_200412 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_200412 prov:wasGeneratedBy samian:activity_ae_200412 .
+samian:activity_ae_200412 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_200412 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_200412 prov:endedAtTime '2020-12-09T20:53:26.668881Z'^^xsd:dateTime .
+samian:activity_ae_200412 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_206373 rdf:type lado:ActorEntity .
+samian:ae_206373 rdfs:label 'FIRMVS'@en.
+samian:ae_206373 lado:name 'FIRMVS'.
+samian:ae_206373 lado:hasStatus lado:PartnerPotter .
+samian:ae_206373 dc:identifier'206373'.
+samian:ae_206373 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_206373 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_206373 prov:wasGeneratedBy samian:activity_ae_206373 .
+samian:activity_ae_206373 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_206373 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_206373 prov:endedAtTime '2020-12-09T20:53:26.670875Z'^^xsd:dateTime .
+samian:activity_ae_206373 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_598811 rdf:type lado:ActorEntity .
+samian:ae_598811 rdfs:label 'FRATER'@en.
+samian:ae_598811 lado:name 'FRATER'.
+samian:ae_598811 lado:hasStatus lado:PartnerPotter .
+samian:ae_598811 dc:identifier'598811'.
+samian:ae_598811 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_598811 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_598811 prov:wasGeneratedBy samian:activity_ae_598811 .
+samian:activity_ae_598811 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_598811 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_598811 prov:endedAtTime '2020-12-09T20:53:26.670875Z'^^xsd:dateTime .
+samian:activity_ae_598811 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_154936 rdf:type lado:ActorEntity .
+samian:ae_154936 rdfs:label 'GADIA'@en.
+samian:ae_154936 lado:name 'GADIA'.
+samian:ae_154936 lado:hasStatus lado:PartnerPotter .
+samian:ae_154936 dc:identifier'154936'.
+samian:ae_154936 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_154936 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_154936 prov:wasGeneratedBy samian:activity_ae_154936 .
+samian:activity_ae_154936 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_154936 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_154936 prov:endedAtTime '2020-12-09T20:53:26.671877Z'^^xsd:dateTime .
+samian:activity_ae_154936 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_131544 rdf:type lado:ActorEntity .
+samian:ae_131544 rdfs:label 'L.'@en.
+samian:ae_131544 lado:name 'L.'.
+samian:ae_131544 lado:hasStatus lado:PartnerPotter .
+samian:ae_131544 dc:identifier'131544'.
+samian:ae_131544 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_131544 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_131544 prov:wasGeneratedBy samian:activity_ae_131544 .
+samian:activity_ae_131544 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_131544 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_131544 prov:endedAtTime '2020-12-09T20:53:26.671877Z'^^xsd:dateTime .
+samian:activity_ae_131544 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_207510 rdf:type lado:ActorEntity .
+samian:ae_207510 rdfs:label 'L. CAESIVS'@en.
+samian:ae_207510 lado:name 'L. CAESIVS'.
+samian:ae_207510 lado:hasStatus lado:PartnerPotter .
+samian:ae_207510 dc:identifier'207510'.
+samian:ae_207510 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_207510 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_207510 prov:wasGeneratedBy samian:activity_ae_207510 .
+samian:activity_ae_207510 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_207510 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_207510 prov:endedAtTime '2020-12-09T20:53:26.672871Z'^^xsd:dateTime .
+samian:activity_ae_207510 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_151113 rdf:type lado:ActorEntity .
+samian:ae_151113 rdfs:label 'L. CORNELIVS'@en.
+samian:ae_151113 lado:name 'L. CORNELIVS'.
+samian:ae_151113 lado:hasStatus lado:PartnerPotter .
+samian:ae_151113 dc:identifier'151113'.
+samian:ae_151113 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_151113 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_151113 prov:wasGeneratedBy samian:activity_ae_151113 .
+samian:activity_ae_151113 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_151113 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_151113 prov:endedAtTime '2020-12-09T20:53:26.673870Z'^^xsd:dateTime .
+samian:activity_ae_151113 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_968405 rdf:type lado:ActorEntity .
+samian:ae_968405 rdfs:label 'L. PLO(TIVS) (ZOS..)'@en.
+samian:ae_968405 lado:name 'L. PLO(TIVS) (ZOS..)'.
+samian:ae_968405 lado:hasStatus lado:PartnerPotter .
+samian:ae_968405 dc:identifier'968405'.
+samian:ae_968405 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_968405 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_968405 prov:wasGeneratedBy samian:activity_ae_968405 .
+samian:activity_ae_968405 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_968405 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_968405 prov:endedAtTime '2020-12-09T20:53:26.673870Z'^^xsd:dateTime .
+samian:activity_ae_968405 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_302752 rdf:type lado:ActorEntity .
+samian:ae_302752 rdfs:label 'L. PLO(TIVS) Z(OS..)'@en.
+samian:ae_302752 lado:name 'L. PLO(TIVS) Z(OS..)'.
+samian:ae_302752 lado:hasStatus lado:PartnerPotter .
+samian:ae_302752 dc:identifier'302752'.
+samian:ae_302752 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_302752 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_302752 prov:wasGeneratedBy samian:activity_ae_302752 .
+samian:activity_ae_302752 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_302752 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_302752 prov:endedAtTime '2020-12-09T20:53:26.674868Z'^^xsd:dateTime .
+samian:activity_ae_302752 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_116430 rdf:type lado:ActorEntity .
+samian:ae_116430 rdfs:label 'L. SEMPRONIVS'@en.
+samian:ae_116430 lado:name 'L. SEMPRONIVS'.
+samian:ae_116430 lado:hasStatus lado:PartnerPotter .
+samian:ae_116430 dc:identifier'116430'.
+samian:ae_116430 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_116430 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_116430 prov:wasGeneratedBy samian:activity_ae_116430 .
+samian:activity_ae_116430 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_116430 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_116430 prov:endedAtTime '2020-12-09T20:53:26.675862Z'^^xsd:dateTime .
+samian:activity_ae_116430 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_832618 rdf:type lado:ActorEntity .
+samian:ae_832618 rdfs:label 'MARIVS'@en.
+samian:ae_832618 lado:name 'MARIVS'.
+samian:ae_832618 lado:hasStatus lado:PartnerPotter .
+samian:ae_832618 dc:identifier'832618'.
+samian:ae_832618 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_832618 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_832618 prov:wasGeneratedBy samian:activity_ae_832618 .
+samian:activity_ae_832618 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_832618 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_832618 prov:endedAtTime '2020-12-09T20:53:26.675862Z'^^xsd:dateTime .
+samian:activity_ae_832618 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_627276 rdf:type lado:ActorEntity .
+samian:ae_627276 rdfs:label 'P. AV( ) G( )'@en.
+samian:ae_627276 lado:name 'P. AV( ) G( )'.
+samian:ae_627276 lado:hasStatus lado:PartnerPotter .
+samian:ae_627276 dc:identifier'627276'.
+samian:ae_627276 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_627276 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_627276 prov:wasGeneratedBy samian:activity_ae_627276 .
+samian:activity_ae_627276 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_627276 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_627276 prov:endedAtTime '2020-12-09T20:53:26.675862Z'^^xsd:dateTime .
+samian:activity_ae_627276 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_116427 rdf:type lado:ActorEntity .
+samian:ae_116427 rdfs:label 'P. SABIDIVS EROS +'@en.
+samian:ae_116427 lado:name 'P. SABIDIVS EROS +'.
+samian:ae_116427 lado:hasStatus lado:PartnerPotter .
+samian:ae_116427 dc:identifier'116427'.
+samian:ae_116427 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_116427 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_116427 prov:wasGeneratedBy samian:activity_ae_116427 .
+samian:activity_ae_116427 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_116427 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_116427 prov:endedAtTime '2020-12-09T20:53:26.676860Z'^^xsd:dateTime .
+samian:activity_ae_116427 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_128015 rdf:type lado:ActorEntity .
+samian:ae_128015 rdfs:label 'POTITVS'@en.
+samian:ae_128015 lado:name 'POTITVS'.
+samian:ae_128015 lado:hasStatus lado:PartnerPotter .
+samian:ae_128015 dc:identifier'128015'.
+samian:ae_128015 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_128015 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_128015 prov:wasGeneratedBy samian:activity_ae_128015 .
+samian:activity_ae_128015 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_128015 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_128015 prov:endedAtTime '2020-12-09T20:53:26.677857Z'^^xsd:dateTime .
+samian:activity_ae_128015 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_160005 rdf:type lado:ActorEntity .
+samian:ae_160005 rdfs:label 'PRIMIGENIVS'@en.
+samian:ae_160005 lado:name 'PRIMIGENIVS'.
+samian:ae_160005 lado:hasStatus lado:PartnerPotter .
+samian:ae_160005 dc:identifier'160005'.
+samian:ae_160005 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_160005 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_160005 prov:wasGeneratedBy samian:activity_ae_160005 .
+samian:activity_ae_160005 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_160005 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_160005 prov:endedAtTime '2020-12-09T20:53:26.679408Z'^^xsd:dateTime .
+samian:activity_ae_160005 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_203115 rdf:type lado:ActorEntity .
+samian:ae_203115 rdfs:label 'PRIMVS'@en.
+samian:ae_203115 lado:name 'PRIMVS'.
+samian:ae_203115 lado:hasStatus lado:PartnerPotter .
+samian:ae_203115 dc:identifier'203115'.
+samian:ae_203115 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_203115 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_203115 prov:wasGeneratedBy samian:activity_ae_203115 .
+samian:activity_ae_203115 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_203115 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_203115 prov:endedAtTime '2020-12-09T20:53:26.680383Z'^^xsd:dateTime .
+samian:activity_ae_203115 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_198308 rdf:type lado:ActorEntity .
+samian:ae_198308 rdfs:label 'PRIS(CVS?)'@en.
+samian:ae_198308 lado:name 'PRIS(CVS?)'.
+samian:ae_198308 lado:hasStatus lado:PartnerPotter .
+samian:ae_198308 dc:identifier'198308'.
+samian:ae_198308 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_198308 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_198308 prov:wasGeneratedBy samian:activity_ae_198308 .
+samian:activity_ae_198308 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_198308 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_198308 prov:endedAtTime '2020-12-09T20:53:26.681380Z'^^xsd:dateTime .
+samian:activity_ae_198308 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_154665 rdf:type lado:ActorEntity .
+samian:ae_154665 rdfs:label 'RASINIVS'@en.
+samian:ae_154665 lado:name 'RASINIVS'.
+samian:ae_154665 lado:hasStatus lado:PartnerPotter .
+samian:ae_154665 dc:identifier'154665'.
+samian:ae_154665 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_154665 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_154665 prov:wasGeneratedBy samian:activity_ae_154665 .
+samian:activity_ae_154665 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_154665 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_154665 prov:endedAtTime '2020-12-09T20:53:26.681380Z'^^xsd:dateTime .
+samian:activity_ae_154665 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_763332 rdf:type lado:ActorEntity .
+samian:ae_763332 rdfs:label 'SCEVNIVS'@en.
+samian:ae_763332 lado:name 'SCEVNIVS'.
+samian:ae_763332 lado:hasStatus lado:PartnerPotter .
+samian:ae_763332 dc:identifier'763332'.
+samian:ae_763332 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_763332 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_763332 prov:wasGeneratedBy samian:activity_ae_763332 .
+samian:activity_ae_763332 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_763332 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_763332 prov:endedAtTime '2020-12-09T20:53:26.681380Z'^^xsd:dateTime .
+samian:activity_ae_763332 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_267675 rdf:type lado:ActorEntity .
+samian:ae_267675 rdfs:label 'SERIVS'@en.
+samian:ae_267675 lado:name 'SERIVS'.
+samian:ae_267675 lado:hasStatus lado:PartnerPotter .
+samian:ae_267675 dc:identifier'267675'.
+samian:ae_267675 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_267675 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_267675 prov:wasGeneratedBy samian:activity_ae_267675 .
+samian:activity_ae_267675 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_267675 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_267675 prov:endedAtTime '2020-12-09T20:53:26.683375Z'^^xsd:dateTime .
+samian:activity_ae_267675 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_202045 rdf:type lado:ActorEntity .
+samian:ae_202045 rdfs:label 'SEX. VIBIVS'@en.
+samian:ae_202045 lado:name 'SEX. VIBIVS'.
+samian:ae_202045 lado:hasStatus lado:PartnerPotter .
+samian:ae_202045 dc:identifier'202045'.
+samian:ae_202045 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_202045 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_202045 prov:wasGeneratedBy samian:activity_ae_202045 .
+samian:activity_ae_202045 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_202045 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_202045 prov:endedAtTime '2020-12-09T20:53:26.683375Z'^^xsd:dateTime .
+samian:activity_ae_202045 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_208642 rdf:type lado:ActorEntity .
+samian:ae_208642 rdfs:label 'STRATO'@en.
+samian:ae_208642 lado:name 'STRATO'.
+samian:ae_208642 lado:hasStatus lado:PartnerPotter .
+samian:ae_208642 dc:identifier'208642'.
+samian:ae_208642 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_208642 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_208642 prov:wasGeneratedBy samian:activity_ae_208642 .
+samian:activity_ae_208642 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_208642 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_208642 prov:endedAtTime '2020-12-09T20:53:26.683375Z'^^xsd:dateTime .
+samian:activity_ae_208642 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_346737 rdf:type lado:ActorEntity .
+samian:ae_346737 rdfs:label 'TENA(X)'@en.
+samian:ae_346737 lado:name 'TENA(X)'.
+samian:ae_346737 lado:hasStatus lado:PartnerPotter .
+samian:ae_346737 dc:identifier'346737'.
+samian:ae_346737 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_346737 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_346737 prov:wasGeneratedBy samian:activity_ae_346737 .
+samian:activity_ae_346737 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_346737 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_346737 prov:endedAtTime '2020-12-09T20:53:26.684374Z'^^xsd:dateTime .
+samian:activity_ae_346737 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_107329 rdf:type lado:ActorEntity .
+samian:ae_107329 rdfs:label 'TET(T)IVS'@en.
+samian:ae_107329 lado:name 'TET(T)IVS'.
+samian:ae_107329 lado:hasStatus lado:PartnerPotter .
+samian:ae_107329 dc:identifier'107329'.
+samian:ae_107329 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_107329 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_107329 prov:wasGeneratedBy samian:activity_ae_107329 .
+samian:activity_ae_107329 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_107329 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_107329 prov:endedAtTime '2020-12-09T20:53:26.684374Z'^^xsd:dateTime .
+samian:activity_ae_107329 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_101224 rdf:type lado:ActorEntity .
+samian:ae_101224 rdfs:label 'TITIVS?'@en.
+samian:ae_101224 lado:name 'TITIVS?'.
+samian:ae_101224 lado:hasStatus lado:PartnerPotter .
+samian:ae_101224 dc:identifier'101224'.
+samian:ae_101224 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_101224 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_101224 prov:wasGeneratedBy samian:activity_ae_101224 .
+samian:activity_ae_101224 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_101224 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_101224 prov:endedAtTime '2020-12-09T20:53:26.685369Z'^^xsd:dateTime .
+samian:activity_ae_101224 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_155909 rdf:type lado:ActorEntity .
+samian:ae_155909 rdfs:label 'TITYRVS'@en.
+samian:ae_155909 lado:name 'TITYRVS'.
+samian:ae_155909 lado:hasStatus lado:PartnerPotter .
+samian:ae_155909 dc:identifier'155909'.
+samian:ae_155909 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_155909 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_155909 prov:wasGeneratedBy samian:activity_ae_155909 .
+samian:activity_ae_155909 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_155909 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_155909 prov:endedAtTime '2020-12-09T20:53:26.685369Z'^^xsd:dateTime .
+samian:activity_ae_155909 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_696117 rdf:type lado:ActorEntity .
+samian:ae_696117 rdfs:label 'VIBIENVS'@en.
+samian:ae_696117 lado:name 'VIBIENVS'.
+samian:ae_696117 lado:hasStatus lado:PartnerPotter .
+samian:ae_696117 dc:identifier'696117'.
+samian:ae_696117 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_696117 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_696117 prov:wasGeneratedBy samian:activity_ae_696117 .
+samian:activity_ae_696117 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_696117 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_696117 prov:endedAtTime '2020-12-09T20:53:26.685369Z'^^xsd:dateTime .
+samian:activity_ae_696117 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_680435 rdf:type lado:ActorEntity .
+samian:ae_680435 rdfs:label 'VIBIVS'@en.
+samian:ae_680435 lado:name 'VIBIVS'.
+samian:ae_680435 lado:hasStatus lado:PartnerPotter .
+samian:ae_680435 dc:identifier'680435'.
+samian:ae_680435 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_680435 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_680435 prov:wasGeneratedBy samian:activity_ae_680435 .
+samian:activity_ae_680435 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_680435 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_680435 prov:endedAtTime '2020-12-09T20:53:26.686368Z'^^xsd:dateTime .
+samian:activity_ae_680435 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_124173 rdf:type lado:ActorEntity .
+samian:ae_124173 rdfs:label 'VMBRICIVS'@en.
+samian:ae_124173 lado:name 'VMBRICIVS'.
+samian:ae_124173 lado:hasStatus lado:PartnerPotter .
+samian:ae_124173 dc:identifier'124173'.
+samian:ae_124173 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_124173 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_124173 prov:wasGeneratedBy samian:activity_ae_124173 .
+samian:activity_ae_124173 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_124173 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_124173 prov:endedAtTime '2020-12-09T20:53:26.686368Z'^^xsd:dateTime .
+samian:activity_ae_124173 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_188501 rdf:type lado:ActorEntity .
+samian:ae_188501 rdfs:label 'ZOILVS'@en.
+samian:ae_188501 lado:name 'ZOILVS'.
+samian:ae_188501 lado:hasStatus lado:PartnerPotter .
+samian:ae_188501 dc:identifier'188501'.
+samian:ae_188501 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_188501 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_188501 prov:wasGeneratedBy samian:activity_ae_188501 .
+samian:activity_ae_188501 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_188501 prov:startedAtTime '2020-12-09T20:53:26.340623Z'^^xsd:dateTime .
+samian:activity_ae_188501 prov:endedAtTime '2020-12-09T20:53:26.687364Z'^^xsd:dateTime .
+samian:activity_ae_188501 prov:wasAssociatedWith samian:ImportPythonScript_Samian .

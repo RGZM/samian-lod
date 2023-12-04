@@ -1,0 +1,1660 @@
+# create triples from https://www1.rgzm.de/ips/lod/potformgaulish.csv 
+# on 2020-12-09 20:53
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX sf: <http://www.opengis.net/ont/sf#> 
+PREFIX lado: <http://archaeology.link/ontology#> 
+PREFIX samian: <http://data.archaeology.link/data/samian/> 
+PREFIX wd: <http://www.wikidata.org/entity/> 
+ PREFIX pelagios: <http://pelagios.github.io/vocab/terms#> 
+PREFIX oa: <http://www.w3.org/ns/oa#> 
+PREFIX prov: <http://www.w3.org/ns/prov-o/>
+PREFIX dcterms: <http://purl.org/dc/terms/> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX relations: <http://pelagios.github.io/vocab/relations#> 
+PREFIX cnt: <http://www.w3.org/2011/content#> 
+PREFIX pleiades: <http://pleiades.stoa.org/places/> 
+PREFIX amt: <http://academic-meta-tool.xyz/vocab#> 
+
+samian:pf_172 rdf:type lado:Potform .
+samian:pf_172 amt:instanceOf lado:Potform .
+samian:pf_172 rdfs:label '11'.
+samian:pf_172 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/11.jpg>.
+samian:pf_172 lado:hasType lado:Gaulish .
+samian:pf_172 dc:identifier 172.
+samian:pf_172 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_172 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_172 prov:wasGeneratedBy samian:activity_pf_172 .
+samian:activity_pf_172 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_172 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_172 prov:endedAtTime '2020-12-09T20:53:06.283132Z'^^xsd:dateTime .
+samian:activity_pf_172 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_1 rdf:type lado:Potform .
+samian:pf_1 amt:instanceOf lado:Potform .
+samian:pf_1 rdfs:label '15'.
+samian:pf_1 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/15.jpg>.
+samian:pf_1 lado:hasType lado:Gaulish .
+samian:pf_1 dc:identifier 1.
+samian:pf_1 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_1 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_1 prov:wasGeneratedBy samian:activity_pf_1 .
+samian:activity_pf_1 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_1 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_1 prov:endedAtTime '2020-12-09T20:53:06.284129Z'^^xsd:dateTime .
+samian:activity_pf_1 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_2 rdf:type lado:Potform .
+samian:pf_2 amt:instanceOf lado:Potform .
+samian:pf_2 rdfs:label '15/17'.
+samian:pf_2 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/15_17.jpg>.
+samian:pf_2 lado:hasType lado:Gaulish .
+samian:pf_2 dc:identifier 2.
+samian:pf_2 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_2 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_2 prov:wasGeneratedBy samian:activity_pf_2 .
+samian:activity_pf_2 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_2 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_2 prov:endedAtTime '2020-12-09T20:53:06.284129Z'^^xsd:dateTime .
+samian:activity_pf_2 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_3 rdf:type lado:Potform .
+samian:pf_3 amt:instanceOf lado:Potform .
+samian:pf_3 rdfs:label '15/17R'.
+samian:pf_3 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/15_17R.jpg>.
+samian:pf_3 lado:hasType lado:Gaulish .
+samian:pf_3 dc:identifier 3.
+samian:pf_3 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_3 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_3 prov:wasGeneratedBy samian:activity_pf_3 .
+samian:activity_pf_3 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_3 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_3 prov:endedAtTime '2020-12-09T20:53:06.284129Z'^^xsd:dateTime .
+samian:activity_pf_3 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_4 rdf:type lado:Potform .
+samian:pf_4 amt:instanceOf lado:Potform .
+samian:pf_4 rdfs:label '15/31'.
+samian:pf_4 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/15_31.jpg>.
+samian:pf_4 lado:hasType lado:Gaulish .
+samian:pf_4 dc:identifier 4.
+samian:pf_4 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_4 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_4 prov:wasGeneratedBy samian:activity_pf_4 .
+samian:activity_pf_4 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_4 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_4 prov:endedAtTime '2020-12-09T20:53:06.285126Z'^^xsd:dateTime .
+samian:activity_pf_4 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_5 rdf:type lado:Potform .
+samian:pf_5 amt:instanceOf lado:Potform .
+samian:pf_5 rdfs:label '16'.
+samian:pf_5 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/16.jpg>.
+samian:pf_5 lado:hasType lado:Gaulish .
+samian:pf_5 dc:identifier 5.
+samian:pf_5 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_5 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_5 prov:wasGeneratedBy samian:activity_pf_5 .
+samian:activity_pf_5 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_5 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_5 prov:endedAtTime '2020-12-09T20:53:06.285126Z'^^xsd:dateTime .
+samian:activity_pf_5 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_6 rdf:type lado:Potform .
+samian:pf_6 amt:instanceOf lado:Potform .
+samian:pf_6 rdfs:label '17'.
+samian:pf_6 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/17.jpg>.
+samian:pf_6 lado:hasType lado:Gaulish .
+samian:pf_6 dc:identifier 6.
+samian:pf_6 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_6 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_6 prov:wasGeneratedBy samian:activity_pf_6 .
+samian:activity_pf_6 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_6 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_6 prov:endedAtTime '2020-12-09T20:53:06.286123Z'^^xsd:dateTime .
+samian:activity_pf_6 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_7 rdf:type lado:Potform .
+samian:pf_7 amt:instanceOf lado:Potform .
+samian:pf_7 rdfs:label '17b'.
+samian:pf_7 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/17b.jpg>.
+samian:pf_7 lado:hasType lado:Gaulish .
+samian:pf_7 dc:identifier 7.
+samian:pf_7 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_7 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_7 prov:wasGeneratedBy samian:activity_pf_7 .
+samian:activity_pf_7 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_7 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_7 prov:endedAtTime '2020-12-09T20:53:06.286123Z'^^xsd:dateTime .
+samian:activity_pf_7 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_8 rdf:type lado:Potform .
+samian:pf_8 amt:instanceOf lado:Potform .
+samian:pf_8 rdfs:label '17R'.
+samian:pf_8 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/17R.jpg>.
+samian:pf_8 lado:hasType lado:Gaulish .
+samian:pf_8 dc:identifier 8.
+samian:pf_8 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_8 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_8 prov:wasGeneratedBy samian:activity_pf_8 .
+samian:activity_pf_8 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_8 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_8 prov:endedAtTime '2020-12-09T20:53:06.287122Z'^^xsd:dateTime .
+samian:activity_pf_8 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_9 rdf:type lado:Potform .
+samian:pf_9 amt:instanceOf lado:Potform .
+samian:pf_9 rdfs:label '18'.
+samian:pf_9 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/18.jpg>.
+samian:pf_9 lado:hasType lado:Gaulish .
+samian:pf_9 dc:identifier 9.
+samian:pf_9 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_9 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_9 prov:wasGeneratedBy samian:activity_pf_9 .
+samian:activity_pf_9 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_9 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_9 prov:endedAtTime '2020-12-09T20:53:06.287122Z'^^xsd:dateTime .
+samian:activity_pf_9 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_11 rdf:type lado:Potform .
+samian:pf_11 amt:instanceOf lado:Potform .
+samian:pf_11 rdfs:label '18/31'.
+samian:pf_11 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/18_31.jpg>.
+samian:pf_11 lado:hasType lado:Gaulish .
+samian:pf_11 dc:identifier 11.
+samian:pf_11 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_11 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_11 prov:wasGeneratedBy samian:activity_pf_11 .
+samian:activity_pf_11 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_11 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_11 prov:endedAtTime '2020-12-09T20:53:06.287122Z'^^xsd:dateTime .
+samian:activity_pf_11 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_12 rdf:type lado:Potform .
+samian:pf_12 amt:instanceOf lado:Potform .
+samian:pf_12 rdfs:label '18/31R'.
+samian:pf_12 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/18_31R.jpg>.
+samian:pf_12 lado:hasType lado:Gaulish .
+samian:pf_12 dc:identifier 12.
+samian:pf_12 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_12 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_12 prov:wasGeneratedBy samian:activity_pf_12 .
+samian:activity_pf_12 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_12 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_12 prov:endedAtTime '2020-12-09T20:53:06.288119Z'^^xsd:dateTime .
+samian:activity_pf_12 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_13 rdf:type lado:Potform .
+samian:pf_13 amt:instanceOf lado:Potform .
+samian:pf_13 rdfs:label '18R'.
+samian:pf_13 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/18R.jpg>.
+samian:pf_13 lado:hasType lado:Gaulish .
+samian:pf_13 dc:identifier 13.
+samian:pf_13 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_13 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_13 prov:wasGeneratedBy samian:activity_pf_13 .
+samian:activity_pf_13 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_13 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_13 prov:endedAtTime '2020-12-09T20:53:06.288119Z'^^xsd:dateTime .
+samian:activity_pf_13 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_14 rdf:type lado:Potform .
+samian:pf_14 amt:instanceOf lado:Potform .
+samian:pf_14 rdfs:label '19'.
+samian:pf_14 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/19.jpg>.
+samian:pf_14 lado:hasType lado:Gaulish .
+samian:pf_14 dc:identifier 14.
+samian:pf_14 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_14 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_14 prov:wasGeneratedBy samian:activity_pf_14 .
+samian:activity_pf_14 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_14 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_14 prov:endedAtTime '2020-12-09T20:53:06.289117Z'^^xsd:dateTime .
+samian:activity_pf_14 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_261 rdf:type lado:Potform .
+samian:pf_261 amt:instanceOf lado:Potform .
+samian:pf_261 rdfs:label '20'.
+samian:pf_261 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/20.jpg>.
+samian:pf_261 lado:hasType lado:Gaulish .
+samian:pf_261 dc:identifier 261.
+samian:pf_261 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_261 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_261 prov:wasGeneratedBy samian:activity_pf_261 .
+samian:activity_pf_261 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_261 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_261 prov:endedAtTime '2020-12-09T20:53:06.289117Z'^^xsd:dateTime .
+samian:activity_pf_261 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_257 rdf:type lado:Potform .
+samian:pf_257 amt:instanceOf lado:Potform .
+samian:pf_257 rdfs:label '21'.
+samian:pf_257 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/21.jpg>.
+samian:pf_257 lado:hasType lado:Gaulish .
+samian:pf_257 dc:identifier 257.
+samian:pf_257 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_257 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_257 prov:wasGeneratedBy samian:activity_pf_257 .
+samian:activity_pf_257 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_257 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_257 prov:endedAtTime '2020-12-09T20:53:06.290114Z'^^xsd:dateTime .
+samian:activity_pf_257 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_15 rdf:type lado:Potform .
+samian:pf_15 amt:instanceOf lado:Potform .
+samian:pf_15 rdfs:label '24'.
+samian:pf_15 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/24.jpg>.
+samian:pf_15 lado:hasType lado:Gaulish .
+samian:pf_15 dc:identifier 15.
+samian:pf_15 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_15 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_15 prov:wasGeneratedBy samian:activity_pf_15 .
+samian:activity_pf_15 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_15 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_15 prov:endedAtTime '2020-12-09T20:53:06.290114Z'^^xsd:dateTime .
+samian:activity_pf_15 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_16 rdf:type lado:Potform .
+samian:pf_16 amt:instanceOf lado:Potform .
+samian:pf_16 rdfs:label '24b'.
+samian:pf_16 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/24b.jpg>.
+samian:pf_16 lado:hasType lado:Gaulish .
+samian:pf_16 dc:identifier 16.
+samian:pf_16 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_16 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_16 prov:wasGeneratedBy samian:activity_pf_16 .
+samian:activity_pf_16 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_16 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_16 prov:endedAtTime '2020-12-09T20:53:06.290114Z'^^xsd:dateTime .
+samian:activity_pf_16 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_17 rdf:type lado:Potform .
+samian:pf_17 amt:instanceOf lado:Potform .
+samian:pf_17 rdfs:label '25'.
+samian:pf_17 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/25.jpg>.
+samian:pf_17 lado:hasType lado:Gaulish .
+samian:pf_17 dc:identifier 17.
+samian:pf_17 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_17 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_17 prov:wasGeneratedBy samian:activity_pf_17 .
+samian:activity_pf_17 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_17 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_17 prov:endedAtTime '2020-12-09T20:53:06.291111Z'^^xsd:dateTime .
+samian:activity_pf_17 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_18 rdf:type lado:Potform .
+samian:pf_18 amt:instanceOf lado:Potform .
+samian:pf_18 rdfs:label '27'.
+samian:pf_18 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/27.jpg>.
+samian:pf_18 lado:hasType lado:Gaulish .
+samian:pf_18 dc:identifier 18.
+samian:pf_18 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_18 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_18 prov:wasGeneratedBy samian:activity_pf_18 .
+samian:activity_pf_18 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_18 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_18 prov:endedAtTime '2020-12-09T20:53:06.291111Z'^^xsd:dateTime .
+samian:activity_pf_18 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_19 rdf:type lado:Potform .
+samian:pf_19 amt:instanceOf lado:Potform .
+samian:pf_19 rdfs:label '27g'.
+samian:pf_19 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/27g.jpg>.
+samian:pf_19 lado:hasType lado:Gaulish .
+samian:pf_19 dc:identifier 19.
+samian:pf_19 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_19 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_19 prov:wasGeneratedBy samian:activity_pf_19 .
+samian:activity_pf_19 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_19 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_19 prov:endedAtTime '2020-12-09T20:53:06.292112Z'^^xsd:dateTime .
+samian:activity_pf_19 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_20 rdf:type lado:Potform .
+samian:pf_20 amt:instanceOf lado:Potform .
+samian:pf_20 rdfs:label '27R'.
+samian:pf_20 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/27R.jpg>.
+samian:pf_20 lado:hasType lado:Gaulish .
+samian:pf_20 dc:identifier 20.
+samian:pf_20 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_20 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_20 prov:wasGeneratedBy samian:activity_pf_20 .
+samian:activity_pf_20 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_20 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_20 prov:endedAtTime '2020-12-09T20:53:06.292112Z'^^xsd:dateTime .
+samian:activity_pf_20 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_21 rdf:type lado:Potform .
+samian:pf_21 amt:instanceOf lado:Potform .
+samian:pf_21 rdfs:label '29'.
+samian:pf_21 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/29.jpg>.
+samian:pf_21 lado:hasType lado:Gaulish .
+samian:pf_21 dc:identifier 21.
+samian:pf_21 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_21 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_21 prov:wasGeneratedBy samian:activity_pf_21 .
+samian:activity_pf_21 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_21 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_21 prov:endedAtTime '2020-12-09T20:53:06.293105Z'^^xsd:dateTime .
+samian:activity_pf_21 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_22 rdf:type lado:Potform .
+samian:pf_22 amt:instanceOf lado:Potform .
+samian:pf_22 rdfs:label '29R'.
+samian:pf_22 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/29R.jpg>.
+samian:pf_22 lado:hasType lado:Gaulish .
+samian:pf_22 dc:identifier 22.
+samian:pf_22 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_22 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_22 prov:wasGeneratedBy samian:activity_pf_22 .
+samian:activity_pf_22 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_22 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_22 prov:endedAtTime '2020-12-09T20:53:06.294104Z'^^xsd:dateTime .
+samian:activity_pf_22 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_23 rdf:type lado:Potform .
+samian:pf_23 amt:instanceOf lado:Potform .
+samian:pf_23 rdfs:label '30'.
+samian:pf_23 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/30.jpg>.
+samian:pf_23 lado:hasType lado:Gaulish .
+samian:pf_23 dc:identifier 23.
+samian:pf_23 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_23 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_23 prov:wasGeneratedBy samian:activity_pf_23 .
+samian:activity_pf_23 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_23 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_23 prov:endedAtTime '2020-12-09T20:53:06.294104Z'^^xsd:dateTime .
+samian:activity_pf_23 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_24 rdf:type lado:Potform .
+samian:pf_24 amt:instanceOf lado:Potform .
+samian:pf_24 rdfs:label '31'.
+samian:pf_24 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/31.jpg>.
+samian:pf_24 lado:hasType lado:Gaulish .
+samian:pf_24 dc:identifier 24.
+samian:pf_24 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_24 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_24 prov:wasGeneratedBy samian:activity_pf_24 .
+samian:activity_pf_24 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_24 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_24 prov:endedAtTime '2020-12-09T20:53:06.295102Z'^^xsd:dateTime .
+samian:activity_pf_24 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_25 rdf:type lado:Potform .
+samian:pf_25 amt:instanceOf lado:Potform .
+samian:pf_25 rdfs:label '31R'.
+samian:pf_25 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/31R.jpg>.
+samian:pf_25 lado:hasType lado:Gaulish .
+samian:pf_25 dc:identifier 25.
+samian:pf_25 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_25 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_25 prov:wasGeneratedBy samian:activity_pf_25 .
+samian:activity_pf_25 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_25 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_25 prov:endedAtTime '2020-12-09T20:53:06.295102Z'^^xsd:dateTime .
+samian:activity_pf_25 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_26 rdf:type lado:Potform .
+samian:pf_26 amt:instanceOf lado:Potform .
+samian:pf_26 rdfs:label '32'.
+samian:pf_26 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/32.jpg>.
+samian:pf_26 lado:hasType lado:Gaulish .
+samian:pf_26 dc:identifier 26.
+samian:pf_26 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_26 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_26 prov:wasGeneratedBy samian:activity_pf_26 .
+samian:activity_pf_26 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_26 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_26 prov:endedAtTime '2020-12-09T20:53:06.296099Z'^^xsd:dateTime .
+samian:activity_pf_26 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_277 rdf:type lado:Potform .
+samian:pf_277 amt:instanceOf lado:Potform .
+samian:pf_277 rdfs:label '32R'.
+samian:pf_277 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/32R.jpg>.
+samian:pf_277 lado:hasType lado:Gaulish .
+samian:pf_277 dc:identifier 277.
+samian:pf_277 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_277 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_277 prov:wasGeneratedBy samian:activity_pf_277 .
+samian:activity_pf_277 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_277 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_277 prov:endedAtTime '2020-12-09T20:53:06.296099Z'^^xsd:dateTime .
+samian:activity_pf_277 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_28 rdf:type lado:Potform .
+samian:pf_28 amt:instanceOf lado:Potform .
+samian:pf_28 rdfs:label '33'.
+samian:pf_28 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/33_46.jpg>.
+samian:pf_28 lado:hasType lado:Gaulish .
+samian:pf_28 dc:identifier 28.
+samian:pf_28 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_28 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_28 prov:wasGeneratedBy samian:activity_pf_28 .
+samian:activity_pf_28 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_28 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_28 prov:endedAtTime '2020-12-09T20:53:06.297097Z'^^xsd:dateTime .
+samian:activity_pf_28 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_29 rdf:type lado:Potform .
+samian:pf_29 amt:instanceOf lado:Potform .
+samian:pf_29 rdfs:label '33a'.
+samian:pf_29 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/33a.jpg>.
+samian:pf_29 lado:hasType lado:Gaulish .
+samian:pf_29 dc:identifier 29.
+samian:pf_29 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_29 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_29 prov:wasGeneratedBy samian:activity_pf_29 .
+samian:activity_pf_29 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_29 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_29 prov:endedAtTime '2020-12-09T20:53:06.297097Z'^^xsd:dateTime .
+samian:activity_pf_29 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_30 rdf:type lado:Potform .
+samian:pf_30 amt:instanceOf lado:Potform .
+samian:pf_30 rdfs:label '33e'.
+samian:pf_30 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/33e.jpg>.
+samian:pf_30 lado:hasType lado:Gaulish .
+samian:pf_30 dc:identifier 30.
+samian:pf_30 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_30 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_30 prov:wasGeneratedBy samian:activity_pf_30 .
+samian:activity_pf_30 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_30 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_30 prov:endedAtTime '2020-12-09T20:53:06.298107Z'^^xsd:dateTime .
+samian:activity_pf_30 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_262 rdf:type lado:Potform .
+samian:pf_262 amt:instanceOf lado:Potform .
+samian:pf_262 rdfs:label '34'.
+samian:pf_262 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/34.jpg>.
+samian:pf_262 lado:hasType lado:Gaulish .
+samian:pf_262 dc:identifier 262.
+samian:pf_262 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_262 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_262 prov:wasGeneratedBy samian:activity_pf_262 .
+samian:activity_pf_262 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_262 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_262 prov:endedAtTime '2020-12-09T20:53:06.299093Z'^^xsd:dateTime .
+samian:activity_pf_262 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_31 rdf:type lado:Potform .
+samian:pf_31 amt:instanceOf lado:Potform .
+samian:pf_31 rdfs:label '35'.
+samian:pf_31 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/35.jpg>.
+samian:pf_31 lado:hasType lado:Gaulish .
+samian:pf_31 dc:identifier 31.
+samian:pf_31 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_31 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_31 prov:wasGeneratedBy samian:activity_pf_31 .
+samian:activity_pf_31 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_31 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_31 prov:endedAtTime '2020-12-09T20:53:06.299093Z'^^xsd:dateTime .
+samian:activity_pf_31 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_32 rdf:type lado:Potform .
+samian:pf_32 amt:instanceOf lado:Potform .
+samian:pf_32 rdfs:label '36'.
+samian:pf_32 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/36.jpg>.
+samian:pf_32 lado:hasType lado:Gaulish .
+samian:pf_32 dc:identifier 32.
+samian:pf_32 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_32 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_32 prov:wasGeneratedBy samian:activity_pf_32 .
+samian:activity_pf_32 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_32 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_32 prov:endedAtTime '2020-12-09T20:53:06.300088Z'^^xsd:dateTime .
+samian:activity_pf_32 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_33 rdf:type lado:Potform .
+samian:pf_33 amt:instanceOf lado:Potform .
+samian:pf_33 rdfs:label '37'.
+samian:pf_33 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/37.jpg>.
+samian:pf_33 lado:hasType lado:Gaulish .
+samian:pf_33 dc:identifier 33.
+samian:pf_33 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_33 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_33 prov:wasGeneratedBy samian:activity_pf_33 .
+samian:activity_pf_33 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_33 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_33 prov:endedAtTime '2020-12-09T20:53:06.300088Z'^^xsd:dateTime .
+samian:activity_pf_33 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_34 rdf:type lado:Potform .
+samian:pf_34 amt:instanceOf lado:Potform .
+samian:pf_34 rdfs:label '38'.
+samian:pf_34 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/38.jpg>.
+samian:pf_34 lado:hasType lado:Gaulish .
+samian:pf_34 dc:identifier 34.
+samian:pf_34 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_34 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_34 prov:wasGeneratedBy samian:activity_pf_34 .
+samian:activity_pf_34 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_34 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_34 prov:endedAtTime '2020-12-09T20:53:06.301085Z'^^xsd:dateTime .
+samian:activity_pf_34 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_35 rdf:type lado:Potform .
+samian:pf_35 amt:instanceOf lado:Potform .
+samian:pf_35 rdfs:label '39'.
+samian:pf_35 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/39.jpg>.
+samian:pf_35 lado:hasType lado:Gaulish .
+samian:pf_35 dc:identifier 35.
+samian:pf_35 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_35 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_35 prov:wasGeneratedBy samian:activity_pf_35 .
+samian:activity_pf_35 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_35 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_35 prov:endedAtTime '2020-12-09T20:53:06.301085Z'^^xsd:dateTime .
+samian:activity_pf_35 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_36 rdf:type lado:Potform .
+samian:pf_36 amt:instanceOf lado:Potform .
+samian:pf_36 rdfs:label '40'.
+samian:pf_36 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/40.jpg>.
+samian:pf_36 lado:hasType lado:Gaulish .
+samian:pf_36 dc:identifier 36.
+samian:pf_36 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_36 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_36 prov:wasGeneratedBy samian:activity_pf_36 .
+samian:activity_pf_36 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_36 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_36 prov:endedAtTime '2020-12-09T20:53:06.303078Z'^^xsd:dateTime .
+samian:activity_pf_36 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_37 rdf:type lado:Potform .
+samian:pf_37 amt:instanceOf lado:Potform .
+samian:pf_37 rdfs:label '42'.
+samian:pf_37 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/42.jpg>.
+samian:pf_37 lado:hasType lado:Gaulish .
+samian:pf_37 dc:identifier 37.
+samian:pf_37 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_37 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_37 prov:wasGeneratedBy samian:activity_pf_37 .
+samian:activity_pf_37 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_37 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_37 prov:endedAtTime '2020-12-09T20:53:06.303078Z'^^xsd:dateTime .
+samian:activity_pf_37 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_38 rdf:type lado:Potform .
+samian:pf_38 amt:instanceOf lado:Potform .
+samian:pf_38 rdfs:label '42sh'.
+samian:pf_38 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/42sh.jpg>.
+samian:pf_38 lado:hasType lado:Gaulish .
+samian:pf_38 dc:identifier 38.
+samian:pf_38 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_38 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_38 prov:wasGeneratedBy samian:activity_pf_38 .
+samian:activity_pf_38 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_38 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_38 prov:endedAtTime '2020-12-09T20:53:06.304076Z'^^xsd:dateTime .
+samian:activity_pf_38 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_272 rdf:type lado:Potform .
+samian:pf_272 amt:instanceOf lado:Potform .
+samian:pf_272 rdfs:label '43'.
+samian:pf_272 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/43.jpg>.
+samian:pf_272 lado:hasType lado:Gaulish .
+samian:pf_272 dc:identifier 272.
+samian:pf_272 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_272 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_272 prov:wasGeneratedBy samian:activity_pf_272 .
+samian:activity_pf_272 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_272 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_272 prov:endedAtTime '2020-12-09T20:53:06.307076Z'^^xsd:dateTime .
+samian:activity_pf_272 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_39 rdf:type lado:Potform .
+samian:pf_39 amt:instanceOf lado:Potform .
+samian:pf_39 rdfs:label '44'.
+samian:pf_39 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/44.jpg>.
+samian:pf_39 lado:hasType lado:Gaulish .
+samian:pf_39 dc:identifier 39.
+samian:pf_39 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_39 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_39 prov:wasGeneratedBy samian:activity_pf_39 .
+samian:activity_pf_39 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_39 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_39 prov:endedAtTime '2020-12-09T20:53:06.309063Z'^^xsd:dateTime .
+samian:activity_pf_39 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_40 rdf:type lado:Potform .
+samian:pf_40 amt:instanceOf lado:Potform .
+samian:pf_40 rdfs:label '45'.
+samian:pf_40 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/45.jpg>.
+samian:pf_40 lado:hasType lado:Gaulish .
+samian:pf_40 dc:identifier 40.
+samian:pf_40 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_40 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_40 prov:wasGeneratedBy samian:activity_pf_40 .
+samian:activity_pf_40 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_40 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_40 prov:endedAtTime '2020-12-09T20:53:06.309063Z'^^xsd:dateTime .
+samian:activity_pf_40 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_41 rdf:type lado:Potform .
+samian:pf_41 amt:instanceOf lado:Potform .
+samian:pf_41 rdfs:label '46'.
+samian:pf_41 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/46.jpg>.
+samian:pf_41 lado:hasType lado:Gaulish .
+samian:pf_41 dc:identifier 41.
+samian:pf_41 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_41 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_41 prov:wasGeneratedBy samian:activity_pf_41 .
+samian:activity_pf_41 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_41 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_41 prov:endedAtTime '2020-12-09T20:53:06.310060Z'^^xsd:dateTime .
+samian:activity_pf_41 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_254 rdf:type lado:Potform .
+samian:pf_254 amt:instanceOf lado:Potform .
+samian:pf_254 rdfs:label '51'.
+samian:pf_254 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/pastis51.jpg>.
+samian:pf_254 lado:hasType lado:Gaulish .
+samian:pf_254 dc:identifier 254.
+samian:pf_254 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_254 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_254 prov:wasGeneratedBy samian:activity_pf_254 .
+samian:activity_pf_254 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_254 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_254 prov:endedAtTime '2020-12-09T20:53:06.311057Z'^^xsd:dateTime .
+samian:activity_pf_254 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_178 rdf:type lado:Potform .
+samian:pf_178 amt:instanceOf lado:Potform .
+samian:pf_178 rdfs:label '78'.
+samian:pf_178 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Knorr78.jpg>.
+samian:pf_178 lado:hasType lado:Gaulish .
+samian:pf_178 dc:identifier 178.
+samian:pf_178 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_178 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_178 prov:wasGeneratedBy samian:activity_pf_178 .
+samian:activity_pf_178 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_178 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_178 prov:endedAtTime '2020-12-09T20:53:06.314055Z'^^xsd:dateTime .
+samian:activity_pf_178 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_79 rdf:type lado:Potform .
+samian:pf_79 amt:instanceOf lado:Potform .
+samian:pf_79 rdfs:label '79'.
+samian:pf_79 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Walters79.jpg>.
+samian:pf_79 lado:hasType lado:Gaulish .
+samian:pf_79 dc:identifier 79.
+samian:pf_79 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_79 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_79 prov:wasGeneratedBy samian:activity_pf_79 .
+samian:activity_pf_79 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_79 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_79 prov:endedAtTime '2020-12-09T20:53:06.315055Z'^^xsd:dateTime .
+samian:activity_pf_79 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_80 rdf:type lado:Potform .
+samian:pf_80 amt:instanceOf lado:Potform .
+samian:pf_80 rdfs:label '79R'.
+samian:pf_80 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Walters79R.jpg>.
+samian:pf_80 lado:hasType lado:Gaulish .
+samian:pf_80 dc:identifier 80.
+samian:pf_80 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_80 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_80 prov:wasGeneratedBy samian:activity_pf_80 .
+samian:activity_pf_80 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_80 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_80 prov:endedAtTime '2020-12-09T20:53:06.317040Z'^^xsd:dateTime .
+samian:activity_pf_80 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_81 rdf:type lado:Potform .
+samian:pf_81 amt:instanceOf lado:Potform .
+samian:pf_81 rdfs:label '80'.
+samian:pf_81 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Walters80.jpg>.
+samian:pf_81 lado:hasType lado:Gaulish .
+samian:pf_81 dc:identifier 81.
+samian:pf_81 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_81 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_81 prov:wasGeneratedBy samian:activity_pf_81 .
+samian:activity_pf_81 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_81 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_81 prov:endedAtTime '2020-12-09T20:53:06.317040Z'^^xsd:dateTime .
+samian:activity_pf_81 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_82 rdf:type lado:Potform .
+samian:pf_82 amt:instanceOf lado:Potform .
+samian:pf_82 rdfs:label '81'.
+samian:pf_82 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Walters81.jpg>.
+samian:pf_82 lado:hasType lado:Gaulish .
+samian:pf_82 dc:identifier 82.
+samian:pf_82 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_82 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_82 prov:wasGeneratedBy samian:activity_pf_82 .
+samian:activity_pf_82 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_82 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_82 prov:endedAtTime '2020-12-09T20:53:06.318041Z'^^xsd:dateTime .
+samian:activity_pf_82 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_264 rdf:type lado:Potform .
+samian:pf_264 amt:instanceOf lado:Potform .
+samian:pf_264 rdfs:label 'Bb'.
+samian:pf_264 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Bb.jpg>.
+samian:pf_264 lado:hasType lado:Gaulish .
+samian:pf_264 dc:identifier 264.
+samian:pf_264 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_264 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_264 prov:wasGeneratedBy samian:activity_pf_264 .
+samian:activity_pf_264 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_264 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_264 prov:endedAtTime '2020-12-09T20:53:06.318041Z'^^xsd:dateTime .
+samian:activity_pf_264 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_265 rdf:type lado:Potform .
+samian:pf_265 amt:instanceOf lado:Potform .
+samian:pf_265 rdfs:label 'Bf'.
+samian:pf_265 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Bf.jpg>.
+samian:pf_265 lado:hasType lado:Gaulish .
+samian:pf_265 dc:identifier 265.
+samian:pf_265 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_265 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_265 prov:wasGeneratedBy samian:activity_pf_265 .
+samian:activity_pf_265 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_265 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_265 prov:endedAtTime '2020-12-09T20:53:06.319037Z'^^xsd:dateTime .
+samian:activity_pf_265 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_53 rdf:type lado:Potform .
+samian:pf_53 amt:instanceOf lado:Potform .
+samian:pf_53 rdfs:label 'Bi'.
+samian:pf_53 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciBi.jpg>.
+samian:pf_53 lado:hasType lado:Gaulish .
+samian:pf_53 dc:identifier 53.
+samian:pf_53 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_53 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_53 prov:wasGeneratedBy samian:activity_pf_53 .
+samian:activity_pf_53 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_53 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_53 prov:endedAtTime '2020-12-09T20:53:06.320034Z'^^xsd:dateTime .
+samian:activity_pf_53 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_266 rdf:type lado:Potform .
+samian:pf_266 amt:instanceOf lado:Potform .
+samian:pf_266 rdfs:label 'BSg'.
+samian:pf_266 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/BSg.jpg>.
+samian:pf_266 lado:hasType lado:Gaulish .
+samian:pf_266 dc:identifier 266.
+samian:pf_266 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_266 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_266 prov:wasGeneratedBy samian:activity_pf_266 .
+samian:activity_pf_266 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_266 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_266 prov:endedAtTime '2020-12-09T20:53:06.320034Z'^^xsd:dateTime .
+samian:activity_pf_266 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_267 rdf:type lado:Potform .
+samian:pf_267 amt:instanceOf lado:Potform .
+samian:pf_267 rdfs:label 'Bushe-Fox 84'.
+samian:pf_267 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Bushe-Fox_84.jpg>.
+samian:pf_267 lado:hasType lado:Gaulish .
+samian:pf_267 dc:identifier 267.
+samian:pf_267 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_267 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_267 prov:wasGeneratedBy samian:activity_pf_267 .
+samian:activity_pf_267 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_267 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_267 prov:endedAtTime '2020-12-09T20:53:06.321032Z'^^xsd:dateTime .
+samian:activity_pf_267 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_158 rdf:type lado:Potform .
+samian:pf_158 amt:instanceOf lado:Potform .
+samian:pf_158 rdfs:label 'Cup'.
+samian:pf_158 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/UnknownPotform.gif>.
+samian:pf_158 lado:hasType lado:Gaulish .
+samian:pf_158 dc:identifier 158.
+samian:pf_158 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_158 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_158 prov:wasGeneratedBy samian:activity_pf_158 .
+samian:activity_pf_158 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_158 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_158 prov:endedAtTime '2020-12-09T20:53:06.321032Z'^^xsd:dateTime .
+samian:activity_pf_158 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_43 rdf:type lado:Potform .
+samian:pf_43 amt:instanceOf lado:Potform .
+samian:pf_43 rdfs:label 'Curle 15'.
+samian:pf_43 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Curle15.jpg>.
+samian:pf_43 lado:hasType lado:Gaulish .
+samian:pf_43 dc:identifier 43.
+samian:pf_43 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_43 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_43 prov:wasGeneratedBy samian:activity_pf_43 .
+samian:activity_pf_43 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_43 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_43 prov:endedAtTime '2020-12-09T20:53:06.322030Z'^^xsd:dateTime .
+samian:activity_pf_43 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_268 rdf:type lado:Potform .
+samian:pf_268 amt:instanceOf lado:Potform .
+samian:pf_268 rdfs:label 'Curle 21'.
+samian:pf_268 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Curle_21.jpg>.
+samian:pf_268 lado:hasType lado:Gaulish .
+samian:pf_268 dc:identifier 268.
+samian:pf_268 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_268 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_268 prov:wasGeneratedBy samian:activity_pf_268 .
+samian:activity_pf_268 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_268 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_268 prov:endedAtTime '2020-12-09T20:53:06.324026Z'^^xsd:dateTime .
+samian:activity_pf_268 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_44 rdf:type lado:Potform .
+samian:pf_44 amt:instanceOf lado:Potform .
+samian:pf_44 rdfs:label 'Curle 23'.
+samian:pf_44 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Curle23.jpg>.
+samian:pf_44 lado:hasType lado:Gaulish .
+samian:pf_44 dc:identifier 44.
+samian:pf_44 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_44 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_44 prov:wasGeneratedBy samian:activity_pf_44 .
+samian:activity_pf_44 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_44 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_44 prov:endedAtTime '2020-12-09T20:53:06.324026Z'^^xsd:dateTime .
+samian:activity_pf_44 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_269 rdf:type lado:Potform .
+samian:pf_269 amt:instanceOf lado:Potform .
+samian:pf_269 rdfs:label 'Déch. 62'.
+samian:pf_269 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Déch_62.jpg>.
+samian:pf_269 lado:hasType lado:Gaulish .
+samian:pf_269 dc:identifier 269.
+samian:pf_269 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_269 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_269 prov:wasGeneratedBy samian:activity_pf_269 .
+samian:activity_pf_269 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_269 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_269 prov:endedAtTime '2020-12-09T20:53:06.325022Z'^^xsd:dateTime .
+samian:activity_pf_269 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_45 rdf:type lado:Potform .
+samian:pf_45 amt:instanceOf lado:Potform .
+samian:pf_45 rdfs:label 'Déch. 63'.
+samian:pf_45 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Dech63.jpg>.
+samian:pf_45 lado:hasType lado:Gaulish .
+samian:pf_45 dc:identifier 45.
+samian:pf_45 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_45 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_45 prov:wasGeneratedBy samian:activity_pf_45 .
+samian:activity_pf_45 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_45 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_45 prov:endedAtTime '2020-12-09T20:53:06.325022Z'^^xsd:dateTime .
+samian:activity_pf_45 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_270 rdf:type lado:Potform .
+samian:pf_270 amt:instanceOf lado:Potform .
+samian:pf_270 rdfs:label 'Déch. 64'.
+samian:pf_270 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Déch_64.jpg>.
+samian:pf_270 lado:hasType lado:Gaulish .
+samian:pf_270 dc:identifier 270.
+samian:pf_270 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_270 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_270 prov:wasGeneratedBy samian:activity_pf_270 .
+samian:activity_pf_270 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_270 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_270 prov:endedAtTime '2020-12-09T20:53:06.326017Z'^^xsd:dateTime .
+samian:activity_pf_270 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_258 rdf:type lado:Potform .
+samian:pf_258 amt:instanceOf lado:Potform .
+samian:pf_258 rdfs:label 'Déch. 65'.
+samian:pf_258 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Déch_65.jpg>.
+samian:pf_258 lado:hasType lado:Gaulish .
+samian:pf_258 dc:identifier 258.
+samian:pf_258 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_258 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_258 prov:wasGeneratedBy samian:activity_pf_258 .
+samian:activity_pf_258 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_258 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_258 prov:endedAtTime '2020-12-09T20:53:06.326017Z'^^xsd:dateTime .
+samian:activity_pf_258 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_259 rdf:type lado:Potform .
+samian:pf_259 amt:instanceOf lado:Potform .
+samian:pf_259 rdfs:label 'Déch. 66'.
+samian:pf_259 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Déch_66.jpg>.
+samian:pf_259 lado:hasType lado:Gaulish .
+samian:pf_259 dc:identifier 259.
+samian:pf_259 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_259 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_259 prov:wasGeneratedBy samian:activity_pf_259 .
+samian:activity_pf_259 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_259 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_259 prov:endedAtTime '2020-12-09T20:53:06.327016Z'^^xsd:dateTime .
+samian:activity_pf_259 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_46 rdf:type lado:Potform .
+samian:pf_46 amt:instanceOf lado:Potform .
+samian:pf_46 rdfs:label 'Déch. 67'.
+samian:pf_46 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Dech67.jpg>.
+samian:pf_46 lado:hasType lado:Gaulish .
+samian:pf_46 dc:identifier 46.
+samian:pf_46 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_46 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_46 prov:wasGeneratedBy samian:activity_pf_46 .
+samian:activity_pf_46 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_46 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_46 prov:endedAtTime '2020-12-09T20:53:06.328012Z'^^xsd:dateTime .
+samian:activity_pf_46 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_271 rdf:type lado:Potform .
+samian:pf_271 amt:instanceOf lado:Potform .
+samian:pf_271 rdfs:label 'Déch. 68'.
+samian:pf_271 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Déch_68.jpg>.
+samian:pf_271 lado:hasType lado:Gaulish .
+samian:pf_271 dc:identifier 271.
+samian:pf_271 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_271 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_271 prov:wasGeneratedBy samian:activity_pf_271 .
+samian:activity_pf_271 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_271 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_271 prov:endedAtTime '2020-12-09T20:53:06.329016Z'^^xsd:dateTime .
+samian:activity_pf_271 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_260 rdf:type lado:Potform .
+samian:pf_260 amt:instanceOf lado:Potform .
+samian:pf_260 rdfs:label 'Déch. 71'.
+samian:pf_260 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Déch_71.jpg>.
+samian:pf_260 lado:hasType lado:Gaulish .
+samian:pf_260 dc:identifier 260.
+samian:pf_260 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_260 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_260 prov:wasGeneratedBy samian:activity_pf_260 .
+samian:activity_pf_260 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_260 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_260 prov:endedAtTime '2020-12-09T20:53:06.330015Z'^^xsd:dateTime .
+samian:activity_pf_260 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_600 rdf:type lado:Potform .
+samian:pf_600 amt:instanceOf lado:Potform .
+samian:pf_600 rdfs:label 'Die'.
+samian:pf_600 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Die.jpg>.
+samian:pf_600 lado:hasType lado:Gaulish .
+samian:pf_600 dc:identifier 600.
+samian:pf_600 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_600 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_600 prov:wasGeneratedBy samian:activity_pf_600 .
+samian:activity_pf_600 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_600 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_600 prov:endedAtTime '2020-12-09T20:53:06.331005Z'^^xsd:dateTime .
+samian:activity_pf_600 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_190 rdf:type lado:Potform .
+samian:pf_190 amt:instanceOf lado:Potform .
+samian:pf_190 rdfs:label 'Dish'.
+samian:pf_190 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Dish.jpg>.
+samian:pf_190 lado:hasType lado:Gaulish .
+samian:pf_190 dc:identifier 190.
+samian:pf_190 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_190 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_190 prov:wasGeneratedBy samian:activity_pf_190 .
+samian:activity_pf_190 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_190 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_190 prov:endedAtTime '2020-12-09T20:53:06.331005Z'^^xsd:dateTime .
+samian:activity_pf_190 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_166 rdf:type lado:Potform .
+samian:pf_166 amt:instanceOf lado:Potform .
+samian:pf_166 rdfs:label 'DishR'.
+samian:pf_166 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/DishR.jpg>.
+samian:pf_166 lado:hasType lado:Gaulish .
+samian:pf_166 dc:identifier 166.
+samian:pf_166 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_166 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_166 prov:wasGeneratedBy samian:activity_pf_166 .
+samian:activity_pf_166 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_166 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_166 prov:endedAtTime '2020-12-09T20:53:06.332003Z'^^xsd:dateTime .
+samian:activity_pf_166 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_252 rdf:type lado:Potform .
+samian:pf_252 amt:instanceOf lado:Potform .
+samian:pf_252 rdfs:label 'Hermet 15'.
+samian:pf_252 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Hermet15.jpg>.
+samian:pf_252 lado:hasType lado:Gaulish .
+samian:pf_252 dc:identifier 252.
+samian:pf_252 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_252 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_252 prov:wasGeneratedBy samian:activity_pf_252 .
+samian:activity_pf_252 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_252 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_252 prov:endedAtTime '2020-12-09T20:53:06.332998Z'^^xsd:dateTime .
+samian:activity_pf_252 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_48 rdf:type lado:Potform .
+samian:pf_48 amt:instanceOf lado:Potform .
+samian:pf_48 rdfs:label 'Hermet 24'.
+samian:pf_48 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Hermet24.jpg>.
+samian:pf_48 lado:hasType lado:Gaulish .
+samian:pf_48 dc:identifier 48.
+samian:pf_48 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_48 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_48 prov:wasGeneratedBy samian:activity_pf_48 .
+samian:activity_pf_48 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_48 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_48 prov:endedAtTime '2020-12-09T20:53:06.332998Z'^^xsd:dateTime .
+samian:activity_pf_48 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_49 rdf:type lado:Potform .
+samian:pf_49 amt:instanceOf lado:Potform .
+samian:pf_49 rdfs:label 'Hermet 28'.
+samian:pf_49 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Hermet28.jpg>.
+samian:pf_49 lado:hasType lado:Gaulish .
+samian:pf_49 dc:identifier 49.
+samian:pf_49 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_49 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_49 prov:wasGeneratedBy samian:activity_pf_49 .
+samian:activity_pf_49 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_49 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_49 prov:endedAtTime '2020-12-09T20:53:06.333999Z'^^xsd:dateTime .
+samian:activity_pf_49 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_176 rdf:type lado:Potform .
+samian:pf_176 amt:instanceOf lado:Potform .
+samian:pf_176 rdfs:label 'Hermet 29'.
+samian:pf_176 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Hermet_29.jpg>.
+samian:pf_176 lado:hasType lado:Gaulish .
+samian:pf_176 dc:identifier 176.
+samian:pf_176 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_176 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_176 prov:wasGeneratedBy samian:activity_pf_176 .
+samian:activity_pf_176 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_176 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_176 prov:endedAtTime '2020-12-09T20:53:06.361995Z'^^xsd:dateTime .
+samian:activity_pf_176 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_175 rdf:type lado:Potform .
+samian:pf_175 amt:instanceOf lado:Potform .
+samian:pf_175 rdfs:label 'Hermet 7'.
+samian:pf_175 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Hermet_7.jpg>.
+samian:pf_175 lado:hasType lado:Gaulish .
+samian:pf_175 dc:identifier 175.
+samian:pf_175 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_175 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_175 prov:wasGeneratedBy samian:activity_pf_175 .
+samian:activity_pf_175 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_175 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_175 prov:endedAtTime '2020-12-09T20:53:06.364069Z'^^xsd:dateTime .
+samian:activity_pf_175 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_174 rdf:type lado:Potform .
+samian:pf_174 amt:instanceOf lado:Potform .
+samian:pf_174 rdfs:label 'Hermet 9'.
+samian:pf_174 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Hermet_9.jpg>.
+samian:pf_174 lado:hasType lado:Gaulish .
+samian:pf_174 dc:identifier 174.
+samian:pf_174 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_174 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_174 prov:wasGeneratedBy samian:activity_pf_174 .
+samian:activity_pf_174 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_174 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_174 prov:endedAtTime '2020-12-09T20:53:06.364069Z'^^xsd:dateTime .
+samian:activity_pf_174 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_85 rdf:type lado:Potform .
+samian:pf_85 amt:instanceOf lado:Potform .
+samian:pf_85 rdfs:label 'Kiln-pad'.
+samian:pf_85 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/KilnPad.jpg>.
+samian:pf_85 lado:hasType lado:Gaulish .
+samian:pf_85 dc:identifier 85.
+samian:pf_85 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_85 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_85 prov:wasGeneratedBy samian:activity_pf_85 .
+samian:activity_pf_85 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_85 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_85 prov:endedAtTime '2020-12-09T20:53:06.365064Z'^^xsd:dateTime .
+samian:activity_pf_85 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_177 rdf:type lado:Potform .
+samian:pf_177 amt:instanceOf lado:Potform .
+samian:pf_177 rdfs:label 'Kiln-pipe'.
+samian:pf_177 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Kiln_pipe.jpg>.
+samian:pf_177 lado:hasType lado:Gaulish .
+samian:pf_177 dc:identifier 177.
+samian:pf_177 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_177 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_177 prov:wasGeneratedBy samian:activity_pf_177 .
+samian:activity_pf_177 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_177 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_177 prov:endedAtTime '2020-12-09T20:53:06.365064Z'^^xsd:dateTime .
+samian:activity_pf_177 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_173 rdf:type lado:Potform .
+samian:pf_173 amt:instanceOf lado:Potform .
+samian:pf_173 rdfs:label 'Kiln-ring'.
+samian:pf_173 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Kiln_ring.jpg>.
+samian:pf_173 lado:hasType lado:Gaulish .
+samian:pf_173 dc:identifier 173.
+samian:pf_173 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_173 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_173 prov:wasGeneratedBy samian:activity_pf_173 .
+samian:activity_pf_173 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_173 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_173 prov:endedAtTime '2020-12-09T20:53:06.366061Z'^^xsd:dateTime .
+samian:activity_pf_173 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_599 rdf:type lado:Potform .
+samian:pf_599 amt:instanceOf lado:Potform .
+samian:pf_599 rdfs:label 'Lid'.
+samian:pf_599 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Lid.jpg>.
+samian:pf_599 lado:hasType lado:Gaulish .
+samian:pf_599 dc:identifier 599.
+samian:pf_599 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_599 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_599 prov:wasGeneratedBy samian:activity_pf_599 .
+samian:activity_pf_599 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_599 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_599 prov:endedAtTime '2020-12-09T20:53:06.367060Z'^^xsd:dateTime .
+samian:activity_pf_599 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_51 rdf:type lado:Potform .
+samian:pf_51 amt:instanceOf lado:Potform .
+samian:pf_51 rdfs:label 'Loes. 1a'.
+samian:pf_51 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Loeschcke1a.jpg>.
+samian:pf_51 lado:hasType lado:Gaulish .
+samian:pf_51 dc:identifier 51.
+samian:pf_51 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_51 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_51 prov:wasGeneratedBy samian:activity_pf_51 .
+samian:activity_pf_51 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_51 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_51 prov:endedAtTime '2020-12-09T20:53:06.367060Z'^^xsd:dateTime .
+samian:activity_pf_51 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_273 rdf:type lado:Potform .
+samian:pf_273 amt:instanceOf lado:Potform .
+samian:pf_273 rdfs:label 'Loes. 2'.
+samian:pf_273 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Loes_2.jpg>.
+samian:pf_273 lado:hasType lado:Gaulish .
+samian:pf_273 dc:identifier 273.
+samian:pf_273 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_273 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_273 prov:wasGeneratedBy samian:activity_pf_273 .
+samian:activity_pf_273 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_273 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_273 prov:endedAtTime '2020-12-09T20:53:06.367060Z'^^xsd:dateTime .
+samian:activity_pf_273 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_52 rdf:type lado:Potform .
+samian:pf_52 amt:instanceOf lado:Potform .
+samian:pf_52 rdfs:label 'Loes. 7'.
+samian:pf_52 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Loeschcke7.jpg>.
+samian:pf_52 lado:hasType lado:Gaulish .
+samian:pf_52 dc:identifier 52.
+samian:pf_52 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_52 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_52 prov:wasGeneratedBy samian:activity_pf_52 .
+samian:activity_pf_52 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_52 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_52 prov:endedAtTime '2020-12-09T20:53:06.368061Z'^^xsd:dateTime .
+samian:activity_pf_52 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_274 rdf:type lado:Potform .
+samian:pf_274 amt:instanceOf lado:Potform .
+samian:pf_274 rdfs:label 'Ob'.
+samian:pf_274 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Ob.jpg>.
+samian:pf_274 lado:hasType lado:Gaulish .
+samian:pf_274 dc:identifier 274.
+samian:pf_274 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_274 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_274 prov:wasGeneratedBy samian:activity_pf_274 .
+samian:activity_pf_274 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_274 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_274 prov:endedAtTime '2020-12-09T20:53:06.368061Z'^^xsd:dateTime .
+samian:activity_pf_274 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_275 rdf:type lado:Potform .
+samian:pf_275 amt:instanceOf lado:Potform .
+samian:pf_275 rdfs:label 'Patera'.
+samian:pf_275 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Patera.jpg>.
+samian:pf_275 lado:hasType lado:Gaulish .
+samian:pf_275 dc:identifier 275.
+samian:pf_275 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_275 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_275 prov:wasGeneratedBy samian:activity_pf_275 .
+samian:activity_pf_275 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_275 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_275 prov:endedAtTime '2020-12-09T20:53:06.369053Z'^^xsd:dateTime .
+samian:activity_pf_275 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_544 rdf:type lado:Potform .
+samian:pf_544 amt:instanceOf lado:Potform .
+samian:pf_544 rdfs:label 'Plate'.
+samian:pf_544 lado:hasType lado:Gaulish .
+samian:pf_544 dc:identifier 544.
+samian:pf_544 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_544 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_544 prov:wasGeneratedBy samian:activity_pf_544 .
+samian:activity_pf_544 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_544 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_544 prov:endedAtTime '2020-12-09T20:53:06.369053Z'^^xsd:dateTime .
+samian:activity_pf_544 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_84 rdf:type lado:Potform .
+samian:pf_84 amt:instanceOf lado:Potform .
+samian:pf_84 rdfs:label 'Poinçon'.
+samian:pf_84 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Poincon.jpg>.
+samian:pf_84 lado:hasType lado:Gaulish .
+samian:pf_84 dc:identifier 84.
+samian:pf_84 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_84 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_84 prov:wasGeneratedBy samian:activity_pf_84 .
+samian:activity_pf_84 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_84 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_84 prov:endedAtTime '2020-12-09T20:53:06.370052Z'^^xsd:dateTime .
+samian:activity_pf_84 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_72 rdf:type lado:Potform .
+samian:pf_72 amt:instanceOf lado:Potform .
+samian:pf_72 rdfs:label 'R. 1'.
+samian:pf_72 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Ritt1.jpg>.
+samian:pf_72 lado:hasType lado:Gaulish .
+samian:pf_72 dc:identifier 72.
+samian:pf_72 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_72 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_72 prov:wasGeneratedBy samian:activity_pf_72 .
+samian:activity_pf_72 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_72 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_72 prov:endedAtTime '2020-12-09T20:53:06.370052Z'^^xsd:dateTime .
+samian:activity_pf_72 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_602 rdf:type lado:Potform .
+samian:pf_602 amt:instanceOf lado:Potform .
+samian:pf_602 rdfs:label 'R. 13'.
+samian:pf_602 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/R_13.jpg>.
+samian:pf_602 lado:hasType lado:Gaulish .
+samian:pf_602 dc:identifier 602.
+samian:pf_602 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_602 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_602 prov:wasGeneratedBy samian:activity_pf_602 .
+samian:activity_pf_602 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_602 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_602 prov:endedAtTime '2020-12-09T20:53:06.371049Z'^^xsd:dateTime .
+samian:activity_pf_602 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_73 rdf:type lado:Potform .
+samian:pf_73 amt:instanceOf lado:Potform .
+samian:pf_73 rdfs:label 'R. 1R'.
+samian:pf_73 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Ritt1R.jpg>.
+samian:pf_73 lado:hasType lado:Gaulish .
+samian:pf_73 dc:identifier 73.
+samian:pf_73 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_73 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_73 prov:wasGeneratedBy samian:activity_pf_73 .
+samian:activity_pf_73 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_73 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_73 prov:endedAtTime '2020-12-09T20:53:06.371049Z'^^xsd:dateTime .
+samian:activity_pf_73 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_83 rdf:type lado:Potform .
+samian:pf_83 amt:instanceOf lado:Potform .
+samian:pf_83 rdfs:label 'R. 5'.
+samian:pf_83 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Ritt5.jpg>.
+samian:pf_83 lado:hasType lado:Gaulish .
+samian:pf_83 dc:identifier 83.
+samian:pf_83 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_83 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_83 prov:wasGeneratedBy samian:activity_pf_83 .
+samian:activity_pf_83 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_83 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_83 prov:endedAtTime '2020-12-09T20:53:06.371049Z'^^xsd:dateTime .
+samian:activity_pf_83 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_74 rdf:type lado:Potform .
+samian:pf_74 amt:instanceOf lado:Potform .
+samian:pf_74 rdfs:label 'R. 5g'.
+samian:pf_74 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Ritt5g.jpg>.
+samian:pf_74 lado:hasType lado:Gaulish .
+samian:pf_74 dc:identifier 74.
+samian:pf_74 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_74 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_74 prov:wasGeneratedBy samian:activity_pf_74 .
+samian:activity_pf_74 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_74 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_74 prov:endedAtTime '2020-12-09T20:53:06.372045Z'^^xsd:dateTime .
+samian:activity_pf_74 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_75 rdf:type lado:Potform .
+samian:pf_75 amt:instanceOf lado:Potform .
+samian:pf_75 rdfs:label 'R. 8'.
+samian:pf_75 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Ritt8.jpg>.
+samian:pf_75 lado:hasType lado:Gaulish .
+samian:pf_75 dc:identifier 75.
+samian:pf_75 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_75 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_75 prov:wasGeneratedBy samian:activity_pf_75 .
+samian:activity_pf_75 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_75 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_75 prov:endedAtTime '2020-12-09T20:53:06.373042Z'^^xsd:dateTime .
+samian:activity_pf_75 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_184 rdf:type lado:Potform .
+samian:pf_184 amt:instanceOf lado:Potform .
+samian:pf_184 rdfs:label 'R. 8g'.
+samian:pf_184 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Ritt8g.jpg>.
+samian:pf_184 lado:hasType lado:Gaulish .
+samian:pf_184 dc:identifier 184.
+samian:pf_184 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_184 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_184 prov:wasGeneratedBy samian:activity_pf_184 .
+samian:activity_pf_184 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_184 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_184 prov:endedAtTime '2020-12-09T20:53:06.374039Z'^^xsd:dateTime .
+samian:activity_pf_184 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_76 rdf:type lado:Potform .
+samian:pf_76 amt:instanceOf lado:Potform .
+samian:pf_76 rdfs:label 'R. 9'.
+samian:pf_76 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Ritt9.jpg>.
+samian:pf_76 lado:hasType lado:Gaulish .
+samian:pf_76 dc:identifier 76.
+samian:pf_76 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_76 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_76 prov:wasGeneratedBy samian:activity_pf_76 .
+samian:activity_pf_76 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_76 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_76 prov:endedAtTime '2020-12-09T20:53:06.374039Z'^^xsd:dateTime .
+samian:activity_pf_76 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_598 rdf:type lado:Potform .
+samian:pf_598 amt:instanceOf lado:Potform .
+samian:pf_598 rdfs:label 'S s'.
+samian:pf_598 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Ss.jpg>.
+samian:pf_598 lado:hasType lado:Gaulish .
+samian:pf_598 dc:identifier 598.
+samian:pf_598 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_598 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_598 prov:wasGeneratedBy samian:activity_pf_598 .
+samian:activity_pf_598 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_598 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_598 prov:endedAtTime '2020-12-09T20:53:06.375040Z'^^xsd:dateTime .
+samian:activity_pf_598 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_185 rdf:type lado:Potform .
+samian:pf_185 amt:instanceOf lado:Potform .
+samian:pf_185 rdfs:label 'Sb'.
+samian:pf_185 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciSb.jpg>.
+samian:pf_185 lado:hasType lado:Gaulish .
+samian:pf_185 dc:identifier 185.
+samian:pf_185 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_185 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_185 prov:wasGeneratedBy samian:activity_pf_185 .
+samian:activity_pf_185 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_185 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_185 prov:endedAtTime '2020-12-09T20:53:06.375040Z'^^xsd:dateTime .
+samian:activity_pf_185 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_56 rdf:type lado:Potform .
+samian:pf_56 amt:instanceOf lado:Potform .
+samian:pf_56 rdfs:label 'Sc'.
+samian:pf_56 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciSc.jpg>.
+samian:pf_56 lado:hasType lado:Gaulish .
+samian:pf_56 dc:identifier 56.
+samian:pf_56 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_56 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_56 prov:wasGeneratedBy samian:activity_pf_56 .
+samian:activity_pf_56 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_56 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_56 prov:endedAtTime '2020-12-09T20:53:06.375040Z'^^xsd:dateTime .
+samian:activity_pf_56 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_57 rdf:type lado:Potform .
+samian:pf_57 amt:instanceOf lado:Potform .
+samian:pf_57 rdfs:label 'Sd'.
+samian:pf_57 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciSd.jpg>.
+samian:pf_57 lado:hasType lado:Gaulish .
+samian:pf_57 dc:identifier 57.
+samian:pf_57 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_57 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_57 prov:wasGeneratedBy samian:activity_pf_57 .
+samian:activity_pf_57 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_57 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_57 prov:endedAtTime '2020-12-09T20:53:06.376034Z'^^xsd:dateTime .
+samian:activity_pf_57 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_601 rdf:type lado:Potform .
+samian:pf_601 amt:instanceOf lado:Potform .
+samian:pf_601 rdfs:label 'Se'.
+samian:pf_601 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Se.jpg>.
+samian:pf_601 lado:hasType lado:Gaulish .
+samian:pf_601 dc:identifier 601.
+samian:pf_601 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_601 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_601 prov:wasGeneratedBy samian:activity_pf_601 .
+samian:activity_pf_601 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_601 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_601 prov:endedAtTime '2020-12-09T20:53:06.376034Z'^^xsd:dateTime .
+samian:activity_pf_601 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_186 rdf:type lado:Potform .
+samian:pf_186 amt:instanceOf lado:Potform .
+samian:pf_186 rdfs:label 'Sh'.
+samian:pf_186 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciSh.jpg>.
+samian:pf_186 lado:hasType lado:Gaulish .
+samian:pf_186 dc:identifier 186.
+samian:pf_186 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_186 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_186 prov:wasGeneratedBy samian:activity_pf_186 .
+samian:activity_pf_186 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_186 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_186 prov:endedAtTime '2020-12-09T20:53:06.379026Z'^^xsd:dateTime .
+samian:activity_pf_186 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_276 rdf:type lado:Potform .
+samian:pf_276 amt:instanceOf lado:Potform .
+samian:pf_276 rdfs:label 'Stanfield 19'.
+samian:pf_276 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Stanfield_19.jpg>.
+samian:pf_276 lado:hasType lado:Gaulish .
+samian:pf_276 dc:identifier 276.
+samian:pf_276 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_276 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_276 prov:wasGeneratedBy samian:activity_pf_276 .
+samian:activity_pf_276 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_276 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_276 prov:endedAtTime '2020-12-09T20:53:06.380023Z'^^xsd:dateTime .
+samian:activity_pf_276 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_58 rdf:type lado:Potform .
+samian:pf_58 amt:instanceOf lado:Potform .
+samian:pf_58 rdfs:label 'Ta'.
+samian:pf_58 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTa.jpg>.
+samian:pf_58 lado:hasType lado:Gaulish .
+samian:pf_58 dc:identifier 58.
+samian:pf_58 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_58 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_58 prov:wasGeneratedBy samian:activity_pf_58 .
+samian:activity_pf_58 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_58 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_58 prov:endedAtTime '2020-12-09T20:53:06.380023Z'^^xsd:dateTime .
+samian:activity_pf_58 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_59 rdf:type lado:Potform .
+samian:pf_59 amt:instanceOf lado:Potform .
+samian:pf_59 rdfs:label 'Tb'.
+samian:pf_59 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTb.jpg>.
+samian:pf_59 lado:hasType lado:Gaulish .
+samian:pf_59 dc:identifier 59.
+samian:pf_59 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_59 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_59 prov:wasGeneratedBy samian:activity_pf_59 .
+samian:activity_pf_59 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_59 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_59 prov:endedAtTime '2020-12-09T20:53:06.381024Z'^^xsd:dateTime .
+samian:activity_pf_59 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_187 rdf:type lado:Potform .
+samian:pf_187 amt:instanceOf lado:Potform .
+samian:pf_187 rdfs:label 'TbR'.
+samian:pf_187 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTbR.jpg>.
+samian:pf_187 lado:hasType lado:Gaulish .
+samian:pf_187 dc:identifier 187.
+samian:pf_187 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_187 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_187 prov:wasGeneratedBy samian:activity_pf_187 .
+samian:activity_pf_187 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_187 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_187 prov:endedAtTime '2020-12-09T20:53:06.382018Z'^^xsd:dateTime .
+samian:activity_pf_187 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_60 rdf:type lado:Potform .
+samian:pf_60 amt:instanceOf lado:Potform .
+samian:pf_60 rdfs:label 'Tc'.
+samian:pf_60 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTc.jpg>.
+samian:pf_60 lado:hasType lado:Gaulish .
+samian:pf_60 dc:identifier 60.
+samian:pf_60 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_60 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_60 prov:wasGeneratedBy samian:activity_pf_60 .
+samian:activity_pf_60 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_60 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_60 prov:endedAtTime '2020-12-09T20:53:06.382018Z'^^xsd:dateTime .
+samian:activity_pf_60 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_61 rdf:type lado:Potform .
+samian:pf_61 amt:instanceOf lado:Potform .
+samian:pf_61 rdfs:label 'Tf'.
+samian:pf_61 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTf.jpg>.
+samian:pf_61 lado:hasType lado:Gaulish .
+samian:pf_61 dc:identifier 61.
+samian:pf_61 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_61 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_61 prov:wasGeneratedBy samian:activity_pf_61 .
+samian:activity_pf_61 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_61 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_61 prov:endedAtTime '2020-12-09T20:53:06.383016Z'^^xsd:dateTime .
+samian:activity_pf_61 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_189 rdf:type lado:Potform .
+samian:pf_189 amt:instanceOf lado:Potform .
+samian:pf_189 rdfs:label 'Tf`'.
+samian:pf_189 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTfDash.jpg>.
+samian:pf_189 lado:hasType lado:Gaulish .
+samian:pf_189 dc:identifier 189.
+samian:pf_189 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_189 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_189 prov:wasGeneratedBy samian:activity_pf_189 .
+samian:activity_pf_189 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_189 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_189 prov:endedAtTime '2020-12-09T20:53:06.384014Z'^^xsd:dateTime .
+samian:activity_pf_189 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_188 rdf:type lado:Potform .
+samian:pf_188 amt:instanceOf lado:Potform .
+samian:pf_188 rdfs:label 'TfR'.
+samian:pf_188 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTfR.jpg>.
+samian:pf_188 lado:hasType lado:Gaulish .
+samian:pf_188 dc:identifier 188.
+samian:pf_188 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_188 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_188 prov:wasGeneratedBy samian:activity_pf_188 .
+samian:activity_pf_188 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_188 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_188 prov:endedAtTime '2020-12-09T20:53:06.385011Z'^^xsd:dateTime .
+samian:activity_pf_188 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_63 rdf:type lado:Potform .
+samian:pf_63 amt:instanceOf lado:Potform .
+samian:pf_63 rdfs:label 'Tg'.
+samian:pf_63 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTg.jpg>.
+samian:pf_63 lado:hasType lado:Gaulish .
+samian:pf_63 dc:identifier 63.
+samian:pf_63 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_63 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_63 prov:wasGeneratedBy samian:activity_pf_63 .
+samian:activity_pf_63 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_63 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_63 prov:endedAtTime '2020-12-09T20:53:06.387005Z'^^xsd:dateTime .
+samian:activity_pf_63 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_191 rdf:type lado:Potform .
+samian:pf_191 amt:instanceOf lado:Potform .
+samian:pf_191 rdfs:label 'Tk'.
+samian:pf_191 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTk.jpg>.
+samian:pf_191 lado:hasType lado:Gaulish .
+samian:pf_191 dc:identifier 191.
+samian:pf_191 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_191 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_191 prov:wasGeneratedBy samian:activity_pf_191 .
+samian:activity_pf_191 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_191 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_191 prov:endedAtTime '2020-12-09T20:53:06.387005Z'^^xsd:dateTime .
+samian:activity_pf_191 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_65 rdf:type lado:Potform .
+samian:pf_65 amt:instanceOf lado:Potform .
+samian:pf_65 rdfs:label 'Tp'.
+samian:pf_65 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTp.jpg>.
+samian:pf_65 lado:hasType lado:Gaulish .
+samian:pf_65 dc:identifier 65.
+samian:pf_65 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_65 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_65 prov:wasGeneratedBy samian:activity_pf_65 .
+samian:activity_pf_65 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_65 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_65 prov:endedAtTime '2020-12-09T20:53:06.388002Z'^^xsd:dateTime .
+samian:activity_pf_65 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_192 rdf:type lado:Potform .
+samian:pf_192 amt:instanceOf lado:Potform .
+samian:pf_192 rdfs:label 'Tq'.
+samian:pf_192 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTq.jpg>.
+samian:pf_192 lado:hasType lado:Gaulish .
+samian:pf_192 dc:identifier 192.
+samian:pf_192 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_192 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_192 prov:wasGeneratedBy samian:activity_pf_192 .
+samian:activity_pf_192 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_192 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_192 prov:endedAtTime '2020-12-09T20:53:06.389002Z'^^xsd:dateTime .
+samian:activity_pf_192 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_67 rdf:type lado:Potform .
+samian:pf_67 amt:instanceOf lado:Potform .
+samian:pf_67 rdfs:label 'Tr'.
+samian:pf_67 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTr.jpg>.
+samian:pf_67 lado:hasType lado:Gaulish .
+samian:pf_67 dc:identifier 67.
+samian:pf_67 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_67 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_67 prov:wasGeneratedBy samian:activity_pf_67 .
+samian:activity_pf_67 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_67 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_67 prov:endedAtTime '2020-12-09T20:53:06.392989Z'^^xsd:dateTime .
+samian:activity_pf_67 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_68 rdf:type lado:Potform .
+samian:pf_68 amt:instanceOf lado:Potform .
+samian:pf_68 rdfs:label 'Ts'.
+samian:pf_68 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTs.jpg>.
+samian:pf_68 lado:hasType lado:Gaulish .
+samian:pf_68 dc:identifier 68.
+samian:pf_68 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_68 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_68 prov:wasGeneratedBy samian:activity_pf_68 .
+samian:activity_pf_68 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_68 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_68 prov:endedAtTime '2020-12-09T20:53:06.393986Z'^^xsd:dateTime .
+samian:activity_pf_68 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_193 rdf:type lado:Potform .
+samian:pf_193 amt:instanceOf lado:Potform .
+samian:pf_193 rdfs:label 'Tt'.
+samian:pf_193 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTt.jpg>.
+samian:pf_193 lado:hasType lado:Gaulish .
+samian:pf_193 dc:identifier 193.
+samian:pf_193 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_193 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_193 prov:wasGeneratedBy samian:activity_pf_193 .
+samian:activity_pf_193 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_193 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_193 prov:endedAtTime '2020-12-09T20:53:06.394983Z'^^xsd:dateTime .
+samian:activity_pf_193 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_194 rdf:type lado:Potform .
+samian:pf_194 amt:instanceOf lado:Potform .
+samian:pf_194 rdfs:label 'Tt`'.
+samian:pf_194 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTtDash.jpg>.
+samian:pf_194 lado:hasType lado:Gaulish .
+samian:pf_194 dc:identifier 194.
+samian:pf_194 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_194 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_194 prov:wasGeneratedBy samian:activity_pf_194 .
+samian:activity_pf_194 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_194 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_194 prov:endedAtTime '2020-12-09T20:53:06.396986Z'^^xsd:dateTime .
+samian:activity_pf_194 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_69 rdf:type lado:Potform .
+samian:pf_69 amt:instanceOf lado:Potform .
+samian:pf_69 rdfs:label 'Tv'.
+samian:pf_69 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTv.jpg>.
+samian:pf_69 lado:hasType lado:Gaulish .
+samian:pf_69 dc:identifier 69.
+samian:pf_69 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_69 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_69 prov:wasGeneratedBy samian:activity_pf_69 .
+samian:activity_pf_69 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_69 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_69 prov:endedAtTime '2020-12-09T20:53:06.398976Z'^^xsd:dateTime .
+samian:activity_pf_69 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_70 rdf:type lado:Potform .
+samian:pf_70 amt:instanceOf lado:Potform .
+samian:pf_70 rdfs:label 'Tx'.
+samian:pf_70 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/LudowiciTx.jpg>.
+samian:pf_70 lado:hasType lado:Gaulish .
+samian:pf_70 dc:identifier 70.
+samian:pf_70 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_70 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_70 prov:wasGeneratedBy samian:activity_pf_70 .
+samian:activity_pf_70 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_70 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_70 prov:endedAtTime '2020-12-09T20:53:06.400968Z'^^xsd:dateTime .
+samian:activity_pf_70 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_86 rdf:type lado:Potform .
+samian:pf_86 amt:instanceOf lado:Potform .
+samian:pf_86 rdfs:label 'Unknown'.
+samian:pf_86 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/UnknownPotform.gif>.
+samian:pf_86 lado:hasType lado:Gaulish .
+samian:pf_86 dc:identifier 86.
+samian:pf_86 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_86 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_86 prov:wasGeneratedBy samian:activity_pf_86 .
+samian:activity_pf_86 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_86 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_86 prov:endedAtTime '2020-12-09T20:53:06.400968Z'^^xsd:dateTime .
+samian:activity_pf_86 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_255 rdf:type lado:Potform .
+samian:pf_255 amt:instanceOf lado:Potform .
+samian:pf_255 rdfs:label 'Unknown Decorated'.
+samian:pf_255 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/UnknownPotform.gif>.
+samian:pf_255 lado:hasType lado:Gaulish .
+samian:pf_255 dc:identifier 255.
+samian:pf_255 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_255 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_255 prov:wasGeneratedBy samian:activity_pf_255 .
+samian:activity_pf_255 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_255 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_255 prov:endedAtTime '2020-12-09T20:53:06.403961Z'^^xsd:dateTime .
+samian:activity_pf_255 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_256 rdf:type lado:Potform .
+samian:pf_256 amt:instanceOf lado:Potform .
+samian:pf_256 rdfs:label 'Unknown Rouletted'.
+samian:pf_256 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/UnknownPotform.gif>.
+samian:pf_256 lado:hasType lado:Gaulish .
+samian:pf_256 dc:identifier 256.
+samian:pf_256 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_256 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_256 prov:wasGeneratedBy samian:activity_pf_256 .
+samian:activity_pf_256 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_256 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_256 prov:endedAtTime '2020-12-09T20:53:06.410984Z'^^xsd:dateTime .
+samian:activity_pf_256 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_180 rdf:type lado:Potform .
+samian:pf_180 amt:instanceOf lado:Potform .
+samian:pf_180 rdfs:label 'Vernhet 2 21'.
+samian:pf_180 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Vernhet_2_21.jpg>.
+samian:pf_180 lado:hasType lado:Gaulish .
+samian:pf_180 dc:identifier 180.
+samian:pf_180 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_180 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_180 prov:wasGeneratedBy samian:activity_pf_180 .
+samian:activity_pf_180 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_180 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_180 prov:endedAtTime '2020-12-09T20:53:06.413976Z'^^xsd:dateTime .
+samian:activity_pf_180 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_181 rdf:type lado:Potform .
+samian:pf_181 amt:instanceOf lado:Potform .
+samian:pf_181 rdfs:label 'Vernhet 42 E1'.
+samian:pf_181 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Vernhet%2042_E1.jpg>.
+samian:pf_181 lado:hasType lado:Gaulish .
+samian:pf_181 dc:identifier 181.
+samian:pf_181 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_181 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_181 prov:wasGeneratedBy samian:activity_pf_181 .
+samian:activity_pf_181 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_181 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_181 prov:endedAtTime '2020-12-09T20:53:06.413976Z'^^xsd:dateTime .
+samian:activity_pf_181 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:pf_182 rdf:type lado:Potform .
+samian:pf_182 amt:instanceOf lado:Potform .
+samian:pf_182 rdfs:label 'Vernhet C3'.
+samian:pf_182 lado:hasImage <https://www1.rgzm.de/ips/forms/thumb/Vernhet_C3.jpg>.
+samian:pf_182 lado:hasType lado:Gaulish .
+samian:pf_182 dc:identifier 182.
+samian:pf_182 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:pf_182 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:pf_182 prov:wasGeneratedBy samian:activity_pf_182 .
+samian:activity_pf_182 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_pf_182 prov:startedAtTime '2020-12-09T20:53:06.030518Z'^^xsd:dateTime .
+samian:activity_pf_182 prov:endedAtTime '2020-12-09T20:53:06.438909Z'^^xsd:dateTime .
+samian:activity_pf_182 prov:wasAssociatedWith samian:ImportPythonScript_Samian .

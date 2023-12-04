@@ -1,0 +1,275 @@
+# create triples from https://www1.rgzm.de/ips/lod/cooperationandchiefpotter.csv 
+# on 2020-12-09 20:53
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX sf: <http://www.opengis.net/ont/sf#> 
+PREFIX lado: <http://archaeology.link/ontology#> 
+PREFIX samian: <http://data.archaeology.link/data/samian/> 
+PREFIX wd: <http://www.wikidata.org/entity/> 
+PREFIX prov: <http://www.w3.org/ns/prov-o/>
+ PREFIX pelagios: <http://pelagios.github.io/vocab/terms#> 
+PREFIX oa: <http://www.w3.org/ns/oa#> 
+PREFIX dcterms: <http://purl.org/dc/terms/> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX relations: <http://pelagios.github.io/vocab/relations#> 
+PREFIX cnt: <http://www.w3.org/2011/content#> 
+PREFIX pleiades: <http://pleiades.stoa.org/places/> 
+PREFIX amt: <http://academic-meta-tool.xyz/vocab#> 
+
+samian:ae_7878 rdf:type lado:ActorEntity .
+samian:ae_7878 amt:instanceOf lado:ActorEntity .
+samian:ae_7878 rdfs:label 'Serius Thyrsus Serius'@en.
+samian:ae_7878 lado:name 'Serius Thyrsus Serius'.
+samian:ae_7878 lado:timeinterval '15 BC+'.
+samian:ae_7878 dc:identifier '7878'.
+samian:ae_7878 lado:hasStatus lado:CooperationPotter .
+samian:ae_7878 lado:hasStatus lado:ChiefPotter .
+samian:ae_7878 lado:hasType lado:Potmaker .
+samian:ae_7878 lado:hasType lado:MouldMaker .
+samian:ae_7878 lado:hasType lado:KilnFiringPerson .
+samian:ae_7878 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_7878 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_7878 prov:wasGeneratedBy samian:activity_ae_7878 .
+samian:activity_ae_7878 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_7878 prov:startedAtTime '2020-12-09T20:53:17.364789Z'^^xsd:dateTime .
+samian:activity_ae_7878 prov:endedAtTime '2020-12-09T20:53:17.578642Z'^^xsd:dateTime .
+samian:activity_ae_7878 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8135 rdf:type lado:ActorEntity .
+samian:ae_8135 amt:instanceOf lado:ActorEntity .
+samian:ae_8135 rdfs:label 'Vibius Philo Vibius'@en.
+samian:ae_8135 lado:name 'Vibius Philo Vibius'.
+samian:ae_8135 lado:timeinterval 'Augustan?'.
+samian:ae_8135 dc:identifier '8135'.
+samian:ae_8135 lado:hasStatus lado:CooperationPotter .
+samian:ae_8135 lado:hasStatus lado:ChiefPotter .
+samian:ae_8135 lado:hasType lado:Potmaker .
+samian:ae_8135 lado:hasType lado:MouldMaker .
+samian:ae_8135 lado:hasType lado:KilnFiringPerson .
+samian:ae_8135 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8135 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8135 prov:wasGeneratedBy samian:activity_ae_8135 .
+samian:activity_ae_8135 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8135 prov:startedAtTime '2020-12-09T20:53:17.364789Z'^^xsd:dateTime .
+samian:activity_ae_8135 prov:endedAtTime '2020-12-09T20:53:17.579642Z'^^xsd:dateTime .
+samian:activity_ae_8135 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8394 rdf:type lado:ActorEntity .
+samian:ae_8394 amt:instanceOf lado:ActorEntity .
+samian:ae_8394 rdfs:label 'Serius Successus Serius'@en.
+samian:ae_8394 lado:name 'Serius Successus Serius'.
+samian:ae_8394 lado:timeinterval 'Unknown'.
+samian:ae_8394 dc:identifier '8394'.
+samian:ae_8394 lado:hasStatus lado:CooperationPotter .
+samian:ae_8394 lado:hasStatus lado:ChiefPotter .
+samian:ae_8394 lado:hasType lado:Potmaker .
+samian:ae_8394 lado:hasType lado:MouldMaker .
+samian:ae_8394 lado:hasType lado:KilnFiringPerson .
+samian:ae_8394 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8394 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8394 prov:wasGeneratedBy samian:activity_ae_8394 .
+samian:activity_ae_8394 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8394 prov:startedAtTime '2020-12-09T20:53:17.364789Z'^^xsd:dateTime .
+samian:activity_ae_8394 prov:endedAtTime '2020-12-09T20:53:17.579642Z'^^xsd:dateTime .
+samian:activity_ae_8394 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8399 rdf:type lado:ActorEntity .
+samian:ae_8399 amt:instanceOf lado:ActorEntity .
+samian:ae_8399 rdfs:label 'Vibius Mammo Vibius'@en.
+samian:ae_8399 lado:name 'Vibius Mammo Vibius'.
+samian:ae_8399 lado:timeinterval '10 BC+'.
+samian:ae_8399 dc:identifier '8399'.
+samian:ae_8399 lado:hasStatus lado:CooperationPotter .
+samian:ae_8399 lado:hasStatus lado:ChiefPotter .
+samian:ae_8399 lado:hasType lado:Potmaker .
+samian:ae_8399 lado:hasType lado:MouldMaker .
+samian:ae_8399 lado:hasType lado:KilnFiringPerson .
+samian:ae_8399 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8399 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8399 prov:wasGeneratedBy samian:activity_ae_8399 .
+samian:activity_ae_8399 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8399 prov:startedAtTime '2020-12-09T20:53:17.364789Z'^^xsd:dateTime .
+samian:activity_ae_8399 prov:endedAtTime '2020-12-09T20:53:17.580638Z'^^xsd:dateTime .
+samian:activity_ae_8399 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8495 rdf:type lado:ActorEntity .
+samian:ae_8495 amt:instanceOf lado:ActorEntity .
+samian:ae_8495 rdfs:label 'Vibius Diony(sius) Vibius'@en.
+samian:ae_8495 lado:name 'Vibius Diony(sius) Vibius'.
+samian:ae_8495 lado:timeinterval 'Augustan?'.
+samian:ae_8495 dc:identifier '8495'.
+samian:ae_8495 lado:hasStatus lado:CooperationPotter .
+samian:ae_8495 lado:hasStatus lado:ChiefPotter .
+samian:ae_8495 lado:hasType lado:Potmaker .
+samian:ae_8495 lado:hasType lado:MouldMaker .
+samian:ae_8495 lado:hasType lado:KilnFiringPerson .
+samian:ae_8495 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8495 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8495 prov:wasGeneratedBy samian:activity_ae_8495 .
+samian:activity_ae_8495 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8495 prov:startedAtTime '2020-12-09T20:53:17.364789Z'^^xsd:dateTime .
+samian:activity_ae_8495 prov:endedAtTime '2020-12-09T20:53:17.580638Z'^^xsd:dateTime .
+samian:activity_ae_8495 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8640 rdf:type lado:ActorEntity .
+samian:ae_8640 amt:instanceOf lado:ActorEntity .
+samian:ae_8640 rdfs:label 'Serius Laetus Serius'@en.
+samian:ae_8640 lado:name 'Serius Laetus Serius'.
+samian:ae_8640 lado:timeinterval '20 - 10 BC'.
+samian:ae_8640 dc:identifier '8640'.
+samian:ae_8640 lado:hasStatus lado:CooperationPotter .
+samian:ae_8640 lado:hasStatus lado:ChiefPotter .
+samian:ae_8640 lado:hasType lado:Potmaker .
+samian:ae_8640 lado:hasType lado:MouldMaker .
+samian:ae_8640 lado:hasType lado:KilnFiringPerson .
+samian:ae_8640 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8640 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8640 prov:wasGeneratedBy samian:activity_ae_8640 .
+samian:activity_ae_8640 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8640 prov:startedAtTime '2020-12-09T20:53:17.364789Z'^^xsd:dateTime .
+samian:activity_ae_8640 prov:endedAtTime '2020-12-09T20:53:17.581635Z'^^xsd:dateTime .
+samian:activity_ae_8640 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8729 rdf:type lado:ActorEntity .
+samian:ae_8729 amt:instanceOf lado:ActorEntity .
+samian:ae_8729 rdfs:label 'Serius Tel( ) Serius'@en.
+samian:ae_8729 lado:name 'Serius Tel( ) Serius'.
+samian:ae_8729 lado:timeinterval '15 BC+'.
+samian:ae_8729 dc:identifier '8729'.
+samian:ae_8729 lado:hasStatus lado:CooperationPotter .
+samian:ae_8729 lado:hasStatus lado:ChiefPotter .
+samian:ae_8729 lado:hasType lado:Potmaker .
+samian:ae_8729 lado:hasType lado:MouldMaker .
+samian:ae_8729 lado:hasType lado:KilnFiringPerson .
+samian:ae_8729 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8729 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8729 prov:wasGeneratedBy samian:activity_ae_8729 .
+samian:activity_ae_8729 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8729 prov:startedAtTime '2020-12-09T20:53:17.364789Z'^^xsd:dateTime .
+samian:activity_ae_8729 prov:endedAtTime '2020-12-09T20:53:17.581635Z'^^xsd:dateTime .
+samian:activity_ae_8729 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_8747 rdf:type lado:ActorEntity .
+samian:ae_8747 amt:instanceOf lado:ActorEntity .
+samian:ae_8747 rdfs:label 'Vibius Gratus Vibius'@en.
+samian:ae_8747 lado:name 'Vibius Gratus Vibius'.
+samian:ae_8747 lado:timeinterval 'Augustan?'.
+samian:ae_8747 dc:identifier '8747'.
+samian:ae_8747 lado:hasStatus lado:CooperationPotter .
+samian:ae_8747 lado:hasStatus lado:ChiefPotter .
+samian:ae_8747 lado:hasType lado:Potmaker .
+samian:ae_8747 lado:hasType lado:MouldMaker .
+samian:ae_8747 lado:hasType lado:KilnFiringPerson .
+samian:ae_8747 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_8747 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_8747 prov:wasGeneratedBy samian:activity_ae_8747 .
+samian:activity_ae_8747 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_8747 prov:startedAtTime '2020-12-09T20:53:17.364789Z'^^xsd:dateTime .
+samian:activity_ae_8747 prov:endedAtTime '2020-12-09T20:53:17.582633Z'^^xsd:dateTime .
+samian:activity_ae_8747 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9215 rdf:type lado:ActorEntity .
+samian:ae_9215 amt:instanceOf lado:ActorEntity .
+samian:ae_9215 rdfs:label 'Vibius Stator Vibius'@en.
+samian:ae_9215 lado:name 'Vibius Stator Vibius'.
+samian:ae_9215 lado:timeinterval 'Augustan?'.
+samian:ae_9215 dc:identifier '9215'.
+samian:ae_9215 lado:hasStatus lado:CooperationPotter .
+samian:ae_9215 lado:hasStatus lado:ChiefPotter .
+samian:ae_9215 lado:hasType lado:Potmaker .
+samian:ae_9215 lado:hasType lado:MouldMaker .
+samian:ae_9215 lado:hasType lado:KilnFiringPerson .
+samian:ae_9215 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9215 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9215 prov:wasGeneratedBy samian:activity_ae_9215 .
+samian:activity_ae_9215 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9215 prov:startedAtTime '2020-12-09T20:53:17.364789Z'^^xsd:dateTime .
+samian:activity_ae_9215 prov:endedAtTime '2020-12-09T20:53:17.583631Z'^^xsd:dateTime .
+samian:activity_ae_9215 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9540 rdf:type lado:ActorEntity .
+samian:ae_9540 amt:instanceOf lado:ActorEntity .
+samian:ae_9540 rdfs:label 'Vibienus Dasius Vibienus'@en.
+samian:ae_9540 lado:name 'Vibienus Dasius Vibienus'.
+samian:ae_9540 lado:timeinterval '10 BC+'.
+samian:ae_9540 dc:identifier '9540'.
+samian:ae_9540 lado:hasStatus lado:CooperationPotter .
+samian:ae_9540 lado:hasStatus lado:ChiefPotter .
+samian:ae_9540 lado:hasType lado:Potmaker .
+samian:ae_9540 lado:hasType lado:MouldMaker .
+samian:ae_9540 lado:hasType lado:KilnFiringPerson .
+samian:ae_9540 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9540 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9540 prov:wasGeneratedBy samian:activity_ae_9540 .
+samian:activity_ae_9540 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9540 prov:startedAtTime '2020-12-09T20:53:17.364789Z'^^xsd:dateTime .
+samian:activity_ae_9540 prov:endedAtTime '2020-12-09T20:53:17.583911Z'^^xsd:dateTime .
+samian:activity_ae_9540 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9616 rdf:type lado:ActorEntity .
+samian:ae_9616 amt:instanceOf lado:ActorEntity .
+samian:ae_9616 rdfs:label 'Vibius Epaga(thus) Vibius'@en.
+samian:ae_9616 lado:name 'Vibius Epaga(thus) Vibius'.
+samian:ae_9616 lado:timeinterval 'Augustan?'.
+samian:ae_9616 dc:identifier '9616'.
+samian:ae_9616 lado:hasStatus lado:CooperationPotter .
+samian:ae_9616 lado:hasStatus lado:ChiefPotter .
+samian:ae_9616 lado:hasType lado:Potmaker .
+samian:ae_9616 lado:hasType lado:MouldMaker .
+samian:ae_9616 lado:hasType lado:KilnFiringPerson .
+samian:ae_9616 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9616 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9616 prov:wasGeneratedBy samian:activity_ae_9616 .
+samian:activity_ae_9616 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9616 prov:startedAtTime '2020-12-09T20:53:17.364789Z'^^xsd:dateTime .
+samian:activity_ae_9616 prov:endedAtTime '2020-12-09T20:53:17.584626Z'^^xsd:dateTime .
+samian:activity_ae_9616 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9654 rdf:type lado:ActorEntity .
+samian:ae_9654 amt:instanceOf lado:ActorEntity .
+samian:ae_9654 rdfs:label 'Vibius Crestus Vibius'@en.
+samian:ae_9654 lado:name 'Vibius Crestus Vibius'.
+samian:ae_9654 lado:timeinterval 'Augustan?'.
+samian:ae_9654 dc:identifier '9654'.
+samian:ae_9654 lado:hasStatus lado:CooperationPotter .
+samian:ae_9654 lado:hasStatus lado:ChiefPotter .
+samian:ae_9654 lado:hasType lado:Potmaker .
+samian:ae_9654 lado:hasType lado:MouldMaker .
+samian:ae_9654 lado:hasType lado:KilnFiringPerson .
+samian:ae_9654 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9654 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9654 prov:wasGeneratedBy samian:activity_ae_9654 .
+samian:activity_ae_9654 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9654 prov:startedAtTime '2020-12-09T20:53:17.364789Z'^^xsd:dateTime .
+samian:activity_ae_9654 prov:endedAtTime '2020-12-09T20:53:17.584626Z'^^xsd:dateTime .
+samian:activity_ae_9654 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_9825 rdf:type lado:ActorEntity .
+samian:ae_9825 amt:instanceOf lado:ActorEntity .
+samian:ae_9825 rdfs:label 'Serius Adiutor Serius'@en.
+samian:ae_9825 lado:name 'Serius Adiutor Serius'.
+samian:ae_9825 lado:timeinterval 'Augustan?'.
+samian:ae_9825 dc:identifier '9825'.
+samian:ae_9825 lado:hasStatus lado:CooperationPotter .
+samian:ae_9825 lado:hasStatus lado:ChiefPotter .
+samian:ae_9825 lado:hasType lado:Potmaker .
+samian:ae_9825 lado:hasType lado:MouldMaker .
+samian:ae_9825 lado:hasType lado:KilnFiringPerson .
+samian:ae_9825 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_9825 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_9825 prov:wasGeneratedBy samian:activity_ae_9825 .
+samian:activity_ae_9825 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_9825 prov:startedAtTime '2020-12-09T20:53:17.364789Z'^^xsd:dateTime .
+samian:activity_ae_9825 prov:endedAtTime '2020-12-09T20:53:17.585625Z'^^xsd:dateTime .
+samian:activity_ae_9825 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:ae_10348 rdf:type lado:ActorEntity .
+samian:ae_10348 amt:instanceOf lado:ActorEntity .
+samian:ae_10348 rdfs:label 'Vibius Iucun(dus) Vibius'@en.
+samian:ae_10348 lado:name 'Vibius Iucun(dus) Vibius'.
+samian:ae_10348 lado:timeinterval 'Augustan?'.
+samian:ae_10348 dc:identifier '10348'.
+samian:ae_10348 lado:hasStatus lado:CooperationPotter .
+samian:ae_10348 lado:hasStatus lado:ChiefPotter .
+samian:ae_10348 lado:hasType lado:Potmaker .
+samian:ae_10348 lado:hasType lado:MouldMaker .
+samian:ae_10348 lado:hasType lado:KilnFiringPerson .
+samian:ae_10348 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:ae_10348 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:ae_10348 prov:wasGeneratedBy samian:activity_ae_10348 .
+samian:activity_ae_10348 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_ae_10348 prov:startedAtTime '2020-12-09T20:53:17.364789Z'^^xsd:dateTime .
+samian:activity_ae_10348 prov:endedAtTime '2020-12-09T20:53:17.585625Z'^^xsd:dateTime .
+samian:activity_ae_10348 prov:wasAssociatedWith samian:ImportPythonScript_Samian .

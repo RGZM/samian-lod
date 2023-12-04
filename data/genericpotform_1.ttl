@@ -1,0 +1,383 @@
+# create triples from https://www1.rgzm.de/ips/lod/genericpotform.csv 
+# on 2020-12-09 20:53
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX sf: <http://www.opengis.net/ont/sf#> 
+PREFIX lado: <http://archaeology.link/ontology#> 
+PREFIX samian: <http://data.archaeology.link/data/samian/> 
+PREFIX wd: <http://www.wikidata.org/entity/> 
+ PREFIX pelagios: <http://pelagios.github.io/vocab/terms#> 
+PREFIX oa: <http://www.w3.org/ns/oa#> 
+PREFIX prov: <http://www.w3.org/ns/prov-o/>
+PREFIX dcterms: <http://purl.org/dc/terms/> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX relations: <http://pelagios.github.io/vocab/relations#> 
+PREFIX cnt: <http://www.w3.org/2011/content#> 
+PREFIX pleiades: <http://pleiades.stoa.org/places/> 
+PREFIX amt: <http://academic-meta-tool.xyz/vocab#> 
+
+samian:gf_209365 rdf:type lado:GenericPotform .
+samian:gf_209365 rdfs:label 'Beaker'@en.
+samian:gf_209365 dc:identifier 209365.
+samian:gf_209365 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_209365 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_209365 prov:wasGeneratedBy samian:activity_gf_209365 .
+samian:activity_gf_209365 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_209365 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_209365 prov:endedAtTime '2020-12-09T20:53:06.003987Z'^^xsd:dateTime .
+samian:activity_gf_209365 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_207560 rdf:type lado:GenericPotform .
+samian:gf_207560 rdfs:label 'Beaker Decorated'@en.
+samian:gf_207560 dc:identifier 207560.
+samian:gf_207560 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_207560 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_207560 prov:wasGeneratedBy samian:activity_gf_207560 .
+samian:activity_gf_207560 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_207560 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_207560 prov:endedAtTime '2020-12-09T20:53:06.004987Z'^^xsd:dateTime .
+samian:activity_gf_207560 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_107901 rdf:type lado:GenericPotform .
+samian:gf_107901 rdfs:label 'Bottle'@en.
+samian:gf_107901 dc:identifier 107901.
+samian:gf_107901 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_107901 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_107901 prov:wasGeneratedBy samian:activity_gf_107901 .
+samian:activity_gf_107901 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_107901 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_107901 prov:endedAtTime '2020-12-09T20:53:06.004987Z'^^xsd:dateTime .
+samian:activity_gf_107901 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_320733 rdf:type lado:GenericPotform .
+samian:gf_320733 rdfs:label 'Bottle Decorated'@en.
+samian:gf_320733 dc:identifier 320733.
+samian:gf_320733 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_320733 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_320733 prov:wasGeneratedBy samian:activity_gf_320733 .
+samian:activity_gf_320733 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_320733 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_320733 prov:endedAtTime '2020-12-09T20:53:06.005984Z'^^xsd:dateTime .
+samian:activity_gf_320733 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_776552 rdf:type lado:GenericPotform .
+samian:gf_776552 rdfs:label 'Bowl'@en.
+samian:gf_776552 dc:identifier 776552.
+samian:gf_776552 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_776552 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_776552 prov:wasGeneratedBy samian:activity_gf_776552 .
+samian:activity_gf_776552 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_776552 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_776552 prov:endedAtTime '2020-12-09T20:53:06.006980Z'^^xsd:dateTime .
+samian:activity_gf_776552 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_117509 rdf:type lado:GenericPotform .
+samian:gf_117509 rdfs:label 'Bowl Decorated'@en.
+samian:gf_117509 dc:identifier 117509.
+samian:gf_117509 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_117509 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_117509 prov:wasGeneratedBy samian:activity_gf_117509 .
+samian:activity_gf_117509 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_117509 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_117509 prov:endedAtTime '2020-12-09T20:53:06.006980Z'^^xsd:dateTime .
+samian:activity_gf_117509 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_217932 rdf:type lado:GenericPotform .
+samian:gf_217932 rdfs:label 'Bowl Flanged'@en.
+samian:gf_217932 dc:identifier 217932.
+samian:gf_217932 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_217932 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_217932 prov:wasGeneratedBy samian:activity_gf_217932 .
+samian:activity_gf_217932 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_217932 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_217932 prov:endedAtTime '2020-12-09T20:53:06.007977Z'^^xsd:dateTime .
+samian:activity_gf_217932 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_182170 rdf:type lado:GenericPotform .
+samian:gf_182170 rdfs:label 'Calice'@en.
+samian:gf_182170 dc:identifier 182170.
+samian:gf_182170 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_182170 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_182170 prov:wasGeneratedBy samian:activity_gf_182170 .
+samian:activity_gf_182170 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_182170 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_182170 prov:endedAtTime '2020-12-09T20:53:06.008500Z'^^xsd:dateTime .
+samian:activity_gf_182170 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_143016 rdf:type lado:GenericPotform .
+samian:gf_143016 rdfs:label 'Calice Decorated'@en.
+samian:gf_143016 dc:identifier 143016.
+samian:gf_143016 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_143016 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_143016 prov:wasGeneratedBy samian:activity_gf_143016 .
+samian:activity_gf_143016 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_143016 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_143016 prov:endedAtTime '2020-12-09T20:53:06.008500Z'^^xsd:dateTime .
+samian:activity_gf_143016 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_193689 rdf:type lado:GenericPotform .
+samian:gf_193689 rdfs:label 'Chalice'@en.
+samian:gf_193689 dc:identifier 193689.
+samian:gf_193689 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_193689 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_193689 prov:wasGeneratedBy samian:activity_gf_193689 .
+samian:activity_gf_193689 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_193689 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_193689 prov:endedAtTime '2020-12-09T20:53:06.008500Z'^^xsd:dateTime .
+samian:activity_gf_193689 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_591889 rdf:type lado:GenericPotform .
+samian:gf_591889 rdfs:label 'Cup'@en.
+samian:gf_591889 dc:identifier 591889.
+samian:gf_591889 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_591889 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_591889 prov:wasGeneratedBy samian:activity_gf_591889 .
+samian:activity_gf_591889 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_591889 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_591889 prov:endedAtTime '2020-12-09T20:53:06.009492Z'^^xsd:dateTime .
+samian:activity_gf_591889 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_212541 rdf:type lado:GenericPotform .
+samian:gf_212541 rdfs:label 'Cup base'@en.
+samian:gf_212541 dc:identifier 212541.
+samian:gf_212541 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_212541 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_212541 prov:wasGeneratedBy samian:activity_gf_212541 .
+samian:activity_gf_212541 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_212541 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_212541 prov:endedAtTime '2020-12-09T20:53:06.009492Z'^^xsd:dateTime .
+samian:activity_gf_212541 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_115126 rdf:type lado:GenericPotform .
+samian:gf_115126 rdfs:label 'Cup Decorated'@en.
+samian:gf_115126 dc:identifier 115126.
+samian:gf_115126 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_115126 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_115126 prov:wasGeneratedBy samian:activity_gf_115126 .
+samian:activity_gf_115126 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_115126 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_115126 prov:endedAtTime '2020-12-09T20:53:06.010496Z'^^xsd:dateTime .
+samian:activity_gf_115126 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_103059 rdf:type lado:GenericPotform .
+samian:gf_103059 rdfs:label 'Cup or Bowl'@en.
+samian:gf_103059 dc:identifier 103059.
+samian:gf_103059 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_103059 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_103059 prov:wasGeneratedBy samian:activity_gf_103059 .
+samian:activity_gf_103059 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_103059 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_103059 prov:endedAtTime '2020-12-09T20:53:06.010496Z'^^xsd:dateTime .
+samian:activity_gf_103059 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_662716 rdf:type lado:GenericPotform .
+samian:gf_662716 rdfs:label 'Cup Rouletted'@en.
+samian:gf_662716 dc:identifier 662716.
+samian:gf_662716 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_662716 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_662716 prov:wasGeneratedBy samian:activity_gf_662716 .
+samian:activity_gf_662716 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_662716 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_662716 prov:endedAtTime '2020-12-09T20:53:06.011486Z'^^xsd:dateTime .
+samian:activity_gf_662716 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_127029 rdf:type lado:GenericPotform .
+samian:gf_127029 rdfs:label 'Cylinder Decorated'@en.
+samian:gf_127029 dc:identifier 127029.
+samian:gf_127029 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_127029 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_127029 prov:wasGeneratedBy samian:activity_gf_127029 .
+samian:activity_gf_127029 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_127029 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_127029 prov:endedAtTime '2020-12-09T20:53:06.012495Z'^^xsd:dateTime .
+samian:activity_gf_127029 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_935796 rdf:type lado:GenericPotform .
+samian:gf_935796 rdfs:label 'Decorated'@en.
+samian:gf_935796 dc:identifier 935796.
+samian:gf_935796 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_935796 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_935796 prov:wasGeneratedBy samian:activity_gf_935796 .
+samian:activity_gf_935796 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_935796 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_935796 prov:endedAtTime '2020-12-09T20:53:06.013481Z'^^xsd:dateTime .
+samian:activity_gf_935796 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_174619 rdf:type lado:GenericPotform .
+samian:gf_174619 rdfs:label 'Dish'@en.
+samian:gf_174619 dc:identifier 174619.
+samian:gf_174619 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_174619 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_174619 prov:wasGeneratedBy samian:activity_gf_174619 .
+samian:activity_gf_174619 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_174619 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_174619 prov:endedAtTime '2020-12-09T20:53:06.014001Z'^^xsd:dateTime .
+samian:activity_gf_174619 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_437165 rdf:type lado:GenericPotform .
+samian:gf_437165 rdfs:label 'Dish Rouletted'@en.
+samian:gf_437165 dc:identifier 437165.
+samian:gf_437165 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_437165 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_437165 prov:wasGeneratedBy samian:activity_gf_437165 .
+samian:activity_gf_437165 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_437165 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_437165 prov:endedAtTime '2020-12-09T20:53:06.014001Z'^^xsd:dateTime .
+samian:activity_gf_437165 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_964607 rdf:type lado:GenericPotform .
+samian:gf_964607 rdfs:label 'Flagon Decorated'@en.
+samian:gf_964607 dc:identifier 964607.
+samian:gf_964607 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_964607 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_964607 prov:wasGeneratedBy samian:activity_gf_964607 .
+samian:activity_gf_964607 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_964607 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_964607 prov:endedAtTime '2020-12-09T20:53:06.014577Z'^^xsd:dateTime .
+samian:activity_gf_964607 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_113058 rdf:type lado:GenericPotform .
+samian:gf_113058 rdfs:label 'Inkwell'@en.
+samian:gf_113058 dc:identifier 113058.
+samian:gf_113058 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_113058 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_113058 prov:wasGeneratedBy samian:activity_gf_113058 .
+samian:activity_gf_113058 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_113058 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_113058 prov:endedAtTime '2020-12-09T20:53:06.015514Z'^^xsd:dateTime .
+samian:activity_gf_113058 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_139864 rdf:type lado:GenericPotform .
+samian:gf_139864 rdfs:label 'Jar'@en.
+samian:gf_139864 dc:identifier 139864.
+samian:gf_139864 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_139864 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_139864 prov:wasGeneratedBy samian:activity_gf_139864 .
+samian:activity_gf_139864 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_139864 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_139864 prov:endedAtTime '2020-12-09T20:53:06.015514Z'^^xsd:dateTime .
+samian:activity_gf_139864 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_163272 rdf:type lado:GenericPotform .
+samian:gf_163272 rdfs:label 'Kiln equipment'@en.
+samian:gf_163272 dc:identifier 163272.
+samian:gf_163272 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_163272 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_163272 prov:wasGeneratedBy samian:activity_gf_163272 .
+samian:activity_gf_163272 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_163272 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_163272 prov:endedAtTime '2020-12-09T20:53:06.015514Z'^^xsd:dateTime .
+samian:activity_gf_163272 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_208844 rdf:type lado:GenericPotform .
+samian:gf_208844 rdfs:label 'Lagène'@en.
+samian:gf_208844 dc:identifier 208844.
+samian:gf_208844 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_208844 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_208844 prov:wasGeneratedBy samian:activity_gf_208844 .
+samian:activity_gf_208844 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_208844 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_208844 prov:endedAtTime '2020-12-09T20:53:06.016509Z'^^xsd:dateTime .
+samian:activity_gf_208844 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_551917 rdf:type lado:GenericPotform .
+samian:gf_551917 rdfs:label 'Lid'@en.
+samian:gf_551917 dc:identifier 551917.
+samian:gf_551917 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_551917 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_551917 prov:wasGeneratedBy samian:activity_gf_551917 .
+samian:activity_gf_551917 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_551917 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_551917 prov:endedAtTime '2020-12-09T20:53:06.016509Z'^^xsd:dateTime .
+samian:activity_gf_551917 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_132166 rdf:type lado:GenericPotform .
+samian:gf_132166 rdfs:label 'Modiolus'@en.
+samian:gf_132166 dc:identifier 132166.
+samian:gf_132166 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_132166 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_132166 prov:wasGeneratedBy samian:activity_gf_132166 .
+samian:activity_gf_132166 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_132166 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_132166 prov:endedAtTime '2020-12-09T20:53:06.016509Z'^^xsd:dateTime .
+samian:activity_gf_132166 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_442476 rdf:type lado:GenericPotform .
+samian:gf_442476 rdfs:label 'Mortarium'@en.
+samian:gf_442476 dc:identifier 442476.
+samian:gf_442476 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_442476 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_442476 prov:wasGeneratedBy samian:activity_gf_442476 .
+samian:activity_gf_442476 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_442476 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_442476 prov:endedAtTime '2020-12-09T20:53:06.017505Z'^^xsd:dateTime .
+samian:activity_gf_442476 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_203267 rdf:type lado:GenericPotform .
+samian:gf_203267 rdfs:label 'Patera'@en.
+samian:gf_203267 dc:identifier 203267.
+samian:gf_203267 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_203267 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_203267 prov:wasGeneratedBy samian:activity_gf_203267 .
+samian:activity_gf_203267 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_203267 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_203267 prov:endedAtTime '2020-12-09T20:53:06.017610Z'^^xsd:dateTime .
+samian:activity_gf_203267 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_113072 rdf:type lado:GenericPotform .
+samian:gf_113072 rdfs:label 'Plate'@en.
+samian:gf_113072 dc:identifier 113072.
+samian:gf_113072 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_113072 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_113072 prov:wasGeneratedBy samian:activity_gf_113072 .
+samian:activity_gf_113072 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_113072 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_113072 prov:endedAtTime '2020-12-09T20:53:06.017610Z'^^xsd:dateTime .
+samian:activity_gf_113072 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_381941 rdf:type lado:GenericPotform .
+samian:gf_381941 rdfs:label 'Platter'@en.
+samian:gf_381941 dc:identifier 381941.
+samian:gf_381941 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_381941 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_381941 prov:wasGeneratedBy samian:activity_gf_381941 .
+samian:activity_gf_381941 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_381941 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_381941 prov:endedAtTime '2020-12-09T20:53:06.018503Z'^^xsd:dateTime .
+samian:activity_gf_381941 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_480718 rdf:type lado:GenericPotform .
+samian:gf_480718 rdfs:label 'Platter base'@en.
+samian:gf_480718 dc:identifier 480718.
+samian:gf_480718 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_480718 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_480718 prov:wasGeneratedBy samian:activity_gf_480718 .
+samian:activity_gf_480718 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_480718 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_480718 prov:endedAtTime '2020-12-09T20:53:06.018503Z'^^xsd:dateTime .
+samian:activity_gf_480718 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_169715 rdf:type lado:GenericPotform .
+samian:gf_169715 rdfs:label 'Poinçon'@en.
+samian:gf_169715 dc:identifier 169715.
+samian:gf_169715 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_169715 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_169715 prov:wasGeneratedBy samian:activity_gf_169715 .
+samian:activity_gf_169715 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_169715 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_169715 prov:endedAtTime '2020-12-09T20:53:06.019502Z'^^xsd:dateTime .
+samian:activity_gf_169715 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_170645 rdf:type lado:GenericPotform .
+samian:gf_170645 rdfs:label 'Pyxis'@en.
+samian:gf_170645 dc:identifier 170645.
+samian:gf_170645 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_170645 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_170645 prov:wasGeneratedBy samian:activity_gf_170645 .
+samian:activity_gf_170645 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_170645 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_170645 prov:endedAtTime '2020-12-09T20:53:06.019502Z'^^xsd:dateTime .
+samian:activity_gf_170645 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_492739 rdf:type lado:GenericPotform .
+samian:gf_492739 rdfs:label 'Rouletted'@en.
+samian:gf_492739 dc:identifier 492739.
+samian:gf_492739 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_492739 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_492739 prov:wasGeneratedBy samian:activity_gf_492739 .
+samian:activity_gf_492739 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_492739 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_492739 prov:endedAtTime '2020-12-09T20:53:06.020499Z'^^xsd:dateTime .
+samian:activity_gf_492739 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_201167 rdf:type lado:GenericPotform .
+samian:gf_201167 rdfs:label 'Unknown'@en.
+samian:gf_201167 dc:identifier 201167.
+samian:gf_201167 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_201167 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_201167 prov:wasGeneratedBy samian:activity_gf_201167 .
+samian:activity_gf_201167 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_201167 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_201167 prov:endedAtTime '2020-12-09T20:53:06.020499Z'^^xsd:dateTime .
+samian:activity_gf_201167 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
+samian:gf_777121 rdf:type lado:GenericPotform .
+samian:gf_777121 rdfs:label 'Varia'@en.
+samian:gf_777121 dc:identifier 777121.
+samian:gf_777121 prov:wasAttributedTo samian:ImportPythonScript_Samian .
+samian:gf_777121 prov:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> .
+samian:gf_777121 prov:wasGeneratedBy samian:activity_gf_777121 .
+samian:activity_gf_777121 rdf:type <http://www.w3.org/ns/prov#Activity> .
+samian:activity_gf_777121 prov:startedAtTime '2020-12-09T20:53:05.774257Z'^^xsd:dateTime .
+samian:activity_gf_777121 prov:endedAtTime '2020-12-09T20:53:06.020499Z'^^xsd:dateTime .
+samian:activity_gf_777121 prov:wasAssociatedWith samian:ImportPythonScript_Samian .
